@@ -1,0 +1,69 @@
+clean clone of branch public-clean (4ece197), 2026-10-30 07:21:39 KST
+$ git ls-files | grep -ci "\.html$"
+0
+$ bun install
+bun install v1.4.4 (38afee6c8)
+
++ @types/bun@1.4.4
++ typescript@7.0.2
+
+6 packages installed [16.00ms]
+$ bun test
+bun test v1.4.4 (38afee6c8)
+
+ 80 pass
+ 0 fail
+ 217 expect() calls
+Ran 80 tests across 13 files. [129.00ms]
+$ bun run verify-brief fixtures/brief-example-allen.txt
+$ bun run src/infrastructure/verifyBriefCli.ts fixtures/brief-example-allen.txt
+NOTE: static.case.law/robots.txt has a Disallow rule for /us/496/cases/0384-01.json (aimed at crawlers); this run is user-initiated, one GET per cited opinion, no link following
+waiting 10.0s before the next request to www.law.cornell.edu (robots.txt Crawl-delay 10s)
+waiting 9.9s before the next request to www.law.cornell.edu (robots.txt Crawl-delay 10s)
+#  | verdict     | citation     | detail                           | quote
+1  | HOLD        | 496 U.S. 384 | NOT_IN_OPINION 801f457e          | a reasonable attorney in like circumstances could believe h…
+2  | HOLD        | 496 U.S. 384 | NOT_IN_OPINION e44880f7          | as a bar to the courthouse door
+3  | PASS        | 496 U.S. 384 | hash e32f1e72                    | Rule 38 gives appellate courts ample authority to award exp…
+4  | PASS        | 372 U.S. 335 | hash b5fc1c1a                    | any person haled into court, who is too poor to hire a lawy…
+5  | NOT_CHECKED | -            | UNSUPPORTED_REPORTER             | a party must show prejudice before the court may dismiss th…
+Summary: 5 quotes found · 2 PASS · 2 HOLD · 1 not checked (no supported citation) · brief text stayed local
+read requests sent: 4 (source URLs built from citations only)
+error: script "verify-brief" exited with code 1
+$ bun run verify-brief fixtures/brief-example-id-supra.txt
+$ bun run src/infrastructure/verifyBriefCli.ts fixtures/brief-example-id-supra.txt
+NOTE: static.case.law/robots.txt has a Disallow rule for /us/372/cases/0335-01.json (aimed at crawlers); this run is user-initiated, one GET per cited opinion, no link following
+waiting 10.0s before the next request to www.law.cornell.edu (robots.txt Crawl-delay 10s)
+waiting 10.0s before the next request to www.law.cornell.edu (robots.txt Crawl-delay 10s)
+#  | verdict     | citation     | detail                           | quote
+1  | PASS        | 372 U.S. 335 | hash b5fc1c1a                    | any person haled into court, who is too poor to hire a lawy…
+2  | HOLD        | 372 U.S. 335 | NOT_IN_OPINION 9a89ee5a          | can still be assured a fair trial even if counsel is not pr…
+3  | PASS        | 496 U.S. 384 | hash e32f1e72                    | Rule 38 gives appellate courts ample authority to award exp…
+4  | NOT_CHECKED | -            | ID_ANTECEDENT_NOT_CHECKABLE      | a party must show prejudice before the court may dismiss th…
+Summary: 4 quotes found · 2 PASS · 1 HOLD · 1 not checked (no supported citation) · brief text stayed local
+read requests sent: 4 (source URLs built from citations only)
+error: script "verify-brief" exited with code 1
+$ cd cre/workflow && bun install && bun test
+bun install v1.4.4 (38afee6c8)
+
++ @ethereumjs/common@10.1.3
++ @ethereumjs/evm@10.1.3
++ @ethereumjs/util@10.1.3
++ solc@0.8.28
++ typescript@5.9.3
++ @chainlink/cre-sdk@1.23.0
+
+59 packages installed [214.00ms]
+bun test v1.4.4 (38afee6c8)
+
+sdk-runtime.test.ts:
+SDK-RUNTIME genuine: {"verdict":"PASS","reasons":"","receiptHash":"b5fc1c1a814225f2b4d667e4a08872374d03f93a9c857b455baea32a2f59f198","sourceSummary":"cap:found:4cb4ba6f5d8e|lii:found:3766dc7e21ba"} https://static.case.law/us/372/cases/0335-01.json , https://www.law.cornell.edu/supremecourt/text/372/335
+SDK-RUNTIME altered: {"verdict":"HOLD","reasons":"NOT_IN_OPINION","receiptHash":"f341e464163f92cca37369948b376dce3351ec6a24272502516ef173fb083e93","sourceSummary":"cap:missing:4cb4ba6f5d8e|lii:missing:3766dc7e21ba"}
+
+ 18 pass
+ 0 fail
+ 45 expect() calls
+Ran 18 tests across 5 files. [378.00ms]
+$ bash tools/check_readme.sh
+README check OK (test counts verified, evidence paths exist, hash and USER LOG line match the latest simulate log, video 165.9s)
+# verify-brief exit code 1 is expected (the example briefs have HOLD rows).
+# The tested tree equals the final public-clean tree except for this log file.

@@ -1,0 +1,10 @@
+bun test v1.4.4 (38afee6c8)
+
+sdk-runtime.test.ts:
+SDK-RUNTIME genuine: {"verdict":"PASS","reasons":"","receiptHash":"b5fc1c1a814225f2b4d667e4a08872374d03f93a9c857b455baea32a2f59f198","sourceSummary":"cap:found:4cb4ba6f5d8e|lii:found:3766dc7e21ba"} https://static.case.law/us/372/cases/0335-01.json , https://www.law.cornell.edu/supremecourt/text/372/335
+SDK-RUNTIME altered: {"verdict":"HOLD","reasons":"NOT_IN_OPINION","receiptHash":"f341e464163f92cca37369948b376dce3351ec6a24272502516ef173fb083e93","sourceSummary":"cap:missing:4cb4ba6f5d8e|lii:missing:3766dc7e21ba"}
+
+ 18 pass
+ 0 fail
+ 45 expect() calls
+Ran 18 tests across 5 files. [347.00ms]

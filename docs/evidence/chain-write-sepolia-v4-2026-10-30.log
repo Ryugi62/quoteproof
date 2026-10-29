@@ -1,0 +1,39 @@
+Chain write measurement v4, 2026-10-30 (Sepolia testnet only; key in ~/.config/quoteproof/, mode 600, never in the repo)
+Forwarder pin source: Chainlink docs Forwarder Directory (Simulation Testnets, Ethereum Sepolia = 0x15fC6ae953E024d975e77382eEeC56A9101f9F88), copy in docs/evidence/cre-forwarder-directory-ts-2026-10-30.md
+
+$ cd cre/workflow && bun run deployReceiver.ts   # constructor arg = forwarder
+address 0x570880967B591AeA114E91966f695928F30c82A3  balance 0.049999999838893274 SepETH
+forwarder (constructor arg) 0x15fC6ae953E024d975e77382eEeC56A9101f9F88
+deploy tx 0x5a3a35d636bcfcc44315e0388bdbe66b1941a76f950c578b0d1dea8bf2721c2b
+status success block 12022302 contract 0x65faa0e6f6cd105997c93f9d3b72872e8765bbe8 gasUsed 3642890
+
+$ (see docs/evidence/cre-simulate-v4-broadcast-genuine-2026-10-30.log)
+2026-10-30T06:48:37Z [USER LOG] QuoteProof request: 372 U.S. 335 / quote 128 chars
+2026-10-30T06:48:38Z [USER LOG] Consensus result: PASS  hash=b5fc1c1a814225f2b4d667e4a08872374d03f93a9c857b455baea32a2f59f198
+2026-10-30T06:48:47Z [USER LOG] writeReport reply: TX_STATUS_SUCCESS txHash=0x1cf907540bd6d595beae2ca7daeeda7504b38b1ed7469a66202c6c225a41b14f err=-
+$ cd cre/workflow && bun run verifyChain.ts 0x1cf907540bd6d595beae2ca7daeeda7504b38b1ed7469a66202c6c225a41b14f 0x65faa0e6f6cd105997c93f9d3b72872e8765bbe8 --direct-call-check   # re-read from the Sepolia RPC
+tx 0x1cf907540bd6d595beae2ca7daeeda7504b38b1ed7469a66202c6c225a41b14f
+status success block 12022308 to 0x15fc6ae953e024d975e77382eeec56a9101f9f88 from 0x570880967b591aea114e91966f695928f30c82a3 gasUsed 154801
+event from receiver 0x65faa0e6f6cd105997c93f9d3b72872e8765bbe8: QuoteVerdict {"receiptHash":"0xb5fc1c1a814225f2b4d667e4a08872374d03f93a9c857b455baea32a2f59f198","verdictCode":1,"reasons":""}
+QuoteVerdict events from the receiver in this transaction: 1
+receiver code length 2219 bytes; explorer: https://sepolia.etherscan.io/tx/0x1cf907540bd6d595beae2ca7daeeda7504b38b1ed7469a66202c6c225a41b14f
+receiver.forwarder()=0x15fC6ae953E024d975e77382eEeC56A9101f9F88; tx.to == forwarder: true
+receiver.seen(0xb5fc1c1a…)=true verdictOf=1
+direct onReport from 0x570880967b591aea114e91966f695928f30c82a3 (not the forwarder): reverted as expected -> The contract function "onReport" reverted.
+
+$ (see docs/evidence/cre-simulate-v4-broadcast-altered-2026-10-30.log)
+2026-10-30T06:48:52Z [USER LOG] QuoteProof request: 372 U.S. 335 / quote 136 chars
+2026-10-30T06:48:53Z [USER LOG] Consensus result: HOLD NOT_IN_OPINION hash=f341e464163f92cca37369948b376dce3351ec6a24272502516ef173fb083e93
+2026-10-30T06:48:59Z [USER LOG] writeReport reply: TX_STATUS_SUCCESS txHash=0x1f4f83d83957066648a92cde6b650b6022414bd0a7a408f892d5cd47142e7f8f err=-
+$ cd cre/workflow && bun run verifyChain.ts 0x1f4f83d83957066648a92cde6b650b6022414bd0a7a408f892d5cd47142e7f8f 0x65faa0e6f6cd105997c93f9d3b72872e8765bbe8 --direct-call-check   # re-read from the Sepolia RPC
+tx 0x1f4f83d83957066648a92cde6b650b6022414bd0a7a408f892d5cd47142e7f8f
+status success block 12022309 to 0x15fc6ae953e024d975e77382eeec56a9101f9f88 from 0x570880967b591aea114e91966f695928f30c82a3 gasUsed 155384
+event from receiver 0x65faa0e6f6cd105997c93f9d3b72872e8765bbe8: QuoteVerdict {"receiptHash":"0xf341e464163f92cca37369948b376dce3351ec6a24272502516ef173fb083e93","verdictCode":0,"reasons":"NOT_IN_OPINION"}
+QuoteVerdict events from the receiver in this transaction: 1
+receiver code length 2219 bytes; explorer: https://sepolia.etherscan.io/tx/0x1f4f83d83957066648a92cde6b650b6022414bd0a7a408f892d5cd47142e7f8f
+receiver.forwarder()=0x15fC6ae953E024d975e77382eEeC56A9101f9F88; tx.to == forwarder: true
+receiver.seen(0xf341e464…)=true verdictOf=0
+direct onReport from 0x570880967b591aea114e91966f695928f30c82a3 (not the forwarder): reverted as expected -> The contract function "onReport" reverted.
+
+Note: the same two payloads were first broadcast a few minutes earlier against the same receiver (genuine tx 0xa5fe8a16ad026de932ce31c7ef4fb61327a4b270166549477402b9cc990ba095, altered tx 0xb2949c4c759bb0fcfc2925fb6f8943c68af09352838911bcff76c97b3bf21f15); that run's exit code was not captured, so it is not used as evidence. The txs above are the re-run with the exit code (0) in the log files.
+This is the simulator's --broadcast against the mock forwarder from the docs, not a deployment on the CRE network (no production KeystoneForwarder, no cre account access).

@@ -1,0 +1,19 @@
+[local multi-node consensus -- NOT cre simulate] 2026-10-29T21:57:31.849Z 4 nodes · 372 U.S. 335
+  [NOTE: static.case.law/robots.txt has a Disallow rule for /us/372/cases/0335-01.json (aimed at crawlers); this run is user-initiated, one GET per cited opinion, no link following]
+  node1 GET https://static.case.law/us/372/cases/0335-01.json -> 200 60657B 141ms
+  node2 GET https://static.case.law/us/372/cases/0335-01.json -> 200 60657B 166ms
+  node3 GET https://static.case.law/us/372/cases/0335-01.json -> 200 60657B 203ms
+  node4 GET https://static.case.law/us/372/cases/0335-01.json -> 200 60657B 237ms
+  [waiting 10.0s before the next request to www.law.cornell.edu (robots.txt Crawl-delay 10s)]
+  node1 GET https://www.law.cornell.edu/supremecourt/text/372/335 -> 200 82619B 11214ms
+  [waiting 10.0s before the next request to www.law.cornell.edu (robots.txt Crawl-delay 10s)]
+  node2 GET https://www.law.cornell.edu/supremecourt/text/372/335 -> 200 82619B 21675ms
+  [waiting 10.0s before the next request to www.law.cornell.edu (robots.txt Crawl-delay 10s)]
+  node3 GET https://www.law.cornell.edu/supremecourt/text/372/335 -> 200 82619B 32124ms
+  [waiting 10.0s before the next request to www.law.cornell.edu (robots.txt Crawl-delay 10s)]
+  node4 GET https://www.law.cornell.edu/supremecourt/text/372/335 -> 200 82619B 42576ms
+node1: {"verdict":"HOLD","reasons":"NOT_IN_OPINION","receiptHash":"f341e464163f92cca37369948b376dce3351ec6a24272502516ef173fb083e93","sourceSummary":"cap:missing:4cb4ba6f5d8e|lii:missing:3766dc7e21ba"}
+node2: {"verdict":"HOLD","reasons":"NOT_IN_OPINION","receiptHash":"f341e464163f92cca37369948b376dce3351ec6a24272502516ef173fb083e93","sourceSummary":"cap:missing:4cb4ba6f5d8e|lii:missing:3766dc7e21ba"}
+node3: {"verdict":"HOLD","reasons":"NOT_IN_OPINION","receiptHash":"f341e464163f92cca37369948b376dce3351ec6a24272502516ef173fb083e93","sourceSummary":"cap:missing:4cb4ba6f5d8e|lii:missing:3766dc7e21ba"}
+node4: {"verdict":"HOLD","reasons":"NOT_IN_OPINION","receiptHash":"f341e464163f92cca37369948b376dce3351ec6a24272502516ef173fb083e93","sourceSummary":"cap:missing:4cb4ba6f5d8e|lii:missing:3766dc7e21ba"}
+consensus: {"reached":true,"value":{"verdict":"HOLD","reasons":"NOT_IN_OPINION","receiptHash":"f341e464163f92cca37369948b376dce3351ec6a24272502516ef173fb083e93","sourceSummary":"cap:missing:4cb4ba6f5d8e|lii:missing:3766dc7e21ba"},"agree":4,"of":4}

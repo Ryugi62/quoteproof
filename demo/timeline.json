@@ -1,0 +1,1028 @@
+{
+ "fps": 30,
+ "total": 165.833,
+ "audio": "none (subtitle-only video, tts_engine none)",
+ "sentences": [
+  {
+   "id": "S01",
+   "start": 0.26666666666666666,
+   "end": 6.0,
+   "text": "Every screen here is a real run, and anything that is not one is labeled.",
+   "pause_before": 0
+  },
+  {
+   "id": "S02",
+   "start": 6.533333333333333,
+   "end": 12.8,
+   "text": "In 2026 a court found that a quote cited to Cooter and Gell was not in that opinion.",
+   "pause_before": 0
+  },
+  {
+   "id": "S03",
+   "start": 13.133333333333333,
+   "end": 19.1,
+   "text": "Lookup tools ask whether the case exists. QuoteProof asks whether the quoted words are in it.",
+   "pause_before": 0
+  },
+  {
+   "id": "S04",
+   "start": 19.733333333333334,
+   "end": 25.4,
+   "text": "Paid tools check quotes too but publish no error rates; here sources are free and rates public.",
+   "pause_before": 0
+  },
+  {
+   "id": "S05",
+   "start": 25.866666666666667,
+   "end": 30.066666666666666,
+   "text": "Real run: the quote the court rejected, checked against two independent sources.",
+   "pause_before": 0
+  },
+  {
+   "id": "S06",
+   "start": 30.633333333333333,
+   "end": 36.9,
+   "text": "Both sources report not found, so the verdict is HOLD with a receipt hash anyone can recompute.",
+   "pause_before": 0
+  },
+  {
+   "id": "S07",
+   "start": 37.266666666666666,
+   "end": 40.5,
+   "text": "Real run: a genuine sentence from Gideon versus Wainwright.",
+   "pause_before": 0
+  },
+  {
+   "id": "S08",
+   "start": 41.03333333333333,
+   "end": 46.733333333333334,
+   "text": "Both sources find it at a position, so it passes and the receipt records where.",
+   "pause_before": 0
+  },
+  {
+   "id": "S09",
+   "start": 47.166666666666664,
+   "end": 51.166666666666664,
+   "text": "Now the same sentence with its meaning flipped by three small edits.",
+   "pause_before": 0
+  },
+  {
+   "id": "S10",
+   "start": 51.766666666666666,
+   "end": 57.03333333333333,
+   "text": "Neither source has it, so the verdict is HOLD and the receipt hash changes.",
+   "pause_before": 0
+  },
+  {
+   "id": "S11",
+   "start": 57.43333333333333,
+   "end": 63.1,
+   "text": "New in version three: one command extracts every quotation from a brief file and checks each one.",
+   "pause_before": 0
+  },
+  {
+   "id": "S12",
+   "start": 63.666666666666664,
+   "end": 70.9,
+   "text": "Two invented quotes are held and two genuine ones pass; a lower court cite is not checked, never passed.",
+   "pause_before": 0
+  },
+  {
+   "id": "S13",
+   "start": 71.26666666666667,
+   "end": 78.5,
+   "text": "Only citation addresses leave the machine, and the tool waits the ten seconds Cornell's robots file asks for.",
+   "pause_before": 0
+  },
+  {
+   "id": "S14",
+   "start": 79.13333333333334,
+   "end": 86.9,
+   "text": "Id and supra now follow to their case, and when they cannot, the row says why instead of guessing.",
+   "pause_before": 0
+  },
+  {
+   "id": "S15",
+   "start": 87.36666666666666,
+   "end": 93.1,
+   "text": "The strict default misses the ten percent false alarm target: thirteen point two percent.",
+   "pause_before": 0
+  },
+  {
+   "id": "S16",
+   "start": 93.66666666666667,
+   "end": 100.4,
+   "text": "Most false alarms are the two sources disagreeing rather than the matching rules, and the miss rate is optimistic.",
+   "pause_before": 0
+  },
+  {
+   "id": "S17",
+   "start": 100.76666666666667,
+   "end": 107.43333333333334,
+   "text": "Four local processes (not CRE nodes) each read both sources live; three of four must agree and all four do.",
+   "pause_before": 0
+  },
+  {
+   "id": "S18",
+   "start": 107.96666666666667,
+   "end": 113.26666666666667,
+   "text": "Running the same input at a different clock time gives the identical receipt hash.",
+   "pause_before": 0
+  },
+  {
+   "id": "S19",
+   "start": 113.7,
+   "end": 119.96666666666667,
+   "text": "The simulator runs this workflow once per node (local): read both sources, agree, then write the report.",
+   "pause_before": 0
+  },
+  {
+   "id": "S20",
+   "start": 120.56666666666666,
+   "end": 127.83333333333333,
+   "text": "The CRE simulator ran it for real, exit code zero: consensus PASS and a dry run write.",
+   "pause_before": 0
+  },
+  {
+   "id": "S21",
+   "start": 128.23333333333332,
+   "end": 133.56666666666666,
+   "text": "The altered payload gives HOLD with NOT_IN_OPINION through the same workflow and the same write path.",
+   "pause_before": 0
+  },
+  {
+   "id": "S22",
+   "start": 134.13333333333333,
+   "end": 143.13333333333333,
+   "text": "The receiver accepts only the forwarder from Chainlink's docs: a real Sepolia transaction (simulator --broadcast, mock forwarder) wrote the verdict; a direct call reverts.",
+   "pause_before": 0
+  },
+  {
+   "id": "S23",
+   "start": 143.46666666666667,
+   "end": 152.16666666666666,
+   "text": "Opt-in: with --cre-broadcast the same command sends the checked quote into the CRE simulator; its hash matches the local receipt.",
+   "pause_before": 0
+  },
+  {
+   "id": "S24",
+   "start": 152.8,
+   "end": 159.16666666666666,
+   "text": "Limits first: Supreme Court opinions only, small test sets, and a post hoc policy that is not the headline.",
+   "pause_before": 0
+  },
+  {
+   "id": "S25",
+   "start": 159.63333333333333,
+   "end": 164.63333333333333,
+   "text": "QuoteProof checks the words and not only the case, and it states its limits first.",
+   "pause_before": 0
+  }
+ ],
+ "cues": [
+  {
+   "start": 0.26666666666666666,
+   "end": 2.7666666666666666,
+   "lines": [
+    "Every screen here is a real run,"
+   ]
+  },
+  {
+   "start": 2.8666666666666667,
+   "end": 6.0,
+   "lines": [
+    "and anything that is not one is labeled."
+   ]
+  },
+  {
+   "start": 6.533333333333333,
+   "end": 9.5,
+   "lines": [
+    "In 2026 a court found that a quote cited"
+   ]
+  },
+  {
+   "start": 9.6,
+   "end": 11.533333333333333,
+   "lines": [
+    "to Cooter and Gell was not"
+   ]
+  },
+  {
+   "start": 11.633333333333333,
+   "end": 12.8,
+   "lines": [
+    "in that opinion."
+   ]
+  },
+  {
+   "start": 13.133333333333333,
+   "end": 15.633333333333333,
+   "lines": [
+    "Lookup tools ask whether the case exists."
+   ]
+  },
+  {
+   "start": 15.733333333333333,
+   "end": 18.166666666666668,
+   "lines": [
+    "QuoteProof asks whether the quoted words"
+   ]
+  },
+  {
+   "start": 18.266666666666666,
+   "end": 19.1,
+   "lines": [
+    "are in it."
+   ]
+  },
+  {
+   "start": 19.733333333333334,
+   "end": 22.2,
+   "lines": [
+    "Paid tools check quotes too but publish no"
+   ]
+  },
+  {
+   "start": 22.3,
+   "end": 24.3,
+   "lines": [
+    "error rates; here sources are free"
+   ]
+  },
+  {
+   "start": 24.4,
+   "end": 25.4,
+   "lines": [
+    "and rates public."
+   ]
+  },
+  {
+   "start": 25.866666666666667,
+   "end": 27.9,
+   "lines": [
+    "Real run: the quote the court rejected,"
+   ]
+  },
+  {
+   "start": 28.0,
+   "end": 30.066666666666666,
+   "lines": [
+    "checked against two independent sources."
+   ]
+  },
+  {
+   "start": 30.633333333333333,
+   "end": 32.6,
+   "lines": [
+    "Both sources report not found,"
+   ]
+  },
+  {
+   "start": 32.7,
+   "end": 35.43333333333333,
+   "lines": [
+    "so the verdict is HOLD with a receipt hash"
+   ]
+  },
+  {
+   "start": 35.53333333333333,
+   "end": 36.9,
+   "lines": [
+    "anyone can recompute."
+   ]
+  },
+  {
+   "start": 37.266666666666666,
+   "end": 39.43333333333333,
+   "lines": [
+    "Real run: a genuine sentence from Gideon"
+   ]
+  },
+  {
+   "start": 39.53333333333333,
+   "end": 40.5,
+   "lines": [
+    "versus Wainwright."
+   ]
+  },
+  {
+   "start": 41.03333333333333,
+   "end": 43.333333333333336,
+   "lines": [
+    "Both sources find it at a position,"
+   ]
+  },
+  {
+   "start": 43.43333333333333,
+   "end": 45.8,
+   "lines": [
+    "so it passes and the receipt records"
+   ]
+  },
+  {
+   "start": 45.9,
+   "end": 46.733333333333334,
+   "lines": [
+    "where."
+   ]
+  },
+  {
+   "start": 47.166666666666664,
+   "end": 49.36666666666667,
+   "lines": [
+    "Now the same sentence with its meaning"
+   ]
+  },
+  {
+   "start": 49.46666666666667,
+   "end": 51.166666666666664,
+   "lines": [
+    "flipped by three small edits."
+   ]
+  },
+  {
+   "start": 51.766666666666666,
+   "end": 53.3,
+   "lines": [
+    "Neither source has it,"
+   ]
+  },
+  {
+   "start": 53.4,
+   "end": 56.03333333333333,
+   "lines": [
+    "so the verdict is HOLD and the receipt"
+   ]
+  },
+  {
+   "start": 56.13333333333333,
+   "end": 57.03333333333333,
+   "lines": [
+    "hash changes."
+   ]
+  },
+  {
+   "start": 57.43333333333333,
+   "end": 58.63333333333333,
+   "lines": [
+    "New in version three:"
+   ]
+  },
+  {
+   "start": 58.733333333333334,
+   "end": 60.8,
+   "lines": [
+    "one command extracts every quotation"
+   ]
+  },
+  {
+   "start": 60.9,
+   "end": 63.1,
+   "lines": [
+    "from a brief file and checks each one."
+   ]
+  },
+  {
+   "start": 63.666666666666664,
+   "end": 66.13333333333334,
+   "lines": [
+    "Two invented quotes are held and two"
+   ]
+  },
+  {
+   "start": 66.23333333333333,
+   "end": 67.46666666666667,
+   "lines": [
+    "genuine ones pass;"
+   ]
+  },
+  {
+   "start": 67.56666666666666,
+   "end": 69.9,
+   "lines": [
+    "a lower court cite is not checked,"
+   ]
+  },
+  {
+   "start": 70.0,
+   "end": 70.9,
+   "lines": [
+    "never passed."
+   ]
+  },
+  {
+   "start": 71.26666666666667,
+   "end": 74.03333333333333,
+   "lines": [
+    "Only citation addresses leave the machine,"
+   ]
+  },
+  {
+   "start": 74.13333333333334,
+   "end": 76.36666666666666,
+   "lines": [
+    "and the tool waits the ten seconds"
+   ]
+  },
+  {
+   "start": 76.46666666666667,
+   "end": 78.5,
+   "lines": [
+    "Cornell's robots file asks for."
+   ]
+  },
+  {
+   "start": 79.13333333333334,
+   "end": 82.13333333333334,
+   "lines": [
+    "Id and supra now follow to their case,"
+   ]
+  },
+  {
+   "start": 82.23333333333333,
+   "end": 83.9,
+   "lines": [
+    "and when they cannot,"
+   ]
+  },
+  {
+   "start": 84.0,
+   "end": 86.9,
+   "lines": [
+    "the row says why instead of guessing."
+   ]
+  },
+  {
+   "start": 87.36666666666666,
+   "end": 89.96666666666667,
+   "lines": [
+    "The strict default misses the ten percent"
+   ]
+  },
+  {
+   "start": 90.06666666666666,
+   "end": 91.26666666666667,
+   "lines": [
+    "false alarm target:"
+   ]
+  },
+  {
+   "start": 91.36666666666666,
+   "end": 93.1,
+   "lines": [
+    "thirteen point two percent."
+   ]
+  },
+  {
+   "start": 93.66666666666667,
+   "end": 95.83333333333333,
+   "lines": [
+    "Most false alarms are the two sources"
+   ]
+  },
+  {
+   "start": 95.93333333333334,
+   "end": 98.03333333333333,
+   "lines": [
+    "disagreeing rather than the matching"
+   ]
+  },
+  {
+   "start": 98.13333333333334,
+   "end": 100.4,
+   "lines": [
+    "rules, and the miss rate is optimistic."
+   ]
+  },
+  {
+   "start": 100.76666666666667,
+   "end": 103.3,
+   "lines": [
+    "Four local processes (not CRE nodes) each"
+   ]
+  },
+  {
+   "start": 103.4,
+   "end": 104.8,
+   "lines": [
+    "read both sources live;"
+   ]
+  },
+  {
+   "start": 104.9,
+   "end": 107.43333333333334,
+   "lines": [
+    "three of four must agree and all four do."
+   ]
+  },
+  {
+   "start": 107.96666666666667,
+   "end": 110.06666666666666,
+   "lines": [
+    "Running the same input at a different"
+   ]
+  },
+  {
+   "start": 110.16666666666667,
+   "end": 112.33333333333333,
+   "lines": [
+    "clock time gives the identical receipt"
+   ]
+  },
+  {
+   "start": 112.43333333333334,
+   "end": 113.26666666666667,
+   "lines": [
+    "hash."
+   ]
+  },
+  {
+   "start": 113.7,
+   "end": 116.13333333333334,
+   "lines": [
+    "The simulator runs this workflow once per"
+   ]
+  },
+  {
+   "start": 116.23333333333333,
+   "end": 118.13333333333334,
+   "lines": [
+    "node (local): read both sources,"
+   ]
+  },
+  {
+   "start": 118.23333333333333,
+   "end": 119.96666666666667,
+   "lines": [
+    "agree, then write the report."
+   ]
+  },
+  {
+   "start": 120.56666666666666,
+   "end": 123.43333333333334,
+   "lines": [
+    "The CRE simulator ran it for real,"
+   ]
+  },
+  {
+   "start": 123.53333333333333,
+   "end": 126.9,
+   "lines": [
+    "exit code zero: consensus PASS and a dry"
+   ]
+  },
+  {
+   "start": 127.0,
+   "end": 127.83333333333333,
+   "lines": [
+    "run write."
+   ]
+  },
+  {
+   "start": 128.23333333333332,
+   "end": 129.8,
+   "lines": [
+    "The altered payload gives HOLD"
+   ]
+  },
+  {
+   "start": 129.9,
+   "end": 131.76666666666668,
+   "lines": [
+    "with NOT_IN_OPINION through the same"
+   ]
+  },
+  {
+   "start": 131.86666666666667,
+   "end": 133.56666666666666,
+   "lines": [
+    "workflow and the same write path."
+   ]
+  },
+  {
+   "start": 134.13333333333333,
+   "end": 136.13333333333333,
+   "lines": [
+    "The receiver accepts only the forwarder"
+   ]
+  },
+  {
+   "start": 136.23333333333332,
+   "end": 137.36666666666667,
+   "lines": [
+    "from Chainlink's docs:"
+   ]
+  },
+  {
+   "start": 137.46666666666667,
+   "end": 139.36666666666667,
+   "lines": [
+    "a real Sepolia transaction (simulator"
+   ]
+  },
+  {
+   "start": 139.46666666666667,
+   "end": 141.23333333333332,
+   "lines": [
+    "--broadcast, mock forwarder) wrote"
+   ]
+  },
+  {
+   "start": 141.33333333333334,
+   "end": 143.13333333333333,
+   "lines": [
+    "the verdict; a direct call reverts."
+   ]
+  },
+  {
+   "start": 143.46666666666667,
+   "end": 145.93333333333334,
+   "lines": [
+    "Opt-in: with --cre-broadcast the same"
+   ]
+  },
+  {
+   "start": 146.03333333333333,
+   "end": 148.1,
+   "lines": [
+    "command sends the checked quote"
+   ]
+  },
+  {
+   "start": 148.2,
+   "end": 149.73333333333332,
+   "lines": [
+    "into the CRE simulator;"
+   ]
+  },
+  {
+   "start": 149.83333333333334,
+   "end": 152.16666666666666,
+   "lines": [
+    "its hash matches the local receipt."
+   ]
+  },
+  {
+   "start": 152.8,
+   "end": 155.26666666666668,
+   "lines": [
+    "Limits first: Supreme Court opinions only,"
+   ]
+  },
+  {
+   "start": 155.36666666666667,
+   "end": 157.6,
+   "lines": [
+    "small test sets, and a post hoc policy"
+   ]
+  },
+  {
+   "start": 157.7,
+   "end": 159.16666666666666,
+   "lines": [
+    "that is not the headline."
+   ]
+  },
+  {
+   "start": 159.63333333333333,
+   "end": 162.06666666666666,
+   "lines": [
+    "QuoteProof checks the words and not only"
+   ]
+  },
+  {
+   "start": 162.16666666666666,
+   "end": 164.63333333333333,
+   "lines": [
+    "the case, and it states its limits first."
+   ]
+  }
+ ],
+ "cuts": [
+  {
+   "t": 6.266666666666667,
+   "lead_into": "S02"
+  },
+  {
+   "t": 12.866666666666667,
+   "lead_into": "S03"
+  },
+  {
+   "t": 19.466666666666665,
+   "lead_into": "S04"
+  },
+  {
+   "t": 25.6,
+   "lead_into": "S05"
+  },
+  {
+   "t": 30.4,
+   "lead_into": "S06"
+  },
+  {
+   "t": 37.0,
+   "lead_into": "S07"
+  },
+  {
+   "t": 40.8,
+   "lead_into": "S08"
+  },
+  {
+   "t": 46.93333333333333,
+   "lead_into": "S09"
+  },
+  {
+   "t": 51.53333333333333,
+   "lead_into": "S10"
+  },
+  {
+   "t": 57.2,
+   "lead_into": "S11"
+  },
+  {
+   "t": 63.4,
+   "lead_into": "S12"
+  },
+  {
+   "t": 71.0,
+   "lead_into": "S13"
+  },
+  {
+   "t": 78.86666666666666,
+   "lead_into": "S14"
+  },
+  {
+   "t": 87.13333333333334,
+   "lead_into": "S15"
+  },
+  {
+   "t": 93.4,
+   "lead_into": "S16"
+  },
+  {
+   "t": 100.53333333333333,
+   "lead_into": "S17"
+  },
+  {
+   "t": 107.73333333333333,
+   "lead_into": "S18"
+  },
+  {
+   "t": 113.46666666666667,
+   "lead_into": "S19"
+  },
+  {
+   "t": 120.33333333333333,
+   "lead_into": "S20"
+  },
+  {
+   "t": 127.96666666666667,
+   "lead_into": "S21"
+  },
+  {
+   "t": 133.86666666666667,
+   "lead_into": "S22"
+  },
+  {
+   "t": 143.2,
+   "lead_into": "S23"
+  },
+  {
+   "t": 152.53333333333333,
+   "lead_into": "S24"
+  },
+  {
+   "t": 159.4,
+   "lead_into": "S25"
+  }
+ ],
+ "screen_text": [
+  "QuoteProof title",
+  "The problem: invented quotes",
+  "The question",
+  "Existing tools",
+  "verify-p7 cmd",
+  "verify-p7 result",
+  "Run 1: a genuine quote (372 U.S. 335, Gideon) cmd",
+  "Run 1: a genuine quote (372 U.S. 335, Gideon) result",
+  "Run 2: the same sentence with its meaning flipped cmd",
+  "Run 2: the same sentence with its meaning flipped result",
+  "verify-brief cmd",
+  "verify-brief table",
+  "Privacy and robots.txt",
+  "Id supra table",
+  "numbers table",
+  "false alarm causes",
+  "local consensus genuine",
+  "determinism",
+  "CRE code excerpt",
+  "CRE simulate genuine",
+  "CRE simulate altered",
+  "chain write",
+  "brief to CRE",
+  "limits",
+  "end"
+ ],
+ "speech_onsets": [
+  {
+   "id": "S01",
+   "t": 0.267
+  },
+  {
+   "id": "S02",
+   "t": 6.533
+  },
+  {
+   "id": "S03",
+   "t": 13.133
+  },
+  {
+   "id": "S04",
+   "t": 19.733
+  },
+  {
+   "id": "S05",
+   "t": 25.867
+  },
+  {
+   "id": "S06",
+   "t": 30.633
+  },
+  {
+   "id": "S07",
+   "t": 37.267
+  },
+  {
+   "id": "S08",
+   "t": 41.033
+  },
+  {
+   "id": "S09",
+   "t": 47.167
+  },
+  {
+   "id": "S10",
+   "t": 51.767
+  },
+  {
+   "id": "S11",
+   "t": 57.433
+  },
+  {
+   "id": "S12",
+   "t": 63.667
+  },
+  {
+   "id": "S13",
+   "t": 71.267
+  },
+  {
+   "id": "S14",
+   "t": 79.133
+  },
+  {
+   "id": "S15",
+   "t": 87.367
+  },
+  {
+   "id": "S16",
+   "t": 93.667
+  },
+  {
+   "id": "S17",
+   "t": 100.767
+  },
+  {
+   "id": "S18",
+   "t": 107.967
+  },
+  {
+   "id": "S19",
+   "t": 113.733
+  },
+  {
+   "id": "S20",
+   "t": 120.567
+  },
+  {
+   "id": "S21",
+   "t": 128.233
+  },
+  {
+   "id": "S22",
+   "t": 134.133
+  },
+  {
+   "id": "S23",
+   "t": 143.467
+  },
+  {
+   "id": "S24",
+   "t": 152.8
+  },
+  {
+   "id": "S25",
+   "t": 159.633
+  }
+ ],
+ "onset_note": "no audio track; onset = first frame where the caption strip shows the sentence's first cue, measured on the decoded mp4",
+ "static_spans": [
+  {
+   "start": 0.0,
+   "dur": 6.27
+  },
+  {
+   "start": 6.27,
+   "dur": 6.6
+  },
+  {
+   "start": 12.87,
+   "dur": 6.6
+  },
+  {
+   "start": 19.47,
+   "dur": 6.13
+  },
+  {
+   "start": 25.6,
+   "dur": 4.8
+  },
+  {
+   "start": 30.4,
+   "dur": 6.6
+  },
+  {
+   "start": 40.8,
+   "dur": 6.13
+  },
+  {
+   "start": 46.93,
+   "dur": 4.6
+  },
+  {
+   "start": 51.53,
+   "dur": 5.67
+  },
+  {
+   "start": 57.2,
+   "dur": 6.2
+  },
+  {
+   "start": 63.4,
+   "dur": 7.6
+  },
+  {
+   "start": 71.0,
+   "dur": 7.87
+  },
+  {
+   "start": 78.87,
+   "dur": 8.27
+  },
+  {
+   "start": 87.13,
+   "dur": 6.27
+  },
+  {
+   "start": 93.4,
+   "dur": 7.13
+  },
+  {
+   "start": 100.53,
+   "dur": 7.2
+  },
+  {
+   "start": 107.73,
+   "dur": 5.73
+  },
+  {
+   "start": 113.47,
+   "dur": 6.87
+  },
+  {
+   "start": 120.33,
+   "dur": 7.63
+  },
+  {
+   "start": 127.97,
+   "dur": 5.9
+  },
+  {
+   "start": 133.87,
+   "dur": 9.33
+  },
+  {
+   "start": 143.2,
+   "dur": 9.33
+  },
+  {
+   "start": 152.53,
+   "dur": 6.87
+  },
+  {
+   "start": 159.4,
+   "dur": 6.47
+  }
+ ]
+}

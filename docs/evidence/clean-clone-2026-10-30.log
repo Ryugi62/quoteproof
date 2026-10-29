@@ -1,0 +1,38 @@
+# clean clone run log 2026-10-30 — fresh dir clean2, commit ed99f00, bun 1.4.4
+$ bun install
+bun install v1.4.4 (38afee6c8)
+
++ @types/bun@1.4.4
++ typescript@7.0.2
+
+6 packages installed [17.00ms]
+$ bun test
+bun test v1.4.4 (38afee6c8)
+
+ 45 pass
+ 0 fail
+ 94 expect() calls
+Ran 45 tests across 8 files. [38.00ms]
+$ bun run eval (key lines)
+| 출처 2곳 합의·엄격(기본) | 4/34 = 11.8% [4.7–26.6] | 0/42 = 0.0% [0.0–8.4] | G019, G020, G026, G034 |
+| 출처 2곳 합의·부호 허용(사후 정책) | 3/34 = 8.8% [3.0–23.0] | 0/42 = 0.0% [0.0–8.4] | G019, G020, G034 |
+| CAP만 (순환 라벨: 진짜 인용을 CAP 본문에서 뽑아 0%는 구조상 당연, 외부 증거 아님) | 0/34 = 0.0% [0.0–10.2] | 0/42 = 0.0% [0.0–8.4] | - |
+| LII만 | 4/34 = 11.8% [4.7–26.6] | 0/42 = 0.0% [0.0–8.4] | G019, G020, G026, G034 |
+결정성: 시각을 바꿔 2회 실행 → 영수증 해시 전 건 동일 (79건 × 2정책)
+| 출처 2곳 합의·엄격(기본) | 5/34 = 14.7% [6.4–30.1] | 0/42 = 0.0% [0.0–8.4] | G002, G005, G009, G019, G024 |
+| 출처 2곳 합의·부호 허용(사후 정책) | 3/34 = 8.8% [3.0–23.0] | 0/42 = 0.0% [0.0–8.4] | G002, G005, G024 |
+| CAP만 (순환 라벨: 진짜 인용을 CAP 본문에서 뽑아 0%는 구조상 당연, 외부 증거 아님) | 0/34 = 0.0% [0.0–10.2] | 0/42 = 0.0% [0.0–8.4] | - |
+| LII만 | 5/34 = 14.7% [6.4–30.1] | 0/42 = 0.0% [0.0–8.4] | G002, G005, G009, G019, G024 |
+결정성: 시각을 바꿔 2회 실행 → 영수증 해시 전 건 동일 (79건 × 2정책)
+## 공개 사례 — AI 조작 인용 목록(Charlotin DB)의 연방대법원 귀속 가짜 인용문 8건 (법원이 「그 판결에 없다」고 판단)
+공개 사례 누락(통과해 버린 건): 0/8
+### 목록에는 있으나 시험하지 못한 공개 사례 7건 (통과·보류 어느 쪽으로도 세지 않음)
+공개 사례 합계: 시험 8 + 시험 불가 7 = 15건
+$ bun run test:cre
+SDK-RUNTIME altered: {"verdict":"HOLD","reasons":"NOT_IN_OPINION","receiptHash":"f341e464163f92cca37369948b376dce3351ec6a24272502516ef173fb083e93","sourceSummary":"cap:missing:4cb4ba6f5d8e|lii:missing:3766dc7e21ba"}
+
+ 9 pass
+ 0 fail
+ 21 expect() calls
+Ran 9 tests across 2 files. [100.00ms]
+$ git status --short (clone, after eval)

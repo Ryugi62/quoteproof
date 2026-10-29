@@ -1,0 +1,35 @@
+$ bun run src/infrastructure/cli.ts "372 U.S. 335" "any person haled into court, who is too poor to hire a lawyer, cannot be assured a fair trial unless counsel is provided for him"
+NOTE: static.case.law/robots.txt has a Disallow rule for /us/372/cases/0335-01.json (aimed at crawlers); this run is user-initiated, one GET per cited opinion, no link following
+waiting 10.0s before the next request to www.law.cornell.edu (robots.txt Crawl-delay 10s)
+{
+  "citation": "372 U.S. 335",
+  "quote": "any person haled into court, who is too poor to hire a lawyer, cannot be assured a fair trial unless counsel is provided for him",
+  "verdict": "PASS",
+  "reasons": [],
+  "edits": [],
+  "minSources": 2,
+  "sources": [
+    {
+      "id": "cap",
+      "textSha256": "4cb4ba6f5d8e7d8add1fe315b01087ec4fec4ffc1b34f973669e15b09be86af5",
+      "found": true,
+      "start": 12029,
+      "end": 12157,
+      "edits": [],
+      "distortion": false,
+      "reason": "OK"
+    },
+    {
+      "id": "lii",
+      "textSha256": "3766dc7e21bab6a8822709331f7b1ff98643869128c8202abfc6720d03f3d233",
+      "found": true,
+      "start": 13212,
+      "end": 13340,
+      "edits": [],
+      "distortion": false,
+      "reason": "OK"
+    }
+  ],
+  "checkedAt": "2026-10-29T21:56:37.585Z",
+  "receiptHash": "b5fc1c1a814225f2b4d667e4a08872374d03f93a9c857b455baea32a2f59f198"
+}

@@ -1,0 +1,79 @@
+# Run A: verify-brief on fixtures/brief-example-id-supra.txt (Id. / supra), row 3 sent to the CRE simulator WITH --broadcast (CRE_ETH_PRIVATE_KEY from ~/.config/quoteproof/sepolia.env, not shown)
+$ bun run verify-brief fixtures/brief-example-id-supra.txt --cre-payload <dir> --cre-simulate 3 --cre-broadcast
+#  | verdict     | citation     | detail                           | quote
+1  | PASS        | 372 U.S. 335 | hash b5fc1c1a                    | any person haled into court, who is too poor to hire a lawy…
+2  | HOLD        | 372 U.S. 335 | NOT_IN_OPINION 9a89ee5a          | can still be assured a fair trial even if counsel is not pr…
+3  | PASS        | 496 U.S. 384 | hash e32f1e72                    | Rule 38 gives appellate courts ample authority to award exp…
+4  | NOT_CHECKED | -            | ID_ANTECEDENT_NOT_CHECKABLE      | a party must show prejudice before the court may dismiss th…
+Summary: 4 quotes found · 2 PASS · 1 HOLD · 1 not checked (no supported citation) · brief text stayed local
+CRE payloads: 3 written to <dir>/ (each = one quote + its citation; 1 not-checked row(s) listed in index.json only)
+CRE row 3: payload-03.json -> [USER LOG] Consensus result: PASS hash=e32f1e72…
+CRE row 3: [USER LOG] writeReport reply: TX_STATUS_SUCCESS txHash=0xc8a2798281d72b26bd6ff5c34d5bf8769a8ef376d86074b0f1a0f1261ea1fff8 err=-
+CRE consensus hash == local receipt hash (e32f1e72…, verdict PASS)
+exit 1
+--- stderr:
+NOTE: static.case.law/robots.txt has a Disallow rule for /us/372/cases/0335-01.json (aimed at crawlers); this run is user-initiated, one GET per cited opinion, no link following
+read requests sent: 4 (source URLs built from citations only)
+
+--- payload-03.json (what CRE received: one quote + its citation):
+{"citation":"496 U.S. 384","quote":"Rule 38 gives appellate courts ample authority to award expenses"}
+--- index.json:
+[
+  {
+    "row": 1,
+    "citation": "372 U.S. 335",
+    "localVerdict": "PASS",
+    "localReceiptHash": "b5fc1c1a814225f2b4d667e4a08872374d03f93a9c857b455baea32a2f59f198",
+    "payload": "payload-01.json"
+  },
+  {
+    "row": 2,
+    "citation": "372 U.S. 335",
+    "localVerdict": "HOLD",
+    "localReceiptHash": "9a89ee5ad837ce46a0bb413c883e94ab922d837e1dfb73ec8fb7d6b6d46cc8ed",
+    "payload": "payload-02.json"
+  },
+  {
+    "row": 3,
+    "citation": "496 U.S. 384",
+    "localVerdict": "PASS",
+    "localReceiptHash": "e32f1e72ef0ed1ed6f1eaa212e56bbf60f9e5abd8bcc127859329acf2878e9a3",
+    "payload": "payload-03.json"
+  },
+  {
+    "row": 4,
+    "citation": null,
+    "localVerdict": "NOT_CHECKED",
+    "payload": null,
+    "notChecked": "ID_ANTECEDENT_NOT_CHECKABLE"
+  }
+]
+
+$ cd cre/workflow && bun run verifyChain.ts 0xc8a2798281d72b26bd6ff5c34d5bf8769a8ef376d86074b0f1a0f1261ea1fff8 0x65faa0e6f6cd105997c93f9d3b72872e8765bbe8 --direct-call-check
+tx 0xc8a2798281d72b26bd6ff5c34d5bf8769a8ef376d86074b0f1a0f1261ea1fff8
+status success block 12022319 to 0x15fc6ae953e024d975e77382eeec56a9101f9f88 from 0x570880967b591aea114e91966f695928f30c82a3 gasUsed 370677
+event from receiver 0x65faa0e6f6cd105997c93f9d3b72872e8765bbe8: QuoteVerdict {"receiptHash":"0xe32f1e72ef0ed1ed6f1eaa212e56bbf60f9e5abd8bcc127859329acf2878e9a3","verdictCode":1,"reasons":""}
+QuoteVerdict events from the receiver in this transaction: 1
+receiver code length 2219 bytes; explorer: https://sepolia.etherscan.io/tx/0xc8a2798281d72b26bd6ff5c34d5bf8769a8ef376d86074b0f1a0f1261ea1fff8
+receiver.forwarder()=0x15fC6ae953E024d975e77382eEeC56A9101f9F88; tx.to == forwarder: true
+receiver.seen(0xe32f1e72…)=true verdictOf=1
+direct onReport from 0x570880967b591aea114e91966f695928f30c82a3 (not the forwarder): reverted as expected -> The contract function "onReport" reverted.
+
+# Run B: same brief, row 2 (HOLD), dry run (no --broadcast); stderr shows the Crawl-delay waits, wall time measured
+$ bun run verify-brief fixtures/brief-example-id-supra.txt --cre-payload <dir> --cre-simulate 2
+NOTE: static.case.law/robots.txt has a Disallow rule for /us/372/cases/0335-01.json (aimed at crawlers); this run is user-initiated, one GET per cited opinion, no link following
+waiting 10.0s before the next request to www.law.cornell.edu (robots.txt Crawl-delay 10s)
+waiting 10.0s before the next request to www.law.cornell.edu (robots.txt Crawl-delay 10s)
+read requests sent: 4 (source URLs built from citations only)
+#  | verdict     | citation     | detail                           | quote
+1  | PASS        | 372 U.S. 335 | hash b5fc1c1a                    | any person haled into court, who is too poor to hire a lawy…
+2  | HOLD        | 372 U.S. 335 | NOT_IN_OPINION 9a89ee5a          | can still be assured a fair trial even if counsel is not pr…
+3  | PASS        | 496 U.S. 384 | hash e32f1e72                    | Rule 38 gives appellate courts ample authority to award exp…
+4  | NOT_CHECKED | -            | ID_ANTECEDENT_NOT_CHECKABLE      | a party must show prejudice before the court may dismiss th…
+Summary: 4 quotes found · 2 PASS · 1 HOLD · 1 not checked (no supported citation) · brief text stayed local
+CRE payloads: 3 written to <dir>/ (each = one quote + its citation; 1 not-checked row(s) listed in index.json only)
+CRE row 2: payload-02.json -> [USER LOG] Consensus result: HOLD NOT_IN_OPINION hash=9a89ee5a…
+CRE row 2: [USER LOG] writeReport reply: TX_STATUS_SUCCESS txHash=none (dry run: no transaction sent) err=-
+CRE consensus hash == local receipt hash (9a89ee5a…, verdict HOLD)
+exit code: 1  (1 = at least one HOLD in the brief; 2 would mean the CRE step failed)
+wall time: 28 s

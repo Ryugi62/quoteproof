@@ -1,0 +1,10 @@
+deploy: forwarder (constructor arg) 0x15fC6ae9...9F88  <- Chainlink docs, Mock Forwarder, Ethereum Sepolia
+deploy tx 0x5a3a35d6...1c2b
+$ cre workflow simulate ... --http-payload payload-genuine.json --broadcast
+[USER LOG] Consensus result: PASS  hash=b5fc1c1a814225f2b4d667e4a08872374d03f93a9c857b455baea32a2f59f198
+[USER LOG] writeReport reply: TX_STATUS_SUCCESS txHash=0x1cf90754...b14f err=-
+re-read from Sepolia RPC: status success, to = 0x15fc6ae9...9f88 (the forwarder, not our receiver)
+receiver event QuoteVerdict: receiptHash=0xb5fc1c1a...f198 verdictCode=1 reasons=""
+receiver.forwarder()=0x15fC6ae9...9F88; tx.to == forwarder: true
+direct onReport() from the deployer (not the forwarder): reverted
+Testnet only. Simulator --broadcast with the mock forwarder. Not a deployment on the CRE network.

@@ -1,0 +1,2764 @@
+{
+ "testset.json": {
+  "n": 79,
+  "deterministic": true,
+  "results": {
+   "출처 2곳 합의·엄격(기본)": {
+    "falseHold": {
+     "k": 4,
+     "n": 34,
+     "rate": 0.11764705882352941,
+     "lo": 0.04671370973436122,
+     "hi": 0.26621174796298774
+    },
+    "falsePass": {
+     "k": 0,
+     "n": 42,
+     "rate": 0,
+     "lo": 0,
+     "hi": 0.08380161250916197
+    },
+    "falseHoldIds": [
+     "G019",
+     "G020",
+     "G026",
+     "G034"
+    ],
+    "falsePassIds": []
+   },
+   "출처 2곳 합의·부호 허용(사후 정책)": {
+    "falseHold": {
+     "k": 3,
+     "n": 34,
+     "rate": 0.08823529411764706,
+     "lo": 0.030465390304310145,
+     "hi": 0.2296081795236041
+    },
+    "falsePass": {
+     "k": 0,
+     "n": 42,
+     "rate": 0,
+     "lo": 0,
+     "hi": 0.08380161250916197
+    },
+    "falseHoldIds": [
+     "G019",
+     "G020",
+     "G034"
+    ],
+    "falsePassIds": []
+   },
+   "CAP만": {
+    "falseHold": {
+     "k": 0,
+     "n": 34,
+     "rate": 0,
+     "lo": 0,
+     "hi": 0.10151790621961015
+    },
+    "falsePass": {
+     "k": 0,
+     "n": 42,
+     "rate": 0,
+     "lo": 0,
+     "hi": 0.08380161250916197
+    },
+    "falseHoldIds": [],
+    "falsePassIds": []
+   },
+   "LII만": {
+    "falseHold": {
+     "k": 4,
+     "n": 34,
+     "rate": 0.11764705882352941,
+     "lo": 0.04671370973436122,
+     "hi": 0.26621174796298774
+    },
+    "falsePass": {
+     "k": 0,
+     "n": 42,
+     "rate": 0,
+     "lo": 0,
+     "hi": 0.08380161250916197
+    },
+    "falseHoldIds": [
+     "G019",
+     "G020",
+     "G026",
+     "G034"
+    ],
+    "falsePassIds": []
+   }
+  },
+  "perCase": [
+   {
+    "id": "G001",
+    "group": "G1 전체 문장 그대로",
+    "label": "genuine",
+    "citation": "410 U.S. 113",
+    "quote": "As in the case of other specialized medical services, psychiatric consultation should be sought for definite indications and not on a routine basis.",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [],
+    "receiptHash": "58d5fd445f00f14a4423a8b2efd31049d37b9e52025f243309fccc173098e6f3",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G002",
+    "group": "G1 전체 문장 그대로",
+    "label": "genuine",
+    "citation": "466 U.S. 668",
+    "quote": "Petitioners, who are officials of the State of Florida, filed a petition for a writ of certiorari seeking review of the decision of the Court of Appeals.",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [],
+    "receiptHash": "2c913695ebec5b73fc65620ea11b0300eb54e6ea668a5e8a72b072f63a81add1",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G003",
+    "group": "G1 전체 문장 그대로",
+    "label": "genuine",
+    "citation": "376 U.S. 254",
+    "quote": "The Times' failure to retract upon respondent's demand, although it later retracted upon the demand of Governor Patterson, is likewise not adequate evidence of malice for constitutional purposes.",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [],
+    "receiptHash": "c2cd2f412f8ae3347ab9f89679490b00209e40b97142f1d0d6625b2b0e039227",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G004",
+    "group": "G1 전체 문장 그대로",
+    "label": "genuine",
+    "citation": "424 U.S. 319",
+    "quote": "No findings of fact or decision of the Secretary shall be reviewed by any person, tribunal, or governmental agency except as herein provided.",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [],
+    "receiptHash": "46664f350618e018d72fa7a1335b7b0e2748bcb2adb76f9f45f4bd5814cb088d",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G005",
+    "group": "G1 전체 문장 그대로",
+    "label": "genuine",
+    "citation": "367 U.S. 643",
+    "quote": "Other issues have been raised on this appeal but, in the view we have taken of the case, they need not be decided.",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [],
+    "receiptHash": "241445f0f9884adefeafd8fd5213798fa83be9553d1e2b030cf2c9ef62b991fa",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G006",
+    "group": "G2 문장 속 절 그대로",
+    "label": "genuine",
+    "citation": "424 U.S. 319",
+    "quote": "specify a statute of limitations and appropriate venue, and are waivable by",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [],
+    "receiptHash": "1e84ccc0db3a04c80ea37a7eb9b6899d8b477a15688e049c98ce69fdfc611f88",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G007",
+    "group": "G2 문장 속 절 그대로",
+    "label": "genuine",
+    "citation": "392 U.S. 1",
+    "quote": "the other side the argument is made that",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [],
+    "receiptHash": "6bdeca810940c182f7dbbd4ac4f7f9e7516d5dcc405e2e267c761efd373651cf",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G008",
+    "group": "G2 문장 속 절 그대로",
+    "label": "genuine",
+    "citation": "477 U.S. 317",
+    "quote": "surely defy common sense to hold that the District Court could have entered",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [],
+    "receiptHash": "ffb89317d3958ecc40e572a329c3cddb97bd1326755129cfe679c171fd93dbd3",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G009",
+    "group": "G2 문장 속 절 그대로",
+    "label": "genuine",
+    "citation": "410 U.S. 113",
+    "quote": "of the State in protecting the woman from",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [],
+    "receiptHash": "8a4015b6f82d88fc4cd747d9145e2a219152e7b6e7e9ce36f442e8276621d27a",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G010",
+    "group": "G2 문장 속 절 그대로",
+    "label": "genuine",
+    "citation": "393 U.S. 503",
+    "quote": "can hardly be argued that either students or teachers shed their constitutional",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [],
+    "receiptHash": "3335e7eb5ce16c3d91e7dc8fe9e1ca9eed6b141f8052b9c2eff2a4188602a797",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G011",
+    "group": "G2 문장 속 절 그대로",
+    "label": "genuine",
+    "citation": "424 U.S. 319",
+    "quote": "questionnaire which the state agency periodically sends the recipient identifies",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [],
+    "receiptHash": "9d9a04fd6fb03a02cf5e52b666cc9c6ef83e5a15d49118ca2bce3e0a7d401e84",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G012",
+    "group": "G3 둥근 따옴표·줄바꿈·겹공백",
+    "label": "genuine",
+    "citation": "410 U.S. 113",
+    "quote": "Up to those points,  the abortion decision in all its aspects is inherently, and\nprimarily, a medical decision, and basic responsibility for it must rest with the physician.",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [
+     "WHITESPACE"
+    ],
+    "receiptHash": "52151989254f06e7c179b6af2240c07b99007bc84e66bbc2444f8d65ba89f164",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G013",
+    "group": "G3 둥근 따옴표·줄바꿈·겹공백",
+    "label": "genuine",
+    "citation": "466 U.S. 668",
+    "quote": "In any ineffectiveness case, a particular decision not to investigate must be directly assessed\nfor reasonableness in all  the circumstances, applying a heavy measure of deference to counsel’s judgments.",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [
+     "SMART_QUOTES",
+     "WHITESPACE"
+    ],
+    "receiptHash": "0e72ec746a4998e7ab3ae15dfd4289ed4af8f81a629f28b72c78d02295f091a1",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G014",
+    "group": "G3 둥근 따옴표·줄바꿈·겹공백",
+    "label": "genuine",
+    "citation": "424 U.S. 319",
+    "quote": "Information is also requested concerning  the recipient’s belief as to whether he can return to work, the\nnature and extent of his employment during the past year, and any vocational services he is receiving.",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [
+     "SMART_QUOTES",
+     "WHITESPACE"
+    ],
+    "receiptHash": "66f044bdd9da28ff38c97204b0dbfed06ff8da1e0c9305b20fc0c6ca102b5d8a",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G015",
+    "group": "G3 둥근 따옴표·줄바꿈·겹공백",
+    "label": "genuine",
+    "citation": "477 U.S. 317",
+    "quote": "A divided panel of  the Court of Appeals for the District of Columbia Circuit reversed, however, holding that petitioner’s failure\nto support its motion with evidence tending to negate such exposure precluded the entry of summary judgment in its favor.",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [
+     "SMART_QUOTES",
+     "WHITESPACE"
+    ],
+    "receiptHash": "0f50a290384f28c57f3ba4e2f23414d7202d0a93e652ebbfad110eb9d4d14846",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G016",
+    "group": "G4 문장 중간 생략(…)",
+    "label": "genuine",
+    "citation": "466 U.S. 668",
+    "quote": "The Court of Appeals … the tests to be applied in the Eleventh Circuit in challenges to convictions on the ground of ineffectiveness of counsel.",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "dfe338f6b923d498c89834d38d45b6272d1f1d615929ca2e91e24bf41e4dcf1f",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G017",
+    "group": "G4 문장 중간 생략(…)",
+    "label": "genuine",
+    "citation": "466 U.S. 668",
+    "quote": "Moreover, it is difficult … on the defense of representation corrupted by conflicting interests.",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "7b827787bebdc38298e132174e8d2f897dea1ee1f84e734448d2ad7ed63d3e2b",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G018",
+    "group": "G4 문장 중간 생략(…)",
+    "label": "genuine",
+    "citation": "393 U.S. 503",
+    "quote": "Even an official … suspension that listed the reasons for the ban on wearing the armbands made no reference to the anticipation of such disruption.",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "066971ee7b3786827fa9a69f0a4e42b77995130143f7ba34b958d2f69a65cce8",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G019",
+    "group": "G4 문장 중간 생략(…)",
+    "label": "genuine",
+    "citation": "5 U.S. 137",
+    "quote": "But having once … his power over the office is terminated in all cases, where, by law, the officer is not removeable by him.",
+    "verdict": "HOLD",
+    "reasons": [
+     "SOURCE_DISAGREE"
+    ],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "0bde3b7c7bca59c5f06e2111624f2ee15c6a0b6f20c45e1db0cd838e5120801e",
+    "cap": "PASS",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "G020",
+    "group": "G4 문장 중간 생략(…)",
+    "label": "genuine",
+    "citation": "392 U.S. 1",
+    "quote": "But we deal here with … of police conduct - necessarily swift action predicated upon the on-the-spot observations of the officer on the beat - which historically has not been, and as a practical matter could not be, subjected to the warrant procedure.",
+    "verdict": "HOLD",
+    "reasons": [
+     "SOURCE_DISAGREE"
+    ],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "be469b7c51839984a6ba761cdb12cd7752a80aafde22deef7084e5833ca2da3d",
+    "cap": "PASS",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "G021",
+    "group": "G4 문장 중간 생략(…)",
+    "label": "genuine",
+    "citation": "477 U.S. 242",
+    "quote": "In this affidavit, … spent a substantial amount of time researching and writing the articles and that his facts were obtained from a wide variety of sources.",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "7f0a4af118dba1c6e6ba20fdedcaf126da104f68881d327200f1ab13b44d697b",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G022",
+    "group": "G5 문장 이어 생략(. . .)",
+    "label": "genuine",
+    "citation": "410 U.S. 113",
+    "quote": "Appellant, as has been indicated, claims . . . be guaranteed specifically by the Amendment.",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "926b67c7bc3c2e4daef3e8f4c0a8419b7048606079e790ac9ccb038f0b06c303",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G023",
+    "group": "G5 문장 이어 생략(. . .)",
+    "label": "genuine",
+    "citation": "466 U.S. 668",
+    "quote": "Moreover, such circumstances involve impairments of . . . that the defendant affirmatively prove prejudice.",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "a568608b8500a004a4e5e5cf21b4eef42c24b5593b6da112f46ba5ec6e68179b",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G024",
+    "group": "G5 문장 이어 생략(. . .)",
+    "label": "genuine",
+    "citation": "424 U.S. 319",
+    "quote": "In the latter case, a wide . . . in this context than in Goldberg.",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "5e7cb4155ecd3b627108c983c37a6203adc0e53ac83d7ebebde8d79075b1b1a3",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G025",
+    "group": "G6 대괄호 대소문자 [t]he",
+    "label": "genuine",
+    "citation": "477 U.S. 242",
+    "quote": "[i]f he concludes that upon the evidence there must be such a",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [
+     "BRACKET_CASE"
+    ],
+    "receiptHash": "6e7d4a21f815af2ee4973d637fd0eba7b1a381582f180fd8b388daa27f58a455",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G026",
+    "group": "G6 대괄호 대소문자 [t]he",
+    "label": "genuine",
+    "citation": "304 U.S. 64",
+    "quote": "[t]he plaintiff, insisted that the Pennsylvania decisions did not establish the rule",
+    "verdict": "HOLD",
+    "reasons": [
+     "SOURCE_DISAGREE"
+    ],
+    "edits": [
+     "BRACKET_CASE"
+    ],
+    "receiptHash": "56c58e2f43f02aec7c2eede5df19c148e7fa87d7c1083dfe1d550654fa2da6d8",
+    "cap": "PASS",
+    "lii": "HOLD",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G027",
+    "group": "G6 대괄호 대소문자 [t]he",
+    "label": "genuine",
+    "citation": "410 U.S. 113",
+    "quote": "[o]ur task, of course, is to resolve the issue by constitutional measurement,",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [
+     "BRACKET_CASE"
+    ],
+    "receiptHash": "13145df7f8c58aa9c5be70579fc06fe05cd386641605373d6bab181bb97997b6",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G028",
+    "group": "G6 대괄호 대소문자 [t]he",
+    "label": "genuine",
+    "citation": "5 U.S. 137",
+    "quote": "[t]he commission being signed, the subsequent duty of the secretary of state",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [
+     "BRACKET_CASE"
+    ],
+    "receiptHash": "5deeeffe8051d93a6b1ca2f8c83dad4ead52028728fd02b2a39113c7f9551cb5",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G029",
+    "group": "G7 대괄호 대명사 치환 [the Court]",
+    "label": "genuine",
+    "citation": "392 U.S. 1",
+    "quote": "a policeman's power when [the defendant] confronts a citizen without probable",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [
+     "BRACKET_WORD"
+    ],
+    "receiptHash": "3ef5dc31acd2d520200f3c96e9b363a6c2a00017d8635e8bc6889461ab5db7da",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G030",
+    "group": "G7 대괄호 대명사 치환 [the Court]",
+    "label": "genuine",
+    "citation": "5 U.S. 137",
+    "quote": "title to the office, [the Court] has a consequent right to",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [
+     "BRACKET_WORD"
+    ],
+    "receiptHash": "cf9f582f2f202e363b8a26a82bf92426c7cd8bd28d5505acdaf3e807defadb89",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G031",
+    "group": "G7 대괄호 대명사 치환 [the Court]",
+    "label": "genuine",
+    "citation": "410 U.S. 113",
+    "quote": "time in the future [the defendant] might want an abortion that",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [
+     "BRACKET_WORD"
+    ],
+    "receiptHash": "19815e6cdcc7c093e690abdb51fa5d1cc1dea16a6fa92cc61533e90d4ab64dab",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G032",
+    "group": "G8 앞·뒤 생략",
+    "label": "genuine",
+    "citation": "5 U.S. 137",
+    "quote": "… court is, solely, to decide on the rights of individuals,",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "3a3605db671c0a7e3f09b92f004624e7f1f08605537eef1f2c3643bad26f5e23",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G033",
+    "group": "G8 앞·뒤 생략",
+    "label": "genuine",
+    "citation": "410 U.S. 113",
+    "quote": "Before addressing this claim, we feel it desirable briefly …",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "7a815a2edfcb0d473a7b3376ce4361083187d8ff45dd6eba92c7c601f2244f86",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G034",
+    "group": "G8 앞·뒤 생략",
+    "label": "genuine",
+    "citation": "376 U.S. 254",
+    "quote": "… Luther King, spiritual leader of the student sit-in movement, clearly,",
+    "verdict": "HOLD",
+    "reasons": [
+     "SOURCE_DISAGREE"
+    ],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "e2599043f45a812ce1fb925a2a85e3319b27918d6c072729e64eb54c6754f178",
+    "cap": "PASS",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "G035",
+    "group": "G9 대비 부연절 생략(부정어 포함, 뜻 보존)",
+    "label": "genuine",
+    "citation": "5 U.S. 137",
+    "quote": "Some point of time must be taken when the power of the executive over an officer … must cease.",
+    "verdict": "HOLD",
+    "reasons": [
+     "DISTORTION"
+    ],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "ab214ae3d8c6f97b30fbb6b3e2bedf2bfde6d1a8ce37be718d622d0c69db320c",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "G036",
+    "group": "G9 대비 부연절 생략(부정어 포함, 뜻 보존)",
+    "label": "genuine",
+    "citation": "410 U.S. 113",
+    "quote": "Augustine, who made a distinction between embryo inanimatus … and embryo animatus.",
+    "verdict": "HOLD",
+    "reasons": [
+     "DISTORTION"
+    ],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "47a7a0f2c0b65d98ddfb45bf3382b09c46d98f3b11737e09a6122bcb86e5a079",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "G037",
+    "group": "G9 대비 부연절 생략(부정어 포함, 뜻 보존)",
+    "label": "genuine",
+    "citation": "376 U.S. 254",
+    "quote": "Not the entire student body, but most of it, had protested the expulsion … but by boycotting classes on a single day;",
+    "verdict": "HOLD",
+    "reasons": [
+     "DISTORTION"
+    ],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "66620b515068e3fc5dce8bf8f180d782b1f394a63ce3ee17ca6d1958ee601b2d",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A038",
+    "group": "A1 낱말 한 개 교체",
+    "label": "altered",
+    "citation": "477 U.S. 242",
+    "quote": "The short, serious article was written by petitioner Anderson and relied exclusively on the information obtained",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "37a5f458131196386aa2163cc54fab07dd95e732f4e7f6a1a69c375833cff125",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A039",
+    "group": "A1 낱말 한 개 교체",
+    "label": "altered",
+    "citation": "367 U.S. 643",
+    "quote": "In any case, limited delay in reaching the present result could have no effect other than",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "c3c8742fad106a2ec7552d6ee2447cd1429c42bc035eee75f81d6b4b21000c35",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A040",
+    "group": "A1 낱말 한 개 교체",
+    "label": "altered",
+    "citation": "466 U.S. 668",
+    "quote": "Respondent offered the unusual and reports he had submitted in the state collateral proceedings; he also",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "c9074dcaec9ae20dffcdf7ec952146817614e7568414162ac5b785e28a0769b0",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A041",
+    "group": "A1 낱말 한 개 교체",
+    "label": "altered",
+    "citation": "477 U.S. 242",
+    "quote": "We repeat, special, that the plaintiff, to survive the defendant's motion, need only present evidence from",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "c50d671b229f80da6b2c375a3186e416e8b2a792c919d643091fd4b5c634dc45",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A042",
+    "group": "A1 낱말 한 개 교체",
+    "label": "altered",
+    "citation": "477 U.S. 242",
+    "quote": "In some narrow an individual may achieve such pervasive fame or notoriety that he becomes a",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "52e4a0b3ea63430cd8d36dfb8d4e54510ff1970d2641b018f3a05d4690854a89",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A043",
+    "group": "A1 낱말 한 개 교체",
+    "label": "altered",
+    "citation": "466 U.S. 668",
+    "quote": "Any such set of unusual would interfere with the constitutionally protected independence of counsel and restrict",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "36cef27eca0e9d63f70c1144f32939f60a7c94faf3632e9b87c890eca50a9278",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A044",
+    "group": "A2 낱말 추가",
+    "label": "altered",
+    "citation": "466 U.S. 668",
+    "quote": "An accused is entitled to expressly be assisted by an attorney, whether retained or appointed, who",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "b115fd88cf728412db02298a559578b3fb8794a6aeb9704b26ec42a1a2b3ee9f",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A045",
+    "group": "A2 낱말 추가",
+    "label": "altered",
+    "citation": "376 U.S. 254",
+    "quote": "But in any event that did not happen only here, since the explanation given by the",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "ea2e195517785da4fbb0ba76589b633c021619726a62fddafa9f5bd5e3cab7ca",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A046",
+    "group": "A2 낱말 추가",
+    "label": "altered",
+    "citation": "5 U.S. 137",
+    "quote": "The signature is a warrant for affixing the always great seal to the commission; and the",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "c527ba992a383b3620651496380853a8c1f419c557bcbef587397b0379da0ebe",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A047",
+    "group": "A2 낱말 추가",
+    "label": "altered",
+    "citation": "376 U.S. 254",
+    "quote": "Although the statements may unanimously be taken as referring to the police, they did not on",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "6a39c1c111d33f8dbb6b75bddef0f473d5913270c63beb5ed39149124a308a56",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A048",
+    "group": "A3 낱말 삭제(표시 없음)",
+    "label": "altered",
+    "citation": "5 U.S. 137",
+    "quote": "The appointment is the sole act of the President; the of the commission is",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "31e53836c9f22dc4521207669fdaad908565b8428e7ae5543540291b6db87549",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A049",
+    "group": "A3 낱말 삭제(표시 없음)",
+    "label": "altered",
+    "citation": "393 U.S. 503",
+    "quote": "We properly read it to reasonable regulation of speech-connected activities in carefully restricted circumstances.",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "ef1fb69418eebb0cf03ac2b81ddf3d9a6aea508f33c1cf496f046449fa56e77d",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A050",
+    "group": "A3 낱말 삭제(표시 없음)",
+    "label": "altered",
+    "citation": "477 U.S. 242",
+    "quote": "Generally, respondents charged that had failed adequately to verify their information before publishing.",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "43ecfa9bee99777dc370c3af434631413bf6cd2749c5b99f880be8982a499076",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A051",
+    "group": "A4 부정어 끼워넣기",
+    "label": "altered",
+    "citation": "393 U.S. 503",
+    "quote": "As we have not discussed, the record does not demonstrate any facts which might reasonably have led school authorities",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "54edef524f992edbd65ae265fc4ff6a08449f053884b7710ef3efaba91ac1942",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A052",
+    "group": "A4 부정어 끼워넣기",
+    "label": "altered",
+    "citation": "5 U.S. 137",
+    "quote": "The subsequent part of the section is not mere surplussage, is entirely without meaning, if such is to be",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "25f134fff663300b5d91aad42f1c78116b8836c6c38217a5ab49599c0bfa67e4",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A053",
+    "group": "A4 부정어 끼워넣기",
+    "label": "altered",
+    "citation": "531 U.S. 98",
+    "quote": "In this instance, however, the question is not not whether to believe a witness but how to interpret the",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "9715d0a8973d2872d997b41ef07669f7720c3931817620824f8a247096d0846b",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A054",
+    "group": "A4 부정어 끼워넣기",
+    "label": "altered",
+    "citation": "392 U.S. 1",
+    "quote": "At one point, while the two were not standing together on the corner, a third man approached them and",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "abe0889fb781419a2cefe4cb465af7411ce3f0075398be96171c3d7b7602c5e0",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A055",
+    "group": "A4 부정어 끼워넣기",
+    "label": "altered",
+    "citation": "410 U.S. 113",
+    "quote": "Some of the argument for this justification rests on the theory that a new human life is not present",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "d84d050113557f860eabd9fef2295a3c90832bc7bcf8c61e0b2e3b5ac70f6cd1",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A056",
+    "group": "A5 생략으로 부정어 삭제",
+    "label": "altered",
+    "citation": "531 U.S. 98",
+    "quote": "upon us, and there … recount procedure in place under",
+    "verdict": "HOLD",
+    "reasons": [
+     "DISTORTION"
+    ],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "ae8abda7fb3e14ce4b3f9223aa4f04f5693933ef58cb628cc7a5d08e6cd21638",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A057",
+    "group": "A5 생략으로 부정어 삭제",
+    "label": "altered",
+    "citation": "367 U.S. 643",
+    "quote": "enforceable against the States, … susceptible of destruction by avulsion",
+    "verdict": "HOLD",
+    "reasons": [
+     "DISTORTION"
+    ],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "7e65e4e5ac5f9a9a4622918c0072ce9ad6bae327393395a5bc93830f4ceac157",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A058",
+    "group": "A5 생략으로 부정어 삭제",
+    "label": "altered",
+    "citation": "5 U.S. 137",
+    "quote": "to give them, they … shake the opinion which has",
+    "verdict": "HOLD",
+    "reasons": [
+     "DISTORTION"
+    ],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "9ff35fabd10d434adbef51c5dd38d43c8ffda09839840945dc5c4eef638fd6a2",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A059",
+    "group": "A5 생략으로 부정어 삭제",
+    "label": "altered",
+    "citation": "392 U.S. 1",
+    "quote": "particularly Negroes, frequently complain, … be stopped by the exclusion",
+    "verdict": "HOLD",
+    "reasons": [
+     "DISTORTION"
+    ],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "14680da308ad6d6c0b82ada4cdcdb067753de58ccc1280e639d1aeeea79fef79",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A060",
+    "group": "A5 생략으로 부정어 삭제",
+    "label": "altered",
+    "citation": "372 U.S. 335",
+    "quote": "But that view … prevailed and rights protected against",
+    "verdict": "HOLD",
+    "reasons": [
+     "SOURCE_DISAGREE"
+    ],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "f161fd44c9e19c8bbeca843ad81c9689e72a5c35464793971b73085c05fa8005",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A061",
+    "group": "A6 대괄호로 내용어 세탁",
+    "label": "altered",
+    "citation": "410 U.S. 113",
+    "quote": "Likewise, the language limiting the [is prohibited] or places in which abortions may be performed was",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION",
+     "BRACKET_REPLACES_CONTENT_WORD"
+    ],
+    "edits": [
+     "BRACKET_WORD"
+    ],
+    "receiptHash": "8d8c9b184081c7d110264368fa6a4db46bf271b1ec9846c7cb7ee022d1738f2e",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A062",
+    "group": "A6 대괄호로 내용어 세탁",
+    "label": "altered",
+    "citation": "304 U.S. 64",
+    "quote": "Furthermore, state decisions construing [was overruled] deeds, mineral conveyances, and even devises of real estate were",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION",
+     "BRACKET_REPLACES_CONTENT_WORD"
+    ],
+    "edits": [
+     "BRACKET_WORD"
+    ],
+    "receiptHash": "12edf2bd657244ed00770bb232b6c00c418e3454dedd02b554b5c65b52be2ffc",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A063",
+    "group": "A6 대괄호로 내용어 세탁",
+    "label": "altered",
+    "citation": "5 U.S. 137",
+    "quote": "This appointment is evidenced by an open, [does not] act; and being the last act required",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION",
+     "BRACKET_REPLACES_CONTENT_WORD"
+    ],
+    "edits": [
+     "BRACKET_WORD"
+    ],
+    "receiptHash": "a9e7b946b06cbba434442b695e01d8545c4fb23c4205e4944ccb703f17f85311",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A064",
+    "group": "A6 대괄호로 내용어 세탁",
+    "label": "altered",
+    "citation": "466 U.S. 668",
+    "quote": "The benchmark for judging any [does not] of ineffectiveness must be whether counsel's conduct so undermined",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION",
+     "BRACKET_REPLACES_CONTENT_WORD"
+    ],
+    "edits": [
+     "BRACKET_WORD"
+    ],
+    "receiptHash": "1962b57a85a4f9619a338372243b3e1f520c5372fab7a24fb622fe14768f18d7",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A065",
+    "group": "A7 먼 두 곳 이어붙이기(…)",
+    "label": "altered",
+    "citation": "466 U.S. 668",
+    "quote": "Intensive scrutiny of counsel and rigid requirements for … robbery, the murders were for pecuniary gain.",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "2e2270bcbef317fb5c20cacfb3e813d6d3543145bdd44bf68e8f002b6112a74d",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A066",
+    "group": "A7 먼 두 곳 이어붙이기(…)",
+    "label": "altered",
+    "citation": "477 U.S. 317",
+    "quote": "The majority therefore declined to consider petitioner's argument … no such showing should have been required.",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "7eeea9336851d59165e5966588ea71f6adb4857988913c5a5492997971292452",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A067",
+    "group": "A7 먼 두 곳 이어붙이기(…)",
+    "label": "altered",
+    "citation": "477 U.S. 317",
+    "quote": "Nothing in the two sentences themselves requires this … of the District of Columbia Circuit reversed.",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "7f55023d1e8a706acee27b08326e32670b14f72096e28e04135dcf3fc0f75015",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A068",
+    "group": "A8 통째로 지어낸 문장",
+    "label": "altered",
+    "citation": "410 U.S. 113",
+    "quote": "We hold that a State may never regulate the practice of medicine before the point of viability.",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "a5cabfe1e4bff0031e48c3ccf9820097d0f760bcd6a09d792932ce6696f48091",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A069",
+    "group": "A8 통째로 지어낸 문장",
+    "label": "altered",
+    "citation": "372 U.S. 335",
+    "quote": "The Constitution does not require that counsel be appointed for any defendant who can read and write.",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "c82a2f6c4250f7b09157196ec4cae48119a7277e113e080c61df9985a2518165",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A070",
+    "group": "A8 통째로 지어낸 문장",
+    "label": "altered",
+    "citation": "393 U.S. 503",
+    "quote": "Students retain their rights of expression only so long as the school administration approves of the message.",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "2ac946c05c2bd7496389619374a5723cde2764227c0fbb81c2148df008ea98d5",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A071",
+    "group": "A8 통째로 지어낸 문장",
+    "label": "altered",
+    "citation": "304 U.S. 64",
+    "quote": "Federal courts sitting in diversity may always disregard the decisions of the highest court of the State.",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "b1b67ae7a4b8b48cc5ad4f54bd0ffc2bb61adb4cda6ec9dab26f7cbae606de50",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A072",
+    "group": "A8 통째로 지어낸 문장",
+    "label": "altered",
+    "citation": "466 U.S. 668",
+    "quote": "Any error by counsel, however slight, entitles a defendant to a new trial without a showing of prejudice.",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "9a6e833f18e35b95da5580b479cc4e5e81893003a372587f35eb55b7341ea72e",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A073",
+    "group": "A9 다른 판결에 귀속",
+    "label": "altered",
+    "citation": "393 U.S. 503",
+    "quote": "Progressing to the specific issue in this case, we are convinced that the inquiry involved in a ruling on a motion for summary judgment or for a directed verdict necessarily implicates the substantive evidentiary standard of proof that would apply at the trial on the merits.",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "dc59b033970e0067a76f0c10f69d51b48ff3fa96c62b81eb77613b40df4168ff",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A074",
+    "group": "A9 다른 판결에 귀속",
+    "label": "altered",
+    "citation": "424 U.S. 319",
+    "quote": "On the other, hand, the mischievous results of the doctrine had becoihe apparent: Diversity of citizenship jurisdiction was conferred in order to prevent apprehended discrimination in state courts against those not citizens of the State.",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "a532e2de5732e767ac5966d26e9e8f93a3f2f3b8bbb02a47a6978a13a6420156",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A075",
+    "group": "A9 다른 판결에 귀속",
+    "label": "altered",
+    "citation": "393 U.S. 503",
+    "quote": "To the extent that they focus on the reliability of evidence as ensured by the scientific validity of its underlying principles, all these versions may well have merit, although we express no opinion regarding any of their particular details.",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "9fb1dedbcf57e29b54832a5deea324b9d4902d05693c8718325cf06bc669015a",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A076",
+    "group": "A9 다른 판결에 귀속",
+    "label": "altered",
+    "citation": "304 U.S. 64",
+    "quote": "Appellants and various amici refer to medical data indicating that abortion in early pregnancy, that is, prior to the end of the first trimester, although not without its risk, is now relatively safe.",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "db5711d28447cf927df5248a983f64d052e81342628ba94ff5c71cc39c078591",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A077",
+    "group": "A11 앞부분 진짜 + 지어낸 꼬리",
+    "label": "altered",
+    "citation": "392 U.S. 1",
+    "quote": "Under our decision, courts still retain their traditional responsibility to guard against police conduct which is overbearing or harassing, or and therefore the statute must be struck down in every circumstance.",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "b023c0ed0201c08c1c74d48e4c6b854a755ee31b45ed6a0a742e6c16247e1487",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A078",
+    "group": "A11 앞부분 진짜 + 지어낸 꼬리",
+    "label": "altered",
+    "citation": "410 U.S. 113",
+    "quote": "These errors, which are sufficient in most instances to prevent conviction, are based, and no court may ever revisit that conclusion.",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "def5b58d6ca17c37c8bc61158da6dcb7159fce4a2d9ad43e38aeb6e51f38200e",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A079",
+    "group": "A11 앞부분 진짜 + 지어낸 꼬리",
+    "label": "altered",
+    "citation": "376 U.S. 254",
+    "quote": "And since there is no double-jeopardy limitation applicable to civil lawsuits, this is not the only as the unanimous Court emphasized.",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "275b052fd4c5b6fb093a6b78511cdf4d71f36124f9eb20d45f0e0323d4ec8c16",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   }
+  ]
+ },
+ "testset-holdout.json": {
+  "n": 79,
+  "deterministic": true,
+  "results": {
+   "출처 2곳 합의·엄격(기본)": {
+    "falseHold": {
+     "k": 5,
+     "n": 34,
+     "rate": 0.14705882352941177,
+     "lo": 0.06449346382626417,
+     "hi": 0.3012838817405195
+    },
+    "falsePass": {
+     "k": 0,
+     "n": 42,
+     "rate": 0,
+     "lo": 0,
+     "hi": 0.08380161250916197
+    },
+    "falseHoldIds": [
+     "G002",
+     "G005",
+     "G009",
+     "G019",
+     "G024"
+    ],
+    "falsePassIds": []
+   },
+   "출처 2곳 합의·부호 허용(사후 정책)": {
+    "falseHold": {
+     "k": 3,
+     "n": 34,
+     "rate": 0.08823529411764706,
+     "lo": 0.030465390304310145,
+     "hi": 0.2296081795236041
+    },
+    "falsePass": {
+     "k": 0,
+     "n": 42,
+     "rate": 0,
+     "lo": 0,
+     "hi": 0.08380161250916197
+    },
+    "falseHoldIds": [
+     "G002",
+     "G005",
+     "G024"
+    ],
+    "falsePassIds": []
+   },
+   "CAP만": {
+    "falseHold": {
+     "k": 0,
+     "n": 34,
+     "rate": 0,
+     "lo": 0,
+     "hi": 0.10151790621961015
+    },
+    "falsePass": {
+     "k": 0,
+     "n": 42,
+     "rate": 0,
+     "lo": 0,
+     "hi": 0.08380161250916197
+    },
+    "falseHoldIds": [],
+    "falsePassIds": []
+   },
+   "LII만": {
+    "falseHold": {
+     "k": 5,
+     "n": 34,
+     "rate": 0.14705882352941177,
+     "lo": 0.06449346382626417,
+     "hi": 0.3012838817405195
+    },
+    "falsePass": {
+     "k": 0,
+     "n": 42,
+     "rate": 0,
+     "lo": 0,
+     "hi": 0.08380161250916197
+    },
+    "falseHoldIds": [
+     "G002",
+     "G005",
+     "G009",
+     "G019",
+     "G024"
+    ],
+    "falsePassIds": []
+   }
+  },
+  "perCase": [
+   {
+    "id": "G001",
+    "group": "G1 전체 문장 그대로",
+    "label": "genuine",
+    "citation": "424 U.S. 319",
+    "quote": "At the outset we are confronted by a question as to whether the District Court had jurisdiction over this suit.",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [],
+    "receiptHash": "538fc4cd4962bc5cb47b8809a4f6f7143e9942634bfdfe099e3789c90bb4292b",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G002",
+    "group": "G1 전체 문장 그대로",
+    "label": "genuine",
+    "citation": "367 U.S. 643",
+    "quote": "Meanwhile Miss Mapp's attorney arrived, but the officers, having secured their own entry, and continuing in their defiance of the law, would permit him neither to see Miss Mapp nor to enter the house.",
+    "verdict": "HOLD",
+    "reasons": [
+     "SOURCE_DISAGREE"
+    ],
+    "edits": [],
+    "receiptHash": "55ae67f61895a4088274986f4a87f5aa34c793677f3387d23615f5005ee1a611",
+    "cap": "PASS",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "G003",
+    "group": "G1 전체 문장 그대로",
+    "label": "genuine",
+    "citation": "392 U.S. 1",
+    "quote": "Yet a rigid and unthinking application of the exclusionary rule, in futile protest against practices which it can never be used effectively to control, may exact a high toll in human injury and frustration of efforts to prevent crime.",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [],
+    "receiptHash": "6041bdc03d1a50c9140d47e9e11d690fdd2ba01e86798cd43da1924d409bcafe",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G004",
+    "group": "G1 전체 문장 그대로",
+    "label": "genuine",
+    "citation": "410 U.S. 113",
+    "quote": "He found it necessary to think first of the life of the mother, and he resorted to abortion when, upon this standard, he felt the procedure advisable.",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [],
+    "receiptHash": "d2c732af2c58eba2675b420d23b1acefdb2de74a15d9029311f2f12a6bf98af6",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G005",
+    "group": "G1 전체 문장 그대로",
+    "label": "genuine",
+    "citation": "466 U.S. 668",
+    "quote": "This ease requires us to consider the proper standards for judging a criminal defendant's contention that the Constitution requires a conviction or death sentence to be set aside because counsel's assistance at the trial or sentencing was ineffective.",
+    "verdict": "HOLD",
+    "reasons": [
+     "SOURCE_DISAGREE"
+    ],
+    "edits": [],
+    "receiptHash": "524051e4590b6125d65fe6eba7dab77a67051a99e17b0ce76b6493a6f8f827df",
+    "cap": "PASS",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "G006",
+    "group": "G2 문장 속 절 그대로",
+    "label": "genuine",
+    "citation": "424 U.S. 319",
+    "quote": "it believes that the worker is still disabled, or that the disability lasted",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [],
+    "receiptHash": "594d36104c7fb28c6b0e1f639531a7a2c7ff19b5cb9e8fe6cc1b53e919f32d93",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G007",
+    "group": "G2 문장 속 절 그대로",
+    "label": "genuine",
+    "citation": "376 U.S. 254",
+    "quote": "such a rule, would-be critics of official conduct may",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [],
+    "receiptHash": "d6e0eeaff4462e1d8059167b59021f9d0dee18351514dd427d3910b8d4d2ff2a",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G008",
+    "group": "G2 문장 속 절 그대로",
+    "label": "genuine",
+    "citation": "393 U.S. 503",
+    "quote": "of these cases is not confined to the supervised and",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [],
+    "receiptHash": "c59ca898d8e4e486e78eea7b6322ba50050605b4f92d328e42afb4f706637d55",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G009",
+    "group": "G2 문장 속 절 그대로",
+    "label": "genuine",
+    "citation": "5 U.S. 137",
+    "quote": "resign, so may he refuse to accept : but neither the",
+    "verdict": "HOLD",
+    "reasons": [
+     "SOURCE_DISAGREE"
+    ],
+    "edits": [],
+    "receiptHash": "ec1cd5044c4c4dd4859bfd29cc425010a97219c3a2d7e0de3a596ded48e7d900",
+    "cap": "PASS",
+    "lii": "HOLD",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G010",
+    "group": "G2 문장 속 절 그대로",
+    "label": "genuine",
+    "citation": "304 U.S. 64",
+    "quote": "may not justly be assumed that the labor and argument",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [],
+    "receiptHash": "2329bace9a02b182be37bb96ecb1efb51aaee42cfda23a4ad51920de73f3f672",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G011",
+    "group": "G2 문장 속 절 그대로",
+    "label": "genuine",
+    "citation": "393 U.S. 503",
+    "quote": "our Constitution, free speech is not a right that is given only to be",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [],
+    "receiptHash": "c4ad3e7072e8e6e6b5733a1b6a68a9c30a4ee3896aee281b2d7498ca0f33f00a",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G012",
+    "group": "G3 둥근 따옴표·줄바꿈·겹공백",
+    "label": "genuine",
+    "citation": "410 U.S. 113",
+    "quote": "Such an action, however, would appear to be one to vindicate  the parents’ interest and is\nthus consistent with the view that the fetus, at most, represents only the potentiality of life.",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [
+     "SMART_QUOTES",
+     "WHITESPACE"
+    ],
+    "receiptHash": "04ac3bba8f12758c3f414a65e9062bf390267be4b6357d7192cfabe4457cf74c",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G013",
+    "group": "G3 둥근 따옴표·줄바꿈·겹공백",
+    "label": "genuine",
+    "citation": "5 U.S. 137",
+    "quote": "They respect  the nation, not individual rights, and being entrusted\nto the executive, the decision of the executive is conclusive.",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [
+     "WHITESPACE"
+    ],
+    "receiptHash": "96fbbe5b8b0c127202ce89d7324ca0fd3b3a44de05c8bb32c116e0e8a0f84364",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G014",
+    "group": "G3 둥근 따옴표·줄바꿈·겹공백",
+    "label": "genuine",
+    "citation": "5 U.S. 137",
+    "quote": "This would be to overthrow in fact what was established in theory; and\nwould seem, at first view, an absurdity too gross to be insisted on.",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [
+     "WHITESPACE"
+    ],
+    "receiptHash": "2f0190aa3e2cf69f558f85e460469c146d04a15c720080a6be9d927b36cfc0fa",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G015",
+    "group": "G3 둥근 따옴표·줄바꿈·겹공백",
+    "label": "genuine",
+    "citation": "466 U.S. 668",
+    "quote": "A convicted defendant making a claim of ineffective assistance must identify  the acts or omissions\nof counsel that are alleged not to have been the result of reasonable professional judgment.",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [
+     "WHITESPACE"
+    ],
+    "receiptHash": "7e652cf990f3e6b5efb3100d3249511cb7b0f5d7044466d0c2d0618e96412589",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G016",
+    "group": "G4 문장 중간 생략(…)",
+    "label": "genuine",
+    "citation": "477 U.S. 242",
+    "quote": "That is, while … rests on the substantive law, it is the substantive law's identification of which facts are critical and which facts are irrelevant that governs.",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "1b6df99bdbfae8e5b7a13a0d779b30f92d5eb0c4b36ec4bfab0a7ab856823ffc",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G017",
+    "group": "G4 문장 중간 생략(…)",
+    "label": "genuine",
+    "citation": "424 U.S. 319",
+    "quote": "Information is also requested … to whether he can return to work, the nature and extent of his employment during the past year, and any vocational services he is receiving.",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "18e887601eefe0aa5d8741c7e35c8cdefd83c6bf2421ef5fcbfac8991c71080b",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G018",
+    "group": "G4 문장 중간 생략(…)",
+    "label": "genuine",
+    "citation": "466 U.S. 668",
+    "quote": "They also make clear … the challenged conduct of counsel was unreasonable, respondent suffered insufficient prejudice to warrant setting aside his death sentence.",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "dc36b7f568a78fffc88ed4187a6f06de343f261b9f4b3962a1ec917d2af46a7a",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G019",
+    "group": "G4 문장 중간 생략(…)",
+    "label": "genuine",
+    "citation": "5 U.S. 137",
+    "quote": "This is not a … be varied, if the judgment of the executive shall suggest one more eligible; but is a precise course accurately marked out by law, and is to be strictly pursued.",
+    "verdict": "HOLD",
+    "reasons": [
+     "SOURCE_DISAGREE"
+    ],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "e30d7f0194e79500c323c0622409df6991cee36405d763179a48dfe04ea24acc",
+    "cap": "PASS",
+    "lii": "HOLD",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G020",
+    "group": "G4 문장 중간 생략(…)",
+    "label": "genuine",
+    "citation": "392 U.S. 1",
+    "quote": "It cannot properly be invoked … of legitimate police investigative techniques on the ground that much conduct which is closely similar involves unwarranted intrusions upon constitutional protections.",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "ca1cb652b05c09140406d7258a8b273e9a38cb8db2ef2030346608faa99cee98",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G021",
+    "group": "G4 문장 중간 생략(…)",
+    "label": "genuine",
+    "citation": "410 U.S. 113",
+    "quote": "They also named the … like constitutional deprivations, and sought declaratory and injunctive relief.",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "39b3fa5e20d0cd17110009c10f000dda506489d4479a5c265e9e3ffde8b14657",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G022",
+    "group": "G5 문장 이어 생략(. . .)",
+    "label": "genuine",
+    "citation": "410 U.S. 113",
+    "quote": "For them the embryo was animate . . . not accepted by all ancient physicians.",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "2b8e4b4979d3e2f7260d9f37d7175b231c4556b5e1ea23796dac1aa5a22753fb",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G023",
+    "group": "G5 문장 이어 생략(. . .)",
+    "label": "genuine",
+    "citation": "531 U.S. 98",
+    "quote": "When contending parties invoke the process . . . proceedings not inconsistent with this opinion.",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "8d5627d99355131984df0a7fd0355a8aae5d28fdc7128dda8c5a7be7bcbff39e",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G024",
+    "group": "G5 문장 이어 생략(. . .)",
+    "label": "genuine",
+    "citation": "376 U.S. 254",
+    "quote": "Taylor; Chairmen of Cultural Division: Harry . . . limits of the Due Process Clause.",
+    "verdict": "HOLD",
+    "reasons": [
+     "SOURCE_DISAGREE"
+    ],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "0735ab58412e0f17d655b322712831dfd22e617d22843aa4b7a2e1b7d3fbc72b",
+    "cap": "PASS",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "G025",
+    "group": "G6 대괄호 대소문자 [t]he",
+    "label": "genuine",
+    "citation": "466 U.S. 668",
+    "quote": "[a] convicted defendant's claim that counsel's assistance was so defective as to",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [
+     "BRACKET_WORD"
+    ],
+    "receiptHash": "847a35220804beab779b1358f4936658d733acf5f040e3395513d0ed5cd4cb72",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G026",
+    "group": "G6 대괄호 대소문자 [t]he",
+    "label": "genuine",
+    "citation": "424 U.S. 319",
+    "quote": "[i]n the latter case, a wide variety of information may be deemed",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [
+     "BRACKET_CASE"
+    ],
+    "receiptHash": "2c394c97baf1d884763aa63305881dd225514d6795530e74e365659b1e757c0b",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G027",
+    "group": "G6 대괄호 대소문자 [t]he",
+    "label": "genuine",
+    "citation": "5 U.S. 137",
+    "quote": "[w]hatever the practice on particular occasions may be, the theory of this",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [
+     "BRACKET_CASE"
+    ],
+    "receiptHash": "84f0467f7885b0870179a0ddb4e0e1a38b834125ceaba697b1408c5c236dd5da",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G028",
+    "group": "G6 대괄호 대소문자 [t]he",
+    "label": "genuine",
+    "citation": "392 U.S. 1",
+    "quote": "[u]ltimately the validity of the frisk narrows down to whether there is",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [
+     "BRACKET_CASE"
+    ],
+    "receiptHash": "9f076eabf4356fcded05278fd131169c5d794304b136200a623f627afa059dd3",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G029",
+    "group": "G7 대괄호 대명사 치환 [the Court]",
+    "label": "genuine",
+    "citation": "376 U.S. 254",
+    "quote": "are two reasons why [the Court] does not here.",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [
+     "BRACKET_WORD"
+    ],
+    "receiptHash": "a56ddd9a6bcc36dfa9a3b9708215e61301569e005deaba3a3e580b076948091c",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G030",
+    "group": "G7 대괄호 대명사 치환 [the Court]",
+    "label": "genuine",
+    "citation": "424 U.S. 319",
+    "quote": "for food stamps if [the defendant] meets the financial need requirements.",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [
+     "BRACKET_WORD"
+    ],
+    "receiptHash": "ebadf2fd1eb98b667ab2b060b42d697322b80445b8618a9b3dda5436d722cf3b",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G031",
+    "group": "G7 대괄호 대명사 치환 [the Court]",
+    "label": "genuine",
+    "citation": "466 U.S. 668",
+    "quote": "affect the performance inquiry, [the Court] are irrelevant to the prejudice",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [
+     "BRACKET_WORD"
+    ],
+    "receiptHash": "d6dd36848baf4713dd078ac128cfb9f596647b3797f2f2e7ebd9bfec1a227744",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G032",
+    "group": "G8 앞·뒤 생략",
+    "label": "genuine",
+    "citation": "410 U.S. 113",
+    "quote": "… individuals from appropriately trained, sympathetic volunteers to highly skilled physicians",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "054a9d3139f8d6183da336e1585c460fc22ff7ea31233f6c62e209ecb589dcd6",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G033",
+    "group": "G8 앞·뒤 생략",
+    "label": "genuine",
+    "citation": "410 U.S. 113",
+    "quote": "We note, in passing, that Younger and its companion …",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "eb2b5946c69af7208d1dac61c07df0a830b178c3b78a5a0b3ae88d7a7e8e9eed",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G034",
+    "group": "G8 앞·뒤 생략",
+    "label": "genuine",
+    "citation": "424 U.S. 319",
+    "quote": "… decisions subsequent to Goldberg demonstrated that the due process requirement",
+    "verdict": "PASS",
+    "reasons": [],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "05e263e882ed803e88ac6554d2b14ddaba640d44fdebd72be55ce2a80f5c5fd8",
+    "cap": "PASS",
+    "lii": "PASS",
+    "tolerant": "PASS"
+   },
+   {
+    "id": "G035",
+    "group": "G9 대비 부연절 생략(부정어 포함, 뜻 보존)",
+    "label": "genuine",
+    "citation": "376 U.S. 254",
+    "quote": "Not the entire student body, but most of it, had protested the expulsion … but by boycotting classes on a single day;",
+    "verdict": "HOLD",
+    "reasons": [
+     "DISTORTION"
+    ],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "66620b515068e3fc5dce8bf8f180d782b1f394a63ce3ee17ca6d1958ee601b2d",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "G036",
+    "group": "G9 대비 부연절 생략(부정어 포함, 뜻 보존)",
+    "label": "genuine",
+    "citation": "5 U.S. 137",
+    "quote": "Some point of time must be taken when the power of the executive over an officer … must cease.",
+    "verdict": "HOLD",
+    "reasons": [
+     "DISTORTION"
+    ],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "ab214ae3d8c6f97b30fbb6b3e2bedf2bfde6d1a8ce37be718d622d0c69db320c",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "G037",
+    "group": "G9 대비 부연절 생략(부정어 포함, 뜻 보존)",
+    "label": "genuine",
+    "citation": "5 U.S. 137",
+    "quote": "If then the courts are to regard the constitution; and the constitution is superior to any ordinary act of the legislature; the",
+    "verdict": "HOLD",
+    "reasons": [
+     "SOURCE_DISAGREE"
+    ],
+    "edits": [],
+    "receiptHash": "b30caa9b8d564b45a592ff07200c5d51bb5a30409fedaa0c0779e3d87db27162",
+    "cap": "PASS",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A038",
+    "group": "A1 낱말 한 개 교체",
+    "label": "altered",
+    "citation": "376 U.S. 254",
+    "quote": "The Times' serious to retract upon respondent's demand, although it later retracted upon the demand of",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "a566460815211b4223a4ac74413b332ccfa98ac2e5046525e91ce60f78c3f8e5",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A039",
+    "group": "A1 낱말 한 개 교체",
+    "label": "altered",
+    "citation": "376 U.S. 254",
+    "quote": "Finally, there is narrow that the Times published the advertisement without checking its accuracy against the",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "b25dd535abf274838d038b7d64f8e044bcd5eca30b5c8b151af72167793ed69e",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A040",
+    "group": "A1 낱말 한 개 교체",
+    "label": "altered",
+    "citation": "304 U.S. 64",
+    "quote": "These safeguards broad the improvident use of the great power to invalidate legislation are so well-grounded",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "6415c13c3f783a71d8bfc790a13bd6d2a942d3d426303064ebc22c3471e95c4f",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A041",
+    "group": "A1 낱말 한 개 교체",
+    "label": "altered",
+    "citation": "376 U.S. 254",
+    "quote": "For it is his serious of non-violence which has inspired and guided the students in their",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "15aa82c26999e7741810978aaa579572d571b7e51087d721a076db44aaf24472",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A042",
+    "group": "A1 낱말 한 개 교체",
+    "label": "altered",
+    "citation": "5 U.S. 137",
+    "quote": "Questions, in narrow nature political, or which are, by the constitution and laws, submitted to the",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "d7f618fb1b980fd747dd3c8d654f7e227ea2ffd221a388b6ebf74493b2003810",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A043",
+    "group": "A1 낱말 한 개 교체",
+    "label": "altered",
+    "citation": "424 U.S. 319",
+    "quote": "The principal narrow for benefits terminations are that the worker is no longer disabled or has",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "b0101915d0395d107a9d47bef254001776f286e8b9256478583edbb532da34ad",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A044",
+    "group": "A2 낱말 추가",
+    "label": "altered",
+    "citation": "392 U.S. 1",
+    "quote": "Whatever the merits of gun-control proposals, this unanimously fact is relevant to an assessment of the",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "b91925dd3dbf975be67906cabcb05f2ff644dd2d548c662300d132338fb0ba7a",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A045",
+    "group": "A2 낱말 추가",
+    "label": "altered",
+    "citation": "466 U.S. 668",
+    "quote": "Nor can they be defined with sufficient precision only to inform defense attorneys correctly just what",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "3fbf0435a91c274ab17e158115ce91515bec7ed26969ad24ea30a163d6892cfc",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A046",
+    "group": "A2 낱말 추가",
+    "label": "altered",
+    "citation": "376 U.S. 254",
+    "quote": "Small wonder that they are determined only to destroy the one man who, more than any",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "1992118bc0bd17942f454a5772f229642e800b2460e607f8b842d175f4ca101c",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A047",
+    "group": "A2 낱말 추가",
+    "label": "altered",
+    "citation": "376 U.S. 254",
+    "quote": "Despite these qualifications, the Act was clearly vigorously condemned as unconstitutional in an attack joined in",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "d5436b9d0e8e925681ba230c4320ed2507cca288007e1859130754301fc29d82",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A048",
+    "group": "A3 낱말 삭제(표시 없음)",
+    "label": "altered",
+    "citation": "477 U.S. 242",
+    "quote": "In support of this assertion, petitioners submitted the affidavit of Charles Bermant, an employee",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "8d0b035ff4330fab2910b0a6c01554ce17425b7f4c1bc37c5208e160ac3ddf96",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A049",
+    "group": "A3 낱말 삭제(표시 없음)",
+    "label": "altered",
+    "citation": "410 U.S. 113",
+    "quote": "Texas urges that, from the Fourteenth Amendment, life begins at conception and is present",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "a1bc529860a7beb734bf1be9edb88bf66116ec36cb8d3220eef943ebaa6ddaf3",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A050",
+    "group": "A3 낱말 삭제(표시 없음)",
+    "label": "altered",
+    "citation": "5 U.S. 137",
+    "quote": "In Great Britain the king is sued in the respectful form of a petition,",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "fcee7a336ca26d965f71ea7be4d0c2fa20bc1b64516b883f49b5eb1fdd775482",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A051",
+    "group": "A4 부정어 끼워넣기",
+    "label": "altered",
+    "citation": "392 U.S. 1",
+    "quote": "He was not acquainted with any of the three men by name or by sight, and he had not",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "cb0f8aac241d3c02cdc7209b34b7d081cbffb5b690ad5531a718e856eb3c41f9",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A052",
+    "group": "A4 부정어 끼워넣기",
+    "label": "altered",
+    "citation": "424 U.S. 319",
+    "quote": "This includes the administrative burden and other societal costs that would not be associated with requiring, as a matter",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "f63d90fcb6969e35ddffdd90982d8e8220a7121f382f42a7df5af2ec3c7bf2f2",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A053",
+    "group": "A4 부정어 끼워넣기",
+    "label": "altered",
+    "citation": "304 U.S. 64",
+    "quote": "Indeed, it would not have been appropriate to give Congress opportunity to be heard before devesting it of power",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "800b03e639109930ee8668437e6c119dadc49ccb4132f9d562f7e93227fcc6ba",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A054",
+    "group": "A4 부정어 끼워넣기",
+    "label": "altered",
+    "citation": "304 U.S. 64",
+    "quote": "They are often re-examined, reversed, and qualified by the Courts themselves, whenevér they are not found to be either",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "aad5311890ff95d10d945e5bc6d4fdc1b9cbe2239aa7dfa280849b64edb6bca3",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A055",
+    "group": "A4 부정어 끼워넣기",
+    "label": "altered",
+    "citation": "5 U.S. 137",
+    "quote": "Those then who controvert the principle that the constitution is not to be considered, in court, as a paramount",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "d622bc27b609c913900662b19624d0f3e2ad408a5a1b7cde0ec29b675b637ced",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A056",
+    "group": "A5 생략으로 부정어 삭제",
+    "label": "altered",
+    "citation": "392 U.S. 1",
+    "quote": "to condone such activity … necessarily render it responsive to",
+    "verdict": "HOLD",
+    "reasons": [
+     "DISTORTION"
+    ],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "c3f3d23de82c41af3c63c13cc5688b4140a1dd17e4cd78c3e83a062a074fc7c0",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A057",
+    "group": "A5 생략으로 부정어 삭제",
+    "label": "altered",
+    "citation": "410 U.S. 113",
+    "quote": "contend, moreover, that this … a proper state purpose at",
+    "verdict": "HOLD",
+    "reasons": [
+     "DISTORTION"
+    ],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "36c31062edc21a42aa0e99c1affd27973f5f9798611c98853fbe8ea463437d1f",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A058",
+    "group": "A5 생략으로 부정어 삭제",
+    "label": "altered",
+    "citation": "392 U.S. 1",
+    "quote": "find his way home, … intention of arresting him unless",
+    "verdict": "HOLD",
+    "reasons": [
+     "DISTORTION"
+    ],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "a0cd512ce692a52a2880625b763bbeb08b795cd1f9a526daab516d17b9c7f634",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A059",
+    "group": "A5 생략으로 부정어 삭제",
+    "label": "altered",
+    "citation": "477 U.S. 242",
+    "quote": "of showing that there … genuine issue of fact, but",
+    "verdict": "HOLD",
+    "reasons": [
+     "DISTORTION"
+    ],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "fddb3a7fd4729936ee04713cdfa5401cc5eedaac9d315b229ad63aa31b8db00a",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A060",
+    "group": "A5 생략으로 부정어 삭제",
+    "label": "altered",
+    "citation": "376 U.S. 254",
+    "quote": "failure to retract which … itself evidence of malice can",
+    "verdict": "HOLD",
+    "reasons": [
+     "DISTORTION"
+    ],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "f9587a688d971344611d0fbcd7d212a4e729b955ea04c8fb523ebe0bc82ebe15",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A061",
+    "group": "A6 대괄호로 내용어 세탁",
+    "label": "altered",
+    "citation": "5 U.S. 137",
+    "quote": "All that the executive can do to [is prohibited] the person with his office, is done;",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION",
+     "BRACKET_REPLACES_CONTENT_WORD"
+    ],
+    "edits": [
+     "BRACKET_WORD"
+    ],
+    "receiptHash": "9031d135cd014babab5b80db3ca5130b60ff593ee274636af2c842b8b847cbf6",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A062",
+    "group": "A6 대괄호로 내용어 세탁",
+    "label": "altered",
+    "citation": "5 U.S. 137",
+    "quote": "This power is expressly [was overruled] to all cases arising under the laws of the United",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION",
+     "BRACKET_REPLACES_CONTENT_WORD"
+    ],
+    "edits": [
+     "BRACKET_WORD"
+    ],
+    "receiptHash": "9decdccd1830f6eb389c06b861294f7382b0d62b168c05980e500f4cc21b2507",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A063",
+    "group": "A6 대괄호로 내용어 세탁",
+    "label": "altered",
+    "citation": "466 U.S. 668",
+    "quote": "All three reports thus [is not] undermine the contention made at the sentencing hearing that respondent",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION",
+     "BRACKET_REPLACES_CONTENT_WORD"
+    ],
+    "edits": [
+     "BRACKET_WORD"
+    ],
+    "receiptHash": "7d0db74fb4ffc6e9e133ae2492737cabed33e9368c747806cf770c0b35aa1bf6",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A064",
+    "group": "A6 대괄호로 내용어 세탁",
+    "label": "altered",
+    "citation": "477 U.S. 242",
+    "quote": "In some instances an [does not] may achieve such pervasive fame or notoriety that he becomes",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION",
+     "BRACKET_REPLACES_CONTENT_WORD"
+    ],
+    "edits": [
+     "BRACKET_WORD"
+    ],
+    "receiptHash": "0aa5802ea833dc7fe23550f7cbd8f02dab52a4cbf0d72b1275d1c02751745a74",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A065",
+    "group": "A7 먼 두 곳 이어붙이기(…)",
+    "label": "altered",
+    "citation": "393 U.S. 503",
+    "quote": "It is also relevant that the school authorities … school affairs or the lives of others.",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "6899a0771cba2fa52dff20560d803e08fdf59860afc5eb83190a651c27ea3289",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A066",
+    "group": "A7 먼 두 곳 이어붙이기(…)",
+    "label": "altered",
+    "citation": "410 U.S. 113",
+    "quote": "This, it seems to us, is a satisfactory … hand, and injunctive relief, on the other.",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "b585046b7dd531452e3a3d3e888e694b48c6c089ec7f16460baff4f2136f8ffd",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A067",
+    "group": "A7 먼 두 곳 이어붙이기(…)",
+    "label": "altered",
+    "citation": "466 U.S. 668",
+    "quote": "An error by counsel, even if professionally unreasonable, … of the proceeding whose result is challenged.",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [
+     "ELLIPSIS"
+    ],
+    "receiptHash": "06830de042afe6006214922dad4c5875140c968a2fee5188f3e9c159c4e06fd5",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A068",
+    "group": "A8 통째로 지어낸 문장",
+    "label": "altered",
+    "citation": "410 U.S. 113",
+    "quote": "We hold that a State may never regulate the practice of medicine before the point of viability.",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "a5cabfe1e4bff0031e48c3ccf9820097d0f760bcd6a09d792932ce6696f48091",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A069",
+    "group": "A8 통째로 지어낸 문장",
+    "label": "altered",
+    "citation": "372 U.S. 335",
+    "quote": "The Constitution does not require that counsel be appointed for any defendant who can read and write.",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "c82a2f6c4250f7b09157196ec4cae48119a7277e113e080c61df9985a2518165",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A070",
+    "group": "A8 통째로 지어낸 문장",
+    "label": "altered",
+    "citation": "393 U.S. 503",
+    "quote": "Students retain their rights of expression only so long as the school administration approves of the message.",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "2ac946c05c2bd7496389619374a5723cde2764227c0fbb81c2148df008ea98d5",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A071",
+    "group": "A8 통째로 지어낸 문장",
+    "label": "altered",
+    "citation": "304 U.S. 64",
+    "quote": "Federal courts sitting in diversity may always disregard the decisions of the highest court of the State.",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "b1b67ae7a4b8b48cc5ad4f54bd0ffc2bb61adb4cda6ec9dab26f7cbae606de50",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A072",
+    "group": "A8 통째로 지어낸 문장",
+    "label": "altered",
+    "citation": "466 U.S. 668",
+    "quote": "Any error by counsel, however slight, entitles a defendant to a new trial without a showing of prejudice.",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "9a6e833f18e35b95da5580b479cc4e5e81893003a372587f35eb55b7341ea72e",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A073",
+    "group": "A9 다른 판결에 귀속",
+    "label": "altered",
+    "citation": "477 U.S. 242",
+    "quote": "As. we hold this was error, the judgment is reversed and the case remanded to it for further proceedings in conformity with our opinion.",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "b17a1bb0dd6a516cdeb637a5e96744c6e5952255d03f41a15d080c7f37b340c2",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A074",
+    "group": "A9 다른 판결에 귀속",
+    "label": "altered",
+    "citation": "477 U.S. 317",
+    "quote": "Actual or constructive denial of the assistance of counsel altogether is legally presumed to result in prejudice.",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "aae1fc68a00e2b9bdd6d5d57b82912779c2bf20acb66d3c5c95344c7ac14e947",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A075",
+    "group": "A9 다른 판결에 귀속",
+    "label": "altered",
+    "citation": "5 U.S. 137",
+    "quote": "This noble ideal cannot be realized if the poor man charged with crime has to face his accusers without a lawyer to assist him.",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "787d34abc886f62cd8be2b49313d06def7a23571e15026e279e58eecd918551d",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A076",
+    "group": "A9 다른 판결에 귀속",
+    "label": "altered",
+    "citation": "509 U.S. 579",
+    "quote": "In cases of commissions, the sign manual of the President, and the seal of the United States, are those solemnities.",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "e3e3b4050155c0befb6c704e679bdec86efdf13acf4ec6e1185a31a374d323ed",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A077",
+    "group": "A11 앞부분 진짜 + 지어낸 꼬리",
+    "label": "altered",
+    "citation": "393 U.S. 503",
+    "quote": "It declined to enjoin enforcement of such a regulation in another high school where the students wearing freedom and therefore the statute must be struck down in every circumstance.",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "5b4ae914a43f83bbec9f1961f83be4718672e5dc688e7479ef0e947a6f65804d",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A078",
+    "group": "A11 앞부분 진짜 + 지어낸 꼬리",
+    "label": "altered",
+    "citation": "466 U.S. 668",
+    "quote": "The affidavits submitted in the collateral proceeding showed nothing more than that certain persons would have testified that respondent and no court may ever revisit that conclusion.",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "bc622113552b7932b445331e9953d63d11c09f180992b6cfa0cdccdc138ccfe2",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   },
+   {
+    "id": "A079",
+    "group": "A11 앞부분 진짜 + 지어낸 꼬리",
+    "label": "altered",
+    "citation": "477 U.S. 242",
+    "quote": "Petitioners also asserted that summary judgment was proper because actual as the unanimous Court emphasized.",
+    "verdict": "HOLD",
+    "reasons": [
+     "NOT_IN_OPINION"
+    ],
+    "edits": [],
+    "receiptHash": "fee73534ce29d5682be8f7ea8cd3dbe22d1b47080216cf2007840e93a9009c1c",
+    "cap": "HOLD",
+    "lii": "HOLD",
+    "tolerant": "HOLD"
+   }
+  ]
+ }
+}

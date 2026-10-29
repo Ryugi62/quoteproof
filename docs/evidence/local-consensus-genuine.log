@@ -1,0 +1,19 @@
+[local multi-node consensus -- NOT cre simulate] 2026-10-29T21:56:49.131Z 4 nodes · 372 U.S. 335
+  [NOTE: static.case.law/robots.txt has a Disallow rule for /us/372/cases/0335-01.json (aimed at crawlers); this run is user-initiated, one GET per cited opinion, no link following]
+  node1 GET https://static.case.law/us/372/cases/0335-01.json -> 200 60657B 160ms
+  node2 GET https://static.case.law/us/372/cases/0335-01.json -> 200 60657B 203ms
+  node3 GET https://static.case.law/us/372/cases/0335-01.json -> 200 60657B 229ms
+  node4 GET https://static.case.law/us/372/cases/0335-01.json -> 200 60657B 255ms
+  [waiting 10.0s before the next request to www.law.cornell.edu (robots.txt Crawl-delay 10s)]
+  node1 GET https://www.law.cornell.edu/supremecourt/text/372/335 -> 200 82619B 11348ms
+  [waiting 10.0s before the next request to www.law.cornell.edu (robots.txt Crawl-delay 10s)]
+  node2 GET https://www.law.cornell.edu/supremecourt/text/372/335 -> 200 82619B 21738ms
+  [waiting 10.0s before the next request to www.law.cornell.edu (robots.txt Crawl-delay 10s)]
+  node3 GET https://www.law.cornell.edu/supremecourt/text/372/335 -> 200 82619B 32087ms
+  [waiting 10.0s before the next request to www.law.cornell.edu (robots.txt Crawl-delay 10s)]
+  node4 GET https://www.law.cornell.edu/supremecourt/text/372/335 -> 200 82619B 42448ms
+node1: {"verdict":"PASS","reasons":"","receiptHash":"b5fc1c1a814225f2b4d667e4a08872374d03f93a9c857b455baea32a2f59f198","sourceSummary":"cap:found:4cb4ba6f5d8e|lii:found:3766dc7e21ba"}
+node2: {"verdict":"PASS","reasons":"","receiptHash":"b5fc1c1a814225f2b4d667e4a08872374d03f93a9c857b455baea32a2f59f198","sourceSummary":"cap:found:4cb4ba6f5d8e|lii:found:3766dc7e21ba"}
+node3: {"verdict":"PASS","reasons":"","receiptHash":"b5fc1c1a814225f2b4d667e4a08872374d03f93a9c857b455baea32a2f59f198","sourceSummary":"cap:found:4cb4ba6f5d8e|lii:found:3766dc7e21ba"}
+node4: {"verdict":"PASS","reasons":"","receiptHash":"b5fc1c1a814225f2b4d667e4a08872374d03f93a9c857b455baea32a2f59f198","sourceSummary":"cap:found:4cb4ba6f5d8e|lii:found:3766dc7e21ba"}
+consensus: {"reached":true,"value":{"verdict":"PASS","reasons":"","receiptHash":"b5fc1c1a814225f2b4d667e4a08872374d03f93a9c857b455baea32a2f59f198","sourceSummary":"cap:found:4cb4ba6f5d8e|lii:found:3766dc7e21ba"},"agree":4,"of":4}

@@ -1,0 +1,17 @@
+[Example brief written for QuoteProof testing of "Id." and "supra" (SPEC section 15). It is NOT a filing. The quoted sentences come from the two Supreme Court opinions cited; row 2 is a deliberately altered sentence.]
+
+MEMORANDUM IN SUPPORT OF APPOINTED COUNSEL
+
+I. Counsel at trial
+
+Gideon v. Wainwright, 372 U.S. 335 (1963), settled the point: "any person haled into court, who is too poor to hire a lawyer, cannot be assured a fair trial unless counsel is provided for him." Id. at 344.
+
+The State's reading would mean that a defendant "can still be assured a fair trial even if counsel is not provided for him." Id.
+
+II. Expenses on a frivolous appeal
+
+Cooter & Gell v. Hartmarx Corp., 496 U.S. 384 (1990), addressed Rule 11. As to appeals, "Rule 38 gives appellate courts ample authority to award expenses." Cooter & Gell, supra, at 406.
+
+III. Lower-court authority
+
+The panel in Doe v. Roe, 123 F.3d 456 (9th Cir. 1997) [placeholder, not a real case], wrote that "a party must show prejudice before the court may dismiss the action." Id. at 460.

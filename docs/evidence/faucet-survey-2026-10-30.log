@@ -1,0 +1,27 @@
+Sepolia faucet survey, 2026-10-30 (read with curl from the faucet pages themselves; excerpts are verbatim page text).
+Rule (SPEC §12): a faucet qualifies only if it needs no login, no signup, no payment, no real name, and no mainnet balance.
+
+1) Alchemy  https://www.alchemy.com/faucets/ethereum-sepolia  (HTTP 200)
+   "Alchemy's Ethereum Sepolia faucet drips 0.1 ETH every 24 hours. ... No account required."
+   "your wallet must meet a few requirements before you can successfully claim testnet tokens. You need at least 0.001 ETH on Ethereum Mainnet for EVM-based testnets ... You need sufficient activity on Ethereum Mainnet ..."
+   -> NOT USABLE: needs a mainnet balance and mainnet activity (our wallet is newly generated, 0 mainnet ETH; no mainnet funds are to be used).
+
+2) QuickNode  https://faucet.quicknode.com/ethereum/sepolia  (HTTP 200)
+   "The base drip is free and requires no Quicknode account or post on X. We do require a small mainnet balance on the wallet you are using to claim."
+   -> NOT USABLE: needs a small mainnet balance.
+
+3) Google Cloud Web3 faucet  https://cloud.google.com/application/web3/faucet/ethereum/sepolia  (HTTP 200)
+   Page text served to an anonymous client: "Ethereum Sepolia Faucet  Google Cloud Web3  Google Cloud Web3  Sign in  Google apps  Main menu"
+   -> NOT USABLE: Google sign-in.
+
+4) Chainlink faucets  https://faucets.chain.link/sepolia  (HTTP 200)
+   "2 Connect your wallet: Connect a compatible wallet service, including MetaMask, WalletConnect, or Coinbase Wallet."
+   -> NOT USED: needs a browser wallet connection and signature flow (no wallet extension in the automation browser; this faucet pays in LINK/ETH on its own rules).
+
+5) Infura  https://www.infura.io/faucet/sepolia  -> HTTP 308 redirect to https://infura.io/  (no faucet page reachable without an account).
+
+6) pk910 PoW faucet  https://sepolia-faucet.pk910.de/  (HTTP 200)
+   Entry page: "Free testnet ETH, no signup. Your browser does a bit of proof-of-work and the faucet pays out, so the funds go to people, not to bots."
+   Config (api/getFaucetConfig): minClaim 50000000000000000 wei (0.05 SepETH), maxClaim 2.5 SepETH, powDifficulty 12, captcha for start = Cloudflare check (passed automatically), no login, no mainnet balance.
+   -> QUALIFIES under the rule. Mining session started 2026-10-30 06:11 KST for the generated address (see chain-write log for the outcome).
+   RESULT: claimed 0.05 SepETH at 06:2x KST; deployed receiver and broadcast two reports (see chain-write-sepolia-2026-10-30.log).

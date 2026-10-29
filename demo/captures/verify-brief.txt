@@ -1,0 +1,13 @@
+$ bun run src/infrastructure/verifyBriefCli.ts fixtures/brief-example-allen.txt
+NOTE: static.case.law/robots.txt has a Disallow rule for /us/496/cases/0384-01.json (aimed at crawlers); this run is user-initiated, one GET per cited opinion, no link following
+waiting 10.0s before the next request to www.law.cornell.edu (robots.txt Crawl-delay 10s)
+waiting 10.0s before the next request to www.law.cornell.edu (robots.txt Crawl-delay 10s)
+#  | verdict     | citation     | detail                           | quote
+1  | HOLD        | 496 U.S. 384 | NOT_IN_OPINION 801f457e          | a reasonable attorney in like circumstances could believe h…
+2  | HOLD        | 496 U.S. 384 | NOT_IN_OPINION e44880f7          | as a bar to the courthouse door
+3  | PASS        | 496 U.S. 384 | hash e32f1e72                    | Rule 38 gives appellate courts ample authority to award exp…
+4  | PASS        | 372 U.S. 335 | hash b5fc1c1a                    | any person haled into court, who is too poor to hire a lawy…
+5  | NOT_CHECKED | -            | UNSUPPORTED_REPORTER             | a party must show prejudice before the court may dismiss th…
+Summary: 5 quotes found · 2 PASS · 2 HOLD · 1 not checked (no supported citation) · brief text stayed local
+read requests sent: 4 (source URLs built from citations only)
+error: script "verify-brief" exited with code 1

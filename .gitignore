@@ -1,0 +1,8 @@
+node_modules/
+cre/node_modules/
+cre/workflow/node_modules/
+*.log.tmp
+cre/workflow/.cre_build_tmp.js
+demo/frames/
+demo/frames.txt
+demo/timeline.txt.json

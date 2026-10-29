@@ -1,0 +1,638 @@
+{
+  "id": 3553796,
+  "name": "SINOCHEM INTERNATIONAL CO. LTD. v. MALAYSIA INTERNATIONAL SHIPPING CORP.",
+  "name_abbreviation": "Sinochem International Co. v. Malaysia International Shipping Corp.",
+  "decision_date": "2007-03-05",
+  "docket_number": "No. 06-102",
+  "first_page": "422",
+  "last_page": "436",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "549 U.S. 422"
+    },
+    {
+      "type": "parallel",
+      "cite": "167 L. Ed. 2d 15"
+    },
+    {
+      "type": "parallel",
+      "cite": "127 S. Ct. 1184"
+    },
+    {
+      "type": "vendor",
+      "cite": "2007 U.S. LEXIS 2828"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2006-021"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "330 U. S. 501",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        354212
+      ],
+      "year": 1947,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/330/0501-01"
+      ]
+    },
+    {
+      "cite": "437 U. S. 463",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6181447
+      ],
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "468"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/437/0463-01"
+      ]
+    },
+    {
+      "cite": "337 U. S. 541",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        572420
+      ],
+      "year": 1949,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/337/0541-01"
+      ]
+    },
+    {
+      "cite": "486 U. S. 517",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6219996
+      ],
+      "weight": 4,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "527-530"
+        },
+        {
+          "page": "527"
+        },
+        {
+          "page": "529"
+        },
+        {
+          "page": "529"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/486/0517-01"
+      ]
+    },
+    {
+      "cite": "486 U. S. 140",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6211896
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "148"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/486/0140-01"
+      ]
+    },
+    {
+      "cite": "544 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5885592
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "7, n. 4"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/544/0001-01"
+      ]
+    },
+    {
+      "cite": "92 U. S. 105",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8739
+      ],
+      "year": 1876,
+      "pin_cites": [
+        {
+          "parenthetical": "prohibiting suits against the Government based on covert espionage agreements"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/92/0105-01"
+      ]
+    },
+    {
+      "cite": "421 U. S. 426",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        541785
+      ],
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "433-434"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/421/0426-01"
+      ]
+    },
+    {
+      "cite": "401 U. S. 37",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11711728
+      ],
+      "year": 1971,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/401/0037-01"
+      ]
+    },
+    {
+      "cite": "411 U. S. 693",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        10082
+      ],
+      "year": 1973,
+      "pin_cites": [
+        {
+          "page": "715-716"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/411/0693-01"
+      ]
+    },
+    {
+      "cite": "7 Wall. 506",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3449918
+      ],
+      "year": 1869,
+      "pin_cites": [
+        {
+          "page": "514"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/74/0506-01"
+      ]
+    },
+    {
+      "cite": "523 U. S. 83",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11503308
+      ],
+      "weight": 4,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "93-102"
+        },
+        {
+          "page": "94"
+        },
+        {
+          "page": "100-101, n. 3"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/523/0083-01"
+      ]
+    },
+    {
+      "cite": "369 U. S. 463",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6168701
+      ],
+      "year": 1962,
+      "pin_cites": [
+        {
+          "page": "466",
+          "parenthetical": "Section 1406(a) \"authorize^] the transfer of [a] eas[e]... whether the court in which it was filed had personal jurisdiction over the defendants or not.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/369/0463-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 1404",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)",
+          "parenthetical": "\"For the convenience of parties and witnesses, in the interest of justice, a district court may transfer any civil action to any other district or division where it might have been brought.\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "517 U. S. 706",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11746454
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "723",
+          "parenthetical": "citations omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/517/0706-01"
+      ]
+    },
+    {
+      "cite": "330 U. S. 518",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        353921
+      ],
+      "year": 1947,
+      "pin_cites": [
+        {
+          "page": "524"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/330/0518-01"
+      ]
+    },
+    {
+      "cite": "454 U. S. 235",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6185480
+      ],
+      "weight": 2,
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "241"
+        },
+        {
+          "page": "255-256"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/454/0235-01"
+      ]
+    },
+    {
+      "cite": "510 U. S. 443",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        233169
+      ],
+      "weight": 4,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "447-448",
+          "parenthetical": "quoting Piper Aircraft Co. v. Reyno, 454 U. S. 235, 241 (1981), in turn quoting Koster v. (American) Lumbermens Mut. Casualty Co., 330 U. S. 518, 524 (1947)"
+        },
+        {
+          "page": "453"
+        },
+        {
+          "page": "449, n. 2"
+        },
+        {
+          "page": "454"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/510/0443-01"
+      ]
+    },
+    {
+      "cite": "311 F. 3d 488",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9302837
+      ],
+      "weight": 2,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "497-498"
+        },
+        {
+          "page": "497-498"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/311/0488-01"
+      ]
+    },
+    {
+      "cite": "467 F. 3d 1038",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3804546
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "1041"
+        },
+        {
+          "page": "1041"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/467/1038-01"
+      ]
+    },
+    {
+      "cite": "396 F. 3d 650",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9036150
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "652-654",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/396/0650-01"
+      ]
+    },
+    {
+      "cite": "548 U. S. 942",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 2006,
+      "opinion_index": 0
+    },
+    {
+      "cite": "139 F. 3d 247",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11833778,
+        3712679
+      ],
+      "weight": 6,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "255"
+        },
+        {
+          "page": "255-256",
+          "parenthetical": "forum non conveniens may be resolved ahead of jurisdictional issues"
+        },
+        {
+          "page": "255",
+          "parenthetical": "forum non conveniens \"involves a deliberate abstention from the exercise of jurisdiction\""
+        },
+        {
+          "page": "255"
+        },
+        {
+          "page": "255"
+        },
+        {
+          "page": "256, n. 6"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/139/0247-01",
+        "/us-app-dc/329/0210-01"
+      ]
+    },
+    {
+      "cite": "526 U. S. 574",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11133504
+      ],
+      "weight": 8,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "584"
+        },
+        {
+          "page": "584"
+        },
+        {
+          "page": "578"
+        },
+        {
+          "page": "585"
+        },
+        {
+          "page": "585"
+        },
+        {
+          "page": "581, n. 4",
+          "parenthetical": "noting that the District Court's holding that it lacked personal jurisdiction rested on its conclusion \"that Marathon had not shown that Ruhrgas pursued the alleged pattern of fraud and misrepresentation during the Houston meetings\""
+        },
+        {
+          "page": "584-585"
+        },
+        {
+          "page": "587-588"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/526/0574-01"
+      ]
+    },
+    {
+      "cite": "436 F. 3d 349",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        939942
+      ],
+      "weight": 9,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "368"
+        },
+        {
+          "page": "370"
+        },
+        {
+          "page": "361-364",
+          "parenthetical": "case below"
+        },
+        {
+          "page": "359"
+        },
+        {
+          "page": "359-360"
+        },
+        {
+          "page": "361-362"
+        },
+        {
+          "page": "363"
+        },
+        {
+          "page": "355"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/436/0349-01"
+      ]
+    },
+    {
+      "cite": "42 Pa. Cons. Stat. \u00a75301",
+      "category": "laws:leg_statute",
+      "reporter": "Pa. Cons. Stat.",
+      "weight": 3,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 1333",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(1)",
+          "parenthetical": "admiralty or maritime jurisdiction"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1041,
+    "char_count": 22536,
+    "ocr_confidence": 0.689,
+    "pagerank": {
+      "raw": 5.640556934927378e-06,
+      "percentile": 0.9990366233707062
+    },
+    "sha256": "09756e53f17b1c0b4394a68908eb8a018b07d9cb6e2d3d46e8759560fc3053c2",
+    "simhash": "1:be4ae3a3a5cdfd29",
+    "word_count": 3615
+  },
+  "last_updated": "2024-02-27T21:41:56.431563+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Ginsburg, J., delivered the opinion for a unanimous Court."
+    ],
+    "parties": [
+      "SINOCHEM INTERNATIONAL CO. LTD. v. MALAYSIA INTERNATIONAL SHIPPING CORP."
+    ],
+    "opinions": [
+      {
+        "text": "Justice Ginsburg\ndelivered the opinion of the Court.\nThis case concerns the doctrine of forum non conveniens, under which a federal district court may dismiss an action on the ground that a court abroad is the more appropriate and convenient forum for adjudicating the controversy. We granted review to decide a question that has divided the Courts of Appeals: \u201c[wjhether a district court must first conclusively establish [its own] jurisdiction before dismissing a suit on the ground of forum non conveniens?\u201d Pet. for Cert. i. We hold that a district court has discretion to respond at once to a defendant\u2019s forum non conveniens plea, and need not take up first any other threshold objection. In particular, a court need not resolve whether it has authority to adjudicate the cause (subject-matter jurisdiction) or personal jurisdiction over the defendant if it determines that, in any event, a foreign tribunal is plainly the more suitable arbiter of the merits of the case.\nI\nThe underlying controversy concerns alleged misrepresentations by a Chinese corporation to a Chinese admiralty court resulting in the arrest of a Malaysian vessel in China. In 2003, petitioner Sinochem International Company Ltd. (Sinochem), a Chinese state-owned importer, contracted with Triorient Trading, Inc. (Triorient), a domestic corporation that is not a party to this suit, to purchase steel coils. Pursuant to the agreement, Triorient would receive payment under a letter of credit by producing a valid bill of lading certifying that the coils had been loaded for shipment to China on or before April 30, 2003. Memorandum and Order of Feb. 27, 2004, No. Civ. A. 03-3771 (ED Pa.), App. to Pet. for Cert. 48a-49a (hereinafter Feb. 27 Memo & Order).\nTriorient subchartered a vessel owned by respondent Malaysia International Shipping Corporation (Malaysia International), a Malaysian company, to transport the coils to China. Triorient then hired a stevedoring company to load the steel coils at the Port of Philadelphia. A bill of lading, dated April 30, 2003, triggered payment under the letter of credit. Id., at 49a.\nOn June 8, 2003, Sinochem petitioned the Guangzhou Admiralty Court in China for interim relief, i. e., preservation of a maritime claim against Malaysia International and arrest of the vessel that carried the steel coils to China. In support of its petition, Sinochem alleged that the Malaysian company had falsely backdated the bill of lading. The Chinese tribunal ordered the ship arrested the same day. Id., at 50a; App. in No. 04-1816 (CA3), pp. 56a-57a (Civil Ruling of the Guangzhou Admiralty Court).\nThereafter, on July 2, 2003, Sinochem timely filed a complaint against Malaysia International and others in the Guangzhou Admiralty Court. Sinochem's complaint repeated the allegation that the bill of lading had been falsified resulting in unwarranted payment. Malaysia International contested the jurisdiction of the Chinese tribunal. Feb. 27 Memo & Order, at 50a; App. in No. 04-1816 (CA3), pp. 52a-53a (Civil Complaint in Guangzhou Admiralty Court). The admiralty court rejected Malaysia International\u2019s jurisdictional objection, and that ruling was affirmed on appeal by the Guangdong Higher People\u2019s Court. App. 16-23.\nOn June 23, 2003, shortly after the Chinese court ordered the vessel\u2019s arrest, Malaysia International filed the instant action against Sinoehem in the United States District Court for the Eastern District of Pennsylvania. Malaysia International asserted in its federal court pleading that Sinochem\u2019s preservation petition to the Guangzhou court negligently misrepresented the \u201cvessel\u2019s fitness and suitability to load its cargo.\u201d Feb. 27 Memo & Order, at 50a (internal quotation marks omitted). As relief, Malaysia International sought compensation for the loss it sustained due to the delay caused by the ship\u2019s arrest. Sinoehem moved to dismiss the suit on several grounds, including lack of subject-matter jurisdiction, lack of personal jurisdiction, forum non conveniens, and international comity. App. in No. 04-1816 (CA3), pp. 14a-20a, 39a-40a.\nThe District Court first determined that it had subject-matter jurisdiction under 28 U. S. C. \u00a7 1333(1) (admiralty or maritime jurisdiction). Feb. 27 Memo & Order, at 51a-54a. The court next concluded that it lacked personal jurisdiction over Sinoehem under Pennsylvania\u2019s long-arm statute, 42 Pa. Cons. Stat. \u00a75301 et seq. (2002). Nevertheless, the court conjectured, limited discovery might reveal that Sinochem\u2019s national contacts sufficed to establish personal jurisdiction under Federal Rule of Civil Procedure 4(k)(2). Feb. 27 Memo & Order, at 55a-63a. The court did not permit such discovery, however, because it determined that the case could be adjudicated adequately and more conveniently in the Chinese courts. Id., at 63a-69a; Memorandum and Order of Apr. 13, 2004, No. Civ. A. 03-3771 (ED Pa.), App. to Pet. for Cert. 40a-47a (hereinafter Apr. 13 Memo & Order) (denial of Rule 59(e) motion). No significant interests of the United States were involved, the court observed, Feb. 27 Memo & Order, at 65a-67a; Apr. 13 Memo & Order, at 44a-47a, and while the cargo had been loaded in Philadelphia, the nub of the controversy was entirely foreign: The dispute centered on the arrest of a foreign ship in foreign waters pursuant to the order of a foreign court. Feb. 27 Memo & Order, at 67a. Given the proceedings ongoing in China, and the absence of cause \u201cto second-guess the authority of Chinese law or the competence of [Chinese] courts,\u201d the District Court granted the motion to dismiss under the doctrine of forum non conveniens. Id., at 68a.\nA panel of the Court of Appeals for the Third Circuit agreed there was subject-matter jurisdiction under \u00a7 1333(1), and that the question of personal jurisdiction could not be resolved sans discovery. Although the court determined that forum non conveniens is a nonmerits ground for dismissal, the majority nevertheless held that the District Court could not dismiss the case under the forum non conveniens doctrine unless and until it determined definitively that it had both subject-matter jurisdiction over the cause and personal jurisdiction over the defendant. 436 F. 3d 349 (2006).\nJudge Stapleton dissented. Requiring a district court to conduct discovery on a jurisdictional question when it \u201crightly regards [the forum] as inappropriate,\u201d he maintained, \u201csubverts a primary purpose of\u201d the forum non conveniens doctrine: \u201cprotecting] a defendant from ... substantial and unnecessary effort and expense.\u201d Id., at 368. The \u201ccourt makes no assumption of law declaring power,\u201d Judge Stapleton observed, \u201cwhen it decides not to exercise whatever jurisdiction it may have.\u201d Id., at 370 (quoting Ruhrgas AG v. Marathon Oil Co., 526 U. S. 574, 584 (1999), in turn quoting In re Papandreou, 139 F. 3d 247, 255 (CADC 1998)).\nWe granted certiorari, 548 U. S. 942 (2006), to resolve a conflict among the Circuits on whether forum non conve niens can be decided prior to matters of jurisdiction. Compare 436 F. 3d, at 361-364 (case below); Dominguez-Cota v. Cooper Tire & Rubber Co., 396 F. 3d 650, 652-654 (CA5 2005) (per curiam) (jurisdictional issues must be resolved in advance of a forum non conveniens ruling), with Intec USA, LLC v. Engle, 467 F. 3d 1038, 1041 (CA7 2006); In re Arbitration Between Monegasque de Reassurances S. A. M. (Monde Re) v. NAK Naftogaz of Ukraine, 311 F. 3d 488, 497-498 (CA2 2002); In re Papandreou, 139 F. 3d, at 255-256 (forum non conveniens may be resolved ahead of jurisdictional issues). Satisfied that forum non conveniens may justify dismissal of an action though jurisdictional issues remain unresolved, we reverse the Third Circuit\u2019s judgment.\nII\nA federal court has discretion to dismiss a case on the ground of forum non conveniens \u201cwhen an alternative forum has jurisdiction to hear [the] case, and ... trial in the chosen forum would establish . . . oppressiveness and vexation to a defendant... out of all proportion to plaintiff\u2019s convenience, or ... the chosen forum [is] inappropriate because of considerations affecting the court\u2019s own administrative and legal problems.\u201d American Dredging Co. v. Miller, 510 U. S. 443, 447-448 (1994) (quoting Piper Aircraft Co. v. Reyno, 454 U. S. 235, 241 (1981), in turn quoting Koster v. (American) Lumbermens Mut. Casualty Co., 330 U. S. 518, 524 (1947)). Dismissal for forum non conveniens reflects a court\u2019s assessment of a \u201crange of considerations, most notably the convenience to the parties and the practical difficulties that can attend the adjudication of a dispute in a certain locality.\u201d Quackenbush v. Allstate Ins. Co., 517 U. S. 706, 723 (1996) (citations omitted). We have characterized forum non conveniens as, essentially, \u201ca supervening venue provision, permitting displacement of the ordinary rules of venue when, in light of certain conditions, the trial court thinks that jurisdiction ought to be declined.\u201d American Dredging, 510 U. S., at 453; cf. In re Papandreou, 139 F. 3d, at 255 (forum non conveniens \u201cinvolves a deliberate abstention from the exercise of jurisdiction\u201d).\nThe common-law doctrine of forum non conveniens \u201chas continuing application [in federal courts] only in cases where the alternative forum is abroad,\u201d American Dredging, 510 U. S., at 449, n. 2, and perhaps in rare instances where a state or territorial court serves litigational convenience best. See 14D C. Wright, A. Miller, & E. Cooper, Federal Practice and Procedure \u00a73828, pp. 620-623, and nn. 9-10 (3d ed. 2007). For the federal court system, Congress has codified the doctrine and has provided for transfer, rather than dismissal, when a sister federal court is the more convenient place for trial of the action. See 28 U. S. C. \u00a7 1404(a) (\u201cFor the convenience of parties and witnesses, in the interest of justice, a district court may transfer any civil action to any other district or division where it might have been brought.\u201d); cf. \u00a7 1406(a) (\u201cThe district court of a district in which is filed a case laying venue in the wrong division or district shall dismiss, or if it be in the interest of justice, transfer such case to any district or division in which it could have been brought.\u201d); Goldlawr, Inc. v. Heiman, 369 U. S. 463, 466 (1962) (Section 1406(a) \u201cauthorize^] the transfer of [a] eas[e]... whether the court in which it was filed had personal jurisdiction over the defendants or not.\u201d).\nA defendant invoking forum non conveniens ordinarily bears a heavy burden in opposing the plaintiff\u2019s chosen forum. When the plaintiff\u2019s choice is not its home forum, however, the presumption in the plaintiff\u2019s favor \u201capplies with less force,\u201d for the assumption that the chosen forum is appropriate is in such cases \u201cless reasonable.\u201d Piper Aircraft Co., 454 U. S., at 255-256.\nIII\nSteel Co. v. Citizens for Better Environment, 523 U. S. 83 (1998), clarified that a federal court generally may not rule on the merits of a case without first determining that it has jurisdiction over the category of claim in suit (subject-matter jurisdiction) and the parties (personal jurisdiction). See id., at 93-102. \u201cWithout jurisdiction the court cannot proceed at all in any cause\u201d; it may not assume jurisdiction for the purpose of deciding the merits of the case. Id., at 94 (quoting Ex parte McCardle, 7 Wall. 506, 514 (1869)).\nWhile Steel Co. confirmed that jurisdictional questions ordinarily must precede merits determinations in dispositional order, Ruhrgas held that there is no mandatory \u201csequencing of jurisdictional issues.\u201d 526 U. S., at 584. In appropriate circumstances, Ruhrgas decided, a court may dismiss for lack of personal jurisdiction without first establishing subject-matter jurisdiction. See id., at 578.\nBoth Steel Co. and Ruhrgas recognized that a federal court has leeway \u201cto choose among threshold grounds for denying audience to a case on the merits.\u201d Ruhrgas, 526 U. S., at 585; Steel Co., 523 U. S., at 100-101, n. 3. Dismissal short of reaching the merits means that the court will not \u201cproceed at all\u201d to an adjudication of the cause. Thus, a district court declining to adjudicate state-law claims on discretionary grounds need not first determine whether those claims fall within its pendent jurisdiction. See Moor v. County of Alameda, 411 U. S. 693, 715-716 (1973). Nor must a federal court decide whether the parties present an Article III case or controversy before abstaining under Younger v. Harris, 401 U. S. 37 (1971). See Ellis v. Dyson, 421 U. S. 426, 433-434 (1975). A dismissal under Totten v. United States, 92 U. S. 105 (1876) (prohibiting suits against the Government based on covert espionage agreements), we recently observed, also \u201crepresents the sort of \u2018threshold question\u2019 [that] . . . may be resolved before addressing jurisdiction.\u201d Tenet v. Doe, 544 U. S. 1, 7, n. 4 (2005). The principle underlying these decisions was well stated by the Seventh Circuit: \u201c[J]urisdietion is vital only if the court proposes to issue a judgment on the merits.\u201d Intec USA, 467 F. 3d, at 1041.\nIV\nA forum non conveniens dismissal \u201cden[ies] audience to a case on the merits,\u201d Ruhrgas, 526 U. S., at 585; it is a determination that the merits should be adjudicated elsewhere. See American Dredging, 510 U. S., at 454; Chick Kam Choo v. Exxon Corp., 486 U. S. 140, 148 (1988). The Third Circuit recognized that forum non conveniens \u201cis a non-merits ground for dismissal.\u201d 436 F. 3d, at 359. Accord In re Papandreou, 139 F. 3d, at 255; Monde Re, 311 F. 3d, at 497-498. A district court therefore may dispose of an action by a forum non conveniens dismissal, bypassing questions of subject-matter and personal jurisdiction, when considerations of convenience, fairness, and judicial economy so warrant.\nAs the Third Circuit observed, Van Cauwenberghe v. Biard, 486 U. S. 517, 527-530 (1988), does not call for a different conclusion. See 436 F. 3d, at 359-360. Biard presented the question whether a district court\u2019s denial of a motion to dismiss on the ground o\u00ed forum non conveniens qualifies for immediate appeal under the collateral order doctrine of Cohen v. Beneficial Industrial Loan Corp., 337 U. S. 541 (1949). Biard, 486 U. S., at 527. The Court held that a refusal to dismiss for forum non conveniens, an interlocutory order, does not fall within the circumscribed collateral order exception to the firm final judgment rule generally governing federal court proceedings. In that context, the Court observed that some factors relevant to forum non conveniens, notably what evidence will bear on the plaintiff\u2019s claim or on defenses to the claim, \u201cwill substantially overlap factual and legal issues of the underlying dispute.\u201d Id., at 529.\nThat observation makes eminent sense when the question is whether an issue is so discrete from the merits as to justify departure from the rule that a party may not appeal until the district court has rendered a final judgment disassociating itself from the case. See Coopers & Lybrand v. Livesay, 437 U. S. 463, 468 (1978) (\u201cTo come within the \u2018small class\u2019 of decisions excepted from the final-judgment rule by Cohen, the order must conclusively determine the disputed question, resolve an important issue completely separate from the merits of the action, and be effectively unreviewable on appeal from a final judgment.\u201d). Biard\u2019s point, however, does not carry over to the question here at issue.\nOf course a court may need to identify the claims presented and the evidence relevant to adjudicating those issues to intelligently rule on a forum non conveniens motion. But other threshold issues may similarly involve a brush with \u201cfactual and legal issues of the underlying dispute.\u201d Biard, 486 U. S., at 529. For example, in ruling on the non-merits threshold question of personal jurisdiction, a court may be called upon to determine whether a defendant\u2019s contacts with the forum relate to the claim advanced by the plaintiff. See, e. g., Ruhrgas, 526 U. S., at 581, n. 4 (noting that the District Court\u2019s holding that it lacked personal jurisdiction rested on its conclusion \u201cthat Marathon had not shown that Ruhrgas pursued the alleged pattern of fraud and misrepresentation during the Houston meetings\u201d). The critical point here, rendering a forum non conveniens determination a threshold, nonmerits issue in the relevant context, is simply this: Resolving a forum non conveniens motion does not entail any assumption by the court of substantive \u201claw-declaring power.\u201d See id., at 584-585 (quoting In re Papandreou, 139 F. 3d, at 255).\nStatements in this Court\u2019s opinion in Gulf Oil Corp. v. Gilbert, 330 U. S. 501 (1947), account in large part for the Third Circuit\u2019s conclusion that forum non conveniens can come into play only after a domestic court determines that it has jurisdiction over the cause and the parties and is a proper venue for the action. See 436 F. 3d, at 361-362. The Court said in Gulf Oil that \u201cthe doctrine o\u00ed forum non conveniens can never apply if there is absence of jurisdiction,\u201d 330 U. S., at 504, and that \u201c[i]n all cases in which . . . forum non conveniens comes into play, it presupposes at least two forums in which the defendant is amenable to process,\u201d id., at 506-507.\nThose statements from Gulf Oil, perhaps less than \u201cfelicitously\u201d crafted, see Tr. of Oral Arg. 14, draw their meaning from the context in which they were embedded. The question presented in Gulf Oil was whether a court fully competent to adjudicate the case, i. e., one that plainly had jurisdiction over the cause and the parties and was a proper venue, could nevertheless dismiss the action under the forum non conveniens doctrine. The Court answered that question \u201cyes.\u201d\nAs to the first statement \u2014 that \u201cforum non conveniens can never apply if there is absence of jurisdiction\u201d \u2014 it is of course true that once a court determines that jurisdiction is lacking, it can proceed no further and must dismiss the case on that account. In that scenario \u201cforum non conveniens can never apply.\u201d\nThe second statement \u2014 that forum non conveniens \u201cpresupposes at least two forums\u201d with authority to adjudicate the case \u2014 was made in response to the Gulf Oil plaintiff\u2019s argument to this effect: Because the federal forum chosen by the plaintiff possessed jurisdiction and venue was proper, the court was obliged to adjudicate the case. See 330 U. S., at 504 (explaining that a court\u2019s statutory empowerment to entertain a suit \u201cdoes not settle the question whether it must do so\u201d). Notably, in speaking of what the forum non conveniens doctrine \u201cpresupposes,\u201d the Court said nothing that would negate a court\u2019s authority to presume, rather than dis-positively decide, the propriety of the forum in which the plaintiff filed suit.\nIn sum, Gulf Oil did not present the question we here address: whether a federal court can dismiss under the forum non conveniens doctrine before definitively ascertaining its own jurisdiction. Confining the statements we have quoted to the setting in which they were made, we find in Gulf Oil no hindrance to the decision we reach today.\nITie Third Circuit expressed the further concern that a court failing first to establish its jurisdiction could not condition a forum non conveniens dismissal on the defendant\u2019s waiver of any statute of limitations defense or objection to the foreign forum\u2019s jurisdiction. Unable so to condition a dismissal, the Court of Appeals feared, a court could not shield the plaintiff against a foreign tribunal\u2019s refusal to entertain the suit. 436 F. 3d, at 363, and n. 21. Accord In re Papandreou, 139 F. 3d, at 256, n. 6. Here, however, Malaysia International faces no genuine risk that the more convenient forum will not take up the case. Proceedings to resolve the parties\u2019 dispute \u00e1re underway in China, with Sinochem as the plaintiff. Jurisdiction of the Guangzhou Admiralty Court has been raised, determined, and affirmed on appeal. We therefore need not decide whether a court conditioning a forum non conveniens dismissal on the waiver of jurisdictional or limitations defenses in the foreign forum must first determine its own authority to adjudicate the case.\nV\nThis is a textbook case for immediate forum non conveniens dismissal. The District Court\u2019s subject-matter jurisdiction presented an issue of first impression in the Third Circuit, see 436 F. 3d, at 355, and was considered at some length by the courts below. Discovery concerning personal jurisdiction would have burdened Sinochem with expense and delay. And all to scant purpose: The District Court inevitably would dismiss the case without reaching the merits, given its well-considered forum non conveniens appraisal. Judicial economy is disserved by continuing litigation in the Eastern District of Pennsylvania given the proceedings long launched in China. And the gravamen of Malaysia International\u2019s complaint \u2014 misrepresentations to the Guangzhou Admiralty Court in the course of securing arrest of the vessel in China \u2014 is an issue best left for determination by the Chinese courts.\nIf, however, a court can readily determine that it lacks jurisdiction over the cause or the defendant, the proper course would be to dismiss on that ground. In the mine run of cases, jurisdiction \u201cwill involve no arduous inquiry\u201d and both judicial economy and the consideration ordinarily accorded the plaintiff\u2019s choice of forum \u201cshould impel the federal court to dispose of [those] issue[s] first.\u201d Ruhrgas, 526 U. S., at 587-588. But where subject-matter or personal jurisdiction is difficult to determine, and forum non conveniens considerations weigh heavily in favor of dismissal, the court properly takes the less burdensome course.\nFor the reasons stated, the judgment of the Court of Appeals is reversed, and the case is remanded for proceedings consistent with this opinion.\nIt is so ordered.",
+        "type": "majority",
+        "author": "Justice Ginsburg"
+      }
+    ],
+    "attorneys": [
+      "Gregory A. Castanias argued the cause for petitioner. With him on the briefs was Stephen M. Hudspeth.",
+      "Douglas H. Hallward-Driemeier argued the cause for the United States as amicus curiae urging reversal. With him on the brief were Solicitor General Clement, Assistant Attorney General Keisler, Deputy Solicitor General Kneedler, Michael S. Raab, and Stephanie R. Marcus.",
+      "Ann-Michele G. Higgins argued the cause for respondent. With her on the brief were Joshua Bachrach and Kevin L. McGee."
+    ],
+    "corrections": "",
+    "head_matter": "SINOCHEM INTERNATIONAL CO. LTD. v. MALAYSIA INTERNATIONAL SHIPPING CORP.\nNo. 06-102.\nArgued January 9, 2007\nDecided March 5, 2007\nGinsburg, J., delivered the opinion for a unanimous Court.\nGregory A. Castanias argued the cause for petitioner. With him on the briefs was Stephen M. Hudspeth.\nDouglas H. Hallward-Driemeier argued the cause for the United States as amicus curiae urging reversal. With him on the brief were Solicitor General Clement, Assistant Attorney General Keisler, Deputy Solicitor General Kneedler, Michael S. Raab, and Stephanie R. Marcus.\nAnn-Michele G. Higgins argued the cause for respondent. With her on the brief were Joshua Bachrach and Kevin L. McGee."
+  },
+  "file_name": "0422-01",
+  "first_page_order": 696,
+  "last_page_order": 710
+}

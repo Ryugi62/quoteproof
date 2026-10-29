@@ -1,0 +1,35 @@
+Chain write measurement, 2026-10-30 (Sepolia, testnet only; key in ~/.config/quoteproof/, mode 600, never in the repo)
+Funding: pk910 PoW faucet, no login/signup/mainnet balance; 8 browser workers mined ~8 minutes, session reward 0.05 SepETH, claimed to the generated address below.
+
+$ cd cre/workflow && bun run deployReceiver.ts --balance-only   # after the claim
+address 0x570880967B591AeA114E91966f695928F30c82A3  balance 0.05 SepETH
+
+$ cd cre/workflow && bun run deployReceiver.ts
+deploy tx 0xc2bdf091433e1c0669e0f2482a91e1a36d4edbb0529447d61522b089e9ea4971
+status success block 12022169 contract 0x6ae777f6c05a53ecc25bf9ac73cd8f4f0a270131 gasUsed 1772837
+
+$ cd cre && cre workflow simulate workflow --target local-simulation --non-interactive --trigger-index 0 --http-payload payload-genuine.json --broadcast   (CRE CLI v1.39.0, exit 0)
+[USER LOG] QuoteProof request: 372 U.S. 335 / quote 128 chars
+[USER LOG] Consensus result: PASS  hash=b5fc1c1a814225f2b4d667e4a08872374d03f93a9c857b455baea32a2f59f198
+[USER LOG] Per source: cap:found:4cb4ba6f5d8e|lii:found:3766dc7e21ba
+[USER LOG] writeReport reply: TX_STATUS_SUCCESS txHash=0x5e3822255722ea6cbe3549ea3e1902d10b640db8ffffa9e4b6abd274872f7bc9 err=-
+
+$ cd cre/workflow && bun run verifyChain.ts 0x5e38...7bc9 0x6ae777f6c05a53ecc25bf9ac73cd8f4f0a270131   # re-read from the Sepolia RPC
+tx 0x5e3822255722ea6cbe3549ea3e1902d10b640db8ffffa9e4b6abd274872f7bc9
+status success block 12022172 to 0x15fc6ae953e024d975e77382eeec56a9101f9f88 from 0x570880967b591aea114e91966f695928f30c82a3 gasUsed 369545
+event from receiver 0x6ae777f6c05a53ecc25bf9ac73cd8f4f0a270131: QuoteVerdict {"receiptHash":"0xb5fc1c1a814225f2b4d667e4a08872374d03f93a9c857b455baea32a2f59f198","verdictCode":1,"reasons":""}
+QuoteVerdict events from the receiver in this transaction: 1
+receiver code length 1012 bytes; explorer: https://sepolia.etherscan.io/tx/0x5e3822255722ea6cbe3549ea3e1902d10b640db8ffffa9e4b6abd274872f7bc9
+receiver.seen(receiptHash b5fc1c1a…)=true verdictOf=1
+
+$ ... --http-payload payload-altered.json --broadcast   (exit 0)
+[USER LOG] QuoteProof request: 372 U.S. 335 / quote 136 chars
+[USER LOG] Consensus result: HOLD NOT_IN_OPINION hash=f341e464163f92cca37369948b376dce3351ec6a24272502516ef173fb083e93
+[USER LOG] Per source: cap:missing:4cb4ba6f5d8e|lii:missing:3766dc7e21ba
+[USER LOG] writeReport reply: TX_STATUS_SUCCESS txHash=0xc192e3b5cc17608c06ea9d8a638f2690b7fb3b26e7ed2f89a37ceb690fbf471a err=-
+tx 0xc192e3b5cc17608c06ea9d8a638f2690b7fb3b26e7ed2f89a37ceb690fbf471a
+status success block 12022175 to 0x15fc6ae953e024d975e77382eeec56a9101f9f88 from 0x570880967b591aea114e91966f695928f30c82a3 gasUsed 262196
+event from receiver 0x6ae777f6c05a53ecc25bf9ac73cd8f4f0a270131: QuoteVerdict {"receiptHash":"0xf341e464163f92cca37369948b376dce3351ec6a24272502516ef173fb083e93","verdictCode":0,"reasons":"NOT_IN_OPINION"}
+QuoteVerdict events from the receiver in this transaction: 1
+
+Note: the transaction's 'to' is 0x15fc6ae953e024d975e77382eeec56a9101f9f88, not our receiver; our receiver emitted QuoteVerdict inside that transaction, so that contract (presumably the simulator's forwarder; not checked against Chainlink's address list) called onReport. This is a simulator --broadcast run, not a deployment on the CRE network.

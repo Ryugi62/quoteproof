@@ -1,0 +1,296 @@
+1
+00:00:00,267 --> 00:00:02,767
+Every screen here is a real run,
+
+2
+00:00:02,867 --> 00:00:06,000
+and anything that is not one is labeled.
+
+3
+00:00:06,533 --> 00:00:09,500
+In 2026 a court found that a quote cited
+
+4
+00:00:09,600 --> 00:00:11,533
+to Cooter and Gell was not
+
+5
+00:00:11,633 --> 00:00:12,800
+in that opinion.
+
+6
+00:00:13,133 --> 00:00:15,633
+Lookup tools ask whether the case exists.
+
+7
+00:00:15,733 --> 00:00:18,167
+QuoteProof asks whether the quoted words
+
+8
+00:00:18,267 --> 00:00:19,100
+are in it.
+
+9
+00:00:19,733 --> 00:00:22,200
+Paid tools check quotes too but publish no
+
+10
+00:00:22,300 --> 00:00:24,300
+error rates; here sources are free
+
+11
+00:00:24,400 --> 00:00:25,400
+and rates public.
+
+12
+00:00:25,867 --> 00:00:27,900
+Real run: the quote the court rejected,
+
+13
+00:00:28,000 --> 00:00:30,067
+checked against two independent sources.
+
+14
+00:00:30,633 --> 00:00:32,600
+Both sources report not found,
+
+15
+00:00:32,700 --> 00:00:35,433
+so the verdict is HOLD with a receipt hash
+
+16
+00:00:35,533 --> 00:00:36,900
+anyone can recompute.
+
+17
+00:00:37,267 --> 00:00:39,433
+Real run: a genuine sentence from Gideon
+
+18
+00:00:39,533 --> 00:00:40,500
+versus Wainwright.
+
+19
+00:00:41,033 --> 00:00:43,333
+Both sources find it at a position,
+
+20
+00:00:43,433 --> 00:00:45,800
+so it passes and the receipt records
+
+21
+00:00:45,900 --> 00:00:46,733
+where.
+
+22
+00:00:47,167 --> 00:00:49,367
+Now the same sentence with its meaning
+
+23
+00:00:49,467 --> 00:00:51,167
+flipped by three small edits.
+
+24
+00:00:51,767 --> 00:00:53,300
+Neither source has it,
+
+25
+00:00:53,400 --> 00:00:56,033
+so the verdict is HOLD and the receipt
+
+26
+00:00:56,133 --> 00:00:57,033
+hash changes.
+
+27
+00:00:57,433 --> 00:00:58,633
+New in version three:
+
+28
+00:00:58,733 --> 00:01:00,800
+one command extracts every quotation
+
+29
+00:01:00,900 --> 00:01:03,100
+from a brief file and checks each one.
+
+30
+00:01:03,667 --> 00:01:06,133
+Two invented quotes are held and two
+
+31
+00:01:06,233 --> 00:01:07,467
+genuine ones pass;
+
+32
+00:01:07,567 --> 00:01:09,900
+a lower court cite is not checked,
+
+33
+00:01:10,000 --> 00:01:10,900
+never passed.
+
+34
+00:01:11,267 --> 00:01:14,033
+Only citation addresses leave the machine,
+
+35
+00:01:14,133 --> 00:01:16,367
+and the tool waits the ten seconds
+
+36
+00:01:16,467 --> 00:01:18,500
+Cornell's robots file asks for.
+
+37
+00:01:19,133 --> 00:01:22,133
+Id and supra now follow to their case,
+
+38
+00:01:22,233 --> 00:01:23,900
+and when they cannot,
+
+39
+00:01:24,000 --> 00:01:26,900
+the row says why instead of guessing.
+
+40
+00:01:27,367 --> 00:01:29,967
+The strict default misses the ten percent
+
+41
+00:01:30,067 --> 00:01:31,267
+false alarm target:
+
+42
+00:01:31,367 --> 00:01:33,100
+thirteen point two percent.
+
+43
+00:01:33,667 --> 00:01:35,833
+Most false alarms are the two sources
+
+44
+00:01:35,933 --> 00:01:38,033
+disagreeing rather than the matching
+
+45
+00:01:38,133 --> 00:01:40,400
+rules, and the miss rate is optimistic.
+
+46
+00:01:40,767 --> 00:01:43,300
+Four local processes (not CRE nodes) each
+
+47
+00:01:43,400 --> 00:01:44,800
+read both sources live;
+
+48
+00:01:44,900 --> 00:01:47,433
+three of four must agree and all four do.
+
+49
+00:01:47,967 --> 00:01:50,067
+Running the same input at a different
+
+50
+00:01:50,167 --> 00:01:52,333
+clock time gives the identical receipt
+
+51
+00:01:52,433 --> 00:01:53,267
+hash.
+
+52
+00:01:53,700 --> 00:01:56,133
+The simulator runs this workflow once per
+
+53
+00:01:56,233 --> 00:01:58,133
+node (local): read both sources,
+
+54
+00:01:58,233 --> 00:01:59,967
+agree, then write the report.
+
+55
+00:02:00,567 --> 00:02:03,433
+The CRE simulator ran it for real,
+
+56
+00:02:03,533 --> 00:02:06,900
+exit code zero: consensus PASS and a dry
+
+57
+00:02:07,000 --> 00:02:07,833
+run write.
+
+58
+00:02:08,233 --> 00:02:09,800
+The altered payload gives HOLD
+
+59
+00:02:09,900 --> 00:02:11,767
+with NOT_IN_OPINION through the same
+
+60
+00:02:11,867 --> 00:02:13,567
+workflow and the same write path.
+
+61
+00:02:14,133 --> 00:02:16,133
+The receiver accepts only the forwarder
+
+62
+00:02:16,233 --> 00:02:17,367
+from Chainlink's docs:
+
+63
+00:02:17,467 --> 00:02:19,367
+a real Sepolia transaction (simulator
+
+64
+00:02:19,467 --> 00:02:21,233
+--broadcast, mock forwarder) wrote
+
+65
+00:02:21,333 --> 00:02:23,133
+the verdict; a direct call reverts.
+
+66
+00:02:23,467 --> 00:02:25,933
+Opt-in: with --cre-broadcast the same
+
+67
+00:02:26,033 --> 00:02:28,100
+command sends the checked quote
+
+68
+00:02:28,200 --> 00:02:29,733
+into the CRE simulator;
+
+69
+00:02:29,833 --> 00:02:32,167
+its hash matches the local receipt.
+
+70
+00:02:32,800 --> 00:02:35,267
+Limits first: Supreme Court opinions only,
+
+71
+00:02:35,367 --> 00:02:37,600
+small test sets, and a post hoc policy
+
+72
+00:02:37,700 --> 00:02:39,167
+that is not the headline.
+
+73
+00:02:39,633 --> 00:02:42,067
+QuoteProof checks the words and not only
+
+74
+00:02:42,167 --> 00:02:44,633
+the case, and it states its limits first.
+

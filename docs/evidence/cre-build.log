@@ -1,0 +1,5 @@
+$ cre workflow build workflow --target local-simulation -o /scratch/qp.wasm
+  Compiling workflow...
+✓ Workflow compiled successfully
+  Binary hash: f9b6b98f5c91d323546ff925a8ad7e8a523fdf0f9b0acc661546cd9d964cb91e
+✓ Build output written to /private/tmp/claude-501/-Users-ryugi62-jarvis/9d6ce492-43e5-409a-9603-30d10811d5f1/scratchpad/qp.wasm

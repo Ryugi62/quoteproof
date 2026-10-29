@@ -1,0 +1,458 @@
+{
+  "raw/cap/brown-1954.json": {
+    "url": "https://static.case.law/us/347/cases/0483-01.json",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:37:21.599Z",
+    "bytes": 39528,
+    "sha256": "d7cb3aec98641e4c7e87edff6186da9fafa7255bafb6a07259fe062d28c1459d",
+    "cite": "347 U.S. 483",
+    "name": "Brown v. Board of Education"
+  },
+  "raw/cap/marbury-1803.json": {
+    "url": "https://static.case.law/us/5/cases/0137-01.json",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:37:23.928Z",
+    "bytes": 94385,
+    "sha256": "871141dcd06924c12f899d11fbf7f84e47c2f8f6e04e2a0cb702dd26b3685d44",
+    "cite": "5 U.S. 137",
+    "name": "Marbury v. Madison"
+  },
+  "raw/cap/gideon-1963.json": {
+    "url": "https://static.case.law/us/372/cases/0335-01.json",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:37:25.748Z",
+    "bytes": 60657,
+    "sha256": "a65cfa2fc80698731448067b37cdbd4707f5bb21fa86ae795505e52c4fd80aed",
+    "cite": "372 U.S. 335",
+    "name": "Gideon v. Wainwright"
+  },
+  "raw/cap/terry-1968.json": {
+    "url": "https://static.case.law/us/392/cases/0001-01.json",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:37:27.581Z",
+    "bytes": 98037,
+    "sha256": "20ffecce439ccc1fcf7e3d9c2e6e742e0e74cdb5390a4ad067f27f22552ac8a9",
+    "cite": "392 U.S. 1",
+    "name": "Terry v. Ohio"
+  },
+  "raw/cap/tinker-1969.json": {
+    "url": "https://static.case.law/us/393/cases/0503-01.json",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:37:29.524Z",
+    "bytes": 63944,
+    "sha256": "d7cb6afa9568ef04d58de1d71410714807efcd174802b155a6eab29bffa5acb3",
+    "cite": "393 U.S. 503",
+    "name": "Tinker v. Des Moines"
+  },
+  "raw/cap/nyt-sullivan-1964.json": {
+    "url": "https://static.case.law/us/376/cases/0254-01.json",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:37:31.426Z",
+    "bytes": 150294,
+    "sha256": "023ff8af0205d02682ee8fbb625e47b13d8b8487200e729f0aeb083ea86cdf03",
+    "cite": "376 U.S. 254",
+    "name": "New York Times v. Sullivan"
+  },
+  "raw/cap/mapp-1961.json": {
+    "url": "https://static.case.law/us/367/cases/0643-01.json",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:37:33.521Z",
+    "bytes": 112470,
+    "sha256": "583b80d79a6cdb6912cd5a943160c069adfcdac815be7ab3085a08e32cee2bab",
+    "cite": "367 U.S. 643",
+    "name": "Mapp v. Ohio"
+  },
+  "raw/cap/mathews-1976.json": {
+    "url": "https://static.case.law/us/424/cases/0319-01.json",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:37:35.617Z",
+    "bytes": 78084,
+    "sha256": "70f74a0ea83e1540969b5e8c2c1249014d536fd191e21a70cec11373c45050f1",
+    "cite": "424 U.S. 319",
+    "name": "Mathews v. Eldridge"
+  },
+  "raw/cap/celotex-1986.json": {
+    "url": "https://static.case.law/us/477/cases/0317-01.json",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:37:37.440Z",
+    "bytes": 60041,
+    "sha256": "070684a85533121af10e47abcf238dfbd00967b7dbd484f561ae4039f37cb1a0",
+    "cite": "477 U.S. 317",
+    "name": "Celotex v. Catrett"
+  },
+  "raw/cap/anderson-1986.json": {
+    "url": "https://static.case.law/us/477/cases/0242-01.json",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:37:39.305Z",
+    "bytes": 83229,
+    "sha256": "60437e85b0c28cae977aef33e855f15dca5cce20539922aa04d234bb2154ab07",
+    "cite": "477 U.S. 242",
+    "name": "Anderson v. Liberty Lobby"
+  },
+  "raw/cap/daubert-1993.json": {
+    "url": "https://static.case.law/us/509/cases/0579-01.json",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:37:41.126Z",
+    "bytes": 63449,
+    "sha256": "231a39b0c6b7bbc1b2359eace720dd65e8f0d6db6513dbd1b4aaf66d095b5629",
+    "cite": "509 U.S. 579",
+    "name": "Daubert v. Merrell Dow"
+  },
+  "raw/cap/erie-1938.json": {
+    "url": "https://static.case.law/us/304/cases/0064-01.json",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:37:43.025Z",
+    "bytes": 76199,
+    "sha256": "943d7cfef836feb62e1e88cf7d7f557b53010b4079fb373268e0d92a1411256f",
+    "cite": "304 U.S. 64",
+    "name": "Erie Railroad v. Tompkins"
+  },
+  "raw/cap/strickland-1984.json": {
+    "url": "https://static.case.law/us/466/cases/0668-01.json",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:37:44.844Z",
+    "bytes": 149926,
+    "sha256": "f0afc5bfd4b10f20d9d0a5b7daa7092400c3f4d7c6b1a893ac07468b1dbbd9e4",
+    "cite": "466 U.S. 668",
+    "name": "Strickland v. Washington"
+  },
+  "raw/cap/roe-1973.json": {
+    "url": "https://static.case.law/us/410/cases/0113-01.json",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:37:46.857Z",
+    "bytes": 183037,
+    "sha256": "07320e29d33a564ca5c383a7ca5374e6b004a0836c556cf13b258985e47f0ef3",
+    "cite": "410 U.S. 113",
+    "name": "Roe v. Wade"
+  },
+  "raw/cap/bush-gore-2000.json": {
+    "url": "https://static.case.law/us/531/cases/0098-01.json",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:37:48.936Z",
+    "bytes": 172022,
+    "sha256": "00a2b6c6e6c29985f754fafe0b12f1b7dff5560325eac28140d18e311250b2e8",
+    "cite": "531 U.S. 98",
+    "name": "Bush v. Gore"
+  },
+  "raw/cap/iqbal-2009.json": {
+    "url": "https://static.case.law/us/556/cases/0662-01.json",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:37:50.992Z",
+    "bytes": 97430,
+    "sha256": "3ab00dfbf4dd9d2c9ea7cd740fae9f61e53626a13721187ce507105e930b3a77",
+    "cite": "556 U.S. 662",
+    "name": "Ashcroft v. Iqbal"
+  },
+  "raw/cap/twombly-2007.json": {
+    "url": "https://static.case.law/us/550/cases/0544-01.json",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:37:51.723Z",
+    "bytes": 177664,
+    "sha256": "d5accdbe495b12fcc49a644819df140a93ace0a984b0222eb1b590f87ee609da",
+    "cite": "550 U.S. 544",
+    "name": "Bell Atlantic v. Twombly"
+  },
+  "raw/cap/sinochem-2007.json": {
+    "url": "https://static.case.law/us/549/cases/0422-01.json",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:51:03.607Z",
+    "bytes": 36931,
+    "sha256": "cd00dfa2201895035a46d29f6bdeeed6d4fb897d79ebe877efd7c7704eaba33a",
+    "cite": "549 U.S. 422",
+    "name": "Sinochem v. Malaysia Intl Shipping"
+  },
+  "raw/cap/christianson-1988.json": {
+    "url": "https://static.case.law/us/486/cases/0800-01.json",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:51:04.337Z",
+    "bytes": 70250,
+    "sha256": "75b86155ac53d1763689208f2c8b6118df14a40c4d6c9fa253fb798fd33ee455",
+    "cite": "486 U.S. 800",
+    "name": "Christianson v. Colt Industries"
+  },
+  "raw/cap/withrow-1975.json": {
+    "url": "https://static.case.law/us/421/cases/0035-01.json",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:51:06.893Z",
+    "bytes": 70266,
+    "sha256": "e05a0d8c0c9b331b2786eed181bc31548e6290acd4ee987082b855f263b10b26",
+    "cite": "421 U.S. 35",
+    "name": "Withrow v. Larkin"
+  },
+  "raw/cap/scheuer-1974.json": {
+    "url": "https://static.case.law/us/416/cases/0232-01.json",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:51:08.784Z",
+    "bytes": 51273,
+    "sha256": "389538ff70328750288f478aa0036c08f695ecd740fbe421adcbd641f0dcdd1e",
+    "cite": "416 U.S. 232",
+    "name": "Scheuer v. Rhodes"
+  },
+  "raw/cap/cooter-gell-1990.json": {
+    "url": "https://static.case.law/us/496/cases/0384-01.json",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:51:10.585Z",
+    "bytes": 77602,
+    "sha256": "70068a3e424b6d2d3f693b95e95fd62afb233441abe01d0dc0f057c37b05ef46",
+    "cite": "496 U.S. 384",
+    "name": "Cooter & Gell v. Hartmarx"
+  },
+  "raw/cap/oates-1879.json": {
+    "url": "https://static.case.law/us/100/cases/0239-01.json",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:51:12.481Z",
+    "bytes": 33025,
+    "sha256": "69287fc39013d6b8a59d7c7a75eac9e4d34a7230d3562d57d0d61baa0c8956df",
+    "cite": "100 U.S. 239",
+    "name": "Oates v. National Bank"
+  },
+  "raw/cap/smith-allwright-1944.json": {
+    "url": "https://static.case.law/us/321/cases/0649-01.json",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:51:14.302Z",
+    "bytes": 62825,
+    "sha256": "13c4cb4aa0ff8df942bbdb502357c5cde95b3fbfd90f5a693c4e214e6e939cbd",
+    "cite": "321 U.S. 649",
+    "name": "Smith v. Allwright"
+  },
+  "raw/lii-text/marbury-1803.txt": {
+    "url": "https://www.law.cornell.edu/supremecourt/text/5/137",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:37:25.010Z",
+    "bytes": 59211,
+    "sha256": "985c0037681b98166300c815f620213a0ef0ed871bfa96b32d4b5c351aca57c4",
+    "pageBytes": 99417,
+    "pageSha256": "f0ac05f815304ee92c475b8c816c094982c7bb49f63d8f42341651fa8c73ffff",
+    "cite": "5 U.S. 137",
+    "name": "Marbury v. Madison",
+    "note": "LII 페이지의 <main> 본문 글자만(마크업·탐색 제외). 판결 본문은 공공 저작물."
+  },
+  "raw/lii-text/gideon-1963.txt": {
+    "url": "https://www.law.cornell.edu/supremecourt/text/372/335",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:37:26.828Z",
+    "bytes": 35036,
+    "sha256": "3cbec15ec066fed28edee9a4e9a820e38278c13221eae6f621211a884becff37",
+    "pageBytes": 82619,
+    "pageSha256": "f55a5685923145e5bd9a5e97f9d39564b26512b660e7159b8e81857e3915281f",
+    "cite": "372 U.S. 335",
+    "name": "Gideon v. Wainwright",
+    "note": "LII 페이지의 <main> 본문 글자만(마크업·탐색 제외). 판결 본문은 공공 저작물."
+  },
+  "raw/lii-text/terry-1968.txt": {
+    "url": "https://www.law.cornell.edu/supremecourt/text/392/1",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:37:28.672Z",
+    "bytes": 74238,
+    "sha256": "84aaa3f5adeaaba2a128f20f2452b04c3c0cc222724c517f9537b7127eac967d",
+    "pageBytes": 124806,
+    "pageSha256": "368a4d00ebd0896654a7f098a2b8be161b7b8499c5a2aba98a310ba6972c08ed",
+    "cite": "392 U.S. 1",
+    "name": "Terry v. Ohio",
+    "note": "LII 페이지의 <main> 본문 글자만(마크업·탐색 제외). 판결 본문은 공공 저작물."
+  },
+  "raw/lii-text/tinker-1969.txt": {
+    "url": "https://www.law.cornell.edu/supremecourt/text/393/503",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:37:30.627Z",
+    "bytes": 48605,
+    "sha256": "b9d901c29eafbb07df003d365ff50c16500616eb99a6945fceb152cf40869e29",
+    "pageBytes": 91893,
+    "pageSha256": "b1e1b115294dffcd75d2f5ea1f8abac85d347a1347cf271ff5f483339e0d1ed2",
+    "cite": "393 U.S. 503",
+    "name": "Tinker v. Des Moines",
+    "note": "LII 페이지의 <main> 본문 글자만(마크업·탐색 제외). 판결 본문은 공공 저작물."
+  },
+  "raw/lii-text/nyt-sullivan-1964.txt": {
+    "url": "https://www.law.cornell.edu/supremecourt/text/376/254",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:37:32.698Z",
+    "bytes": 106210,
+    "sha256": "d86cc3135816fa8f54d0431209c7d572a4267634ac82a0e7c1409d2d90bee82c",
+    "pageBytes": 164405,
+    "pageSha256": "71b28696e205870a19b5152b2925d06a601584302e094ea593eca1048eb49c05",
+    "cite": "376 U.S. 254",
+    "name": "New York Times v. Sullivan",
+    "note": "LII 페이지의 <main> 본문 글자만(마크업·탐색 제외). 판결 본문은 공공 저작물."
+  },
+  "raw/lii-text/mapp-1961.txt": {
+    "url": "https://www.law.cornell.edu/supremecourt/text/367/643",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:37:34.789Z",
+    "bytes": 90913,
+    "sha256": "c2d7adb622e1e0abc1a2f33532871e5ea15b7926f7b68e511938ddd9b065d5dd",
+    "pageBytes": 147515,
+    "pageSha256": "c78768467d2b7fef55b35029f8a71230b154663274a6845edd692bed61d000cb",
+    "cite": "367 U.S. 643",
+    "name": "Mapp v. Ohio",
+    "note": "LII 페이지의 <main> 본문 글자만(마크업·탐색 제외). 판결 본문은 공공 저작물."
+  },
+  "raw/lii-text/mathews-1976.txt": {
+    "url": "https://www.law.cornell.edu/supremecourt/text/424/319",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:37:36.699Z",
+    "bytes": 66921,
+    "sha256": "1ad28a120824d7851e92bd6309751c0e2a4f26a458e882b6cab88dcfebb33a7f",
+    "pageBytes": 117156,
+    "pageSha256": "ba3e2e05f7c2e0629e184a1f9c8d3584008abcc69499fd95685a0c5a58adfbb9",
+    "cite": "424 U.S. 319",
+    "name": "Mathews v. Eldridge",
+    "note": "LII 페이지의 <main> 본문 글자만(마크업·탐색 제외). 판결 본문은 공공 저작물."
+  },
+  "raw/lii-text/celotex-1986.txt": {
+    "url": "https://www.law.cornell.edu/supremecourt/text/477/317",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:37:38.577Z",
+    "bytes": 51693,
+    "sha256": "5005453d092a366d35398a9c280ec4fec8a921b6a7850f8ac6e5b521bbf148ef",
+    "pageBytes": 91181,
+    "pageSha256": "9a61677a2c84ed16bb9cc9c2ed3b313bb9f0e08a2f84dea5b3f0a68a15e8babc",
+    "cite": "477 U.S. 317",
+    "name": "Celotex v. Catrett",
+    "note": "LII 페이지의 <main> 본문 글자만(마크업·탐색 제외). 판결 본문은 공공 저작물."
+  },
+  "raw/lii-text/anderson-1986.txt": {
+    "url": "https://www.law.cornell.edu/supremecourt/text/477/242",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:37:40.387Z",
+    "bytes": 68321,
+    "sha256": "d5b65c1e8c6696cc304e5a391f24b9971512d5642a341b3de598ac1d84acb990",
+    "pageBytes": 112155,
+    "pageSha256": "561138aa7d5835bce5c2d197582e94f05e9902dc88156c68859d8b61826d33f4",
+    "cite": "477 U.S. 242",
+    "name": "Anderson v. Liberty Lobby",
+    "note": "LII 페이지의 <main> 본문 글자만(마크업·탐색 제외). 판결 본문은 공공 저작물."
+  },
+  "raw/lii-text/daubert-1993.txt": {
+    "url": "https://www.law.cornell.edu/supremecourt/text/509/579",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:37:42.291Z",
+    "bytes": 47111,
+    "sha256": "e95ab5e7089d49819bb1b5de8e52b65a03d061ace1ff2c5c2511dc6a4a7f3b6b",
+    "pageBytes": 85491,
+    "pageSha256": "f5cef90de9ca22e301f61b236f730db0129984b8e0fea1f3a840611352a0b202",
+    "cite": "509 U.S. 579",
+    "name": "Daubert v. Merrell Dow",
+    "note": "LII 페이지의 <main> 본문 글자만(마크업·탐색 제외). 판결 본문은 공공 저작물."
+  },
+  "raw/lii-text/erie-1938.txt": {
+    "url": "https://www.law.cornell.edu/supremecourt/text/304/64",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:37:44.107Z",
+    "bytes": 52649,
+    "sha256": "64049ea91a3f87de834d0a3cf7301ff300fa8945648a4d8b34e1dc019887a80c",
+    "pageBytes": 96211,
+    "pageSha256": "cc372868e2c01bc973bab415e20bcb51f5ec71e717514f92aa97d0fa6c3346b1",
+    "cite": "304 U.S. 64",
+    "name": "Erie Railroad v. Tompkins",
+    "note": "LII 페이지의 <main> 본문 글자만(마크업·탐색 제외). 판결 본문은 공공 저작물."
+  },
+  "raw/lii-text/strickland-1984.txt": {
+    "url": "https://www.law.cornell.edu/supremecourt/text/466/668",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:37:46.111Z",
+    "bytes": 111148,
+    "sha256": "8c6b30e416869930a044a8d6d2992797e1dcdd1ae1e13e56ee3f9b7e8906badd",
+    "pageBytes": 167570,
+    "pageSha256": "34b03c2e23448c94d465f12094cab085d9d33593052f7f9c5057d3f4fa2feaf2",
+    "cite": "466 U.S. 668",
+    "name": "Strickland v. Washington",
+    "note": "LII 페이지의 <main> 본문 글자만(마크업·탐색 제외). 판결 본문은 공공 저작물."
+  },
+  "raw/lii-text/roe-1973.txt": {
+    "url": "https://www.law.cornell.edu/supremecourt/text/410/113",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:37:48.202Z",
+    "bytes": 129509,
+    "sha256": "56e1ebef9b7c7db61bced214fac09a6af245665e5d105446c79681d3f4ad9871",
+    "pageBytes": 199106,
+    "pageSha256": "0da7bb101c704369e64fab6ea9957789d50be3790dd48ea671e56cf5efbd3f3c",
+    "cite": "410 U.S. 113",
+    "name": "Roe v. Wade",
+    "note": "LII 페이지의 <main> 본문 글자만(마크업·탐색 제외). 판결 본문은 공공 저작물."
+  },
+  "raw/lii-text/bush-gore-2000.txt": {
+    "url": "https://www.law.cornell.edu/supremecourt/text/531/98",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:37:50.263Z",
+    "bytes": 120805,
+    "sha256": "f7fe118c8882ff009e5a82b8e97aea0c54f532db321a681b129a0a49492f348d",
+    "pageBytes": 167898,
+    "pageSha256": "7a70c436edf1901e0914f1dc776684e6693a5563459ef6e487582210069e4444",
+    "cite": "531 U.S. 98",
+    "name": "Bush v. Gore",
+    "note": "LII 페이지의 <main> 본문 글자만(마크업·탐색 제외). 판결 본문은 공공 저작물."
+  },
+  "raw/lii-text/christianson-1988.txt": {
+    "url": "https://www.law.cornell.edu/supremecourt/text/486/800",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:51:06.163Z",
+    "bytes": 57391,
+    "sha256": "d1f4860ac7fe0ce12d8de82532c907466f3a41c93a4d4cc46858214bc91c7a11",
+    "pageBytes": 99088,
+    "pageSha256": "89439daad17af384fbf304010ab78006eed210493aa351cfca80fafc83fbdf25",
+    "cite": "486 U.S. 800",
+    "name": "Christianson v. Colt Industries",
+    "note": "LII 페이지의 <main> 본문 글자만(마크업·탐색 제외). 판결 본문은 공공 저작물."
+  },
+  "raw/lii-text/withrow-1975.txt": {
+    "url": "https://www.law.cornell.edu/supremecourt/text/421/35",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:51:07.968Z",
+    "bytes": 52603,
+    "sha256": "764474cc497383441ca078e507a037297266e2cc2fb5d5702fc7a82988a3c5cf",
+    "pageBytes": 95173,
+    "pageSha256": "fd21dda42c08a4527824c37d737f749eb7307cdc5d6963e15fb4d62cc3dcd31d",
+    "cite": "421 U.S. 35",
+    "name": "Withrow v. Larkin",
+    "note": "LII 페이지의 <main> 본문 글자만(마크업·탐색 제외). 판결 본문은 공공 저작물."
+  },
+  "raw/lii-text/scheuer-1974.txt": {
+    "url": "https://www.law.cornell.edu/supremecourt/text/416/232",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:51:09.860Z",
+    "bytes": 38253,
+    "sha256": "b6233e2ce88c36c8ccdf3892a12bb063f4700e761517f9a6e4d3517ee376d4ce",
+    "pageBytes": 77797,
+    "pageSha256": "268388d8a07756d4ab6528253cdfe68f787181b8d659ce2ef2e9ab8abfcb585f",
+    "cite": "416 U.S. 232",
+    "name": "Scheuer v. Rhodes",
+    "note": "LII 페이지의 <main> 본문 글자만(마크업·탐색 제외). 판결 본문은 공공 저작물."
+  },
+  "raw/lii-text/cooter-gell-1990.txt": {
+    "url": "https://www.law.cornell.edu/supremecourt/text/496/384",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:51:11.744Z",
+    "bytes": 65132,
+    "sha256": "aa12d5e07355396d5ae5266d7c1f157bfaa6f4e91ee16ad35233385a3811f083",
+    "pageBytes": 105438,
+    "pageSha256": "211ee48d17b2cd7a1ccf6c31599d27c212ce952759724ed77cfdceaffea81d80",
+    "cite": "496 U.S. 384",
+    "name": "Cooter & Gell v. Hartmarx",
+    "note": "LII 페이지의 <main> 본문 글자만(마크업·탐색 제외). 판결 본문은 공공 저작물."
+  },
+  "raw/lii-text/oates-1879.txt": {
+    "url": "https://www.law.cornell.edu/supremecourt/text/100/239",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:51:13.558Z",
+    "bytes": 26873,
+    "sha256": "d1c151b48549a2fdb80410b60d3e67125f7a114440efc4f6d8443b1955d5b41f",
+    "pageBytes": 56098,
+    "pageSha256": "b6c6a7654ff771797c7114bc210553900424f5b89a765d3d8bb3fd14425b5aa3",
+    "cite": "100 U.S. 239",
+    "name": "Oates v. National Bank",
+    "note": "LII 페이지의 <main> 본문 글자만(마크업·탐색 제외). 판결 본문은 공공 저작물."
+  },
+  "raw/lii-text/smith-allwright-1944.txt": {
+    "url": "https://www.law.cornell.edu/supremecourt/text/321/649",
+    "status": 200,
+    "fetchedAt": "2026-10-29T19:51:15.413Z",
+    "bytes": 46640,
+    "sha256": "858c0ee24c83605841526d1f5f7f67ba0ec32dea394bcde2e467d6569a440ecb",
+    "pageBytes": 88973,
+    "pageSha256": "ea3bb3957383581db060bac2e5feb4472d2aa73602d6d7825269f6ee4450d9a8",
+    "cite": "321 U.S. 649",
+    "name": "Smith v. Allwright",
+    "note": "LII 페이지의 <main> 본문 글자만(마크업·탐색 제외). 판결 본문은 공공 저작물."
+  }
+}

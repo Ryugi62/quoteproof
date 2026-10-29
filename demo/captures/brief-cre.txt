@@ -1,0 +1,7 @@
+CRE payloads: 3 written to <dir>/ (each = one quote + its citation; 1 not-checked row(s) listed in index.json only)
+CRE row 3: payload-03.json -> [USER LOG] Consensus result: PASS hash=e32f1e72…
+CRE row 3: [USER LOG] writeReport reply: TX_STATUS_SUCCESS txHash=0xc8a27982...fff8 err=-
+CRE consensus hash == local receipt hash (e32f1e72…, verdict PASS)
+re-read from Sepolia: QuoteVerdict receiptHash=0xe32f1e72...e9a3 verdictCode=1
+receiver.forwarder()=0x15fC6ae9...9F88; tx.to == forwarder: true
+direct onReport() from a non-forwarder address: reverted

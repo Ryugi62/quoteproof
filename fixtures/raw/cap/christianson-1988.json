@@ -1,0 +1,1108 @@
+{
+  "id": 6224266,
+  "name": "CHRISTIANSON et al. v. COLT INDUSTRIES OPERATING CORP.",
+  "name_abbreviation": "Christianson v. Colt Industries Operating Corp.",
+  "decision_date": "1988-06-17",
+  "docket_number": "No. 87-499",
+  "first_page": "800",
+  "last_page": "824",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "486 U.S. 800"
+    },
+    {
+      "type": "parallel",
+      "cite": "100 L. Ed. 2d 811"
+    },
+    {
+      "type": "parallel",
+      "cite": "108 S. Ct. 2166"
+    },
+    {
+      "type": "vendor",
+      "cite": "1988 U.S. LEXIS 2733"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1987-119"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "520 F. 2d 91",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1116537,
+        3693571
+      ],
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "95, n. 22"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/520/0091-01",
+        "/us-app-dc/171/0359-01"
+      ]
+    },
+    {
+      "cite": "171 U. S. App. D. C. 359",
+      "category": "reporters:state",
+      "reporter": "U.S. App. D.C.",
+      "case_ids": [
+        3693571
+      ],
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "363, n. 22"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/171/0359-01"
+      ]
+    },
+    {
+      "cite": "452 U. S. 394",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1313660
+      ],
+      "weight": 2,
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "397, n. 2"
+        },
+        {
+          "page": "408, n. 3",
+          "parenthetical": "Brennan, J., dissenting"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/452/0394-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7\u00a7 1292",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(1) and (c)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "459 U. S. 828",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6255106,
+        6255493,
+        6257798,
+        6256126,
+        6256776,
+        6254662,
+        6254253,
+        6256430,
+        6257108,
+        6257463,
+        6255836,
+        6253918
+      ],
+      "year": 1982,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/459/0828-04",
+        "/us/459/0828-05",
+        "/us/459/0828-12",
+        "/us/459/0828-07",
+        "/us/459/0828-09",
+        "/us/459/0828-03",
+        "/us/459/0828-02",
+        "/us/459/0828-08",
+        "/us/459/0828-10",
+        "/us/459/0828-11",
+        "/us/459/0828-06",
+        "/us/459/0828-01"
+      ]
+    },
+    {
+      "cite": "668 F. 2d 100",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        458647
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "109",
+          "parenthetical": "\"The law of the case will be disregarded only when the court has 'a clear conviction of error' \""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/668/0100-01"
+      ]
+    },
+    {
+      "cite": "482 U. S. 64",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6209484
+      ],
+      "year": 1987,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/482/0064-01"
+      ]
+    },
+    {
+      "cite": "485 U. S. 176",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        13825
+      ],
+      "year": 1988,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/485/0176-01"
+      ]
+    },
+    {
+      "cite": "449 U. S. 368",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11716141
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "379-380"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/449/0368-01"
+      ]
+    },
+    {
+      "cite": "8 How. 441",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3350251
+      ],
+      "year": 1850,
+      "pin_cites": [
+        {
+          "page": "449"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/49/0441-01"
+      ]
+    },
+    {
+      "cite": "240 U. S. 251",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3689897
+      ],
+      "year": 1916,
+      "pin_cites": [
+        {
+          "page": "257-259"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/240/0251-01"
+      ]
+    },
+    {
+      "cite": "166 U. S. 280",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3593174
+      ],
+      "year": 1897,
+      "pin_cites": [
+        {
+          "page": "283-284"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/166/0280-01"
+      ]
+    },
+    {
+      "cite": "225 U. S. 436",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11340960
+      ],
+      "weight": 2,
+      "year": 1912,
+      "pin_cites": [
+        {
+          "page": "444",
+          "parenthetical": "Holmes, J."
+        },
+        {
+          "page": "444"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/225/0436-01"
+      ]
+    },
+    {
+      "cite": "574 F. 2d 926",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        926623
+      ],
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "930"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/574/0926-01"
+      ]
+    },
+    {
+      "cite": "363 U. S. 335",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6165319
+      ],
+      "weight": 3,
+      "year": 1960,
+      "pin_cites": [
+        {
+          "page": "340-341, n. 9",
+          "parenthetical": "res judicata principles did not limit power of Court of Appeals to reconsider transfer decision not upset by coordinate court"
+        },
+        {
+          "page": "348-349",
+          "parenthetical": "Frankfurter, J., dissenting"
+        },
+        {
+          "page": "349",
+          "parenthetical": "Frankfurter, J., dissenting"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/363/0335-01"
+      ]
+    },
+    {
+      "cite": "429 U. S. 1029",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        7808,
+        5634,
+        6117,
+        7301,
+        6256,
+        6808,
+        6108
+      ],
+      "year": 1976,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/429/1029-01",
+        "/us/429/1029-05",
+        "/us/429/1029-03",
+        "/us/429/1029-07",
+        "/us/429/1029-04",
+        "/us/429/1029-02",
+        "/us/429/1029-06"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 1404",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "541 F. 2d 554",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1034926
+      ],
+      "pin_cites": [
+        {
+          "page": "558-559"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/541/0554-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 1406",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "669 F. 2d 162",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1161682
+      ],
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "164-170",
+          "parenthetical": "transfer under 28 U. S. C. \u00a7 1406(a)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/669/0162-01"
+      ]
+    },
+    {
+      "cite": "469 U. S. 857",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12010880,
+        12011458,
+        12010819,
+        12011043,
+        12011340,
+        12011376,
+        12011153,
+        12011091,
+        12011284,
+        12010997,
+        12011415,
+        12010776,
+        12010937,
+        12011226
+      ],
+      "year": 1984,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/469/0857-03",
+        "/us/469/0857-14",
+        "/us/469/0857-02",
+        "/us/469/0857-06",
+        "/us/469/0857-11",
+        "/us/469/0857-12",
+        "/us/469/0857-08",
+        "/us/469/0857-07",
+        "/us/469/0857-10",
+        "/us/469/0857-05",
+        "/us/469/0857-13",
+        "/us/469/0857-01",
+        "/us/469/0857-04",
+        "/us/469/0857-09"
+      ]
+    },
+    {
+      "cite": "732 F. 2d 888",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1947703
+      ],
+      "pin_cites": [
+        {
+          "page": "900-901"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/732/0888-01"
+      ]
+    },
+    {
+      "cite": "474 U. S. 902",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6413507,
+        6412196,
+        6412453,
+        6413605,
+        6413063,
+        6412332,
+        6412559,
+        6413373,
+        6413175,
+        6412092,
+        6412669,
+        6413725
+      ],
+      "year": 1985,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/474/0902-10",
+        "/us/474/0902-02",
+        "/us/474/0902-04",
+        "/us/474/0902-11",
+        "/us/474/0902-07",
+        "/us/474/0902-03",
+        "/us/474/0902-05",
+        "/us/474/0902-09",
+        "/us/474/0902-08",
+        "/us/474/0902-01",
+        "/us/474/0902-06",
+        "/us/474/0902-12"
+      ]
+    },
+    {
+      "cite": "761 F. 2d 649",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        29507
+      ],
+      "pin_cites": [
+        {
+          "page": "657"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/761/0649-01"
+      ]
+    },
+    {
+      "cite": "460 U. S. 605",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6197411
+      ],
+      "weight": 2,
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "618",
+          "parenthetical": "dictum"
+        },
+        {
+          "page": "618, n. 8"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/460/0605-01"
+      ]
+    },
+    {
+      "cite": "609 F. Supp. 1174",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        117144
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "1185"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/609/1174-01"
+      ]
+    },
+    {
+      "cite": "789 F. 2d 1041",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1573861
+      ],
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "1044"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/789/1041-01"
+      ]
+    },
+    {
+      "cite": "384 U. S. 563",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12046547
+      ],
+      "year": 1966,
+      "pin_cites": [
+        {
+          "page": "570-571"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/384/0563-01"
+      ]
+    },
+    {
+      "cite": "15 U. S. C. \u00a7 2",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "211 U. S. 149",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11926768
+      ],
+      "year": 1908,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/211/0149-01"
+      ]
+    },
+    {
+      "cite": "234 U. S. 74",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        675068
+      ],
+      "year": 1914,
+      "pin_cites": [
+        {
+          "page": "75-76"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/234/0074-01"
+      ]
+    },
+    {
+      "cite": "478 U. S. 804",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6213698
+      ],
+      "weight": 2,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "813"
+        },
+        {
+          "page": "810",
+          "parenthetical": "\"[Djeter-minations about federal jurisdiction require sensitive judgments about congressional intent, judicial power, and the federal system\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/478/0804-01"
+      ]
+    },
+    {
+      "cite": "463 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6190266
+      ],
+      "weight": 5,
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "27-28"
+        },
+        {
+          "page": "13"
+        },
+        {
+          "page": "26",
+          "parenthetical": "footnote omitted"
+        },
+        {
+          "page": "26, n. 29"
+        },
+        {
+          "page": "8",
+          "parenthetical": "footnote omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/463/0001-01"
+      ]
+    },
+    {
+      "cite": "299 U. S. 109",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5722175
+      ],
+      "weight": 2,
+      "year": 1936,
+      "pin_cites": [
+        {
+          "page": "112",
+          "parenthetical": "the claim alleged in the complaint \"must be such that it will be supported if the Constitution or laws of the United States are given one construction or effect, and defeated if they receive another\""
+        },
+        {
+          "page": "117"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/299/0109-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 1331",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "parenthetical": "\"The district courts shall have original jurisdiction of all civil actions arising under the Constitution, laws, or treaties of the United States\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "224 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3668927
+      ],
+      "year": 1912,
+      "pin_cites": [
+        {
+          "page": "16"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/224/0001-01"
+      ]
+    },
+    {
+      "cite": "168 U. S. 255",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6138364
+      ],
+      "weight": 2,
+      "year": 1897,
+      "pin_cites": [
+        {
+          "page": "259"
+        },
+        {
+          "page": "259"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/168/0255-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 1295",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        },
+        {
+          "page": "(a)(1)",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "484 U. S. 985",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        601603,
+        601188,
+        600900,
+        600488,
+        600360,
+        601900,
+        601070,
+        602228
+      ],
+      "year": 1987,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/484/0985-08",
+        "/us/484/0985-05",
+        "/us/484/0985-01",
+        "/us/484/0985-06",
+        "/us/484/0985-07",
+        "/us/484/0985-02",
+        "/us/484/0985-03",
+        "/us/484/0985-04"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 1631",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 U. S. C. \u00a7 112",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "9"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 U. S. C. \u00a7\u00a7 1",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 U. S. C. \u00a7 26",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 U. S. C. \u00a7 15",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "822 F. 2d 1544",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1723456
+      ],
+      "weight": 9,
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "1551, n. 7"
+        },
+        {
+          "page": "1547"
+        },
+        {
+          "page": "1551, n. 7"
+        },
+        {
+          "page": "1559-1560"
+        },
+        {
+          "page": "1553-1556"
+        },
+        {
+          "page": "1547"
+        },
+        {
+          "page": "1566",
+          "parenthetical": "Nichols, J., concurring and dissenting"
+        },
+        {
+          "page": "1565",
+          "parenthetical": "Nichols, J., concurring and dissenting"
+        },
+        {
+          "page": "1559"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/822/1544-01"
+      ]
+    },
+    {
+      "cite": "798 F. 2d 1051",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1610177
+      ],
+      "weight": 4,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "1056-1057"
+        },
+        {
+          "page": "1056-1057"
+        },
+        {
+          "page": "1059-1061"
+        },
+        {
+          "page": "1061"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/798/1051-01"
+      ]
+    },
+    {
+      "cite": "482 U. S. 386",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6214062
+      ],
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "397",
+          "parenthetical": "\"artful pleading\" doctrine cannot be invoked by party attempting to justify removal on the basis of facts not alleged in the complaint"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/482/0386-01"
+      ]
+    },
+    {
+      "cite": "339 U. S. 667",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        362487
+      ],
+      "year": 1950,
+      "pin_cites": [
+        {
+          "page": "673-674"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/339/0667-01"
+      ]
+    },
+    {
+      "cite": "604 F. 2d 179",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        22650
+      ],
+      "year": 1979,
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/604/0179-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 1338",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "452 U. S. 394",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1313660
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "397, n. 2",
+          "parenthetical": "District Court properly found that respondents \"had attempted to avoid removal jurisdiction by 'artful[ly]' casting their 'essentially federal law claims' as state-law claims\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/452/0394-01"
+      ]
+    },
+    {
+      "cite": "478 U. S. 804",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6213698
+      ],
+      "weight": 2,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "808",
+          "parenthetical": "citation omitted"
+        },
+        {
+          "parenthetical": "incorporation of federal standard in state-law private action, when no cause of action, either express or implied, exists for violations of that federal standard, does not make the action one \"arising under the Constitution, laws, or treaties of the United States\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/478/0804-01"
+      ]
+    },
+    {
+      "cite": "299 U. S. 109",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5722175
+      ],
+      "year": 1936,
+      "pin_cites": [
+        {
+          "page": "117-118"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/299/0109-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 1295",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        }
+      ],
+      "opinion_index": 1
+    }
+  ],
+  "analysis": {
+    "cardinality": 1631,
+    "char_count": 44668,
+    "ocr_confidence": 0.727,
+    "pagerank": {
+      "raw": 1.8168488223703825e-05,
+      "percentile": 0.9998355116456596
+    },
+    "sha256": "108af9e8d3b6725ba7e4228bf42208399f29ff48ca3ba817ff997da4885cdd34",
+    "simhash": "1:9d8c7babe25a70e6",
+    "word_count": 7237
+  },
+  "last_updated": "2024-02-27T19:56:40.593749+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "BRENNAN, J., delivered the opinion for a unanimous Court. Stevens, J., filed a concurring opinion, in which Blackmun, J., joined, post, p. 819."
+    ],
+    "parties": [
+      "CHRISTIANSON et al. v. COLT INDUSTRIES OPERATING CORP."
+    ],
+    "opinions": [
+      {
+        "text": "Justice Brennan\ndelivered the opinion of the Court.\nThis case requires that we decide a peculiar jurisdictional battle between the Court of Appeals for the Federal Circuit and the Court of Appeals for the Seventh Circuit. Each court has adamantly disavowed jurisdiction over this case. Each has transferred the case to the other. And each insists that the other\u2019s jurisdictional decision is \u201cclearly wrong.\u201d 798 F. 2d 1051, 1056-1057 (CA7 1986); 822 F. 2d 1544, 1551, n. 7 (CA Fed. 1987). The parties therefore have been forced to shuttle their appeal back and forth between Chicago and the District of Columbia in search of a hospitable forum, ultimately to have the merits decided, after two years, by a Court of Appeals that still insists it lacks jurisdiction to do so.\nHH\nRespondent Colt Industries Operating Corp. is the leading manufacturer, seller, and marketer of M16 rifles and their parts and accessories. Colt\u2019s dominant market position dates back to 1959, when it acquired a license for 16 patents to manufacture the M16\u2019s precursor. Colt continued to develop the rifle, which the United States Army adopted as its standard assault rifle, and patented additional improvements. Through various devices, Colt has also maintained a shroud of secrecy around certain specifications essential to the mass production of interchangeable M16 parts. For example, Colt\u2019s patents conceal many of the manufacturing specifications that might otherwise be revealed by its engineering drawings, and when Colt licenses others to manufacture M16 parts or hires employees with access to proprietary information, it contractually obligates them not to disclose specifications.\nPetitioner Christianson is a former Colt employee who acceded to such a nondisclosure agreement. Upon leaving respondent\u2019s employ in 1975, Christianson established petitioner International Trade Services, Inc. (ITS), and began selling M16 parts to various customers domestically and abroad. Petitioners\u2019 business depended on information that Colt considers proprietary. Colt expressly waived its proprietary rights at least as to some of petitioners\u2019 early transactions. The precise scope of Colt\u2019s waiver is a matter of considerable dispute. In 1983, however, Colt joined petitioners as defendants in a patent-infringement lawsuit against two companies that had arranged a sale of M16\u2019s to El Salvador. Evidence suggested that petitioners supplied the companies with certain M16 specifications, and Colt sought a court order enjoining petitioners from any further disclosures. When the District Court declined the motion, Colt voluntarily dismissed its claims against petitioners. In the meantime, Colt notified several of petitioners\u2019 current and potential customers that petitioners were illegally misappropriating Colt\u2019s trade secrets, and urged them to refrain from doing business with petitioners.\nThree days after their dismissal from the lawsuit, petitioners brought this lawsuit in the District Court against Colt \u201cpursuant to Section 4 ... (15 U. S. C. \u00a7 15) and Section 16 of the Clayton Act (15 U. S. C. \u00a7 26) for damages, injunctive and equitable relief by reason of its violations of Sections 1 and 2 of the Sherman Act (15 U. S. C. \u00a7\u00a7 1 & 2). . . .\u201d App. 7. The complaint alleged that Colt\u2019s letters, litigation tactics, and \u201c[o]the[r]. . . conduct\u201d drove petitioners out of business. In that context, petitioners included the following obscure passage:\n\u201c18. The validity of the Colt patents had been assumed throughout the life of the Colt patents through 1980. Unless such patents were invalid through the wrongful retention of proprietary information in contravention of United States Patent Law (35 U. S. C. \u00a7 112), in 1980, when such patents expired, anyone \u2018who has ordinary skill in the rifle-making art\u2019 is able to use the technology of such expired patents for which Colt earlier had a monopoly position for 17 years.\n\u201c19. ITS and anyone else has the right to manufacture, contract for the manufacture, supply, market and sell the M-16 and M-16 parts and accessories thereof at the present time.\u201d Id., at 9.\nPetitioners later amended their complaint to assert a second cause of action under state law for tortious interference with their business relationships. Colt interposed a defense that its conduct was justified by a need to protect its trade secrets and countersued on a variety of claims arising out of petitioners\u2019 alleged misappropriation of M16 specifications.\nPetitioners\u2019 motion for summary judgment raised only a patent-law issue obliquely hinted at in the above-quoted paragraphs \u2014 that Colt\u2019s patents were invalid from their inception for failure to disclose sufficient information to \u201cenable any person skilled in the art. . . to make and use the same\u201d as well as a description of \u201cthe best mode contemplated by the inventor of carrying out his invention.\u201d 35 U. S. C. \u00a7 112. Since Colt benefited from the protection of the invalid patents, the argument continues, the \u201ctrade secrets\u201d that the patents should have disclosed lost any state-law protection. Petitioners therefore argued that the District Court should hold that \u201cColt\u2019s trade secrets are invalid and that [their] claim of invalidity shall be taken as established with respect to all claims and counterclaims to which said issue is material.\u201d App. 58.\nThe District Court awarded petitioners summary judgment as to liability on both the antitrust and the tortious-interference claims, essentially relying on the \u00a7 112 theory articulated above. In the process, the District Court invalidated nine of Colt\u2019s patents, declared all trade secrets relating to the M16 unenforceable, enjoined Colt from enforcing \u201cany form of trade secret right in any technical information relating to the M16,\u201d and ordered Colt to disgorge to petitioners all such information. 613 P. Supp. 330, 332 (CD Ill. 1985).\nRespondent appealed to the Court of Appeals for the Federal Circuit, which, after full briefing and argument, concluded that it lacked jurisdiction and issued an unpublished order transferring the appeal to the Court of Appeals for the Seventh Circuit. See 28 U. S. C. \u00a7 1631. The Seventh Circuit, however, raising the jurisdictional issue sna sponte, concluded that the Federal Circuit was \u201cclearly wrong\u201d and transferred the case back. 798 F. 2d, at 1056-1057. 1062. The Federal Circuit, for its part, adhered to its prior jurisdictional ruling, concluding that the Seventh Circuit exhibited \u201ca monumental misunderstanding of the patent jurisdiction granted this court,\u201d 822 F. 2d, at 1547, and was \u201cclearly wrong,\u201d id., at 1551, n. 7. Nevertheless, the Federal Circuit proceeded to address the merits in the \u201cinterest of justice,\u201d id., at 1559-1560, and reversed the District Court. We granted certiorari, 484 U. S. 985 (1987), and now vacate the judgment of the Federal Circuit.\nhH\nAs relevant here, 28 U. S. C. \u00a7 1295(a)(1) grants the Court of Appeals for the Federal Circuit exclusive jurisdiction over \u201can appeal from a final decision of a district court of the United States ... if the jurisdiction of that court was based, in whole or in part, on [28 U. S. C.] section 1338 . . . ,\u201d Section 1338(a), in turn, provides in relevant part that \u201c[t]he district courts shall have original jurisdiction of any civil action arising under any Act of Congress relating to patents . . . .\u201d Thus, the jurisdictional issue before us turns on whether this is a case \u201carising under\u201d a federal patent statute, for if it is then the jurisdiction of the District Court was based at least \u201cin part\u201d on \u00a7 1338.\nA\nIn interpreting \u00a7 1338\u2019s precursor, we held long ago that in order to demonstrate that a case is one \u201carising under\u201d federal patent law \u201cthe plaintiff must set up some right, title or interest under the patent laws, or at least make it appear that some right or privilege will be defeated by one construction, or sustained by the opposite construction of these laws.\u201d Pratt v. Paris Gas Light & Coke Co., 168 U. S. 255, 259 (1897). See Henry v. A. B. Dick Co., 224 U. S. 1, 16 (1912). Our cases interpreting identical language in other jurisdictional provisions, particularly the general federal-question provision, 28 U. S. C. \u00a7 1331 (\u201cThe district courts shall have original jurisdiction of all civil actions arising under the Constitution, laws, or treaties of the United States\u201d), have quite naturally applied the same test. See Gully v. First National Bank in Meridian, 299 U. S. 109, 112 (1936) (the claim alleged in the complaint \u201cmust be such that it will be supported if the Constitution or laws of the United States are given one construction or effect, and defeated if they receive another\u201d) (citations omitted). A district court\u2019s federal-question jurisdiction, we recently explained, extends over \u201conly those cases in which a well-pleaded complaint establishes either that federal law creates the cause of action or that the plaintiff\u2019s right to relief necessarily depends on resolution of a substantial question of federal law,\u201d Franchise Tax Board of California v. Construction Laborers Vacation Trust, 463 U. S. 1, 27-28 (1983), in that \u201cfederal law is a necessary element of one of the well-pleaded . . . claims,\u201d id., at 13. Linguistic consistency, to which we have historically adhered, demands that \u00a7 1338(a) jurisdiction likewise extend only to those cases in which a well-pleaded complaint establishes either that federal patent law creates the cause of action or that the plaintiff\u2019s right to relief necessarily depends on resolution of a substantial question of federal patent law, in that patent law is a necessary element of one of the well-pleaded claims. See 822 F. 2d, at 1553-1556; 798 F. 2d, at 1059-1061.\nThe most superficial perusal of petitioners\u2019 complaint establishes, and no one disputes, that patent law did not in any sense create petitioners\u2019 antitrust or intentional-interference claims. Since no one asserts that federal jurisdiction rests on petitioners\u2019 state-law claims, the dispute centers around whether patent law \u201cis a necessary element of one of the well-pleaded [antitrust] claims.\u201d See Merrell Dow Pharmaceuticals Inc. v. Thompson, 478 U. S. 804, 813 (1986). Our cases, again mostly in the \u00a7 1331 context, establish principles for both defining the \u201cwell-pleaded . . . claims\u201d and discerning which elements are \u201cnecessary\u201d or \u201cessential\u201d to them. Under the well-pleaded complaint \u2022 rule, as appropriately adapted to \u00a7 1338(a), whether a claim \u201carises under\u201d patent law \u201c\u2018must be determined from \"what necessarily appears in the plaintiff\u2019s statement of his own claim in the bill or declaration, unaided by anything alleged in anticipation or avoidance of defenses which it is thought the defendant may interpose.\u2019\u201d Franchise Tax Board, supra, at 10 (quoting Taylor v. Anderson, 234 U. S. 74, 75-76 (1914)). See Louisville & Nashville R. Co. v. Mottley, 211 U. S. 149 (1908). Thus, a case raising a federal patent-law defense does not, for that reason alone, \u201carise under\u201d patent law, \u201ceven if the defense is anticipated in the plaintiff\u2019s complaint, and even if both parties admit that the defense is the only question truly at issue in the case.\u201d Franchise Tax Board, supra, at 14. See also Merrell Dow, supra, at 808.\nNor is it necessarily sufficient that a well-pleaded claim alleges a single theory under which resolution of a patent-law question is essential. If \u201con the face of a well-pleaded complaint there are . . . reasons completely unrelated to the provisions and purposes of [the patent laws] why the [plaintiff] may or may not be entitled to the relief it seeks,\u201d Franchise Tax Board, 463 U. S., at 26 (footnote omitted), then the claim does not \u201carise under\u201d those laws. See id., at 26, n. 29. Thus, a claim supported by alternative theories in the complaint may not form the basis for \u00a7 1338(a) jurisdiction unless patent law is essential to each of those theories.\nB\nFramed in these terms, our resolution of the jurisdictional issue in this case is straightforward. Petitioners\u2019 antitrust count can readily be understood to encompass both a monopolization claim under \u00a72 of the Sherman Act and a group-boycott claim under \u00a7 1. The patent-law issue, while arguably necessary to at least one theory under each claim, is not necessary to the overall success of either claim.\nSection 2 of the Sherman Act condemns \u201c[e]very person who shall monopolize, or attempt to monopolize . . . .\u201d 15 U. S. C. \u00a7 2. The thrust of petitioners\u2019 monopolization claim is that Colt has \u201cembarked on a course of conduct to illegally extend its monopoly position with respect to the described patents and to prevent ITS from engaging in any business with respect to parts and accessories of the M-16.\u201d App. 10. The complaint specifies several acts, most of which relate either to Colt\u2019s prosecution of the lawsuit against petitioners or to letters Colt sent to petitioners\u2019 potential and existing customers. To make out a \u00a7 2 claim, petitioners would have to present a theory under which the identified conduct amounted to a \u201cwillful acquisition or maintenance of [monopoly] power as distinguished from growth or development as a consequence of a superior product, business acumen, or historic accident.\u201d United States v. Grinnell Corp., 384 U. S. 563, 570-571 (1966). Both the Seventh Circuit and Colt focus entirely on what they perceive to be \u201cthe only basis Christianson asserted in the complaint for the alleged antitrust violation,\u201d 798 F. 2d, at 1061; see Brief for Respondent 32 \u2014 namely, that Colt made false assertions in its letters and pleadings that petitioners were violating its trade secrets, when those trade secrets were not protected under state law because Colt\u2019s patents were invalid under \u00a7 112. Thus, Colt concludes, the validity of the patents is an essential element of petitioners\u2019 prima facie monopolization theory and the case \u201carises under\u201d patent law.\nWe can assume without deciding that the invalidity of Colt\u2019s patents is an essential element of the foregoing monopolization theory rather than merely an argument in anticipation of a defense. But see 822 F. 2d, at 1547. The well-pleaded complaint rule, however, focuses on claims, not theories, see Franchise Tax Board, supra, at 26, and n. 29; Gully, 299 U. S., at 117, and just because an element that is essential to a particular theory might be governed by federal patent law does not mean that the entire monopolization claim \u201carises under\u201d patent law.\nExamination of the complaint reveals that the monopolization theory that Colt singles out (and on which petitioners ultimately prevailed in the District Court) is only one of several, and the only one for which the patent-law issue is even arguably essential. So far as appears from the complaint, for example, petitioners might have attempted to prove that Colt\u2019s accusations of trade-secret infringement were false not because Colt had no trade secrets, but because Colt authorized petitioners to use them. App. 9-10 (\u201cContrary to the permission extended to ITS to sell Colt parts and accessories and in violation of the anti-trust laws . . . Colt has embarked upon a course of conduct... to prevent ITS from engaging in any business with respect to parts and accessories of the M-16\u201d). In fact, most of the conduct alleged in the complaint could be deemed wrongful quite apart from the truth or falsity of Colt\u2019s accusations. According to the complaint, Colt\u2019s letters also (1) contained \u201ccopies of inapplicable court orders\u201d and \u201csuggested] that these court orders prohibited [the recipients] from doing business with\u201d petitioners; and (2) \u201cfalsely stat[ed] that \u2018Colt\u2019s right\u2019 to proprietary data had been \u2018consistently upheld in various courts.\u2019\u201d Id., at 10. Similarly, the complaint alleges that Colt\u2019s lawsuit against petitioners (1) was designed \u201cto contravene the permission previously given\u201d; (2) was \u201c[p]ursued ... in bad faith by subjecting [petitioners] to substantial expense in extended discovery procedures\u201d; and (3) was brought only to enable Colt \u201cto urge customers and potential customers of [petitioners] to refrain from doing business with them.\u201d Id., at 10-11. Since there are \u201creasons completely unrelated to the provisions and purposes\u201d of federal patent law why petitioners \u201cmay or may not be entitled to the relief [they] see[k]\u201d under their monopolization claim, Franchise Tax Board, supra, at 26 (footnote omitted), the claim does not \u201carise under\u201d federal patent law.\nThe same analysis obtains as to petitioners\u2019 group-boycott claim under \u00a71 of the Sherman Act, which provides that \u201c[e]very contract, combination ... , or conspiracy, in restraint of trade or commerce ... is declared to be illegal,\u201d 15 U. S. C. \u00a7 1. This claim is set forth in the allegation that \u201cvirtually all suppliers of ITS and customers of ITS have agreed with Colt to refrain from supplying and purchasing M-16 parts and accessories to or from ITS, which has had the effect of requiring ITS to close its doors and no longer transact business.\u201d App. 11. As this case unfolded, petitioners attempted to prove that the alleged agreement was unreasonable because its purpose was to protect Colt\u2019s trade secrets from petitioners\u2019 infringement and, given the patents\u2019 invalidity under \u00a7 112, Colt had no trade secrets to infringe. Whether or not the patent-law issue was an \u201cessential\u201d element of that group-boycott theory, however, petitioners could have supported their group-boycott claim with any of several theories having nothing to do with the validity of Colt\u2019s patents. Equally prominent in the complaint, for example, is a theory that the alleged agreement was unreasonable not because Colt had no trade secrets to protect, but because Colt authorized petitioners to use them. Once again, the appearance on the complaint\u2019s face of an alternative, non-patent theory compels the conclusion that the group-boycott claim does not \u201carise under\u201d patent law.\nh \u2014 I I \u2014 I\nColt offers three arguments for finding jurisdiction in the Federal Circuit, notwithstanding the well-pleaded complaint rule. The first derives from congressional policy; the second is based on Federal Rule of Civil Procedure 15(b); and the third is grounded in principles of the law of the case. We find none of them persuasive.\nA\nColt correctly observes that one of Congress\u2019 objectives in creating a Federal Circuit with exclusive jurisdiction over certain patent cases was \u201cto reduce the widespread lack of uniformity and uncertainty of legal doctrine that exist[ed] in the administration of patent law.\u201d H. R. Rep. No. 97-312, p. 23 (1981). Colt might be correct (although not clearly so) that Congress\u2019 goals would be better served if the Federal Circuit\u2019s jurisdiction were to be fixed \u201cby reference to the case actually litigated,\u201d rather than by an ex ante hypothetical assessment of the elements of the complaint that might have been dispositive. Brief for Respondent 31. Congress determined the relevant focus, however, when it granted jurisdiction to the Federal Circuit over \u201can appeal from ... a district court... if the jurisdiction of that court was based ... on section 1338.\u201d 28 U. S. C. \u00a7 1295(a)(1) (emphasis added). Since the district court\u2019s jurisdiction is determined by reference to the well-pleaded complaint, not the well-tried case, the referent for the Federal Circuit\u2019s jurisdiction must be the same. The legislative history of the Federal Circuit\u2019s jurisdictional provisions confirms that focus. See, e. g., H. R. Rep. No. 97-312, supra, at 41 (cases fall within the Federal Circuit\u2019s patent jurisdiction \u201cin the same sense that cases are said to \u2018arise under\u2019 federal law for purposes of federal question jurisdiction\u201d). In view of that clear congressional intent, we have no more authority to read \u00a7 1295(a)(1) as granting the Federal Circuit jurisdiction over an appeal where the well-pleaded complaint does not depend on patent law, than to read \u00a7 1338(a) as granting a district court jurisdiction over such a complaint. See Pratt, 168 U. S., at 259.\nB\nColt suggests alternatively that under Federal Rule of Civil Procedure 15(b) we should deem the complaint amended to encompass a new and independent cause of action \u2014 \u201can implied cause of action under section 112 of the patent laws.\u201d Brief for Respondent 28. Such a cause of action, which Colt finds in petitioners\u2019 summary judgment papers, would plainly \u201carise under\u201d the patent laws, regardless of its merit. See 822 F. 2d, at 1566 (Nichols, J., concurring and dissenting).\nWe need not decide under what circumstances, if any, a court of appeals could furnish itself a jurisdictional basis unsupported by the pleadings by deeming the complaint amended in light of the parties\u2019 \u201cexpress or implied consent\u201d to litigate a claim. Fed. Rule Civ. Proc. 15(b). In this case there is simply no evidence of any consent among the parties to litigate the new patent-law claim that Colt imputes to petitioners. Colt points to nothing in petitioners\u2019 summary judgment motion expressly raising such a new cause of action, much less anything in its own motion papers suggesting consent to one. See App. 57-58. True, the summary judgment papers focused almost entirely on the patent-law issues, which petitioners deemed \u201c[bjasic and fundamental to the subject lawsuit.\u201d Id., at 57. But those issues fell squarely within the purview of the theories of recovery, defenses, and counterclaims that the pleadings already encompassed. Petitioners recognized as much when they moved the District Court to hold that their \u201cclaim of [patent] invalidity shall be taken as established with respect to all claims and counterclaims to which said issue is material.\u201d Id., at 58. Thus, the patent-law focus of the summary judgment papers hardly heralded the assertion of a new patent-law claim. See, e. g., Quillen v. International Playtex, Inc., 789 F. 2d 1041, 1044 (CA4 1986); 6 C. Wright & A. Miller, Federal Practice and Procedure \u00a7 1493, p. 466 (1971). Moreover, the District Court never intimated that the patent issues were relevant to any cause of action other than the antitrust and intentional-interference claims raised expressly in the complaint; the court four times linked its judgment to \u201cliability on Counts I and II,\u201d without any reference to the hypothetical Count III that Colt imputes to petitioners. 609 F. Supp. 1174, 1185 (CD Ill. 1985) See also 613 F. Supp., at 332.\nC\nColt\u2019s final argument is that the Federal Circuit was obliged not to revisit the Seventh Circuit\u2019s thorough analysis of the jurisdictional issue, but merely to adopt it as the law of the case. See also 822 F. 2d, at 1565 (Nichols, J., concurring and dissenting). \u201cAs most commonly defined, the doctrine [of the law of the case] posits that when a court decides upon a rule of law, that decision should continue to govern the same issues in subsequent stages in the same case.\u201d Arizona v. California, 460 U. S. 605, 618 (1983) (dictum). This rule of practice promotes the finality and efficiency of the judicial process by \u201cprotecting against the agitation of settled issues.\u201d IB J. Moore, J. Lucas, & T. Currier, Moore\u2019s Federal Practice \u00b60.404[1], p. 118 (1984) (hereinafter Moore\u2019s).\nColt is correct that the doctrine applies as much to the decisions of a coordinate court in the same case as to a court\u2019s own decisions. See, e. g., Kori Corp. v. Wilco Marsh Buggies & Draglines, Inc., 761 F. 2d 649, 657 (CA Fed.), cert. denied, 474 U. S. 902 (1985); Perkin-Elmer Corp. v. Computervision Corp., 732 F. 2d 888, 900-901 (CA Fed.), cert. denied, 469 U. S. 857 (1984). Federal courts routinely apply law-of-the-case principles to transfer decisions of coordinate courts. See, e. g., Hayman Cash Register Co. v. Sarokin, 669 F. 2d 162, 164-170 (CA3 1982) (transfer under 28 U. S. C. \u00a7 1406(a)); Skil Corp. v. Millers Falls Co., 541 F. 2d 554, 558-559 (CA6) (alternative holding) (transfer under 28 U. S. C. \u00a7 1404(a)), cert. denied, 429 U. S. 1029 (1976); IB Moore\u2019s \u00b6\u00b60.404[4.-5], 0.404[8]. Cf. Hoffman v. Blaski, 363 U. S. 335, 340-341, n. 9 (1960) (res judicata principles did not limit power of Court of Appeals to reconsider transfer decision not upset by coordinate court). Indeed, the policies supporting the doctrine apply with even greater force to transfer decisions than to decisions of substantive law; transferee courts that feel entirely free to revisit transfer decisions of a coordinate court threaten to send litigants into a vicious circle of litigation. See Hayman, supra, at 169; Chicago & N. W. Transp. Co. v. United States, 574 F. 2d 926, 930 (CA7 1978). Cf. Blaski, supra, at 348-349 (Frankfurter, J., dissenting).\nColt\u2019s conclusion that jurisdiction therefore lay in the Federal Circuit is flawed, however, for three reasons. First, the Federal Circuit, in transferring the case to the Seventh Circuit, was the first to decide the jurisdictional issue. That the Federal Circuit did not explicate its rationale is irrelevant, for the law of the case turns on whether a court previously \u201cdecide[d] upon a rule of law\u201d \u2014 which the Federal Circuit necessarily did \u2014 not on whether, or how well, it explained the decision. Thus, the law of the case was that the Seventh Circuit had jurisdiction, and it was the Seventh Circuit, not the Federal Circuit, that departed from the law of the case. Second, the law-of-the-case doctrine \u201cmerely expresses the practice of courts generally to refuse to reopen what has been decided, not a limit to their power.\u201d Messenger v. Anderson, 225 U. S. 436, 444 (1912) (Holmes, J.) (citations- omitted). A court has the power to revisit prior decisions of its own or of a coordinate court in any circumstance, although as a rule courts should be loathe to do so in the absence of extraordinary circumstances such as where the initial decision was \u201cclearly erroneous and would work a manifest injustice.\u201d Arizona v. California, supra, at 618, n. 8 (citation omitted). Thus, even if the Seventh Circuit\u2019s decision was law of the case, the Federal Circuit did not exceed its power in revisiting the jurisdictional issue, and once it concluded that the prior decision was \u201cclearly wrong\u201d it was obliged to decline jurisdiction. Most importantly, law of the case cannot bind this Court in reviewing decisions below. A petition for writ of certiorari can expose the entire case to review. Panama R. Co. v. Napier Shipping Co., 166 U. S. 280, 283-284 (1897). Just as a district court\u2019s adherence to law of the case cannot insulate an issue from appellate review, a court of appeals\u2019 adherence to the law of the case cannot insulate an issue from this Court\u2019s review. See Mes senger, supra, at 444; Hamilton-Brown Shoe Co. v. Wolf Brothers & Co., 240 U. S. 251, 257-259 (1916).\nHH <1\nOur agreement with the Federal Circuit\u2019s conclusion that it lacked jurisdiction, compels us to disapprove of its decision to reach the merits anyway \u201cin the interest of justice.\u201d 822 F. 2d, at 1559. \u201cCourts created by statute can have no jurisdiction but such as the statute confers.\u201d Sheldon v. Sill, 8 How. 441, 449 (1850). See also Firestone Tire & Rubber Co. v. Risjord, 449 U. S. 368, 379-380 (1981). The statute confers on the Federal Circuit authority to make a single decision upon concluding that it lacks jurisdiction \u2014 whether to dismiss the case or, \u201cin the interest of justice,\u201d to transfer it to a court of appeals that has jurisdiction. 28 U. S. C. \u00a7 1631.\nThe age-old rule that a court may not in any case, even in the interest of justice, extend its jurisdiction where none exists has always worked injustice in particular cases. Parties often spend years litigating claims only to learn that their efforts and expense were wasted in a court that lacked jurisdiction. Even more exasperating for the litigants (and wasteful for all concerned) is a situation where, as here, the litigants are bandied back and forth helplessly between two courts, each of which insists the other has jurisdiction. Such situations inhere in the very nature of jurisdictional lines, for as our cases aptly illustrate, few jurisdictional lines can be so finely drawn as to leave no room for disagreement on close cases. See, e. g., K mart Corp. v. Cartier, Inc., 485 U. S. 176 (1988); United States v. Hohri, 482 U. S. 64 (1987).\nThat does not mean, however, that every borderline ease must inevitably culminate in a perpetual game of jurisdictional ping-pong until this Court intervenes to resolve the underlying jurisdictional dispute, or (more likely) until one of the parties surrenders to futility. Such a state of affairs would undermine public confidence in our judiciary, squander private and public resources, and commit far too much of this Court\u2019s calendar to the resolution of fact-specific jurisdictional disputes that lack national importance. \u201cSurely a seemly system of judicial remedies . . . regarding controverted transfer provisions of the United States Code should encourage, not discourage, quick settlement of questions of transfer . . . Blaski, 363 U. S., at 349 (Frankfurter, J., dissenting). The courts of appeals should achieve this end by adhering strictly to principles of law of the case. See supra, at 816. Situations might arise, of course, in which the transferee court considers the transfer \u201cclearly erroneous.\u201d Arizona v. California, 460 U. S., at 618, n. 8. But as \u201c[t]he doctrine of the law of the case is ... a heavy deterrent to vacillation on arguable issues,\u201d IB Moore\u2019s \u00b60.404[1], at 124, such reversals should necessarily be exceptional; courts will rarely transfer cases over which they have clear jurisdiction, and close questions, by definition, never have clearly correct answers. Under law-of-the-case principles, if the transferee court can find the transfer decision plausible, its jurisdictional inquiry is at an end. See Fogel v. Chestnutt, 668 F. 2d 100, 109 (CA2 1981) (\u201cThe law of the case will be disregarded only when the court has \u2018a clear conviction of error\u2019 \u201d) (citation omitted), cert. denied, 459 U. S. 828 (1982). While adherence to the law of the case will not shield an incorrect jurisdictional decision should this Court choose to grant review, see supra, at 817-818, it will obviate the necessity for us to resolve every marginal jurisdictional dispute.\nWe vacate the judgment of the Court of Appeals for the Federal Circuit and remand with instructions to transfer the case to the Court of Appeals for the Seventh Circuit. See 28 U. S. C. \u00a7 1631.\nIt is so ordered.\nColt\u2019s appeal to the Federal Circuit actually invoked 28 U. S. C. \u00a7\u00a7 1292(a)(1) and (c)(1), which together grant the Federal Circuit exclusive jurisdiction over appeals from interlocutory orders \u201cgranting, continuing, modifying, refusing or dissolving [an] injunctio[n],\u201d \u00a7 1292(a)(1), \u201cin any case over which the court would have jurisdiction over an appeal under section 1295,\u201d \u00a7 1292(c)(1).\nColt correctly points out that in this case our interpretation of \u00a7 1338(a)\u2019s \u201carising under\u201d language will merely determine which of two federal appellate courts will decide the appeal, and suggests that our \u201carising under\u201d jurisprudence might therefore be inapposite. Since, however, \u00a7 1338(a) delineates the jurisdiction of the federal and state courts over cases involving patent issues, the phrase (like the identical phrase in \u00a7 1331) \u201cmasks a welter of issues regarding the interrelation of federal and state authority and the proper management of the federal judicial system.\u201d See Franchise Tax Board of California v. Construction Laborers Vacation Trust, 463 U. S. 1, 8 (1983) (footnote omitted). See also Merrell Dow Pharmaceuticals Inc. v. Thompson, 478 U. S. 804, 810 (1986) (\u201c[Djeter-minations about federal jurisdiction require sensitive judgments about congressional intent, judicial power, and the federal system\u201d).\nOn the other hand, merely because a claim makes no reference to federal patent law does not necessarily mean the claim does not \u201carise under\u201d patent law. Just as \u201ca plaintiff may not defeat removal by omitting to plead necessary federal questions in a complaint,\u201d Franchise Tax Board, supra, at 22 (citations omitted); see Federated Department Stores, Inc. v. Moitie, 452 U. S. 394, 397, n. 2 (1981); id., at 408, n. 3 (Brennan, J., dissenting), so a plaintiff may not defeat \u00a7 1338(a) jurisdiction by omitting to plead necessary federal patent-law questions.\nRule 15(b) provides in relevant part:\n\u201cWhen issues not raised by the pleadings are tried by express or implied consent of the parties, they shall be treated in all respects as if they had been raised in the pleadings. Such amendment of the pleadings as may be necessary to cause them to conform to the evidence and to raise these issues may be made upon motion of any party at any time, even after judgment; but failure to so amend does not affect the result of the trial of these issues.\u201d\nThere is no reason to apply law-of-the-case principles less rigorously to transfer decisions that implicate the transferee\u2019s jurisdiction. Perpetual litigation of any issue \u2014 jurisdictional or nonjurisdictional \u2014 delays, and therefore threatens to deny, justice. But cf. Potomac Passengers Assn. v. Chesapeake & Ohio R. Co., 171 U. S. App. D. C. 359, 363, n. 22, 520 F. 2d 91, 95, n. 22 (1975).",
+        "type": "majority",
+        "author": "Justice Brennan"
+      },
+      {
+        "text": "Justice Stevens,\nwith whom Justice Blackmun joins, concurring.\nIn a seminal case construing federal-question jurisdiction, Justice Cardozo wrote that \u201c[w]hat is needed is something of that common-sense accommodation of judgment to kaleidoscopic situations which characterizes the law in its treatment of problems of causation ... a selective process which picks the substantial causes out of the web and lays the other ones aside.\u201d Gully v. First National Bank in Meridian, 299 U. S. 109, 117-118 (1936). Although I agree with the Court\u2019s conclusion in this case that appellate jurisdiction is in the Seventh Circuit rather than the Federal Circuit, I write separately to emphasize that a common-sense application of Justice Cardozo\u2019s dictum requires that the answer to the question whether a claim arises under the patent laws may depend on the time when the question is asked. More specifically, if the question is asked at the end of a trial in order to decide whether the Federal Circuit has appellate jurisdiction, the answer may be different than if it had been asked at the outset to decide whether a federal district court has jurisdiction to try the case.\nWhen Congress passed the Federal Courts Improvement Act in 1982 and vested exclusive jurisdiction in the Court of Appeals for the Federal Circuit to resolve appeals of claims that had arisen under the patent laws in the federal district courts, it was responding to concerns about both the lack of uniformity in federal appellate construction of the patent laws and the forum-shopping that such divergent appellate views had generated. Nonetheless, its definition of the Federal Circuit\u2019s jurisdiction did not embrace all cases in which a district court had decided a patent-law question. Instead, it adopted a standard that requires the appellate court to decide whether the jurisdiction of the district court was based, in whole or in part, on a claim \u201carising under\u201d the patent laws.\nThe question whether a claim arises under the patent laws is similar to the question whether a claim arises under federal law. Although there is no single, precise, all-embracing definition of either body of law, the \u201cvast majority\u201d of cases that come within either \u201cgrant of jurisdiction are covered by Justice Holmes\u2019 statement that a \u2018suit arises under the law that creates the cause of action.\u2019 Thus, the vast majority of cases brought under the general federal-question jurisdiction of the federal courts are those in which federal law creates the cause of action.\u201d Merrell Dow Pharmaceuticals Inc. v. Thompson, 478 U. S. 804, 808 (1986) (citation omitted). In this case it is clear that the causes of action asserted by petitioners were created by the antitrust laws and not the patent laws. Congress did not create an express cause of action to enforce \u00a7 112 of the patent laws, and I find no merit in respondent\u2019s suggestion that we should recognize an implied cause of action under \u00a7 112. Accordingly, I agree with the Court\u2019s conclusion that the issue of wrongful retention of proprietary information that became the focus of this case under \u00a7 112 of the patent laws could not confer appellate jurisdiction in the Federal Circuit, because the issue arose as a defense rather than as a claim.\nTo the extent that Part III-A of the Court\u2019s opinion does nothing more than abjure the notion that the Federal Circuit has jurisdiction over patent-law issues as well as claims, I am thus in complete agreement. However, in rejecting respondent\u2019s contention that \u201cCongress\u2019 goals would be better served if the Federal Circuit\u2019s jurisdiction were to be fixed \u2018by reference to the case actually litigated,\u2019 rather than by an ex ante hypothetical assessment of the elements of the complaint that might have been dispositive,\u201d ante, at 813, the Court\u2019s opinion might be read as suggesting that whether patent claims are properly before the Federal Circuit on appeal should be determined by examining only the initial complaint and not by ascertaining whether a patent claim in fact was litigated in the case. Such an approach would assume that whether a case \u201carises under\u201d the patent laws turns on the same considerations whether one is determining the Federal Circuit\u2019s appellate jurisdiction or a federal district court\u2019s original jurisdiction. But although 28 U. S. C. \u00a7 1338(a) provides the basis for both types of jurisdictional assessment, I think it clear that Congress could not have intended precisely the same analysis in both instances. Two simple examples will illustrate the point.\nIf a patentee should file a two-count complaint seeking damages (1) under the antitrust laws and (2) for patent infringement, the district court\u2019s jurisdiction would unquestionably be based, at least in part, on \u00a7 1338(a). If, however, pretrial discovery convinced the plaintiff that no infringement had occurred, and Count 2 was therefore dismissed voluntarily in advance of trial, the case that would actually be litigated would certainly not arise under the patent laws for purposes of appellate jurisdiction. Even though the district court\u2019s original jurisdiction when the complaint was filed had been based, in part, on \u00a7 1338(a), the case would no longer be one arising under the patent laws for purposes of Federal Circuit review when the district court\u2019s judgment was entered. Conversely, if an original complaint alleging only an antitrust violation should be amended after discovery to add a patent-law claim, and if the plaintiff should be successful in proving that its patent was valid and infringed but unsuccessful in proving any basis for recovery under the antitrust laws, the district court\u2019s judgment would sustain a claim arising under the patent laws even though the complaint initially invoking its jurisdiction had not mentioned it, and an appeal would properly lie in the Federal Circuit.\nWhether the complaint is actually amended, as in the previous example, or constructively amended to conform to the proof, see Fed. Rule Civ. Proc. 15(b), Congress\u2019 goal of ensuring that appeals of patent-law claims go to the Federal Circuit would be thwarted by determining that court\u2019s appellate jurisdiction only through an examination of the complaint as initially filed. That approach would enable an unscrupulous plaintiff to manipulate appellate court jurisdiction by the timing of the amendments to its complaint. The Court expressly leaves open the question whether a constructive amendment could provide the foundation for Federal Circuit patent-law jurisdiction, see ante, at 814-815, and says nothing on the subject whether actual amendments to the complaint can so suffice. But since respondent has asked us to rule in its favor on the ground that petitioners\u2019 complaint added a patent-law claim through constructive amendment, I think we should make it perfectly clear that even though respondent\u2019s approach to the jurisdictional question is sound, its application of that approach to this case fails because the claim that was actually litigated did not arise under the patent laws. Nevertheless, since what the Court has written is not inconsistent with this view, I join its opinion.\nTitle 28 U. S. C. \u00a7 1295(a)(1) grants the Federal Circuit appellate jurisdiction over final decisions of federal district courts whose jurisdiction \u201cwas based, in whole or in part, on section 1338 of this title.\u201d Title 28 U. S. C. \u00a7 1338(a), in turn, grants the federal district courts \u201coriginal jurisdiction of any civil action arising under any Act of Congress relating to patents . . . .\u201d As the Court correctly states, ante, at 807-810, \u00a7 1338 jurisdiction, like \u00a7 1331 jurisdiction, is over claims, not issues. See H. R. Rep. No. 97-312, p. 41 (1981) (\u201cCases will be within the jurisdiction of the Court of Appeals for the Federal Circuit in the same sense that cases are said to \u2018arise under\u2019 federal law for purposes of federal question jurisdiction. Contrast, Coastal States Marketing, Inc. v. New England Petroleum Corp., 604 F. 2d 179 (2d Cir., 1979) [Temporary Emergency Court of Appeals properly has jurisdiction over issues, not claims, arising under the Economic Stabilization Act]\u201d).\nIn this context, it is important to note that the \u201cwell-pleaded complaint\u201d rule helps ferret out claims from issues, and says nothing about whether such separation should be made only on the basis of the original complaint.\nIndeed, since it seems plain that no implied cause of action exists under \u00a7 112 \u2014 which, after all, merely describes the nature of the specifications that must be included with a patent application \u2014 a plaintiff\u2019s attempt at gaining federal-court jurisdiction through a claim arising under \u00a7 112 would be properly rejected under the \u201cartful pleading\u201d doctrine. See, e. g., Skelly Oil Co. v. Phillips Petroleum Co., 339 U. S. 667, 673-674 (1950) (\u201cTo sanction suits for declaratory relief as within the jurisdiction of the District Courts merely because, as in this case, artful pleading anticipates a defense based on federal law would contravene the whole trend of jurisdictional legislation by Congress, disregard the effective functioning of the federal judicial system and distort the limited procedural purpose of the Declaratory Judgment Act\u201d); Federated Department Stores, Inc. v. Moitie, 452 U. S. 394, 397, n. 2 (1981) (District Court properly found that respondents \u201chad attempted to avoid removal jurisdiction by \u2018artful[ly]\u2019 casting their \u2018essentially federal law claims\u2019 as state-law claims\u201d); Caterpillar Inc. v. Williams, 482 U. S. 386, 397 (1987) (\u201cartful pleading\u201d doctrine cannot be invoked by party attempting to justify removal on the basis of facts not alleged in the complaint); 14A C. Wright, A. Miller, & E. Cooper, Federal Practice and Procedure \u00a7 3722, pp. 266-276 (1985); see also Merrell Dow Pharmaceuticals Inc. v. Thompson, 478 U. S. 804 (1986) (incorporation of federal standard in state-law private action, when no cause of action, either express or implied, exists for violations of that federal standard, does not make the action one \u201carising under the Constitution, laws, or treaties of the United States\u201d).\n\u201cRule 15. Amended and Supplemental Pleadings.\n\u201c(b) Amendments to Conform to the Evidence. When issues not raised by the pleadings are tried by express or implied consent of the parties, they shall be treated in all respects as if they had been raised in the pleadings. Such amendment of the pleadings as may be necessary to cause them to conform to the evidence and to raise these issues may be made upon motion of any party at any time, even after judgment; but failure so to amend does not affect the result of the trial of these issues. ...\u201d\n\u201cWe need not decide under what circumstances, if any, a court of appeals could furnish itself a jurisdictional basis unsupported by the pleadings by deeming the complaint amended in light of the parties\u2019 \u2018express or implied consent\u2019 to litigate a claim. Fed. Rule Civ. Proc. 16(b).\u201d",
+        "type": "concurrence",
+        "author": "Justice Stevens,"
+      }
+    ],
+    "attorneys": [
+      "Stuart R. Lefstein argued the cause for petitioners. With him on the briefs were Spiro Bereveskos and John C. McNett.",
+      "Anthony M. Radice argued the cause for respondent. With him on the brief were Joseph C. Markowitz, Kim J. Landsman, and Robert L. Harmon."
+    ],
+    "corrections": "",
+    "head_matter": "CHRISTIANSON et al. v. COLT INDUSTRIES OPERATING CORP.\nNo. 87-499.\nArgued April 18, 1988\nDecided June 17, 1988\nBRENNAN, J., delivered the opinion for a unanimous Court. Stevens, J., filed a concurring opinion, in which Blackmun, J., joined, post, p. 819.\nStuart R. Lefstein argued the cause for petitioners. With him on the briefs were Spiro Bereveskos and John C. McNett.\nAnthony M. Radice argued the cause for respondent. With him on the brief were Joseph C. Markowitz, Kim J. Landsman, and Robert L. Harmon."
+  },
+  "file_name": "0800-01",
+  "first_page_order": 858,
+  "last_page_order": 882
+}

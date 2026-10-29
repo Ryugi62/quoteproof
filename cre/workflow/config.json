@@ -1,0 +1,8 @@
+{
+  "minSources": 2,
+  "evm": {
+    "chainSelectorName": "ethereum-testnet-sepolia",
+    "receiverAddress": "0x65faa0e6f6cd105997c93f9d3b72872e8765bbe8",
+    "gasLimit": "500000"
+  }
+}

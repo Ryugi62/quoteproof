@@ -1,0 +1,642 @@
+{
+  "seed": 20261031,
+  "builtAt": "2026-10-30",
+  "counts": {
+    "genuine": 37,
+    "altered": 42
+  },
+  "cases": [
+    {
+      "id": "G001",
+      "group": "G1 전체 문장 그대로",
+      "label": "genuine",
+      "citation": "424 U.S. 319",
+      "quote": "At the outset we are confronted by a question as to whether the District Court had jurisdiction over this suit.",
+      "construction": "CAP 본문의 한 문장 그대로"
+    },
+    {
+      "id": "G002",
+      "group": "G1 전체 문장 그대로",
+      "label": "genuine",
+      "citation": "367 U.S. 643",
+      "quote": "Meanwhile Miss Mapp's attorney arrived, but the officers, having secured their own entry, and continuing in their defiance of the law, would permit him neither to see Miss Mapp nor to enter the house.",
+      "construction": "CAP 본문의 한 문장 그대로"
+    },
+    {
+      "id": "G003",
+      "group": "G1 전체 문장 그대로",
+      "label": "genuine",
+      "citation": "392 U.S. 1",
+      "quote": "Yet a rigid and unthinking application of the exclusionary rule, in futile protest against practices which it can never be used effectively to control, may exact a high toll in human injury and frustration of efforts to prevent crime.",
+      "construction": "CAP 본문의 한 문장 그대로"
+    },
+    {
+      "id": "G004",
+      "group": "G1 전체 문장 그대로",
+      "label": "genuine",
+      "citation": "410 U.S. 113",
+      "quote": "He found it necessary to think first of the life of the mother, and he resorted to abortion when, upon this standard, he felt the procedure advisable.",
+      "construction": "CAP 본문의 한 문장 그대로"
+    },
+    {
+      "id": "G005",
+      "group": "G1 전체 문장 그대로",
+      "label": "genuine",
+      "citation": "466 U.S. 668",
+      "quote": "This ease requires us to consider the proper standards for judging a criminal defendant's contention that the Constitution requires a conviction or death sentence to be set aside because counsel's assistance at the trial or sentencing was ineffective.",
+      "construction": "CAP 본문의 한 문장 그대로"
+    },
+    {
+      "id": "G006",
+      "group": "G2 문장 속 절 그대로",
+      "label": "genuine",
+      "citation": "424 U.S. 319",
+      "quote": "it believes that the worker is still disabled, or that the disability lasted",
+      "construction": "단어 2~15"
+    },
+    {
+      "id": "G007",
+      "group": "G2 문장 속 절 그대로",
+      "label": "genuine",
+      "citation": "376 U.S. 254",
+      "quote": "such a rule, would-be critics of official conduct may",
+      "construction": "단어 1~10"
+    },
+    {
+      "id": "G008",
+      "group": "G2 문장 속 절 그대로",
+      "label": "genuine",
+      "citation": "393 U.S. 503",
+      "quote": "of these cases is not confined to the supervised and",
+      "construction": "단어 2~12"
+    },
+    {
+      "id": "G009",
+      "group": "G2 문장 속 절 그대로",
+      "label": "genuine",
+      "citation": "5 U.S. 137",
+      "quote": "resign, so may he refuse to accept : but neither the",
+      "construction": "단어 3~14"
+    },
+    {
+      "id": "G010",
+      "group": "G2 문장 속 절 그대로",
+      "label": "genuine",
+      "citation": "304 U.S. 64",
+      "quote": "may not justly be assumed that the labor and argument",
+      "construction": "단어 1~11"
+    },
+    {
+      "id": "G011",
+      "group": "G2 문장 속 절 그대로",
+      "label": "genuine",
+      "citation": "393 U.S. 503",
+      "quote": "our Constitution, free speech is not a right that is given only to be",
+      "construction": "단어 1~15"
+    },
+    {
+      "id": "G012",
+      "group": "G3 둥근 따옴표·줄바꿈·겹공백",
+      "label": "genuine",
+      "citation": "410 U.S. 113",
+      "quote": "Such an action, however, would appear to be one to vindicate  the parents’ interest and is\nthus consistent with the view that the fetus, at most, represents only the potentiality of life.",
+      "construction": "중간 줄바꿈 + 겹공백 + 둥근 아포스트로피"
+    },
+    {
+      "id": "G013",
+      "group": "G3 둥근 따옴표·줄바꿈·겹공백",
+      "label": "genuine",
+      "citation": "5 U.S. 137",
+      "quote": "They respect  the nation, not individual rights, and being entrusted\nto the executive, the decision of the executive is conclusive.",
+      "construction": "중간 줄바꿈 + 겹공백 + 둥근 아포스트로피"
+    },
+    {
+      "id": "G014",
+      "group": "G3 둥근 따옴표·줄바꿈·겹공백",
+      "label": "genuine",
+      "citation": "5 U.S. 137",
+      "quote": "This would be to overthrow in fact what was established in theory; and\nwould seem, at first view, an absurdity too gross to be insisted on.",
+      "construction": "중간 줄바꿈 + 겹공백 + 둥근 아포스트로피"
+    },
+    {
+      "id": "G015",
+      "group": "G3 둥근 따옴표·줄바꿈·겹공백",
+      "label": "genuine",
+      "citation": "466 U.S. 668",
+      "quote": "A convicted defendant making a claim of ineffective assistance must identify  the acts or omissions\nof counsel that are alleged not to have been the result of reasonable professional judgment.",
+      "construction": "중간 줄바꿈 + 겹공백 + 둥근 아포스트로피"
+    },
+    {
+      "id": "G016",
+      "group": "G4 문장 중간 생략(…)",
+      "label": "genuine",
+      "citation": "477 U.S. 242",
+      "quote": "That is, while … rests on the substantive law, it is the substantive law's identification of which facts are critical and which facts are irrelevant that governs.",
+      "construction": "단어 3~6 생략(부정어 없음)"
+    },
+    {
+      "id": "G017",
+      "group": "G4 문장 중간 생략(…)",
+      "label": "genuine",
+      "citation": "424 U.S. 319",
+      "quote": "Information is also requested … to whether he can return to work, the nature and extent of his employment during the past year, and any vocational services he is receiving.",
+      "construction": "단어 4~9 생략(부정어 없음)"
+    },
+    {
+      "id": "G018",
+      "group": "G4 문장 중간 생략(…)",
+      "label": "genuine",
+      "citation": "466 U.S. 668",
+      "quote": "They also make clear … the challenged conduct of counsel was unreasonable, respondent suffered insufficient prejudice to warrant setting aside his death sentence.",
+      "construction": "단어 4~7 생략(부정어 없음)"
+    },
+    {
+      "id": "G019",
+      "group": "G4 문장 중간 생략(…)",
+      "label": "genuine",
+      "citation": "5 U.S. 137",
+      "quote": "This is not a … be varied, if the judgment of the executive shall suggest one more eligible; but is a precise course accurately marked out by law, and is to be strictly pursued.",
+      "construction": "단어 4~7 생략(부정어 없음)"
+    },
+    {
+      "id": "G020",
+      "group": "G4 문장 중간 생략(…)",
+      "label": "genuine",
+      "citation": "392 U.S. 1",
+      "quote": "It cannot properly be invoked … of legitimate police investigative techniques on the ground that much conduct which is closely similar involves unwarranted intrusions upon constitutional protections.",
+      "construction": "단어 5~9 생략(부정어 없음)"
+    },
+    {
+      "id": "G021",
+      "group": "G4 문장 중간 생략(…)",
+      "label": "genuine",
+      "citation": "410 U.S. 113",
+      "quote": "They also named the … like constitutional deprivations, and sought declaratory and injunctive relief.",
+      "construction": "단어 4~9 생략(부정어 없음)"
+    },
+    {
+      "id": "G022",
+      "group": "G5 문장 이어 생략(. . .)",
+      "label": "genuine",
+      "citation": "410 U.S. 113",
+      "quote": "For them the embryo was animate . . . not accepted by all ancient physicians.",
+      "construction": "한 문장 머리 + 생략 + 같은 판결 다른 문장 꼬리(생략 구간 부정어 없음)"
+    },
+    {
+      "id": "G023",
+      "group": "G5 문장 이어 생략(. . .)",
+      "label": "genuine",
+      "citation": "531 U.S. 98",
+      "quote": "When contending parties invoke the process . . . proceedings not inconsistent with this opinion.",
+      "construction": "한 문장 머리 + 생략 + 같은 판결 다른 문장 꼬리(생략 구간 부정어 없음)"
+    },
+    {
+      "id": "G024",
+      "group": "G5 문장 이어 생략(. . .)",
+      "label": "genuine",
+      "citation": "376 U.S. 254",
+      "quote": "Taylor; Chairmen of Cultural Division: Harry . . . limits of the Due Process Clause.",
+      "construction": "한 문장 머리 + 생략 + 같은 판결 다른 문장 꼬리(생략 구간 부정어 없음)"
+    },
+    {
+      "id": "G025",
+      "group": "G6 대괄호 대소문자 [t]he",
+      "label": "genuine",
+      "citation": "466 U.S. 668",
+      "quote": "[a] convicted defendant's claim that counsel's assistance was so defective as to",
+      "construction": "문장 첫 글자를 [소문자]로"
+    },
+    {
+      "id": "G026",
+      "group": "G6 대괄호 대소문자 [t]he",
+      "label": "genuine",
+      "citation": "424 U.S. 319",
+      "quote": "[i]n the latter case, a wide variety of information may be deemed",
+      "construction": "문장 첫 글자를 [소문자]로"
+    },
+    {
+      "id": "G027",
+      "group": "G6 대괄호 대소문자 [t]he",
+      "label": "genuine",
+      "citation": "5 U.S. 137",
+      "quote": "[w]hatever the practice on particular occasions may be, the theory of this",
+      "construction": "문장 첫 글자를 [소문자]로"
+    },
+    {
+      "id": "G028",
+      "group": "G6 대괄호 대소문자 [t]he",
+      "label": "genuine",
+      "citation": "392 U.S. 1",
+      "quote": "[u]ltimately the validity of the frisk narrows down to whether there is",
+      "construction": "문장 첫 글자를 [소문자]로"
+    },
+    {
+      "id": "G029",
+      "group": "G7 대괄호 대명사 치환 [the Court]",
+      "label": "genuine",
+      "citation": "376 U.S. 254",
+      "quote": "are two reasons why [the Court] does not here.",
+      "construction": "대명사 'it' → [the Court]"
+    },
+    {
+      "id": "G030",
+      "group": "G7 대괄호 대명사 치환 [the Court]",
+      "label": "genuine",
+      "citation": "424 U.S. 319",
+      "quote": "for food stamps if [the defendant] meets the financial need requirements.",
+      "construction": "대명사 'it' → [the defendant]"
+    },
+    {
+      "id": "G031",
+      "group": "G7 대괄호 대명사 치환 [the Court]",
+      "label": "genuine",
+      "citation": "466 U.S. 668",
+      "quote": "affect the performance inquiry, [the Court] are irrelevant to the prejudice",
+      "construction": "대명사 'they' → [the Court]"
+    },
+    {
+      "id": "G032",
+      "group": "G8 앞·뒤 생략",
+      "label": "genuine",
+      "citation": "410 U.S. 113",
+      "quote": "… individuals from appropriately trained, sympathetic volunteers to highly skilled physicians",
+      "construction": "앞 4단어 생략(부정어 없음)"
+    },
+    {
+      "id": "G033",
+      "group": "G8 앞·뒤 생략",
+      "label": "genuine",
+      "citation": "410 U.S. 113",
+      "quote": "We note, in passing, that Younger and its companion …",
+      "construction": "9단어 뒤 전부 생략(부정어 없음)"
+    },
+    {
+      "id": "G034",
+      "group": "G8 앞·뒤 생략",
+      "label": "genuine",
+      "citation": "424 U.S. 319",
+      "quote": "… decisions subsequent to Goldberg demonstrated that the due process requirement",
+      "construction": "앞 4단어 생략(부정어 없음)"
+    },
+    {
+      "id": "G035",
+      "group": "G9 대비 부연절 생략(부정어 포함, 뜻 보존)",
+      "label": "genuine",
+      "citation": "376 U.S. 254",
+      "quote": "Not the entire student body, but most of it, had protested the expulsion … but by boycotting classes on a single day;",
+      "construction": "절 「not by refusing to register」 생략 — 사람 판단으로 뜻 보존"
+    },
+    {
+      "id": "G036",
+      "group": "G9 대비 부연절 생략(부정어 포함, 뜻 보존)",
+      "label": "genuine",
+      "citation": "5 U.S. 137",
+      "quote": "Some point of time must be taken when the power of the executive over an officer … must cease.",
+      "construction": "절 「not removeable at his will」 생략 — 사람 판단으로 뜻 보존"
+    },
+    {
+      "id": "G037",
+      "group": "G9 대비 부연절 생략(부정어 포함, 뜻 보존)",
+      "label": "genuine",
+      "citation": "5 U.S. 137",
+      "quote": "If then the courts are to regard the constitution; and the constitution is superior to any ordinary act of the legislature; the",
+      "construction": "절 「and not such ordinary act」 생략 — 사람 판단으로 뜻 보존"
+    },
+    {
+      "id": "A038",
+      "group": "A1 낱말 한 개 교체",
+      "label": "altered",
+      "citation": "376 U.S. 254",
+      "quote": "The Times' serious to retract upon respondent's demand, although it later retracted upon the demand of",
+      "construction": "'failure' → 'serious'"
+    },
+    {
+      "id": "A039",
+      "group": "A1 낱말 한 개 교체",
+      "label": "altered",
+      "citation": "376 U.S. 254",
+      "quote": "Finally, there is narrow that the Times published the advertisement without checking its accuracy against the",
+      "construction": "'evidence' → 'narrow'"
+    },
+    {
+      "id": "A040",
+      "group": "A1 낱말 한 개 교체",
+      "label": "altered",
+      "citation": "304 U.S. 64",
+      "quote": "These safeguards broad the improvident use of the great power to invalidate legislation are so well-grounded",
+      "construction": "'against' → 'broad'"
+    },
+    {
+      "id": "A041",
+      "group": "A1 낱말 한 개 교체",
+      "label": "altered",
+      "citation": "376 U.S. 254",
+      "quote": "For it is his serious of non-violence which has inspired and guided the students in their",
+      "construction": "'doctrine' → 'serious'"
+    },
+    {
+      "id": "A042",
+      "group": "A1 낱말 한 개 교체",
+      "label": "altered",
+      "citation": "5 U.S. 137",
+      "quote": "Questions, in narrow nature political, or which are, by the constitution and laws, submitted to the",
+      "construction": "'their' → 'narrow'"
+    },
+    {
+      "id": "A043",
+      "group": "A1 낱말 한 개 교체",
+      "label": "altered",
+      "citation": "424 U.S. 319",
+      "quote": "The principal narrow for benefits terminations are that the worker is no longer disabled or has",
+      "construction": "'reasons' → 'narrow'"
+    },
+    {
+      "id": "A044",
+      "group": "A2 낱말 추가",
+      "label": "altered",
+      "citation": "392 U.S. 1",
+      "quote": "Whatever the merits of gun-control proposals, this unanimously fact is relevant to an assessment of the",
+      "construction": "7번째 앞에 'unanimously' 삽입"
+    },
+    {
+      "id": "A045",
+      "group": "A2 낱말 추가",
+      "label": "altered",
+      "citation": "466 U.S. 668",
+      "quote": "Nor can they be defined with sufficient precision only to inform defense attorneys correctly just what",
+      "construction": "8번째 앞에 'only' 삽입"
+    },
+    {
+      "id": "A046",
+      "group": "A2 낱말 추가",
+      "label": "altered",
+      "citation": "376 U.S. 254",
+      "quote": "Small wonder that they are determined only to destroy the one man who, more than any",
+      "construction": "6번째 앞에 'only' 삽입"
+    },
+    {
+      "id": "A047",
+      "group": "A2 낱말 추가",
+      "label": "altered",
+      "citation": "376 U.S. 254",
+      "quote": "Despite these qualifications, the Act was clearly vigorously condemned as unconstitutional in an attack joined in",
+      "construction": "6번째 앞에 'clearly' 삽입"
+    },
+    {
+      "id": "A048",
+      "group": "A3 낱말 삭제(표시 없음)",
+      "label": "altered",
+      "citation": "477 U.S. 242",
+      "quote": "In support of this assertion, petitioners submitted the affidavit of Charles Bermant, an employee",
+      "construction": "'latter' 삭제"
+    },
+    {
+      "id": "A049",
+      "group": "A3 낱말 삭제(표시 없음)",
+      "label": "altered",
+      "citation": "410 U.S. 113",
+      "quote": "Texas urges that, from the Fourteenth Amendment, life begins at conception and is present",
+      "construction": "'apart' 삭제"
+    },
+    {
+      "id": "A050",
+      "group": "A3 낱말 삭제(표시 없음)",
+      "label": "altered",
+      "citation": "5 U.S. 137",
+      "quote": "In Great Britain the king is sued in the respectful form of a petition,",
+      "construction": "'himself' 삭제"
+    },
+    {
+      "id": "A051",
+      "group": "A4 부정어 끼워넣기",
+      "label": "altered",
+      "citation": "392 U.S. 1",
+      "quote": "He was not acquainted with any of the three men by name or by sight, and he had not",
+      "construction": "'had' 뒤에 not 삽입"
+    },
+    {
+      "id": "A052",
+      "group": "A4 부정어 끼워넣기",
+      "label": "altered",
+      "citation": "424 U.S. 319",
+      "quote": "This includes the administrative burden and other societal costs that would not be associated with requiring, as a matter",
+      "construction": "'would' 뒤에 not 삽입"
+    },
+    {
+      "id": "A053",
+      "group": "A4 부정어 끼워넣기",
+      "label": "altered",
+      "citation": "304 U.S. 64",
+      "quote": "Indeed, it would not have been appropriate to give Congress opportunity to be heard before devesting it of power",
+      "construction": "'would' 뒤에 not 삽입"
+    },
+    {
+      "id": "A054",
+      "group": "A4 부정어 끼워넣기",
+      "label": "altered",
+      "citation": "304 U.S. 64",
+      "quote": "They are often re-examined, reversed, and qualified by the Courts themselves, whenevér they are not found to be either",
+      "construction": "'are' 뒤에 not 삽입"
+    },
+    {
+      "id": "A055",
+      "group": "A4 부정어 끼워넣기",
+      "label": "altered",
+      "citation": "5 U.S. 137",
+      "quote": "Those then who controvert the principle that the constitution is not to be considered, in court, as a paramount",
+      "construction": "'is' 뒤에 not 삽입"
+    },
+    {
+      "id": "A056",
+      "group": "A5 생략으로 부정어 삭제",
+      "label": "altered",
+      "citation": "392 U.S. 1",
+      "quote": "to condone such activity … necessarily render it responsive to",
+      "construction": "'does not' 구간을 생략부호로 지워 뜻 반전"
+    },
+    {
+      "id": "A057",
+      "group": "A5 생략으로 부정어 삭제",
+      "label": "altered",
+      "citation": "410 U.S. 113",
+      "quote": "contend, moreover, that this … a proper state purpose at",
+      "construction": "'is not' 구간을 생략부호로 지워 뜻 반전"
+    },
+    {
+      "id": "A058",
+      "group": "A5 생략으로 부정어 삭제",
+      "label": "altered",
+      "citation": "392 U.S. 1",
+      "quote": "find his way home, … intention of arresting him unless",
+      "construction": "'with no' 구간을 생략부호로 지워 뜻 반전"
+    },
+    {
+      "id": "A059",
+      "group": "A5 생략으로 부정어 삭제",
+      "label": "altered",
+      "citation": "477 U.S. 242",
+      "quote": "of showing that there … genuine issue of fact, but",
+      "construction": "'is no' 구간을 생략부호로 지워 뜻 반전"
+    },
+    {
+      "id": "A060",
+      "group": "A5 생략으로 부정어 삭제",
+      "label": "altered",
+      "citation": "376 U.S. 254",
+      "quote": "failure to retract which … itself evidence of malice can",
+      "construction": "'is not' 구간을 생략부호로 지워 뜻 반전"
+    },
+    {
+      "id": "A061",
+      "group": "A6 대괄호로 내용어 세탁",
+      "label": "altered",
+      "citation": "5 U.S. 137",
+      "quote": "All that the executive can do to [is prohibited] the person with his office, is done;",
+      "construction": "'invest' → [is prohibited]"
+    },
+    {
+      "id": "A062",
+      "group": "A6 대괄호로 내용어 세탁",
+      "label": "altered",
+      "citation": "5 U.S. 137",
+      "quote": "This power is expressly [was overruled] to all cases arising under the laws of the United",
+      "construction": "'extended' → [was overruled]"
+    },
+    {
+      "id": "A063",
+      "group": "A6 대괄호로 내용어 세탁",
+      "label": "altered",
+      "citation": "466 U.S. 668",
+      "quote": "All three reports thus [is not] undermine the contention made at the sentencing hearing that respondent",
+      "construction": "'directly' → [is not]"
+    },
+    {
+      "id": "A064",
+      "group": "A6 대괄호로 내용어 세탁",
+      "label": "altered",
+      "citation": "477 U.S. 242",
+      "quote": "In some instances an [does not] may achieve such pervasive fame or notoriety that he becomes",
+      "construction": "'individual' → [does not]"
+    },
+    {
+      "id": "A065",
+      "group": "A7 먼 두 곳 이어붙이기(…)",
+      "label": "altered",
+      "citation": "393 U.S. 503",
+      "quote": "It is also relevant that the school authorities … school affairs or the lives of others.",
+      "construction": "6852자 떨어진 두 문장 조각을 생략부호로 연결"
+    },
+    {
+      "id": "A066",
+      "group": "A7 먼 두 곳 이어붙이기(…)",
+      "label": "altered",
+      "citation": "410 U.S. 113",
+      "quote": "This, it seems to us, is a satisfactory … hand, and injunctive relief, on the other.",
+      "construction": "46369자 떨어진 두 문장 조각을 생략부호로 연결"
+    },
+    {
+      "id": "A067",
+      "group": "A7 먼 두 곳 이어붙이기(…)",
+      "label": "altered",
+      "citation": "466 U.S. 668",
+      "quote": "An error by counsel, even if professionally unreasonable, … of the proceeding whose result is challenged.",
+      "construction": "12491자 떨어진 두 문장 조각을 생략부호로 연결"
+    },
+    {
+      "id": "A068",
+      "group": "A8 통째로 지어낸 문장",
+      "label": "altered",
+      "citation": "410 U.S. 113",
+      "quote": "We hold that a State may never regulate the practice of medicine before the point of viability.",
+      "construction": "법률 문체로 쓴 가짜 문장(사람이 작성)"
+    },
+    {
+      "id": "A069",
+      "group": "A8 통째로 지어낸 문장",
+      "label": "altered",
+      "citation": "372 U.S. 335",
+      "quote": "The Constitution does not require that counsel be appointed for any defendant who can read and write.",
+      "construction": "법률 문체로 쓴 가짜 문장(사람이 작성)"
+    },
+    {
+      "id": "A070",
+      "group": "A8 통째로 지어낸 문장",
+      "label": "altered",
+      "citation": "393 U.S. 503",
+      "quote": "Students retain their rights of expression only so long as the school administration approves of the message.",
+      "construction": "법률 문체로 쓴 가짜 문장(사람이 작성)"
+    },
+    {
+      "id": "A071",
+      "group": "A8 통째로 지어낸 문장",
+      "label": "altered",
+      "citation": "304 U.S. 64",
+      "quote": "Federal courts sitting in diversity may always disregard the decisions of the highest court of the State.",
+      "construction": "법률 문체로 쓴 가짜 문장(사람이 작성)"
+    },
+    {
+      "id": "A072",
+      "group": "A8 통째로 지어낸 문장",
+      "label": "altered",
+      "citation": "466 U.S. 668",
+      "quote": "Any error by counsel, however slight, entitles a defendant to a new trial without a showing of prejudice.",
+      "construction": "법률 문체로 쓴 가짜 문장(사람이 작성)"
+    },
+    {
+      "id": "A073",
+      "group": "A9 다른 판결에 귀속",
+      "label": "altered",
+      "citation": "477 U.S. 242",
+      "quote": "As. we hold this was error, the judgment is reversed and the case remanded to it for further proceedings in conformity with our opinion.",
+      "construction": "304 U.S. 64의 진짜 문장을 477 U.S. 242의 인용으로 표기"
+    },
+    {
+      "id": "A074",
+      "group": "A9 다른 판결에 귀속",
+      "label": "altered",
+      "citation": "477 U.S. 317",
+      "quote": "Actual or constructive denial of the assistance of counsel altogether is legally presumed to result in prejudice.",
+      "construction": "466 U.S. 668의 진짜 문장을 477 U.S. 317의 인용으로 표기"
+    },
+    {
+      "id": "A075",
+      "group": "A9 다른 판결에 귀속",
+      "label": "altered",
+      "citation": "5 U.S. 137",
+      "quote": "This noble ideal cannot be realized if the poor man charged with crime has to face his accusers without a lawyer to assist him.",
+      "construction": "372 U.S. 335의 진짜 문장을 5 U.S. 137의 인용으로 표기"
+    },
+    {
+      "id": "A076",
+      "group": "A9 다른 판결에 귀속",
+      "label": "altered",
+      "citation": "509 U.S. 579",
+      "quote": "In cases of commissions, the sign manual of the President, and the seal of the United States, are those solemnities.",
+      "construction": "5 U.S. 137의 진짜 문장을 509 U.S. 579의 인용으로 표기"
+    },
+    {
+      "id": "A077",
+      "group": "A11 앞부분 진짜 + 지어낸 꼬리",
+      "label": "altered",
+      "citation": "393 U.S. 503",
+      "quote": "It declined to enjoin enforcement of such a regulation in another high school where the students wearing freedom and therefore the statute must be struck down in every circumstance.",
+      "construction": "진짜 문장 앞 60% + 지어낸 꼬리"
+    },
+    {
+      "id": "A078",
+      "group": "A11 앞부분 진짜 + 지어낸 꼬리",
+      "label": "altered",
+      "citation": "466 U.S. 668",
+      "quote": "The affidavits submitted in the collateral proceeding showed nothing more than that certain persons would have testified that respondent and no court may ever revisit that conclusion.",
+      "construction": "진짜 문장 앞 60% + 지어낸 꼬리"
+    },
+    {
+      "id": "A079",
+      "group": "A11 앞부분 진짜 + 지어낸 꼬리",
+      "label": "altered",
+      "citation": "477 U.S. 242",
+      "quote": "Petitioners also asserted that summary judgment was proper because actual as the unanimous Court emphasized.",
+      "construction": "진짜 문장 앞 60% + 지어낸 꼬리"
+    }
+  ]
+}

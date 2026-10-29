@@ -1,0 +1,33 @@
+Initializing...
+Loading settings...
+Checking RPC connectivity...
+Compiling workflow...
+✓ Workflow compiled
+✓ Simulation limits enabled
+  HTTP: req=120kb resp=250kb timeout=10s | ConfHTTP: req=125kb resp=500kb timeout=1m30s | Consensus obs=25kb | ChainWrite evm_report=50kb evm_gas=10000000 solana_report=265b solana_cu=300000 | WASM binary=100mb compressed=20mb
+  Binary hash: 2c77e26d9cd6f8360eab0d9e6e4685a6e418b8548353283904fcf5e163264609
+  Config hash: 0c471e06b6a5862f5e500b3ff70dd7b885940ebd3ec325fb28c4e53c5a06ef8c
+✓ Loaded JSON from file: /Users/ryugi62/dev/quoteproof/cre/payload-altered.json
+✓ Created HTTP trigger payload with 2 fields
+2026-10-30T06:48:52Z [SIMULATION] Simulator Initialized
+
+2026-10-30T06:48:52Z [SIMULATION] Running trigger trigger=http-trigger@1.0.0-alpha
+2026-10-30T06:48:52Z [USER LOG] QuoteProof request: 372 U.S. 335 / quote 136 chars
+2026-10-30T06:48:53Z [USER LOG] Consensus result: HOLD NOT_IN_OPINION hash=f341e464163f92cca37369948b376dce3351ec6a24272502516ef173fb083e93
+2026-10-30T06:48:53Z [USER LOG] Per source: cap:missing:4cb4ba6f5d8e|lii:missing:3766dc7e21ba
+2026-10-30T06:48:59Z [USER LOG] writeReport reply: TX_STATUS_SUCCESS txHash=0x1f4f83d83957066648a92cde6b650b6022414bd0a7a408f892d5cd47142e7f8f err=-
+
+✓ Workflow Simulation Result:
+"{\"verdict\":\"HOLD\",\"reasons\":\"NOT_IN_OPINION\",\"receiptHash\":\"f341e464163f92cca37369948b376dce3351ec6a24272502516ef173fb083e93\",\"chain\":\"TX_STATUS_SUCCESS\"}"
+
+2026-10-30T06:48:59Z [SIMULATION] Execution finished signal received
+2026-10-30T06:48:59Z [SIMULATION] Skipping WorkflowEngineV2
+
+╭──────────────────────────────────────────────────────╮
+│ Simulation complete! Ready to deploy your workflow?  │
+│                                                      │
+│ Run cre account access to request deployment access. │
+╰──────────────────────────────────────────────────────╯
+
+# command: cd cre && cre workflow simulate workflow --target local-simulation --non-interactive --trigger-index 0 --http-payload payload-altered.json --broadcast   (CRE CLI v1.39.0; receiver 0x65faa0e6f6cd105997c93f9d3b72872e8765bbe8, forwarder pinned)
+# exit code: 0

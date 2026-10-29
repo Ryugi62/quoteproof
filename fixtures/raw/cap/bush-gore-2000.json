@@ -1,0 +1,2079 @@
+{
+  "id": 9505432,
+  "name": "BUSH et al. v. GORE et al.",
+  "name_abbreviation": "Bush v. Gore",
+  "decision_date": "2000-12-12",
+  "docket_number": "No. 00-949",
+  "first_page": "98",
+  "last_page": "158",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "531 U.S. 98"
+    },
+    {
+      "type": "parallel",
+      "cite": "148 L. Ed. 2d 388"
+    },
+    {
+      "type": "parallel",
+      "cite": "121 S. Ct. 525"
+    },
+    {
+      "type": "vendor",
+      "cite": "2000 U.S. LEXIS 8430"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2000-009"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "772 So. 2d 1220",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        11194635
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "1237"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/772/1220-01"
+      ]
+    },
+    {
+      "cite": "Fla. Stat. Ann. \u00a7101.015",
+      "category": "laws:leg_statute",
+      "reporter": "Fla. Stat. Ann.",
+      "year": 2001,
+      "opinion_index": 0
+    },
+    {
+      "cite": "394 U. S. 814",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6181588
+      ],
+      "weight": 2,
+      "year": 1969,
+      "pin_cites": [
+        {
+          "page": "819"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/394/0814-01"
+      ]
+    },
+    {
+      "cite": "372 U. S. 368",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1765361
+      ],
+      "year": 1963,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/372/0368-01"
+      ]
+    },
+    {
+      "cite": "377 U. S. 533",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6171208
+      ],
+      "year": 1964,
+      "pin_cites": [
+        {
+          "page": "555"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/377/0665-01"
+      ]
+    },
+    {
+      "cite": "383 U. S. 663",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6174691
+      ],
+      "year": 1966,
+      "pin_cites": [
+        {
+          "page": "665",
+          "parenthetical": "\"[O]nce the franchise is granted to the electorate, lines may not be drawn which are inconsistent with the Equal Protection Clause of the Fourteenth Amendment\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/383/0663-01"
+      ]
+    },
+    {
+      "cite": "146 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3564547
+      ],
+      "weight": 3,
+      "year": 1892,
+      "pin_cites": [
+        {
+          "page": "85"
+        },
+        {
+          "page": "28-33"
+        },
+        {
+          "page": "35",
+          "parenthetical": "\" '[T]here is no doubt of the right of the legislature to resume the power at any time, for it can neither be taken away nor abdicated'\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/146/0001-01"
+      ]
+    },
+    {
+      "cite": "3 U. S. C. \u00a7 5",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "opinion_index": 0
+    },
+    {
+      "cite": "Fla. Stat. Ann. \u00a7 102.168",
+      "category": "laws:leg_statute",
+      "reporter": "Fla. Stat. Ann.",
+      "weight": 2,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "(8)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "772 So. 2d 1273",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        11195064
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "1290"
+        },
+        {
+          "page": "1289"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/772/1273-01"
+      ]
+    },
+    {
+      "cite": "Fla. Stat. Ann. \u00a7 102.166",
+      "category": "laws:leg_statute",
+      "reporter": "Fla. Stat. Ann.",
+      "year": 2001,
+      "opinion_index": 0
+    },
+    {
+      "cite": "772 So. 2d 1243",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        11194848
+      ],
+      "weight": 8,
+      "pin_cites": [
+        {
+          "page": "1248, n. 6"
+        },
+        {
+          "page": "1256"
+        },
+        {
+          "page": "1261"
+        },
+        {
+          "page": "1257"
+        },
+        {
+          "page": "1262"
+        },
+        {
+          "page": "1260"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/772/1243-01"
+      ]
+    },
+    {
+      "cite": "1 Munf. 218",
+      "category": "reporters:state",
+      "reporter": "Munf.",
+      "case_ids": [
+        2094028
+      ],
+      "year": 1809,
+      "opinion_index": 1,
+      "case_paths": [
+        "/va/15/0090-01"
+      ]
+    },
+    {
+      "cite": "7 Cranch 603",
+      "category": "reporters:scotus_early",
+      "reporter": "Cranch",
+      "case_ids": [
+        572735
+      ],
+      "weight": 2,
+      "year": 1813,
+      "pin_cites": [
+        {
+          "page": "623"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/11/0603-01"
+      ]
+    },
+    {
+      "cite": "505 U. S. 1003",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1481136
+      ],
+      "year": 1992,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/505/1003-01"
+      ]
+    },
+    {
+      "cite": "707 So. 2d 720",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        11863391
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "parenthetical": "resolving contest of sheriff's race 16 months after the election"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/so2d/707/0720-01"
+      ]
+    },
+    {
+      "cite": "607 So. 2d 508",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        7480757
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "509",
+          "parenthetical": "denial of recount for failure to count ballots with \"hanging paper chads\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/so2d/607/0508-01"
+      ]
+    },
+    {
+      "cite": "112 So. 2d 1273",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "year": 2000,
+      "pin_cites": [
+        {
+          "parenthetical": "Harris III"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "625 So. 2d 840",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        7497026
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "844"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/so2d/625/0840-01"
+      ]
+    },
+    {
+      "cite": "Fla. Stat. Ann. \u00a7 101.5611",
+      "category": "laws:leg_statute",
+      "reporter": "Fla. Stat. Ann.",
+      "year": 2001,
+      "opinion_index": 1
+    },
+    {
+      "cite": "Fla. Stat. Ann. \u00a7 101.46",
+      "category": "laws:leg_statute",
+      "reporter": "Fla. Stat. Ann.",
+      "year": 1992,
+      "opinion_index": 1
+    },
+    {
+      "cite": "Fla. Stat. Ann. \u00a7102.112",
+      "category": "laws:leg_statute",
+      "reporter": "Fla. Stat. Ann.",
+      "year": 2001,
+      "opinion_index": 1
+    },
+    {
+      "cite": "Fla. Stat. Ann. \u00a7102.141",
+      "category": "laws:leg_statute",
+      "reporter": "Fla. Stat. Ann.",
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "(4)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "323 So. 2d 259",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9658442
+      ],
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "268, n. 5",
+          "parenthetical": "\"The election process ... is committed to the executive branch of government through duly designated officials all charged with specific duties .... [The] judgments [of these officials] are entitled to be regarded by the courts as presumptively correct. . .\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/so2d/323/0259-01"
+      ]
+    },
+    {
+      "cite": "Fla. Stat. Ann. \u00a7 103.011",
+      "category": "laws:leg_statute",
+      "reporter": "Fla. Stat. Ann.",
+      "weight": 2,
+      "year": 1992,
+      "opinion_index": 1
+    },
+    {
+      "cite": "378 U. S. 347",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6166404
+      ],
+      "weight": 2,
+      "year": 1964,
+      "pin_cites": [
+        {
+          "page": "361-362"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/378/0347-01"
+      ]
+    },
+    {
+      "cite": "357 U. S. 449",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6163673
+      ],
+      "weight": 3,
+      "year": 1958,
+      "pin_cites": [
+        {
+          "page": "456"
+        },
+        {
+          "page": "457"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/357/0449-01"
+      ]
+    },
+    {
+      "cite": "421 U. S. 684",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        541415
+      ],
+      "year": 1975,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/421/0684-01"
+      ]
+    },
+    {
+      "cite": "Fla. Stat. Ann. \u00a797.012",
+      "category": "laws:leg_statute",
+      "reporter": "Fla. Stat. Ann.",
+      "weight": 2,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "(1)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "304 U. S. 64",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        10687
+      ],
+      "year": 1938,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/304/0064-01"
+      ]
+    },
+    {
+      "cite": "460 U. S. 780",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6200638
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "794-795",
+          "parenthetical": "footnote , omitted"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/460/0780-01"
+      ]
+    },
+    {
+      "cite": "134 U. S. 377",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8299308
+      ],
+      "year": 1890,
+      "pin_cites": [
+        {
+          "page": "379"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/134/0377-01"
+      ]
+    },
+    {
+      "cite": "290 U. S. 534",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3924149
+      ],
+      "year": 1934,
+      "pin_cites": [
+        {
+          "page": "545"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/290/0534-01"
+      ]
+    },
+    {
+      "cite": "772 So. 2d 1220",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        11194635
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "parenthetical": "Harris I"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/so2d/772/1220-01"
+      ]
+    },
+    {
+      "cite": "146 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3564547
+      ],
+      "weight": 2,
+      "year": 1892,
+      "pin_cites": [
+        {
+          "page": "27"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/146/0001-01"
+      ]
+    },
+    {
+      "cite": "3 U. S. C. \u00a7 5",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 5,
+      "opinion_index": 1
+    },
+    {
+      "cite": "Fla. Stat. Ann. \u00a7 102.168",
+      "category": "laws:leg_statute",
+      "reporter": "Fla. Stat. Ann.",
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "(8)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "772 So. 2d 1273",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        11195064
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/so2d/772/1273-01"
+      ]
+    },
+    {
+      "cite": "Fla. Stat. Ann. \u00a7 102.166",
+      "category": "laws:leg_statute",
+      "reporter": "Fla. Stat. Ann.",
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "(5)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "772 So. 2d 1243",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        11194848
+      ],
+      "pin_cites": [
+        {
+          "page": "1267",
+          "parenthetical": "Harris II"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/so2d/772/1243-01"
+      ]
+    },
+    {
+      "cite": "1 Cranch 137",
+      "category": "reporters:scotus_early",
+      "reporter": "Cranch",
+      "case_ids": [
+        6760011,
+        6759998,
+        12121622
+      ],
+      "year": 1803,
+      "pin_cites": [
+        {
+          "page": "177"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/dc/1/0137-02",
+        "/dc/1/0137-01",
+        "/us/5/0137-01"
+      ]
+    },
+    {
+      "cite": "511 U. S. 298",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1147463
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "312-813"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/511/0298-01"
+      ]
+    },
+    {
+      "cite": "Fla. Stat. Ann. \u00a7102.111",
+      "category": "laws:leg_statute",
+      "reporter": "Fla. Stat. Ann.",
+      "year": 2001,
+      "opinion_index": 2
+    },
+    {
+      "cite": "234 F. 3d 1163",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11153128
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "1202, 1213"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/f3d/234/1163-01"
+      ]
+    },
+    {
+      "cite": "511 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1147397
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "5",
+          "parenthetical": "\"The beyond a reasonable doubt standard is a requirement of due process, but the Constitution neither prohibits trial courts from defining reasonable doubt nor requires them to do so\""
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/511/0001-01"
+      ]
+    },
+    {
+      "cite": "W. Va. Code \u00a73-6-5",
+      "category": "laws:leg_statute",
+      "reporter": "W. Va. Code",
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "(g)"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "Tenn. Code Ann. \u00a72-7-133",
+      "category": "laws:leg_statute",
+      "reporter": "Tenn. Code Ann.",
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "Ohio Rev. Code Ann. \u00a73505.28",
+      "category": "laws:leg_statute",
+      "reporter": "Ohio Rev. Code Ann.",
+      "year": 1994,
+      "opinion_index": 2
+    },
+    {
+      "cite": "Nev. Rev. Stat. \u00a7293.367",
+      "category": "laws:leg_statute",
+      "reporter": "Nev. Rev. Stat.",
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "(d)"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "Mont. Code Ann. \u00a7 13-15-202",
+      "category": "laws:leg_statute",
+      "reporter": "Mont. Code Ann.",
+      "year": 1997,
+      "pin_cites": [
+        {
+          "parenthetical": "not counting votes if \"elector's choice cannot be determined\""
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "Iowa Code \u00a749.98",
+      "category": "laws:leg_statute",
+      "reporter": "Iowa Code",
+      "year": 1999,
+      "opinion_index": 2
+    },
+    {
+      "cite": "Idaho Code \u00a734-1203",
+      "category": "laws:leg_statute",
+      "reporter": "Idaho Code",
+      "year": 1981,
+      "opinion_index": 2
+    },
+    {
+      "cite": "Colo. Rev. Stat. \u00a7 1-7-309",
+      "category": "laws:leg_statute",
+      "reporter": "Colo. Rev. Stat.",
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "(1)",
+          "parenthetical": "standard for paper ballots"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "Ariz. Rev. Stat. Ann. \u00a7 16-610",
+      "category": "laws:leg_statute",
+      "reporter": "Ariz. Rev. Stat. Ann.",
+      "year": 1996,
+      "pin_cites": [
+        {
+          "parenthetical": "standard for rejecting ballot"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "Ala. Code \u00a717-13-2",
+      "category": "laws:leg_statute",
+      "reporter": "Ala. Code",
+      "year": 1995,
+      "opinion_index": 2
+    },
+    {
+      "cite": "Ala. Code \u00a711-46-44",
+      "category": "laws:leg_statute",
+      "reporter": "Ala. Code",
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "(c)"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "Wyo. Stat. Ann. \u00a722-14-104",
+      "category": "laws:leg_statute",
+      "reporter": "Wyo. Stat. Ann.",
+      "year": 1999,
+      "opinion_index": 2
+    },
+    {
+      "cite": "Wash. Rev. Code \u00a7 29.62.180",
+      "category": "laws:leg_statute",
+      "reporter": "Wash. Rev. Code",
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "(1)",
+          "parenthetical": "standard for write-in votes"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "Va. Code Ann. \u00a724.2-644",
+      "category": "laws:leg_statute",
+      "reporter": "Va. Code Ann.",
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "(A)"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "Tex. Elec. Code Ann. \u00a7 65.009",
+      "category": "laws:leg_statute",
+      "reporter": "Tex. Code Ann.",
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "(c)"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "Mo. Rev. Stat. \u00a7115.453",
+      "category": "laws:leg_statute",
+      "reporter": "Mo. Rev. Stat.",
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "(3)",
+          "parenthetical": "looking to voter's intent where there is substantial compliance with statutory requirements"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "Mich. Comp. Laws \u00a7168",
+      "category": "laws:leg_statute",
+      "reporter": "Mich. Comp. Laws",
+      "opinion_index": 2
+    },
+    {
+      "cite": "Ind. Code \u00a73-12-1-1",
+      "category": "laws:leg_statute",
+      "reporter": "Ind. Code",
+      "year": 1992,
+      "opinion_index": 2
+    },
+    {
+      "cite": "Conn. Gen. Stat. \u00a7 9",
+      "category": "laws:leg_statute",
+      "reporter": "Conn. Gen. Stat.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "Ariz. Rev. Stat. Ann. \u00a7 16-645",
+      "category": "laws:leg_statute",
+      "reporter": "Ariz. Rev. Stat. Ann.",
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "(A)",
+          "parenthetical": "standard for canvassing write-in votes"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "253 U. S. 221",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        189323
+      ],
+      "year": 1920,
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/253/0221-01"
+      ]
+    },
+    {
+      "cite": "258 U. S. 130",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1479319
+      ],
+      "year": 1922,
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/258/0130-01"
+      ]
+    },
+    {
+      "cite": "514 U. S. 779",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1340237
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "805"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/514/0779-01"
+      ]
+    },
+    {
+      "cite": "22 J. Legis. 145",
+      "category": "journals:journal",
+      "reporter": "J. Legis.",
+      "pin_cites": [
+        {
+          "page": "166"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "282 U. S. 499",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6932578
+      ],
+      "year": 1931,
+      "pin_cites": [
+        {
+          "page": "501",
+          "parenthetical": "Holmes, J."
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/282/0499-01"
+      ]
+    },
+    {
+      "cite": "Fla. Stat. Ann. \u00a7 101.5614",
+      "category": "laws:leg_statute",
+      "reporter": "Fla. Stat. Ann.",
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "(5)"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "285 U. S. 355",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1175092
+      ],
+      "weight": 2,
+      "year": 1932,
+      "pin_cites": [
+        {
+          "page": "367"
+        },
+        {
+          "page": "366"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/285/0355-01"
+      ]
+    },
+    {
+      "cite": "772 So. 2d 1220",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        11194635
+      ],
+      "year": 2000,
+      "opinion_index": 2,
+      "case_paths": [
+        "/so2d/772/1220-01"
+      ]
+    },
+    {
+      "cite": "377 U. S. 533",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6171208
+      ],
+      "year": 1964,
+      "pin_cites": [
+        {
+          "page": "568"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/377/0665-01"
+      ]
+    },
+    {
+      "cite": "146 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3564547
+      ],
+      "year": 1892,
+      "pin_cites": [
+        {
+          "page": "25"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/146/0001-01"
+      ]
+    },
+    {
+      "cite": "3 U. S. C. \u00a7 5",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "455 U. S. 422",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11305924
+      ],
+      "weight": 2,
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "497-500",
+          "parenthetical": "similarly describing varying standards applied in Miami-Dade County"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/455/0422-01"
+      ]
+    },
+    {
+      "cite": "3 U. S. C. \u00a7 15",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 3
+    },
+    {
+      "cite": "3 U. S. C. \u00a7 5",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 3
+    },
+    {
+      "cite": "Fla. Stat. Ann. \u00a7 102.168",
+      "category": "laws:leg_statute",
+      "reporter": "Fla. Stat. Ann.",
+      "weight": 3,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "(3)(c)"
+        },
+        {
+          "page": "(8)"
+        }
+      ],
+      "opinion_index": 3
+    },
+    {
+      "cite": "772 So. 2d 1243",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        11194848
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "1256-1257"
+        },
+        {
+          "page": "1272-1273",
+          "parenthetical": "Harding, J., dissenting"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/so2d/772/1243-01"
+      ]
+    },
+    {
+      "cite": "7 How. 1",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        6136519
+      ],
+      "year": 1849,
+      "pin_cites": [
+        {
+          "page": "42"
+        }
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/48/0001-01"
+      ]
+    },
+    {
+      "cite": "241 U. S. 565",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8289302
+      ],
+      "year": 1916,
+      "pin_cites": [
+        {
+          "page": "569",
+          "parenthetical": "treating as a nonjusticiable political question whether use of a referendum to override a congressional district-ing plan enacted by the state legislature violates Art. I, \u00a74"
+        }
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/241/0565-01"
+      ]
+    },
+    {
+      "cite": "3 U. S. C. \u00a7\u00a7 1-15",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 4
+    },
+    {
+      "cite": "380 U. S. 451",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1525137
+      ],
+      "year": 1965,
+      "pin_cites": [
+        {
+          "page": "455-456"
+        }
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/380/0451-01"
+      ]
+    },
+    {
+      "cite": "421 U. S. 200",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        541072
+      ],
+      "weight": 2,
+      "year": 1975,
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/421/0200-01"
+      ]
+    },
+    {
+      "cite": "426 U. S. 341",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6176818
+      ],
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "344-345",
+          "parenthetical": "deciding whether North Carolina had created a property interest cognizable under the Due Process Clause by reference to state law as interpreted by the North Carolina Supreme Court"
+        }
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/426/0341-01"
+      ]
+    },
+    {
+      "cite": "348 U. S. 483",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6931894
+      ],
+      "year": 1955,
+      "pin_cites": [
+        {
+          "page": "489"
+        }
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/348/0483-01"
+      ]
+    },
+    {
+      "cite": "394 U. S. 802",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6180874
+      ],
+      "year": 1969,
+      "pin_cites": [
+        {
+          "page": "809",
+          "parenthetical": "even in the context of the right to vote, the State is permitted to reform \"one step at a time\""
+        }
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/394/0802-01"
+      ]
+    },
+    {
+      "cite": "526 U. S. 489",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11133435
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "504, n. 17",
+          "parenthetical": "citing U. S. Term Limits, Inc. v. Thornton, 514 U. S. 779, 838 (1995) (Kennedy, J., concurring)"
+        }
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/526/0489-01"
+      ]
+    },
+    {
+      "cite": "300 U. S. 608",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        336827
+      ],
+      "year": 1937,
+      "pin_cites": [
+        {
+          "page": "612",
+          "parenthetical": "\"How power shall be distributed by a state among its governmental organs is commonly, if not always, a question for the state itself.\""
+        }
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/300/0608-01"
+      ]
+    },
+    {
+      "cite": "501 U. S. 452",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1108302
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "460",
+          "parenthetical": "\"Through the structure of its government, and the character of those who exercise government authority, a State defines itself as a sovereign.\""
+        }
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/501/0452-01"
+      ]
+    },
+    {
+      "cite": "253 U. S. 17",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        189324
+      ],
+      "year": 1920,
+      "pin_cites": [
+        {
+          "page": "22"
+        }
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/253/0017-01"
+      ]
+    },
+    {
+      "cite": "358 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3655212
+      ],
+      "year": 1958,
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/358/0001-01"
+      ]
+    },
+    {
+      "cite": "1 Wheat. 304",
+      "category": "reporters:scotus_early",
+      "reporter": "Wheat.",
+      "case_ids": [
+        532366
+      ],
+      "year": 1816,
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/14/0304-01"
+      ]
+    },
+    {
+      "cite": "528 U. S. 23",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9476022
+      ],
+      "weight": 4,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "25-26"
+        },
+        {
+          "page": "29"
+        },
+        {
+          "page": "28",
+          "parenthetical": "asking the Pennsylvania Supreme Court whether its recent interpretation of the statute under which Fiore was convicted \u00ab\"was always the statute's meaning, even at the time of Fiore's trial\""
+        }
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/528/0023-01"
+      ]
+    },
+    {
+      "cite": "520 U. S. 43",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11651034
+      ],
+      "weight": 2,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "79"
+        },
+        {
+          "page": "77"
+        }
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/520/0043-01"
+      ]
+    },
+    {
+      "cite": "416 U. S. 386",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        84276
+      ],
+      "weight": 3,
+      "year": 1974,
+      "pin_cites": [
+        {
+          "page": "391"
+        },
+        {
+          "page": "391"
+        },
+        {
+          "page": "391"
+        }
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/416/0386-01"
+      ]
+    },
+    {
+      "cite": "269 U. S. 190",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        186323
+      ],
+      "weight": 2,
+      "year": 1925,
+      "pin_cites": [
+        {
+          "page": "195"
+        }
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/269/0190-01"
+      ]
+    },
+    {
+      "cite": "303 U. S. 95",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6137957
+      ],
+      "year": 1938,
+      "pin_cites": [
+        {
+          "page": "100"
+        }
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/303/0095-01"
+      ]
+    },
+    {
+      "cite": "503 U. S. 181",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6223783
+      ],
+      "weight": 2,
+      "year": 1992,
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/503/0181-01"
+      ]
+    },
+    {
+      "cite": "22 Wm. & Mary L. Rev. 801",
+      "category": "journals:journal",
+      "reporter": "Wm. & Mary L. Rev.",
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "813",
+          "parenthetical": "\"There is no reason to assume that state court judges cannot and will not provide a 'hospitable forum' in litigating federal constitutional questions.\""
+        }
+      ],
+      "opinion_index": 4
+    },
+    {
+      "cite": "494 U. S. 407",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5098
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "414"
+        }
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/494/0407-01"
+      ]
+    },
+    {
+      "cite": "521 U. S. 151",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        915886
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "156",
+          "parenthetical": "\"[T]he Teague doctrine validates reasonable, good-faith interpretations of existing precedents made by state courts even though they are shown to be contrary to later decisions.\""
+        }
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/521/0151-01"
+      ]
+    },
+    {
+      "cite": "76 Harv. L. Rev. 441",
+      "category": "journals:journal",
+      "reporter": "Harv. L. Rev.",
+      "year": 1963,
+      "pin_cites": [
+        {
+          "page": "509"
+        }
+      ],
+      "opinion_index": 4
+    },
+    {
+      "cite": "428 U. S. 465",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6178753
+      ],
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "494, n. 35",
+          "parenthetical": "quoting Bator, Finality in Criminal Law and Federal Habeas Corpus for State Prisoners, 76 Harv. L. Rev. 441, 509 (1963)"
+        }
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/428/0465-01"
+      ]
+    },
+    {
+      "cite": "467 U. S. 837",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6209106
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "843"
+        }
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/467/0837-01"
+      ]
+    },
+    {
+      "cite": "449 U. S. 539",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11716568
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "549"
+        }
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/449/0539-01"
+      ]
+    },
+    {
+      "cite": "3 U. S. C. \u00a7 15",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 4
+    },
+    {
+      "cite": "514 U. S. 779",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1340237
+      ],
+      "weight": 2,
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "838",
+          "parenthetical": "Kennedy, J., concurring"
+        },
+        {
+          "page": "841-842",
+          "parenthetical": "Kennedy, J., concurring"
+        }
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/514/0779-01"
+      ]
+    },
+    {
+      "cite": "7 Cranch 603",
+      "category": "reporters:scotus_early",
+      "reporter": "Cranch",
+      "case_ids": [
+        572735
+      ],
+      "year": 1813,
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/11/0603-01"
+      ]
+    },
+    {
+      "cite": "505 U. S. 1003",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1481136
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "1032, n. 18",
+          "parenthetical": "South Carolina could defend a regulatory taking \"if an objectively reasonable application of relevant precedents [by its courts] would exclude ... beneficial uses in the circumstances in which the land is presently found\""
+        }
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/505/1003-01"
+      ]
+    },
+    {
+      "cite": "378 U. S. 347",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6166404
+      ],
+      "weight": 2,
+      "year": 1964,
+      "pin_cites": [
+        {
+          "page": "350, 354"
+        }
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/378/0347-01"
+      ]
+    },
+    {
+      "cite": "357 U. S. 449",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6163673
+      ],
+      "weight": 2,
+      "year": 1958,
+      "pin_cites": [
+        {
+          "page": "455"
+        }
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/us/357/0449-01"
+      ]
+    },
+    {
+      "cite": "3 U. S. C. \u00a7 5",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 4
+    },
+    {
+      "cite": "772 So. 2d 1273",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        11195064
+      ],
+      "pin_cites": [
+        {
+          "page": "1291-1292",
+          "parenthetical": "on remand"
+        }
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/so2d/772/1273-01"
+      ]
+    },
+    {
+      "cite": "772 So. 2d 1243",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        11194848
+      ],
+      "pin_cites": [
+        {
+          "page": "1264-1270",
+          "parenthetical": "Wells, C. J., dissenting"
+        }
+      ],
+      "opinion_index": 4,
+      "case_paths": [
+        "/so2d/772/1243-01"
+      ]
+    },
+    {
+      "cite": "297 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3929661
+      ],
+      "year": 1936,
+      "pin_cites": [
+        {
+          "page": "79",
+          "parenthetical": "Stone, J., dissenting"
+        }
+      ],
+      "opinion_index": 5,
+      "case_paths": [
+        "/us/297/0001-01"
+      ]
+    },
+    {
+      "cite": "24 Stat. 378",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 5
+    },
+    {
+      "cite": "347 U. S. 483",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11301409
+      ],
+      "year": 1954,
+      "opinion_index": 5,
+      "case_paths": [
+        "/us/347/0483-01"
+      ]
+    },
+    {
+      "cite": "43 S. E. 2d 401",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.2d",
+      "year": 1947,
+      "pin_cites": [
+        {
+          "page": "404-405",
+          "parenthetical": "\"[Wjhether a ballot shall be counted . .. depends on the intent of the voter .... Courts decry any resort to technical rules in reaching a conclusion as to the intent of the voter\""
+        }
+      ],
+      "opinion_index": 5
+    },
+    {
+      "cite": "130 W. Va. 455",
+      "category": "reporters:state",
+      "reporter": "W. Va.",
+      "case_ids": [
+        8583654
+      ],
+      "year": 1947,
+      "pin_cites": [
+        {
+          "page": "460",
+          "parenthetical": "\"[Wjhether a ballot shall be counted . .. depends on the intent of the voter .... Courts decry any resort to technical rules in reaching a conclusion as to the intent of the voter\""
+        }
+      ],
+      "opinion_index": 5,
+      "case_paths": [
+        "/w-va/130/0455-01"
+      ]
+    },
+    {
+      "cite": "653 A. 2d 79",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "90-91",
+          "parenthetical": "\"Whatever the process used to vote and to count votes, differences in technology should not furnish a basis for disregarding the bedrock principle that the purpose of the voting process is to ascertain the intent of the voters\""
+        }
+      ],
+      "opinion_index": 5
+    },
+    {
+      "cite": "231 Conn. 602",
+      "category": "reporters:state",
+      "reporter": "Conn.",
+      "case_ids": [
+        740939
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "621",
+          "parenthetical": "\"Whatever the process used to vote and to count votes, differences in technology should not furnish a basis for disregarding the bedrock principle that the purpose of the voting process is to ascertain the intent of the voters\""
+        }
+      ],
+      "opinion_index": 5,
+      "case_paths": [
+        "/conn/231/0602-01"
+      ]
+    },
+    {
+      "cite": "75 So. 411",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "year": 1917,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 5
+    },
+    {
+      "cite": "3 U. S. C. \u00a7 15",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "184"
+        }
+      ],
+      "opinion_index": 5
+    },
+    {
+      "cite": "Fla. Stat. Ann. \u00a7 101.5614",
+      "category": "laws:leg_statute",
+      "reporter": "Fla. Stat. Ann.",
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "(5)"
+        }
+      ],
+      "opinion_index": 5
+    },
+    {
+      "cite": "146 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3564547
+      ],
+      "weight": 2,
+      "year": 1892,
+      "pin_cites": [
+        {
+          "page": "41",
+          "parenthetical": "specifically referring to state constitutional provision in upholding state law regarding selection of electors"
+        }
+      ],
+      "opinion_index": 5,
+      "case_paths": [
+        "/us/146/0001-01"
+      ]
+    },
+    {
+      "cite": "3 U. S. C. \u00a7 5",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 7,
+      "pin_cites": [
+        {
+          "page": "31"
+        }
+      ],
+      "opinion_index": 5
+    },
+    {
+      "cite": "Fla. Stat. Ann. \u00a7 102.168",
+      "category": "laws:leg_statute",
+      "reporter": "Fla. Stat. Ann.",
+      "weight": 3,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "(3)"
+        },
+        {
+          "page": "14"
+        },
+        {
+          "page": "(8)",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 5
+    },
+    {
+      "cite": "Fla. Stat. Ann. \u00a7 102.166",
+      "category": "laws:leg_statute",
+      "reporter": "Fla. Stat. Ann.",
+      "year": 2001,
+      "pin_cites": [
+        {
+          "parenthetical": "foreseeing manual recounts during the protest period"
+        }
+      ],
+      "opinion_index": 5
+    },
+    {
+      "cite": "772 So. 2d 1243",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        11194848
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "1254"
+        },
+        {
+          "page": "1260"
+        }
+      ],
+      "opinion_index": 5,
+      "case_paths": [
+        "/so2d/772/1243-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 3292,
+    "char_count": 120857,
+    "ocr_confidence": 0.593,
+    "pagerank": {
+      "raw": 2.1783527057428738e-06,
+      "percentile": 0.9956696317043967
+    },
+    "sha256": "c078e725e84c5972e5517df2686307869f20838c982b937a745d1fb5106f7bc0",
+    "simhash": "1:1f3075a6a3ae067d",
+    "word_count": 19708
+  },
+  "last_updated": "2024-02-27T22:08:59.379200+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "with whom Justice Scalia and Justice Thomas join, Justice Thomas join,",
+      "with whom Justice Ginsburg and Justice Breyer join,",
+      "with whom Justice Breyer joins, and and with whom whom Justice Stevens and Justice Ginsburg join as to all but Part III,",
+      "with whom Justice Stevens joins, and with whom Justice Souter and Justice Breyer join as to Part I,",
+      "with whom Justice Stevens and Justice Ginsburg join except as to Part I-A-1, and with whom join except as to Part Justice Souter joins as to Part I,"
+    ],
+    "parties": [
+      "BUSH et al. v. GORE et al."
+    ],
+    "opinions": [
+      {
+        "text": "Per Curiam.\nI\nOn December 8, 2000, the Supreme Court of Florida ordered that the Circuit Court of Leon County tabulate by hand 9,000 ballots in Miami-Dade County. It also ordered the inclusion in the certified vote totals of 215 votes identified in Palm Beach County and 168 votes identified in Miami-Dade County for Vice President Albert Gore, Jr., and Senator Joseph Lieberman, Democratic candidates for President and Vice President. The State Supreme Court noted that petitioner George W. Bush asserted that the net gain for Vice President Gore in Palm Beach County was 176 votes, and directed the Circuit Court to resolve that dispute on remand. Gore v. Harris, 772 So. 2d 1243, 1248, n. 6. The court further held that relief would require manual recounts in all Florida counties where so-called \u201cundervotes\u201d had not been subject to manual tabulation. The court ordered all manual recounts to begin at once. Governor Bush and Richard Cheney, Republican candidates for President and Vice President, filed an emergency application for a stay of this mandate. On December 9, we granted the application, treated the application as a petition for a writ of certiorari, and granted certiorari. Post, p. 1046.\nThe proceedings leading to the present controversy are discussed in some detail in our opinion in Bush v. Palm Beach County Canvassing Bd., ante, p. 70 (per curiam) (Bush I). On November 8,2000, the day following the Presidential election, the Florida Division of Elections reported that petitioner Bush had received 2,909,135 votes, and respondent Gore had received 2,907,351 votes, a margin of 1,784 for Governor Bush. Because Governor Bush\u2019s margin of victory was less than \u201cone-half of a percent... of the votes cast,\u201d an automatic machine recount was conducted under \u00a7 102.141(4) of the Florida Election Code, the results of which showed Governor Bush still winning the race but by a diminished margin. Vice President Gore then sought manual recounts in Volusia, Palm Beach, Broward, and Miami-Dade Counties, pursuant to Florida\u2019s election protest provisions. Fla. Stat. Ann. \u00a7 102.166 (Supp. 2001). A dispute arose concerning the deadline for local county canvassing boards to submit their returns to the Secretary of State (Secretary). The Secretary declined to waive the November 14 deadline imposed by statute. \u00a7\u00a7102.111, 102.112. The Florida Supreme Court, however, set the deadline at November 26. We granted certiorari and vacated the Florida Supreme Court\u2019s decision, finding considerable uncertainty as to the grounds on which it was based. Bush I, ante, at 78. On December 11, the Florida Supreme Court issued a decision on remand reinstating that date. Palm Beach County Canvassing Bd. v. Harris, 772 So. 2d 1273, 1290.\nOn November 26, the Florida Elections Canvassing Commission certified the results of the election and declared Governor Bush the winner of Florida\u2019s 25 electoral votes. On November 27, Vice President Gore, pursuant to Florida\u2019s contest provisions, filed a complaint in Leon County Circuit Court contesting the certification. Fla. Stat. Ann. \u00a7 102.168 (Supp. 2001). He sought relief pursuant to \u00a7 102.168(3)(c), which provides that \u201c[Receipt of a number of illegal votes or rejection of a number of legal votes sufficient to change or place in doubt the result of the election\u201d shall be grounds for a contest. The Circuit Court denied relief, stating that Vice President Gore failed to meet his burden of proof. He appealed to the First District Court of Appeal, which certified the matter to the Florida Supreme Court.\nAccepting jurisdiction, the Florida Supreme Court affirmed in part and reversed in part. Gore v. Harris, 772 So. 2d 1243 (2000). The court held that the Circuit Court had been correct to reject Vice President Gore\u2019s challenge to the results certified in Nassau County and his challenge to the Palm Beach County Canvassing Board\u2019s determination that 3,300 ballots cast in that county were not, in the statutory phrase, \u201clegal votes.\u201d\nThe Supreme Court held that Vice President Gore had satisfied his burden of proof under \u00a7 102.168(3)(c) with respect to his challenge to Miami-Dade County\u2019s failure to tabulate, by manual count, 9,000 ballots on which the machines had failed to detect a vote for President (\u201cunder-votes\u201d). Id., at 1256. Noting the closeness of the election, the court explained that \u201c[o]n this record, there can be no question that there are legal votes within the 9,000 uncounted votes sufficient to place the results of this election in doubt.\u201d Id., at 1261. A \u201clegal vote,\u201d as determined by the Supreme Court, is \u201cone in which there is a 'clear indication of the intent of the voter.\u2019 \u201d Id., at 1257. The court therefore ordered a hand recount of the 9,000 ballots in Miami-Dade County. Observing that the contest provisions vest broad discretion in the circuit judge to \u201cprovide any relief appropriate under such circumstances,\u201d \u00a7102.168(8), the Supreme Court further held that the Circuit Court could order \u201cthe Supervisor of Elections and the Canvassing Boards, as well as the necessary public officials, in all counties that have not conducted a manual recount or tabulation of the undervotes ... to do so forthwith, said tabulation to take place in the individual counties where the ballots are located.\u201d Id., at 1262.\nThe Supreme Court also determined that Palm Beach County and Miami-Dade County, in their earlier manual recounts, had identified a net gain of 215 and 168 legal votes, respectively, for Vice President Gore. Id., at 1260. Rejecting the Circuit Court\u2019s conclusion that Palm Beach County lacked the authority to include the 215 net votes submitted past the November 26 deadline, the Supreme Court explained that the deadline was not intended to exclude votes identified after that date through ongoing manual recounts. As to Miami-Dade County, the court concluded that although the 168 votes identified were the result of a partial recount, they were \u201clegal votes [that] could change the outcome of the election.\u201d Ibid. The Supreme Court therefore directed the Circuit Court to include those totals in the certified results, subject to resolution of the actual vote total from the Miami-Dade partial recount.\nThe petition presents the following questions: whether the Florida Supreme Court established new standards for resolving Presidential election contests, thereby violating Art. II, \u00a7 1, cl. 2, of the United States Constitution and failing to comply with 3 U. S. C. \u00a7 5, and whether the use of standardless manual recounts violates the Equal Protection and Due Process Clauses. With respect to the equal protection question, we find a violation of the Equal Protection Clause.\nII\nA\nThe closeness of this election, and the multitude of legal challenges which have followed in its wake, have brought into sharp focus a common, if heretofore unnoticed, phenomenon. Nationwide statistics reveal that an estimated 2% of ballots cast do not register a vote for President for whatever reason, including deliberately choosing no candidate at all or some voter error, such as voting for two candidates or insufficiently marking a ballot. See Ho, More Than 2M Ballots Uncounted, AP Online (Nov. 28,2000); Kelley, Balloting Problems Not Rare But Only in a Very Close Election Do Mistakes and Mismarking Make a Difference, Omaha World-Herald (Nov. 15,2000). In certifying election results, the votes eligible for inclusion in the certification are the votes meeting the properly established legal requirements.\nThis case has shown that punchcard balloting machines can produce an unfortunate number of ballots which are not punched in a clean, complete way by the voter. After the current counting, it is likely legislative bodies nationwide will examine ways to improve the mechanisms and machinery for voting.\nB\nThe individual citizen has no federal constitutional right to vote for electors for the President of the United States unless and until the state legislature chooses a statewide election as the means to implement its power to appoint members of the electoral college. U. S. Const., Art. II, \u00a7 1. This is the source for the statement in McPherson v. Blacker, 146 U. S. 1, 85 (1892), that the state legislature\u2019s power to select the manner for appointing electors is plenary; it may, if it so chooses, select the electors itself, which indeed was the manner used by state legislatures in several States for many years after the framing of our Constitution. Id., at 28-33. History has now favored the voter, and in each of the several States the citizens themselves vote for Presidential electors. When the state legislature vests the right to vote for President in its people, the right to vote as the legislature has prescribed is fundamental; and one source of its fundamental nature lies in the equal weight accorded to each vote and the equal dignity owed to each voter. The State, of course, after granting the franchise in the special context of Article II, can take back the power to appoint electors. See id., at 35 (\u201c \u2018[T]here is no doubt of the right of the legislature to resume the power at any time, for it can neither be taken away nor abdicated\u2019\u201d) (quoting S. Rep. No. 395, 43d Cong., 1st Sess., 9 (1874)).\nThe right to vote is protected in more than the initial allocation of the franchise. Equal protection applies as well to the manner of its exercise. Having once granted the right to vote on equal terms, the State may not, by later arbitrary and disparate treatment, value one person\u2019s vote over that of another. See, e. g., Harper v. Virginia Bd. of Elections, 383 U. S. 663, 665 (1966) (\u201c[O]nce the franchise is granted to the electorate, lines may not be drawn which are inconsistent with the Equal Protection Clause of the Fourteenth Amendment\u201d). It must be remembered that \u201cthe right of suffrage can be denied by a debasement or dilution of the weight of a citizen\u2019s vote just as effectively as by wholly prohibiting the free exercise of the franchise.\u201d Reynolds v. Sims, 377 U. S. 533, 555 (1964).\nThere is no difference between the two sides of the present controversy on these basic propositions. Respondents say that the very purpose of vindicating the right to vote justifies the recount procedures now at issue. The question before us, however, is whether the recount procedures the Florida Supreme Court has adopted are consistent with its obligation to avoid arbitrary and disparate treatment of the members of its electorate.\nMuch of the controversy seems to revolve around ballot cards designed to be perforated by a stylus but which, either through error or deliberate omission, have not been perforated with sufficient precision for a machine to register the perforations. In some cases a piece of the card \u2014 a chad \u2014 is hanging, say, by two corners. In other cases there is no separation at all, just an indentation.\nThe Florida Supreme Court has ordered that the intent of the voter be discerned from such ballots. For purposes of resolving the equal protection challenge, it is not necessary to decide whether the Florida Supreme Court had the authority under the legislative scheme for resolving election disputes to define what a legal vote is and to mandate a manual recount implementing that definition. The recount mechanisms implemented in response to the decisions of the Florida Supreme Court do not satisfy the minimum requirement for nonarbitrary treatment of voters necessary to secure the fundamental right. Florida\u2019s basic command for the count of legally cast votes is to consider the \u201cintent of the voter.\u201d 772 So. 2d, at 1262. This is unobjectionable as an abstract proposition and a starting principle. The problem inheres in the absence of specific standards to ensure its equal application. The formulation of uniform rules to determine intent based on these recurring circumstances is practicable and, we conclude, necessary.\nThe law does not refrain from searching for the intent of the actor in a multitude of circumstances; and in some cases the general command to ascertain intent is not susceptible to much further refinement. In this instance, however, the question is not whether to believe a witness but how to interpret the marks or holes or scratches on an inanimate object, a piece of cardboard or paper which, it is said, might not have registered as a vote during the machine count. The factfinder confronts a thing, not a person. The search for intent can be confined by specific rules designed to ensure uniform treatment.\nThe want of those rules here has led to unequal evaluation of ballots in various respects. See id., at 1267 (Wells, C. J., dissenting) (\u201cShould a county canvassing board count or not count a \u2018dimpled chad\u2019 where the voter is able to successfully dislodge the chad in every other contest on that ballot? Here, the county canvassing boards disagree\u201d). As seems to have been acknowledged at oral argument, the standards for accepting or rejecting contested ballots might vary not only from county to county but indeed within a single county from one recount team to another.\nThe record provides some examples. A monitor in Miami-Dade County testified at trial that he observed that three members of the county canvassing board applied different standards in defining a legal vote. 3 Tr. 497, 499 (Dec. 3, 2000). And testimony at trial also revealed that at least one county changed its evaluative standards during the counting process. Palm Beach County, for example, began the process with a 1990 guideline which precluded counting completely attached chads, switched to a rule that considered a vote to be legal if any light could be seen through a chad, changed back to the 1990 rule, and then abandoned any pretense of a per se rule, only to have a court order that the county consider dimpled chads legal. This is not a process with sufficient guarantees of equal treatment.\nAn early case in our one-person, one-vote jurisprudence arose when a State accorded arbitrary and disparate treatment to voters in its different counties. Gray v. Sanders, 372 U. S. 368 (1963). The Court found a constitutional violation. We relied on these principles in the context of the Presidential selection process in Moore v. Ogilvie, 394 U. S. 814 (1969), where we invalidated a county-based procedure that diluted the influence of citizens in larger counties in the nominating process. There we observed that \u201c[t]he idea that one group can be granted greater voting strength than another is hostile to the one man, one vote basis of our representative government.\u201d Id., at 819.\nThe State Supreme Court ratified this uneven treatment. It mandated that the recount totals from two counties, Miami-Dade and Palm Beach, be included in the certified total. The court also appeared to. hold sub silentio that the recount totals from Broward County, which were not completed until after the original November 14 certification by the Secretary, were to be considered part of the new certified vote totals even though the county certification was not contested by Vice President Gore. Yet each of the counties used varying standards to determine what was a legal vote. Broward County used a more forgiving standard than Palm Beach County, and uncovered almost three times as many new votes, a result markedly disproportionate to the difference in population between the counties.\nIn addition, the recounts in these three counties were not limited to so-called undervotes but extended to all of the ballots. The distinction has real consequences. A manual recount of all ballots identifies not only those ballots which show no vote but also those which contain more than one, the so-called overvotes. Neither category will be counted by the machine. This is not a trivial concern. At oral argument, respondents estimated there are as many as 110,000 overvotes statewide. As a result, the citizen whose ballot was not read by a machine because he failed to vote for a candidate in a way readable by a machine may still have his vote counted in a manual recount; on the other hand, the citizen who marks two candidates in a way discernible by the machine will not have the same opportunity to have his vote count, even if a manual examination of the ballot would reveal the requisite indicia of intent. Furthermore, the citizen who marks two candidates, only one of which is discernible by the machine, will have his vote counted even though it should have been read as an invalid ballot. The State Supreme Court\u2019s inclusion of vote counts based on these variant standards exemplifies concerns with the remedial processes that were under way.\nThat brings the analysis to yet a further equal protection problem. The votes certified by the court included a partial total from one county, Miami-Dade. The Florida Supreme Court\u2019s decision thus gives no assurance that the recounts included in a final certification must be complete. Indeed, it is respondents\u2019 submission that it would be consistent with the rules of the recount procedures to include whatever partial counts are done by the time of final certification, and we interpret the Florida Supreme Court\u2019s decision to permit this. See 772 So. 2d, at 1261-1262, n. 21 (noting \u201cpractical difficulties\u201d may control outcome of election, but certifying partial Miami-Dade total nonetheless). This accommodation no doubt results from the truncated contest period established by the Florida Supreme Court in Palm Beach County Canvassing Bd. v. Harris, at respondents\u2019 own urging. The press of time does not diminish the constitutional concern. A desire for speed is not a general excuse for ignoring equal protection guarantees.\nIn addition to these difficulties the actual process by which the votes were to be counted under the Florida Supreme Court\u2019s decision raises further concerns. That order did not specify who would recount the ballots. The county canvassing boards were forced to pull together ad hoc teams of judges from various Circuits who had no previous training in handling and interpreting ballots. Furthermore, while others were permitted to observe, they were prohibited from objecting during the recount.\nThe recount process, in its features here described, is inconsistent with the minimum procedures necessary to protect the fundamental right of each voter in the special instance of a statewide recount under the authority of a single state judicial officer. Our consideration is limited to the present circumstances, for the problem of equal protection in election processes generally presents many complexities.\nThe question before the Court is not whether local entities, in the exercise of their expertise, may develop different systems for implementing elections. Instead, we are presented with a situation where a state court with the power to assure uniformity has ordered a statewide recount with minimal procedural safeguards. When a court orders a statewide remedy, there must be at least some assurance that the rudimentary requirements of equal treatment and fundamental fairness are satisfied.\nGiven the Court\u2019s assessment that the recount process underway was probably being conducted in an unconstitutional manner, the Court stayed the order directing the recount so it could hear this case and render an expedited decision. The contest provision, as it was mandated by the State Supreme Court, is not well calculated to sustain the confidence that all citizens must have in the outcome of elections. The State has not shown that its procedures include the necessary safeguards. The problem, for instance, of the estimated 110,000 overvotes has not been addressed, although Chief Justice Wells called attention to the concern in his dissenting opinion. See 772 So. 2d, at 1264, n. 26.\nUpon due consideration of the difficulties identified to this point, it is obvious that the recount cannot be conducted in compliance with the requirements of equal protection and due process without substantial additional work. It would require not only the adoption (after opportunity for argument) of adequate statewide standards for determining what is a legal vote, and practicable procedures to implement them, but also orderly judicial review of any disputed matters that might arise. In addition, the Secretary has advised that the recount of only a portion of the ballots requires that the vote tabulation equipment be used to screen out undervotes, a function for which the machines were not designed. If a recount of overvotes were also required, perhaps even a second screening would be necessary. Use of the equipment for this purpose, and any new software developed for it, would have to be evaluated for accuracy by the Secretary, as required by Fla. Stat. Ann. \u00a7101.015 (Supp. 2001).\nThe Supreme Court of Florida has said that the legislature intended the State\u2019s electors to \u201cparticipate] fully in the federal electoral process,\u201d as provided in 3 U. S. C. \u00a7 5. 772 So. 2d, at 1289; see also Palm Beach County Canvassing Bd. v. Harris, 772 So. 2d 1220, 1237 (Fla. 2000). That statute, in turn, requires that any controversy or contest that is designed to lead to a conclusive selection of electors be completed by December 12. That date is upon us, and there is no recount procedure in place under the State Supreme Court\u2019s order that comports with minimal constitutional standards. Because it is evident that any recount seeking to meet the December 12 date will be unconstitutional for the reasons we have discussed, we reverse the judgment of the Supreme Court of Florida ordering a recount to proceed.\nSeven Justices of the Court agree that there are constitutional problems with the recount ordered by the Florida Supreme Court that demand a remedy. See post, at 134 (Souter, J., dissenting); post, at 145-146 (Breyer, J., dissenting). The only disagreement is as to the remedy. Because the Florida Supreme Court has said that the Florida Legislature intended to obtain the safe-harbor benefits of 3 U. S. C. \u00a75, Justice Breyer\u2019s proposed remedy \u2014 remanding to the Florida Supreme Court for its ordering of a constitutionally proper contest until December 18 \u2014 contemplates action in violation of the Florida Election Code, and hence could not be part of an \u201cappropriate\u201d order authorized by Fla. Stat. Ann. \u00a7102.168(8) (Supp. 2001).\n* * *\nNone are more conscious of the vital limits on judicial authority than are the Members of this Court, and none stand more in admiration of the Constitution\u2019s design to leave the selection of the President to the people, through their legislatures, and to the political sphere. When contending parties invoke the process of the courts, however, it becomes our unsought responsibility to resolve the federal and constitutional issues the judicial system has been forced to confront.\nThe judgment of the Supreme Court of Florida is reversed, and the case is remanded for further proceedings not inconsistent with this opinion.\nPursuant to this Court\u2019s Rule 45.2, the Clerk is directed to issue the mandate in this case forthwith.\nIt is so ordered.",
+        "type": "majority",
+        "author": "Per Curiam."
+      },
+      {
+        "text": "Chief Justice Rehnquist,\nwith whom Justice Scalia and Justice Thomas join, Justice Thomas join,\nconcurring.\nWe join the per curiam opinion. We write separately because we believe there are additional grounds that require us to reverse the Florida Supreme Court\u2019s decision.\nI\nWe deal here not with an ordinary election, but with an election for the President of the United States. In Burroughs v. United States, 290 U. S. 534, 545 (1934), we said:\n\u201cWhile presidential electors are not officers or agents of the federal government (In re Green, 134 U. S. 377, 379 [(1890)]), they exercise federal functions under, and discharge duties in virtue of authority conferred by, the Constitution of the United States. The President is vested with the executive power of the nation. The importance of his election and the vital character of its relationship to and effect upon the welfare and safety of the whole people cannot be too strongly stated.\u201d\nLikewise, in Anderson v. Celebrezze, 460 U. S. 780, 794-795 (1983) (footnote , omitted), we said: \u201c[I]n the context of a Presidential election, state-imposed restrictions implicate a uniquely important national interest. For the President and the Vice President of the United States are the only elected officials who represent all the voters in the Nation.\u201d\nIn most cases, comity and respect for federalism compel us to defer to the decisions of state courts on issues of state law. That practice reflects our understanding that the decisions of state courts are definitive pronouncements of the will of the States as sovereigns. Cf. Erie R. Co. v. Tompkins, 304 U. S. 64 (1938). Of course, in ordinary cases, the distribution of powers among the branches of a State\u2019s government raises no questions of federal constitutional law, subject to the requirement that the government be republican in character. See U. S. Const., Art. IV, \u00a7 4. But there are a few exceptional cases in which the Constitution imposes a duty or confers a power on a particular branch of a State\u2019s government. This is one of them. Article II, \u00a7 1, cl. 2, provides that \"[e]ach State shall appoint, in such Manner as the Legislature thereof may direct,\u201d electors for President and Vice President. (Emphasis added.) Thus, the text of the election law itself, and not just its interpretation by the courts of the States, takes on independent significance.\nIn McPherson v. Blacker, 146 U. S. 1 (1892), we explained that Art. II, \u00a71, cl. 2, \u201cconvey[s] the broadest power of determination\u201d and \u201cleaves it to the legislature exclusively to define the method\u201d of appointment. 146 U. S., at 27. A significant departure from the legislative scheme for appointing Presidential electors presents a federal constitutional question.\nTitle 3 U. S. C. \u00a7 5 informs our application of Art. II, \u00a7 1, cl. 2, to the Florida statutory scheme, which, as the Florida Supreme Court acknowledged, took that statute into account. Section 5 provides that the State\u2019s selection of electors \u201cshall be conclusive, and shall govern in the counting of the electoral votes\u201d if the electors are chosen under laws enacted prior to election day, and if the selection process is completed six days prior to the meeting of the electoral college. As we noted in Bush v. Palm Beach County Canvassing Bd., ante, at 78:\n\u201cSince \u00a7 5 contains a principle of federal law that would assure finality of the State\u2019s determination if made pursuant to a state law in effect before the election, a legislative wish to take advantage of the \u2018safe harbor\u2019 would counsel against any construction of the Election Code that Congress might deem to be a change in the law.\u201d\nIf we are to respect the legislature\u2019s Article II powers, therefore, we must ensure that postelection state-court actions do not frustrate the legislative desire to attain the \u201csafe harbor\u201d provided by \u00a7 5.\nIn Florida, the legislature has chosen to hold statewide elections to appoint the State\u2019s 25 electors. Importantly, the legislature has delegated the authority to run the elections and to oversee election disputes to the Secretary of State (Secretary), Fla. Stat. Ann. \u00a797.012(1) (Supp. 2001), and to state circuit courts, \u00a7\u00a7 102.168(1), 102.168(8). Isolated sections of the code may well admit of more than one interpretation, but the general coherence of the legislative scheme may not be altered by judicial interpretation so as to wholly change the statutorily provided apportionment of responsibility among these various bodies. In any election but a Presidential election, the Florida Supreme Court can give as little or as much deference to Florida\u2019s executives as it chooses, so far as Article II is concerned, and this Court will have no cause to question the court\u2019s actions. But, with respect to a Presidential election, the court must be both mindful of the legislature\u2019s role under Article II in choosing the manner of appointing electors and deferential to those bodies expressly empowered by the legislature to carry out its constitutional mandate.\nIn order to determine whether a state court has infringed upon the legislature\u2019s authority, we necessarily must examine the law of the State as it existed prior to the action of the court. Though we generally defer to state courts on the interpretation of state law \u2014 see, e. g., Mullaney v. Wilbur, 421 U. S. 684 (1975) \u2014 there are of course areas in which the Constitution requires this Court to undertake an independent, if still deferential, analysis of state law.\nFor example, in NAACP v. Alabama ex rel. Patterson, 357 U. S. 449 (1958), it was argued that we were without jurisdiction because the petitioner had not pursued the correct appellate remedy in Alabama\u2019s state courts. Petitioner had sought a state-law writ of certiorari in the Alabama Supreme Court when a writ of mandamus, according to that court, was proper. We found this state-law ground inadequate to defeat our jurisdiction because we were \u201cunable to reconcile the procedural holding of the Alabama Supreme Court\u201d with prior Alabama precedent. Id., at 456. The purported state-law ground was so novel, in our independent estimation, that \u201cpetitioner could not fairly be deemed to have been apprised of its existence.\u201d Id., at 457.\nSix years later we decided Bouie v. City of Columbia, 378 U. S. 347 (1964), in which the state court had held, contrary to precedent, that the state trespass law applied to black sit-in demonstrators who had consent to enter private property but were then asked to leave. Relying upon NAACP, we concluded that the South Carolina Supreme Court\u2019s interpretation of a state penal statute had impermissibly broadened the scope of that statute beyond what a fair reading provided, in violation of due process. See 378 U. S., at 361-362. What we would do in the present case is precisely parallel: hold that the Florida Supreme Court\u2019s interpretation of the Florida election laws impermissibly distorted them beyond what a fair reading required, in violation of Article II.\nThis inquiry does not imply a disrespect for state courts but rather a respect for the constitutionally prescribed role of state legislatures. To attach definitive weight to the pronouncement of a state court, when the very question at issue is whether the court has actually departed from the statutory meaning, would be to abdicate our responsibility to enforce the explicit requirements of Article II.\nII\nActing pursuant to its constitutional grant of authority, the Florida Legislature has created a detailed, if not perfectly crafted, statutory scheme that provides for appointment of Presidential electors by direct election. Fla. Stat. Ann. \u00a7 103.011 (1992). Under the statute, \u201c[vjotes cast for the actual candidates for President and Vice President shall be counted as votes cast for the presidential electors supporting such candidates.\u201d Ibid. The legislature has designated the Secretary as the \u201cchief election officer,\u201d with the responsibility to \u201c[o]btain and maintain uniformity in the application, operation, and interpretation of the election laws.\u201d Fla. Stat. Ann. \u00a7 97.012 (Supp. 2001). The state legislature has delegated to county canvassing boards the duties of administering elections. \u00a7 102.141. Those boards are responsible for providing results to the state Elections Canvassing Commission, comprising the Governor, the Secretary of State, and the Director of the Division of Elections. \u00a7102.111. Cf. Boardman v. Esteva, 323 So. 2d 259, 268, n. 5 (1975) (\u201cThe election process ... is committed to the executive branch of government through duly designated officials all charged with specific duties .... [The] judgments [of these officials] are entitled to be regarded by the courts as presumptively correct. . .\u201d).\nAfter the election has taken place, the canvassing boards receive returns from precincts, count the votes, and in the event that a candidate was defeated by 0.5% or less, conduct a mandatory recount. Fla. Stat. Ann. \u00a7102.141(4) (Supp. 2001). The county canvassing boards must file certified election returns with the Department of State by 5 p.m. on the seventh day following the election. \u00a7 102.112(1).. The Elections Canvassing Commission must then certify the results of the election. \u00a7102.111(1).\nThe state legislature has also provided mechanisms both for protesting election returns and for contesting certified election results. Section 102.166 governs protests. Any protest must be filed prior to the certification of election results by the county canvassing board. \u00a7 102.166(4)(b). Once a protest has been filed, \u201c[t]he county canvassing board may authorize a manual recount.\u201d \u00a7 102.166(4)(c). If a sample recount conducted pursuant to \u00a7 102.166(5) \u201cindicates an error in the vote tabulation which could affect the outcome of the election,\u201d the county canvassing board is instructed to: \u201c(a) Correct the error and recount the remaining precincts with the vote tabulation system; (b) Request the Department of State to verify the tabulation software; or (c) Manually recount all ballots,\u201d \u00a7102.166(5). In the event a canvassing board chooses to conduct a manual recount of all ballots, \u00a7102.166(7) prescribes procedures for such a recount.\nContests to the certification of an election, on the other hand, are controlled by \u00a7 102.168. The grounds for contesting an election include \u201c[r]eceipt of a number of illegal votes or rejection of a number of legal votes sufficient to change or place in doubt the result of the election.\u201d \u00a7 102.168(3)(c). Any contest must be filed in the appropriate Florida circuit court, \u00a7102.168(1), and the canvassing board or election board is the proper party defendant, \u00a7 102.168(4). Section 102.168(8) provides that \u201c[t]he circuit judge to whom the contest is presented may fashion such orders as he or she deems necessary to ensure that each allegation in the complaint is investigated, examined, or checked, to prevent or correct any alleged wrong, and to provide any relief appropriate under such circumstances.\u201d In Presidential elections, the contest period necessarily terminates on the date set by 3 U. S. C. \u00a75 for concluding the State\u2019s \u201cfinal determination\u201d of election controversies.\n. In its first decision, Palm Beach Canvassing Bd. v. Harris, 772 So. 2d 1220 (2000) (Harris I), the Florida Supreme Court extended the 7-day statutory certification deadline established by the legislature. This modification of the code, by lengthening the protest period, necessarily shortened the contest period for Presidential elections. Underlying the extension of the certification deadline and the shortchanging of the contest period was, presumably, the clear implication that certification was a matter of significance: The certified winner would enjoy presumptive validity, making a contest proceeding by the losing candidate an uphill battle. In its latest opinion, however, the court empties certification of virtually all legal consequence during the contest, and in doing so departs from the provisions enacted by the Florida Legislature.\nThe court determined that canvassing boards\u2019 decisions regarding whether to recount ballots past the certification deadline (even the certification deadline established by Har- \u2019 ris I) are to be reviewed de novo, although the Election Code clearly vests discretion whether to recount in the boards, and sets strict deadlines subject to the Secretary\u2019s rejection of late tallies and monetary fines for tardiness. See Fla. Stat. Ann. \u00a7102.112 (Supp. 2001). Moreover, the Florida court held that all late vote tallies arriving during the contest period should be automatically included in the certification regardless of the certification deadline (even the certification deadline established by Harris I), thus virtually eliminating both the deadline and the Secretary\u2019s discretion to disregard recounts that violate it.\nMoreover, the court\u2019s interpretation of \u201clegal vote,\u201d and hence its decision to order a contest-period recount, plainly departed from the legislative scheme. Florida statutory law cannot reasonably be thought to require the counting of im~ properly marked ballots. Each Florida precinct before election day provides instructions on how properly to cast a vote, Fla. Stat. Ann. \u00a7 101.46 (1992); each polling place on election day contains a working model of the voting machine it uses, Fla. Stat. Ann. \u00a7 101.5611 (Supp. 2001); and each voting booth contains a sample ballot, \u00a7 101.46. In precincts using punchcard ballots, voters are instructed to punch out the ballot cleanly:\n\u201cAFTER VOTING, CHECK YOUR BALLOT CARD TO BE SURE YOUR VOTING SELECTIONS ARE CLEARLY AND CLEANLY PUNCHED AND THERE ARE NO CHIPS LEFT HANGING ON THE BACK OF THE CARD.\u201d Instructions to Voters, quoted in Brief for Respondent Harris et al. 13, n. 5.\nNo reasonable person would call it \u201can error in the vote tabulation,\u201d Fla. Stat. Ann. \u00a7102.166(5) (Supp. 2001), or a \u201crejection of... legal votes,\u201d \u00a7 102.168(3)(c), when electronic or electromechanical equipment performs precisely in the manner designed, and fails to count those ballots that are not marked in the manner that these voting instructions explicitly and prominently specify. The scheme that the Florida Supreme Court\u2019s opinion attributes to the legislature is one in which machines are required to be \u201ccapable of correctly counting votes,\u201d \u00a7 101.5606(4), but which nonetheless regularly produces elections in which legal votes are predictably not tabulated, so that in close elections manual recounts are regularly required. This is of course absurd. The Secretary, who is authorized by law to issue binding interpretations of the Election Code, \u00a7\u00a7 97.012,106.23, rejected this peculiar reading of the statutes. See DE 00-13 (opinion of the Division of Elections). The Florida Supreme Court, although it must defer to the Secretary\u2019s interpretations, see Krivanek v. Take Back Tampa Political Committee, 625 So. 2d 840, 844 (Fla. 1993), rejected her reasonable interpretation and embraced the peculiar one. See Palm Beach County Canvassing Bd. v. Harris, 112 So. 2d 1273 (2000) (Harris III).\nBut as we indicated in our remand of the earlier ease, in a Presidential election the clearly expressed intent of the legislature must prevail. And there is no basis for reading the Florida statutes as requiring the counting of improperly marked ballots, as an examination of the Florida Supreme Court\u2019s textual analysis shows. We will not parse that analysis here, except to note that the principal provision of the Election Code on which it relied, \u00a7 101.5614(5), was, as Chief Justice Wells pointed out in his dissent in Gore v. Harris, 772 So. 2d 1243, 1267 (2000) (Harris II), entirely irrelevant. The State\u2019s Attorney General (who was supporting the Gore challenge) confirmed in oral argument here that never before the present election had a manual recount been conducted on the basis of the contention that \u201cundervotes\u201d should have been examined to determine voter intent. Tr. of Oral Arg. in Bush v. Palm Beach County Canvassing Bd., O. T. 2000, No. 00-836, pp. 39-40; cf. Broward County Canvassing Board v. Hogan, 607 So. 2d 508, 509 (Fla. Ct. App. 1992) (denial of recount for failure to count ballots with \u201changing paper chads\u201d). For the court to step away from this established practice, prescribed by the Secretary, the state official charged by the legislature with \u201cresponsibility to ... [ojbtain and maintain uniformity in the application, operation, and interpretation of the election laws,\u201d \u00a797.012(1), was to depart from the legislative scheme.\nIII\nThe scope and nature of the remedy ordered by the Florida Supreme Court jeopardizes the \u201clegislative wish\u201d to take advantage of the safe harbor provided by 3 U. S. C. \u00a7 5. Bush v. Palm Beach County Canvassing Bd., ante, at 78 (per curiam). December 12, 2000, is the last date for a final determination of the Florida electors that will satisfy \u00a7 5. Yet in the late afternoon of December 8th \u2014 four days before this deadline \u2014 the Supreme Court of Florida ordered recounts of tens of thousands of so-called \u201cundervotes\u201d spread through 64 of the State\u2019s 67 counties. This was done in a search for elusive \u2014 perhaps delusive \u2014 certainty as to the exact count of 6 million votes. But no one claims that these ballots have not previously been tabulated; they were initially read by voting machines at the time of the election, and thereafter reread by virtue of Florida\u2019s automatic recount provision. No one claims there was any fraud in the election. The Supreme Court of Florida ordered this additional recount under the provision of the Election Code giving the circuit judge the authority to provide relief that is \u201cappropriate under such circumstances.\u201d Fla. Stat. Ann. \u00a7 102.168(8) (Supp. 2001).\nSurely when the Florida Legislature empowered the courts of the State to grant \u201cappropriate\u201d relief, it must have meant relief that would have become final by the cutoff date of 3 U. S. C. \u00a7 5. In light of the inevitable legal challenges and ensuing appeals to the Supreme Court of Florida and petitions for certiorari to this Court, the entire recounting process could not possibly be completed by that date. Whereas the majority in the Supreme Court of Florida stated its confidence that \u201cthe remaining undervotes in these counties can be [counted] within the required time frame,\u201d 772 So. 2d, at 1262, n. 22, it made no assertion that the seemingly inevitable appeals could be disposed of in that time. Although the Florida Supreme Court has on occasion taken over a year to resolve disputes over local elections, see, e. g., Beckstrom v. Volusia County Canvassing Bd., 707 So. 2d 720 (1998) (resolving contest of sheriff\u2019s race 16 months after the election), it has heard and decided the appeals in the present case with great promptness. But the f\u00e9deral deadlines for the Presidential election simply do not permit even such a shortened process.\nAs the dissent noted:\n\u201cIn [the four days remaining], all questionable ballots must be reviewed by the judicial officer appointed to discern the intent of the voter in a process open to the public. Fairness dictates that a provision be made for either party to object to how a particular ballot is counted. Additionally, this short time period must allow for judicial review. I respectfully submit this cannot be completed without taking Florida's presidential electors outside the safe harbor provision, creating the very real possibility of disenfranchising those nearly six million voters who are able to correctly cast their ballots on election day.\u201d 772 So. 2d, at 1269 (opinion of Wells, C. J.) (footnote omitted).\nThe other dissenters echoed this concern: \u201c[T]he majority is departing from the essential requirements of the law by providing a remedy which is impossible to achieve and which will ultimately lead to chaos.\u201d Id., at 1273 (Harding, J., dissenting, joined by Shaw, J.).\nGiven all these factors, and in light of the legislative intent identified by the Florida Supreme Court to bring Florida within the \u201csafe harbor\u201d provision of 3 U. S. C. \u00a7 5, the remedy prescribed by the Supreme Court of Florida cannot be deemed an \u201cappropriate\u201d one as of December 8. It significantly departed from the statutory framework in place on November 7, and authorized open-ended further proceedings which could not be completed by December 12, thereby preventing a final determination by that date.\nFor these reasons, in addition to those given in the per curiam opinion, we would reverse.\nSimilarly, our jurisprudence requires us to analyze the \u201cbackground principles\u201d of state property law to determine whether there has been a taking of property in violation of the Takings Clause. That constitutional guarantee would, of course, afford no protection against state power if our inquiry could be concluded by a state supreme court holding that state property law accorded the plaintiff no rights. See Lucas v. South Carolina Coastal Council, 505 U. S. 1003 (1992). In one of our oldest cases, we similarly made an independent evaluation of state law in order to protect federal treaty guarantees. In Fairfax\u2019s Devisee v. Hunter\u2019s Lessee, 7 Cranch 603 (1813), we disagreed with the Supreme Court of Appeals of Virginia that a 1782 state law had extinguished the property interests of one Denny Fairfax, so that a 1789 ejectment order against Fairfax supported by a 1785 state law did not constitute a future confiscation under the 1783 peace treaty with Great Britain. See id., at 623; Hunter v. Fairfax\u2019s Devisee, 1 Munf. 218 (Va. 1809).\nWe vacated that decision and remanded that case; the Florida Supreme Court reissued the same judgment with a new opinion on December 11, 2000, Palm, Beach County Canvassing Bd. v. Harris, 772 So. 2d 1273.\nSpecifically, the Florida Supreme Court ordered the Circuit Court to include in the certified vote totals those votes identified for Vice President Gore in Palm Beach County and Miami-Dade County.\nIt is inconceivable that what constitutes a vote that must be counted under the \u201cerror in the vote tabulation\u201d language of the protest phase is different from what constitutes a vote that must be counted under the \u201clegal votes\u201d language of the contest phase.",
+        "type": "concurrence",
+        "author": "Chief Justice Rehnquist,"
+      },
+      {
+        "text": "Justice Stevens,\nwith whom Justice Ginsburg and Justice Breyer join,\ndissenting.\nThe Constitution assigns to the States the primary responsibility for determining the manner of selecting the Presidential electors. See Art. II, \u00a71, cl. 2. When questions arise about the meaning of state laws, including election laws, it is our settled practice to accept the opinions of the highest courts of the States as providing the final answers. On rare occasions, however, either federal statutes or the Federal Constitution may require federal judicial intervention in state elections. This is not such an occasion.\nThe federal questions that ultimately emerged in this case are not substantial. Article II provides that \u201c[e]ach State shall appoint, in such Manner as the Legislature thereof may direct, a Number of Electors.\u201d Ibid, (emphasis added). It does not create state legislatures out of whole cloth, but rather takes them as they come \u2014 as creatures born of, and constrained by, their state constitutions. Lest there be any doubt, we stated over 100 years ago in McPherson v. Blacker, 146 U. S. 1, 25 (1892), that \u201c[w]hat is forbidden or required to be done by a State\u201d in the Article II context \u201cis forbidden or required of the legislative power under state constitutions as they exist.\u201d In the same vein, we also observed that \u201c[t]he [State\u2019s] legislative power is the supreme authority except as limited by the constitution of the State.\u201d Ibid.; cf. Smiley v. Holm, 285 U. S. 355, 367 (1932). The legislative power in Florida is subject to judicial review pursuant to Article V of the Florida Constitution, and nothing in Article II of the Federal Constitution frees the state legislature from the constraints in the State Constitution that created it. Moreover, the Florida Legislature\u2019s own decision to employ a unitary code for all elections indicates that it intended the Florida Supreme Court to play the same role in Presidential elections that it has historically played in resolving electoral disputes. The Florida Supreme Court\u2019s exercise of appellate jurisdiction therefore was wholly consistent with, and indeed contemplated by, the grant of authority in Article II.\nIt hardly needs stating that Congress, pursuant to 3 U. S. C. \u00a7 5, did not impose any affirmative duties upon the States that their governmental branches could \u201cviolate.\u201d Rather, \u00a7 5 provides a safe harbor for States to select electors in contested elections \u201cby judicial or other methods\u201d established by laws prior to the election day. Section 5, like Article II, assumes the involvement of the state judiciary in interpreting state election laws and resolving election disputes under those laws. Neither \u00a75 nor Article II grants federal judges any special authority to substitute their views for those of the state judiciary on matters of state law.\nNor are petitioners correct in asserting that the failure of the Florida Supreme Court to specify in detail the precise manner in which the \u201cintent of the voter,\u201d Fla. Stat. Ann. \u00a7 101.5614(5) (Supp. 2001), is to be determined rises to the level of a constitutional violation. We found such a violation when individual votes within the same State were weighted unequally, see, e. g., Reynolds v. Sims, 377 U. S. 533, 568 (1964), but we have never before called into question the substantive standard by which a State determines that a vote has been legally cast. And there is no reason to think that the guidance provided to the factfinders, specifically the various canvassing boards, by the \u201cintent of the voter\u201d standard is any less sufficient \u2014 or will lead to results any less uniform \u2014 than, for example, the \u201cbeyond a reasonable doubt\u201d standard employed every day by ordinary citizens in courtrooms across this country.\nAdmittedly, the use of differing substandards for determining voter intent in different counties employing similar voting systems may raise serious concerns. Those concerns are alleviated \u2014 if not eliminated \u2014 by the fact that a single impartial magistrate will ultimately adjudicate all objections arising from the recount process. Of course, as a general matter, \u201c[t]he interpretation of constitutional principles must not be too literal. We must remember that the machinery of government would not work if it were not allowed a little play in its joints.\u201d Bain Peanut Co. of Tex. v. Pinson, 282 U. S. 499, 501 (1931) (Holmes, J.). If it were otherwise, Florida\u2019s decision to leave to each county the determination of what balloting system to employ \u2014 despite enormous differences in accuracy \u2014 might run afoul of equal protection. So, too, might the similar decisions of the vast majority of state legislatures to delegate to local authorities certain decisions with respect to voting systems and ballot design.\nEven assuming that aspects of the remedial scheme might ultimately be found to violate the Equal Protection Clause, I could not subscribe to the majority\u2019s disposition of the case. As the majority explicitly holds, once a state legislature determines to select electors through a popular vote, the right to have one\u2019s vote counted is of constitutional stature. As the majority further acknowledges, Florida law holds that all ballots that reveal the intent of the voter constitute valid votes. Recognizing these principles, the majority nonetheless orders the termination of the contest proceeding before all such votes have been tabulated. Under their own reasoning, the appropriate course of action would be to remand to allow more specific procedures for implementing the legislature\u2019s uniform general standard to be established.\nIn the interest of finality, however, the majority effectively orders the disenfranchisement of an unknown number of voters whose ballots reveal their intent \u2014 and are therefore legal votes under state law \u2014 but were for some reason rejected by ballot-counting machines. It does so on the basis of the deadlines set forth in Title 3 of the United States Code. Ante, at 110. But, as I have already noted, those provisions merely provide rules of decision for Congress to follow when selecting among conflicting slates of electors. Supra, at 124. They do not prohibit a State from counting what the majority concedes to be legal votes until a. bona fide winner is determined. Indeed, in 1960, Hawaii appointed two slates of electors and Congress chose to count the one appointed on January 4, 1961, well after the Title 3 deadlines. See Josephson & Ross, Repairing the Electoral College, 22 J. Legis. 145, 166, n. 1M (1996). Thus, nothing prevents the majority, even if it properly found an equal protection violation, from ordering relief appropriate to remedy that violation without depriving Florida voters of their right to have their votes counted. As the majority notes, \u201c[a] desire for speed is not a general excuse for ignoring equal protection guarantees.\u201d Ante, at 108.\nFinally, neither in this case, nor in its earlier opinion in Palm Beach County Canvassing Bd. v. Harris, 772 So. 2d 1220 (2000), did the Florida Supreme Court make any substantive change in Florida electoral law. Its decisions were rooted in long-established precedent and were consistent with the relevant statutory provisions, taken as a whole. It did what courts do \u2014 it decided the case before it in light of the legislature\u2019s intent to leave no legally cast vote uncounted. In so doing, it relied on the sufficiency of the general \u201cintent of the voter\u201d standard articulated by the state legislature, coupled with a procedure for ultimate review by an impartial judge, to resolve the concern about disparate evaluations of contested ballots. If we assume \u2014 as I do\u2014 that the members of that court and the judges who would have carried out its mandate are impartial, its decision does not even raise a colorable federal question.\nWhat must underlie petitioners\u2019 entire federal assault on the Florida election procedures is an unstated lack of confidence in the impartiality and capacity of the state judges who would make the critical decisions if the vote count were to proceed. Otherwise, their position is wholly without merit. The endorsement of that position by the majority of this Court can only lend credence to the most cynical appraisal of the work of judges throughout the land. It is confidence in the men and women who administer the judicial system that is the true backbone of the rule of law. Time will one day heal the wound to that confidence that will be inflicted by today\u2019s decision. One thing, however, is certain. Although we may never know with complete certainty the identity of the winner of this year\u2019s Presidential election, the identity of the loser is perfectly clear. It is the Nation\u2019s confidence in the judge as an impartial guardian of the rule of law.\nI respectfully dissent.\n\u201cWherever the term \u2018legislature\u2019 is used in the Constitution it is necessary to consider the nature of the particular action in view.\u201d 285 U. S., at 366. It is perfectly clear that the meaning of the words \u201cManner\u201d and \u201cLegislature\u201d as used in Article II, \u00a7 1, parallels the usage in Article I, \u00a74, rather than the language in Article V. U. S. Term Limits, Inc. v. Thornton, 514 U. S. 779, 805 (1995). Article I, \u00a74, and Article II, \u00a7 1, both call upon legislatures to act in a lawmaking capacity whereas Article V simply calls on the legislative body to deliberate upon a binary decision. As a result, petitioners\u2019 reliance on Leser v. Garnett, 258 U. S. 130 (1922), and Hawke v. Smith (No. 1), 253 U. S. 221 (1920), is misplaced.\nThe Florida statutory standard is consistent with the practice of the majority of States, which apply either an \u201cintent of the voter\u201d standard or an \u201cimpossible to determine the elector\u2019s choice\u201d standard in ballot recounts. The following States use an \u201cintent of the voter\u201d standard: Ariz. Rev. Stat. Ann. \u00a7 16-645(A) (Supp. 2000) (standard for canvassing write-in votes); Conn. Gen. Stat. \u00a7 9-150a(j) (1999) (standard for absentee ballots, including three conclusive presumptions); Ind. Code \u00a73-12-1-1 (1992); Me. Rev. Stat. Ann., Tit. 21-A, \u00a71(13) (1993); Md. Ann. Code, Art. 33, \u00a7 11 \u2014 302(d) (2000 Supp.) (standard for absentee ballots); Mass. Gen. Laws \u00a770E (1991) (applying standard to Presidential primaries); Mich. Comp. Laws \u00a7168.799a(3) (Supp. 2000); Mo. Rev. Stat. \u00a7115.453(3) (Cum. Supp. 1998) (looking to voter\u2019s intent where there is substantial compliance with statutory requirements); Tex. Elec. Code Ann. \u00a7 65.009(c) (1986); Utah Code Ann. \u00a7 20A-4-104(5)(b) (Supp. 2000) (standard for write-in votes), \u00a7 20A-4-105(6)(a) (standard for mechanical ballots); Vt. Stat. Ann., Tit. 17, \u00a7 2587(a) (1982); Va. Code Ann. \u00a724.2-644(A) (2000);-Wash. Rev. Code \u00a7 29.62.180(1) (Supp. 2001) (standard for write-in votes); Wyo. Stat. Ann. \u00a722-14-104 (1999). The following States employ a standard in which a vote is counted unless it is \u201cimpossible to determine the elector\u2019s [or voter\u2019s] choice\u201d: Ala. Code \u00a711-46-44(c) (1992), Ala. Code \u00a717-13-2 (1995); Ariz. Rev. Stat. Ann. \u00a7 16-610 (1996) (standard for rejecting ballot); Cal. Elec. Code Ann. \u00a7 15154(c) (West Supp. 2000); Colo. Rev. Stat. \u00a7 1-7-309(1) (1999) (standard for paper ballots), \u00a7 1-7-508(2) (standard for electronic ballots); Del. Code Ann., Tit. 15, \u00a74972(4) (1999); Idaho Code \u00a734-1203 (1981); Ill. Comp. Stat., ch. 10, \u00a7 5/7-51 (1993) (standard for primaries), \u00a75/17-16 (standard for general elections); Iowa Code \u00a749.98 (1999); Me. Rev. Stat. Ann., Tit. 21-A \u00a7\u00a7696(2)(B), (4) (Supp. 2000); Minn. Stat. \u00a7 204C.22(1) (1992); Mont. Code Ann. \u00a7 13-15-202 (1997) (not counting votes if \u201celector\u2019s choice cannot be determined\u201d); Nev. Rev. Stat. \u00a7293.367(d) (1995); N. Y. Elec. Law \u00a79-112(6) (McKinney 1998); N. C. Gen. Stat. \u00a7\u00a7 163-169(b), 163-170 (1999); N. D. Cent. Code \u00a7 16.1-15-01(1) (Supp. 1999); Ohio Rev. Code Ann. \u00a73505.28 (1994); Okla. Stat., Tit. 26, \u00a77-127(6) (1997); Ore. Rev. Stat. \u00a7254.505(1) (1991); S. C. Code Ann. \u00a77-13-1120 (1977); S. D. Codified Laws \u00a712-20-7 (1995); Tenn. Code Ann. \u00a72-7-133(b) (1994); W. Va. Code \u00a73-6-5(g) (1999).\nCf. Victor v. Nebraska, 511 U. S. 1, 5 (1994) (\u201cThe beyond a reasonable doubt standard is a requirement of due process, but the Constitution neither prohibits trial courts from defining reasonable doubt nor requires them to do so\u201d).\nThe percentage of nonvotes in this election in counties using a punch-card system was 3.92%; in contrast, the rate of error under the more modern optical-scan systems was only 1.43%. Siegel v. LePore, 234 F. 3d 1163, 1202, 1213 (charts C and F) (CA11 2000). Put in other terms, for every 10,000 votes cast, punchcard systems result in 260 more nonvotes than optical-scan systems. A total of 3,718,305 votes were east under punch-card systems, and 2,353,811 votes were cast under optical-scan systems. Ibid.\nRepublican electors were certified by the Acting Governor on November 28, 1960. A recount was ordered to begin on December 13, 1960. Both Democratic and Republican electors met on the appointed day to cast their votes. On January 4, 1961, the newly elected Governor certified the Democratic electors. The certification was received by Congress on January 6, the day the electoral votes were counted. Josephson & Ross, 22 J. Legis., at 166, n. 154.\nWhen, for example, it resolved the previously unanswered question whether the word \u201cshall\u201d in Fla. Stat. Ann. \u00a7102.111 (Supp. 2001) or the word \u201cmay\u201d in \u00a7 102.112 governs the scope of the Secretary of State\u2019s authority to ignore untimely election returns, it did not \u201cchange the law.\u201d Like any other judicial interpretation of a statute, its opinion was an authoritative interpretation of what the statute\u2019s relevant provisions have meant since they were enacted. Rivers v. Roadway Express, Inc., 511 U. S. 298, 312-813 (1994).\n\u201cIt is emphatically the province and duty of the judicial department to say what the law is.\u201d Marbury v. Madison, 1 Cranch 137, 177 (1803).",
+        "type": "dissent",
+        "author": "Justice Stevens,"
+      },
+      {
+        "text": "Justice Souter,\nwith whom Justice Breyer joins, and and with whom whom Justice Stevens and Justice Ginsburg join as to all but Part III,\ndissenting.\nThe Court should not have reviewed either Bush v. Palm Beach County Canvassing 13d., ante, p. 70 (per curiam), or this case, and should not have stopped Florida\u2019s attempt to recount all undervote ballots, see ante, at 102, by issuing a stay of the Florida Supreme Court\u2019s orders during the period of this review, see Bush v. Gore, post, at 1046. If this Court had allowed the State to follow the course indicated by the opinions of its own Supreme Court, it is entirely possible that there would ultimately have been no issue requiring our review, and political tension could have worked itself out in the Congress following the procedure provided in 3 U. S. C. \u00a7 15. The case being before us, however, its resolution by the majority is another erroneous decision.\nAs will be clear, I am in substantial agreement with the dissenting opinions of Justice Stevens, Justice Ginsburg, and Justice Breyer. I write separately only to say how straightforward the issues before us really are.\nThere are three issues: whether the State Supreme Court\u2019s interpretation of the statute providing for a contest of the state election results somehow violates 3 U. S. C. \u00a7 5; whether that court\u2019s construction of the state statutory provisions governing contests impermissibly changes a state law from what the State\u2019s legislature has provided, in violation of Article II, \u00a71, cl. 2, of the National Constitution; and whether the manner of interpreting markings on disputed ballots failing to cause machines to register votes for President (the undervote ballots) violates the equal protection or due process guaranteed by the Fourteenth Amendment. None of these issues is difficult to describe or to resolve.\nI\nThe 3 U. S. C. \u00a7 5 issue is not serious. That provision sets certain conditions for treating a State\u2019s certification of Presidential electors as conclusive in the event that a dispute over recognizing those electors must be resolved in the Congress under 3 U. S. C. \u00a7 15. Conclusiveness requires selection under a legal scheme in place before the election, with results determined at least six days before the date set for casting electoral votes. But no State is required to conform to \u00a7 5 if it cannot do that (for whatever reason); the sanction for failing to satisfy the conditions of \u00a75 is simply loss of what has been called its \u201csafe harbor.\u201d And even that determination is to be made, if made anywhere, in the Congress.\nII\nThe second matter here goes to the State Supreme Court\u2019s interpretation of certain terms in the state statute governing election \u201ccontests,\u201d Fla. Stat. Ann. \u00a7 102.168 (Supp. 2001); there is no question here about the state court\u2019s interpretation of the related provisions dealing with the antecedent process of \u201cprotesting\u201d particular vote counts, \u00a7102.166, which was involved in the previous case, Bush v. Palm Beach County Canvassing Bd. The issue is whether the judgment of the State Supreme Court has displaced the state legislature\u2019s provisions for election contests: is the law as declared by the court different from the provisions made by the legislature, to which the National Constitution commits responsibility for determining how each State\u2019s Presidential electors are chosen? See U. S. Const., Art. II, \u00a7 1, cl. 2. Bush does not, of course, claim that any judicial act interpreting a statute of uncertain meaning is enough to displace the legislative provision and violate Article II; statutes require interpretation, which does not without more affect the legislative character of a statute within the meaning of the Constitution. Brief for Petitioner in Bush v. Palm Beach County Canvassing Bd., O. T. 2000, No. 00-836, p. 48, n. 22. What Bush does argue, as I understand the contention, is that the interpretation of \u00a7 102.168 was so unreasonable as to transcend the accepted bounds of statutory interpretation, to the point of being a nonjudicial act and producing new law untethered to the legislative Act in question.\nThe starting point for evaluating the claim that the Florida Supreme Court\u2019s interpretation effectively rewrote \u00a7102.168 must be the language of the provision on which Gore relies to show his right to raise this contest: that the previously certified result in Bush\u2019s favor was produced by \u201crejection of a number of legal votes sufficient to change or place in doubt the result of the election.\u201d Fla. Stat. Ann. \u00a7 102.168(3)(c) (Supp. 2001). None of the state court\u2019s interpretations is unreasonable to the point of displacing the legislative enactment quoted. As I will note below, other interpretations were of course possible, and some might have been better than those adopted by the Florida court\u2019s majority; the two dissents from the majority opinion of that court and various briefs submitted to us set out alternatives. But the majority view is in each instance within the bounds of reasonable interpretation, and the law as declared is consistent with Article II.\n1. The statute does not define a \u201clegal vote,\u201d the rejection of which may affect the election. The State Supreme Court was therefore required to define it, and in doing that the court looked to another election statute, \u00a7 101.5614(5), dealing with damaged or defective ballots, which contains a provision that no vote shall be disregarded \u201cif there is a clear indication of the intent of the voter as determined by the canvassing board.\u201d The court read that objective of looking to the voter\u2019s intent as indicating that the legislature probably meant \u201clegal vote\u201d to mean a vote recorded on a ballot indicating what the voter intended. Gore v. Harris, 772 So. 2d 1243, 1256-1257 (2000). It is perfectly true that the majority might have chosen a different reading. See, e. g., Brief for Respondent Harris et al. 10 (defining \u201clegal votes\u201d as \u201cvotes properly executed in accordance with the instructions provided to all registered voters in advance of the election and in the polling places\u201d). But even so, there is no constitutional violation in following the majority view; Article II is unconcerned with mere disagreements about interpretive merits.\n2. The Florida court next interpreted \u201crejection\u201d to determine what act in the counting process may be attacked in a contest. Again, the statute does not define the term. The court majority read the word to mean simply a failure to count. 772 So. 2d, at 1257; That reading is certainly within the bounds of common sense, given the objective to give effect to a voter\u2019s intent if that can be determined. A different reading, of course, is possible. The majority might have concluded that \u201crejection\u201d should refer to machine malfunction, or that a ballot should not be treated as \u201creject[ed]\u201d in the absence of wrongdoing by election officials, lest contests be so easy to claim that every election will end up in one. Cf. id., at 1266 (Wells, C. J., dissenting). There is, however, nothing nonjudicial in the Florida majority\u2019s more hospitable reading.\n3. The same is true about the court majority\u2019s understanding of the phrase \u201cvotes sufficient to change or place in doubt\u201d the result of the election in Florida. The court held that if the uncounted ballots were so numerous that it was reasonably possible that they contained enough \u201clegal\u201d votes to swing the election, this contest would be authorized by the statute. While the majority might have thought (as the trial judge did) that a probability, not a possibility, should be necessary to justify a contest, that reading is not required by the statute\u2019s text, which says nothing about probability. Whatever people of good will and good sense may argue about the merits of the Florida court\u2019s reading, there is no warrant for saying that it transcends the limits of reasonable statutory interpretation to the point of supplanting the statute enacted by the \u201clegislature\u201d within the meaning of Article II.\nIn sum, the interpretations by the Florida court raise no substantial question under Article II. That court engaged in permissible construction in determining that Gore had instituted a contest authorized by the state statute, and it proceeded to direct the trial judge to deal with that contest in the exercise of the discretionary powers generously conferred by Fla. Stat. Ann. \u00a7 102.168(8) (Supp. 2001), to \u201cfashion such orders as he or she deems necessary to ensure that each allegation in the complaint is investigated, examined, or checked, to prevent or correct any alleged wrong, and to provide any relief appropriate under such circumstances.\u201d As Justice Ginsburg has persuasively explained in her own dissenting opinion, our customary respect for state interpretations of state law counsels against rejection of the Florida court\u2019s determinations in this case.\nIII\nIt is only on the third issue before us that there is a meritorious argument for relief, as this Court\u2019s per curiam opinion recognizes. It is an issue that might well have been dealt with adequately by the Florida courts if the state proceedings had not been interrupted, and if not disposed of at the state level it could have been considered by the Congress in any electoral vote dispute. But because the course of state proceedings has been interrupted, time is short, and the issue is before us, I think it sensible for the Court to address it.\nPetitioners have raised an equal protection claim (or, alternatively, a due process claim, see generally Logan v. Zimmerman Brush Co., 455 U. S. 422 (1982)), in the charge that unjustifiably disparate standards are applied in different electoral jurisdictions to otherwise identical facts. It is true that the Equal Protection Clause does not forbid the use of a variety of voting mechanisms within a jurisdiction, even though different mechanisms will have different levels of effectiveness in recording voters\u2019 intentions; local variety can be justified by concerns about cost, the potential value of innovation, and so on. But evidence in the record here suggests that a different order of disparity obtains under rules for determining a voter\u2019s intent that have been applied (and could continue to be applied) to identical types of ballots used in identical brands of machines and exhibiting identical physical characteristics (such as \u201changing\u201d or \u201cdimpled\u201d chads). See, e. g., Tr. 238-242 (Dec. 2-3, 2000) (testimony of Palm Beach County Canvassing Board Chairman Judge Charles Burton describing varying standards applied to imperfectly punched ballots in Palm Beach County during precertification manual recount); id., at 497-500 (similarly describing varying standards applied in Miami-Dade County); Tr. of Hearing 8-10 (Dec. 8, 2000) (soliciting from county canvassing boards proposed protocols for determining voters\u2019 intent but declining to provide a precise, uniform standard). I can conceive of no legitimate state interest served by these differing treatments of the expressions of voters\u2019 fundamental rights. The differences appear wholly arbitrary.\nIn deciding what to do about this, we should take account of the fact that electoral votes are due to be cast in six days. I would therefore remand the case to the courts of Florida with instructions to establish uniform standards for evaluating the several types of ballots that have prompted differing treatments, to be applied within and among counties when passing on such identical ballots in any further recounting (or successive recounting) that the courts might order.\nUnlike the majority, I see no warrant for this Court to assume that Florida could not possibly comply with this requirement before the date set for the meeting of electors, December 18. Although one of the dissenting justices of the State Supreme Court estimated that disparate standards potentially affected 170,000 votes, Gore v. Harris, 772 So. 2d, at 1272-1273, the number at issue is significantly smaller. The 170,000 figure apparently represents all uncounted votes, both undervotes (those for which no Presidential choice was recorded by a machine) and overvotes (those rejected because of votes for more than one candidate). Tr. of Oral Arg. 61-62. But as Justice Breyer has pointed out, no showing has been made of legal overvotes uncounted, and counsel for Gore made an uncontradicted representation to the Court that the statewide total of undervotes is about 60,000. Id., at 62. To recount these manually would be a tall order, but before this Court stayed the effort to do that the courts of Florida were ready to do their best to get that job done. There is no justification for denying the State the opportunity to try to count all disputed ballots now.\nI respectfully dissent.\nWhen the Florida court ruled, the totals for Bush and Gore were then less than 1,000 votes apart. One dissent pegged the number of uncounted votes in question at 170,000. Gore v. Harris, 772 So. 2d 1243, 1272-1273 (2000) (Harding, J., dissenting). Gore\u2019s counsel represented to us that the relevant' figure is approximately 60,000, Tr. of Oral Arg. 62, the number of ballots in which no vote for President was recorded by the machines.",
+        "type": "dissent",
+        "author": "Justice Souter,"
+      },
+      {
+        "text": "Justice Ginsburg,\nwith whom Justice Stevens joins, and with whom Justice Souter and Justice Breyer join as to Part I,\ndissenting.\nI\nThe Chief Justice acknowledges that provisions of Florida\u2019s Election Code \u201cmay well admit of more than one interpretation.\u201d Ante, at 114 (concurring opinion). But instead of respecting the state high court\u2019s province to say what the State\u2019s Election Code means, The Chief Justice maintains that Florida\u2019s Supreme Court has veered so far from the ordinary practice of judicial review that what it did cannot properly be called judging. My colleagues have offered a reasonable construction of Florida\u2019s law. Their construction coincides with the view of one of Florida\u2019s seven Supreme Court justices. Gore v. Harris, 772 So. 2d 1243, 1264-1270 (Fla. 2000) (Wells, C. J., dissenting); Palm Beach County Canvassing Bd. v. Harris, 772 So. 2d 1273, 1291-1292 (Fla. 2000) (on remand) (confirming, 6 to 1, the construction of Florida law advanced in Gore). I might join The Chief Justice were it my commission to interpret Florida law. But disagreement with the Florida court\u2019s interpretation of its own State\u2019s law does not warrant the conclusion that the justices of that court have legislated. There is no cause here to believe that the members of Florida\u2019s high court have done less than \u201ctheir mortal best to discharge their oath of office,\u201d Sumner v. Mata, 449 U. S. 539, 549 (1981), and no cause to upset their reasoned interpretation of Florida law.\nThis Court more than occasionally affirms statutory, and even constitutional, interpretations with which it disagrees. For example, when reviewing challenges to administrative agencies\u2019 interpretations of laws they implement, we defer to the agencies unless their interpretation violates \u201cthe unambiguously expressed intent of Congress.\u201d Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc., 467 U. S. 837, 843 (1984). We do so in the face of the declaration in Article I of the United States Constitution that \u201cAll legislative Powers herein granted shall be vested in a Congress of the United States.\u201d Surely the Constitution does not call upon us to pay more respect to a federal administrative agency\u2019s construction of federal law than to a state high court\u2019s interpretation of its own State\u2019s law. And not uncommonly, we let stand state-court interpretations of federal law with which we might disagree. Notably, in the habeas context, the Court adheres to the view that \u201cthere is \u2018no intrinsic reason why the fact that a man is a federal judge should make him more competent, or conscientious, or learned with respect to [federal law] than his neighbor in the state courthouse.\u2019 \u201d Stone v. Powell, 428 U. S. 465, 494, n. 35 (1976) (quoting Bator, Finality in Criminal Law and Federal Habeas Corpus for State Prisoners, 76 Harv. L. Rev. 441, 509 (1963)); see O\u2019Dell v. Netherland, 521 U. S. 151, 156 (1997) (\u201c[T]he Teague doctrine validates reasonable, good-faith interpretations of existing precedents made by state courts even though they are shown to be contrary to later decisions.\u201d) (citing Butler v. McKellar, 494 U. S. 407, 414 (1990)); O\u2019Connor, Trends in the Relationship Between the Federal and State Courts from the Perspective of a State Court Judge, 22 Wm. & Mary L. Rev. 801, 813 (1981) (\u201cThere is no reason to assume that state court judges cannot and will not provide a 'hospitable forum\u2019 in litigating federal constitutional questions.\u201d).\nNo doubt there are cases in which the proper application of federal law may hinge on interpretations of state law. Unavoidably, this Court must sometimes examine state law in order to protect federal rights. But we have dealt with such cases ever mindful of the full measure of respect we owe to interpretations of state law by a State\u2019s highest court. In the Contract Clause case, General Motors Corp. v. Romein, 503 U. S. 181 (1992), for example, we said that although \u201cultimately we are bound to decide for ourselves whether a contract was made,\u201d the Court \u201caccord [s] respectful consideration and great weight to the views of the State\u2019s highest court.\u201d Id., at 187 (citing Indiana ex rel. Anderson v. Brand, 303 U. S. 95, 100 (1938)). And in Central Union Telephone Co. v. Edwardsville, 269 U. S. 190 (1925), we upheld the Illinois Supreme Court\u2019s interpretation of a state waiver rule, even though that interpretation resulted in the forfeiture of federal constitutional rights. Refusing to supplant Illinois law with a federal- definition of waiver, we explained that the state court\u2019s declaration \u201cshould bind us unless so unfair or unreasonable in its application to those asserting a federal right as to obstruct it.\u201d Id., at 195.\nIn deferring to state courts on matters of state law, we appropriately recognize that this Court acts as an \u201c \u2018outsider \u2019 lacking the common exposure to local law which comes from sitting in the jurisdiction.\u201d Lehman Brothers v. Schein, 416 U. S. 386, 391 (1974). That recognition has sometimes prompted us to resolve doubts about the meaning of state law by certifying issues to a State\u2019s highest court, even when federal rights are at stake. Cf. Arizonans for Official English v. Arizona, 520 U. S. 43, 79 (1997) (\u201cWarnings against premature adjudication of constitutional questions bear heightened attention when a federal court is asked to invalidate a State\u2019s law, for the federal tribunal risks friction-generating error when it endeavors to construe a novel state Act not yet reviewed by the State\u2019s highest court.\u201d). Notwithstanding our authority to decide issues of state law underlying federal claims, we have used the certification device to afford state high courts an opportunity to inform us on matters of their own State\u2019s law because such restraint \u201chelps build a cooperative judicial federalism.\u201d Lehman Brothers, 416 U. S., at 391.\nJust last Term, in Fiore v. White, 528 U. S. 23 (1999), we took advantage of Pennsylvania\u2019s certification procedure. In that case, a state prisoner brought a federal habeas action claiming that the State had failed to prove an essential element of his charged offense in violation of the Due Process Clause. Id., at 25-26. Instead of resolving the state-law question on which the federal claim depended, we certified the question to the Pennsylvania Supreme Court for that court to \u201chelp determine the proper state-law predicate for our determination of the federal constitutional questions raised.\u201d Id., at 29; id., at 28 (asking the Pennsylvania Supreme Court whether its recent interpretation of the statute under which Fiore was convicted \u00ab\u201cwas always the statute\u2019s meaning, even at the time of Fiore\u2019s trial\u201d). The Chief Justice\u2019s willingness to reverse the Florida Supreme Court\u2019s interpretation of Florida law in this case is at least in tension with our reluctance in Fiore even to interpret Pennsylvania law before seeking instruction from the Pennsylvania Supreme Court. I would have thought the \u201ccautious approach\u201d we counsel when federal courts address matters of state law, Arizonans, 520 U. S., at 77, and our commitment to \u201cbuild[ing] cooperative judicial federalism,\u201d Lehman Brothers, 416 U. S., at 391, demanded greater restraint.\nRarely has this Court rejected outright an interpretation of state law by a state high court. Fairfax's Devisee v. Hunter\u2019s Lessee, 7 Cranch 603 (1813), NAACP v. Alabama ex rel. Patterson, 357 U. S. 449 (1958), and Bouie v. City of Columbia, 378 U. S. 347 (1964), cited by The Chief Justice, are three such rare instances. See ante, at 114-115, and n. 1. But those cases are embedded in historical contexts hardly comparable to the situation here. Fairfax's Devisee, which held that the Virginia Court of Appeals had misconstrued its own forfeiture laws to deprive a British subject of lands secured to him by federal treaties, occurred amidst vociferous States\u2019 rights attacks on the Marshall Court. G. Gunther & K. Sullivan, Constitutional Law 61-62 (13th ed. 1997). The Virginia court refused to obey this Court\u2019s Fair-fax\u2019s Devisee mandate to enter judgment for the British subject\u2019s successor in interest. That refusal led to the Court\u2019s pathmarking decision in Martin v. Hunter\u2019s Lessee, 1 Wheat. 304 (1816). Patterson, a case decided three months after Cooper v. Aaron, 358 U. S. 1 (1958), in the face of Southern resistance to the civil rights movement, held that the Alabama Supreme Court had irregularly applied its own procedural rules to deny review of a contempt order against the NAACP arising from its refusal to disclose membership lists. We said that \u201cour jurisdiction is not defeated if the nonfed-eral ground relied on by the state court is \u2018without any fair or substantial support.\u2019 \u201d 357 U. S., at 455 (quoting Ward v. Board of Commr\u2019s of Love Cty., 253 U. S. 17, 22 (1920)). Bouie, stemming from a lunch counter \u201csit-in\u201d at the height of the civil rights movement, held that the South Carolina Supreme Court\u2019s construction of its trespass laws \u2014 criminalizing conduct not covered by the text of an otherwise clear statute \u2014 was \u201cunforeseeable\u201d and thus violated due process when applied retroactively to the petitioners. 378 U. S., at 350, 354.\nThe Chief Justice\u2019s casual citation of these cases might lead one to believe they are part of a larger collection of cases in which we said that the Constitution impelled us to train a skeptical eye on a state court\u2019s portrayal of state law. But one would be hard pressed, I think, to find additional cases that fit the mold. As Justice Breyer convincingly explains, see post, at 149-152 (dissenting opinion), this case involves nothing close to the kind of recalcitrance by a state high court that warrants extraordinary action by this Court. The Florida Supreme Court concluded that counting every legal vote was the overriding concern of the Florida Legislature when it enacted the State\u2019s Election Code. The court surely should not be bracketed with state high courts of the Jim Crow South.\nThe Chief Justice says that Article II, by providing that state legislatures shall direct the manner of appointing electors, authorizes federal superintendence over the relationship between state courts and state legislatures, and licenses a departure from the usual, deference we give to state-court interpretations of state law. Ante, at 115 (concurring opinion) (\u201cTo attach definitive weight to the pronouncement of a state court, when the very question at issue is whether the court has actually departed from the statutory meaning, would be to abdicate our responsibility to enforce the explicit requirements of Article II.\u201d). The Framers of our Constitution, however, understood that in a republican government, the judiciary would construe the legislature\u2019s enactments. See U. S. Const., Art. III; The Federalist No. 78 (A. Hamilton). In light of the constitutional guarantee to States of a \u201cRepublican Form of Government,\u201d U. S. Const., Art. IV, \u00a74, Article II can hardly be read to invite this Court to disrupt a State\u2019s republican regime. Yet The Chief Justice today would reach out to do just that. By holding that Article II requires our revision of a state court\u2019s construction of state laws in order to protect one organ of the State from another, The Chief Justice contradicts the basic principle that a State may organize itself as it sees fit. See, e. g., Gregory v. Ashcroft, 501 U. S. 452, 460 (1991) (\u201cThrough the structure of its government, and the character of those who exercise government authority, a State defines itself as a sovereign.\u201d); Highland Farms Dairy, Inc. v. Agnew, 300 U. S. 608, 612 (1937) (\u201cHow power shall be distributed by a state among its governmental organs is commonly, if not always, a question for the state itself.\u201d)- Article II does not call for the scrutiny undertaken by this Court.\nThe extraordinary setting of this case has obscured the ordinary principle that dictates its proper resolution: Federal courts defer to a state high court\u2019s interpretations of the State\u2019s own law. This principle reflects the core of federalism, on which all agree. \u201cThe Framers split the atom of sovereignty. It was the genius of their idea that our citizens would have two political capacities, one state and one federal, each protected from incursion by the other.\u201d Saenz v. Roe, 526 U. S. 489, 504, n. 17 (1999) (citing U. S. Term Limits, Inc. v. Thornton, 514 U. S. 779, 838 (1995) (Kennedy, J., concurring)). The Chief Justice\u2019s solicitude for the Florida Legislature comes at the expense of the more fundamental solicitude we owe to the legislature\u2019s sovereign. U. S. Const., Art. II, \u00a7 1, cl. 2 (\u201cEach State shall appoint, in such Manner as the Legislature thereof may direct,\u201d the electors for President and Vice President (emphasis added)); ante, at 123-124 (Stevens, J., dissenting). Were the other Members of this Court as mindful as they generally are of our system of dual sovereignty, they would affirm the judgment of the Florida Supreme Court.\nII\nI agree with Justice Stevens that petitioners have not presented a substantial equal protection claim. Ideally, perfection would be the appropriate standard for judging the recount. But we live in an imperfect world, one in which thousands of votes have not been counted. I cannot agree that the recount adopted by the Florida court, flawed as it may be, would yield a result any less fair or precise than the certification that preceded that recount. See, e. g., McDonald v. Board of Election Comm\u2019rs of Chicago, 394 U. S. 802, 809 (1969) (even in the context of the right to vote, the State is permitted to reform \u201cone step at a time\u201d) (citing Williamson v. Lee Optical of Okla., Inc., 348 U. S. 483, 489 (1955)).\nEven if there were an equal protection violation, I would agree with Justice Stevens, Justice Souter, and Justice Breyer that the Court\u2019s concern about the December 12 date, ante, at 110-111, is misplaced. Time is short in part because of the Court\u2019s entry of a stay on December 9, several hours after an able circuit judge in Leon County had begun to superintend the recount process. More fundamentally, the Court\u2019s reluctance to let the recount go forward \u2014 despite its suggestion that \u201c[t]he search for intent can be confined by specific rules designed to ensure uniform treatment,\u201d ante, at 106 \u2014 ultimately turns on its own judgment about the practical realities of implementing a recount, not the judgment of those much closer to the process.\nEqually important, as Justice Breyer explains, post, at 155 (dissenting opinion), the December 12 date for bringing Florida\u2019s electoral votes into 3 U. S. C. \u00a7 5\u2019s safe harbor lacks the significance the Court assigns it. Were that date to pass, Florida would still be entitled to deliver electoral votes Congress must count unless both Houses find that the votes \u201cha[d] not been . . . regularly given.\u201d 3 U. S. C. \u00a7 15. The statute identifies other significant dates. See, e. g., \u00a7 7 (specifying December 18 as the date electors \u201cshall meet and give their votes\u201d); \u00a7 12 (specifying \u201cthe fourth Wednesday in December\u201d \u2014 this year, December 27 \u2014 as the date on which Congress, if it has not received a State\u2019s electoral votes, shall request the state secretary of state to send a certified return immediately). But none of these dates has ultimate significance in light of Congress\u2019 detailed provisions for determining, on \u201cthe sixth day of January,\u201d the validity of electoral votes. \u00a7 15.\nThe Court assumes that time will not permit \u201corderly judicial review of any disputed matters that might arise.\u201d Ante, at 110. But no one has doubted the good faith and diligence with which Florida election officials, attorneys for all sides of this controversy, and the courts of law have performed their duties. Notably, the Florida Supreme Court has. produced two substantial opinions within 29 hours of oral argument. In sum, the Court\u2019s conclusion that a constitutionally adequate recount is impractical is a prophecy the Court\u2019s own judgment will not allow to be tested. Such an untested prophecy should not decide the Presidency of the United States.\nI dissent.\nSee also Lucas v. South Carolina Coastal Council, 505 U. S. 1003, 1032, n. 18 (1992) (South Carolina could defend a regulatory taking \u201cif an objectively reasonable application of relevant precedents [by its courts] would exclude ... beneficial uses in the circumstances in which the land is presently found\u201d); Bishop v. Wood, 426 U. S. 341, 344-345 (1976) (deciding whether North Carolina had created a property interest cognizable under the Due Process Clause by reference to state law as interpreted by the North Carolina Supreme Court). Similarly, in Gurley v. Rhoden, 421 U. S. 200 (1975), a gasoline retailer claimed that due process entitled him to deduct a state gasoline excise tax in computing the amount of his sales subject to a state sales tax, on the grounds that the legal incidence of the excise tax fell on his customers and that he acted merely as a collector of the tax. The Mississippi Supreme Court held that the legal incidence of the excise tax fell on petitioner. Observing that \u201ca State\u2019s highest court is the final judicial arbiter of the meaning of state statutes,\u201d we said that \u201c[w]hen a state court has made its own definitive determination as to the operating incidence,... [w]e give this finding great weight in determining the natural effect of a statute, and if it is consistent with the statute\u2019s reasonable interpretation it will be deemed conclusive.\u201d Id., at 208 (citing American Oil Co. v. Neill, 380 U. S. 451, 455-456 (1965)).\nEven in the rare case in which a State\u2019s \u201cmanner\u201d of making and construing laws might implicate a structural constraint, Congress, not this Court, is likely the proper governmental entity to enforce that constraint. See U. S. Const., Amdt. 12; 3 U. S. C. \u00a7\u00a7 1-15; cf. Ohio ex rel. Davis v. Hildebrant, 241 U. S. 565, 569 (1916) (treating as a nonjusticiable political question whether use of a referendum to override a congressional district-ing plan enacted by the state legislature violates Art. I, \u00a74); Luther v. Borden, 7 How. 1, 42 (1849).\n\u201c[B]eeause the Framers recognized that state power and identity were essential parts of the federal balance, see The Federalist No. 39, the Constitution is solicitous of the prerogatives of the States, even in an otherwise sovereign federal province. The Constitution ... grants States certain powers over the times, places, and manner of federal elections (subject to congressional revision), Art. I, \u00a7 4, cl. 1..., and allows States to appoint electors for the President, Art. II, \u00a7 1, cl. 2.\u201d U. S. Term Limits, Inc. v. Thornton, 514 U. S. 779, 841-842 (1995) (Kennedy, J., concurring).",
+        "type": "dissent",
+        "author": "Justice Ginsburg,"
+      },
+      {
+        "text": "Justice Breyer,\nwith whom Justice Stevens and Justice Ginsburg join except as to Part I-A-1, and with whom join except as to Part Justice Souter joins as to Part I,\ndissenting.\nThe Court was wrong to take this case. It was wrong to grant a stay. It should now vacate that stay and permit the Florida Supreme Court to decide whether the recount should resume.\nI\nThe political implications of this case for the country are momentous. But the federal legal questions presented, with one exception, are insubstantial.\nA\n1\nThe majority raises three equal protection problems with the Florida Supreme Court\u2019s recount order: first, the failure to include overvotes in the manual recount; second, the fact that all ballots, rather than simply the undervotes, were recounted in some, but not all, counties; and third, the absence of a uniform, specific standard to guide the recounts. As far as the first issue is concerned, petitioners presented no evidence, to this Court or to any Florida court, that a manual recount of overvotes would identify additional legal votes. The same is true of the second, and, in addition, the majority\u2019s reasoning would seem to invalidate any state provision for a manual recount of individual counties in a statewide election.\nThe majority\u2019s third concern does implicate principles of fundamental fairness. The majority concludes that the Equal Protection Clause requires that a manual recount be governed not only by the uniform general standard of the \u201cclear intent of the voter,\u201d but also by uniform subsidiary standards (for example, a uniform determination whether indented, but not perforated, \u201cundervotes\u201d should count). The opinion points out that the Florida Supreme Court ordered the inclusion of Broward County\u2019s undercounted \u201clegal votes\u201d even though those votes included ballots that were not perforated but simply \u201cdimpled,\u201d while newly recounted ballots from other counties will likely include only votes determined to be \u201clegal\u201d on the basis of a stricter standard. In light of our previous remand, the Florida Supreme Court may have been reluctant to adopt a more specific standard than that provided for by the legislature for fear of exceeding its authority under Article II. However, since the use of different standards could favor one or the other of the candidates, since time was, and is, too short to permit the lower courts to iron out significant differences through ordinary judicial review, and since the relevant distinction was embodied in the order of the State\u2019s highest court, I agree that, in these very special circumstances, basic principles of fairness should have counseled the adoption of a uniform standard to address the problem. In light of the majority\u2019s disposition, I need not decide whether, or the extent to which, as a remedial matter, the Constitution would place limits upon the content of the uniform standard.\n2\nNonetheless, there is no justification for the majority\u2019s remedy, which is simply to reverse the lower court and halt the recount entirely. An appropriate remedy would be, instead, to remand this case with instructions that, even at this late date, would permit the Florida Supreme Court to require recounting all undereounted votes in Florida, including those from Broward, Volusia, Palm Beach, and Miami-Dade Counties, whether or not previously recounted prior to the end of the protest period, and to do so in accordance with a single uniform standard.\nThe majority justifies stopping the recount entirely on the ground that there is no more time. In particular, the majority relies on the lack of time for the Secretary of State (Secretary) to review and approve equipment needed to separate undervotes. But the majority reaches this conclusion in the absence of any record evidence that the recount could not have been completed in the time allowed by the Florida Supreme Court. The majority finds facts outside of the record on matters that state courts are in a far better position to address. Of course, it is too late for any such recount to take place by December 12, the date by which election disputes must be decided if a State is to take advantage of the safe harbor provisions of 3 U. S. C. \u00a7 5. Whether there is time to conduct a recount prior to December 18, when the electors are scheduled to meet, is a matter for the state courts to determine. And whether, under Florida law, Florida could or could not take further action is obviously a matter for Florida courts, not this Court, to decide. See ante, at 111 (per curiam).\nBy halting the manual recount, and thus ensuring that the uncounted legal votes will not be counted under any standard, this Court crafts a remedy out of proportion to the asserted harm. And that remedy harms the very fairness interests the Court is attempting to protect. The manual recount would itself redress a problem of unequal treatment of ballots. As Justice Stevens points out, see ante, at 126, and n. 4 (dissenting opinion), the ballots of voters in counties that use punchcard systems are more likely to be disqualified than those in counties using optical-scanning systems. According to recent news reports, variations in the undervote rate are even more pronounced. See Fessenden, No-Vote Rates Higher in Punch Card Count, N. Y. Times, Dec. 1, 2000, p. A29 (reporting that 0.3% of ballots cast in 30 Florida counties using optical-scanning systems registered no Presidential vote, in comparison to 1.53% in the 15 counties using Votomatic punchcard ballots). Thus, in a system that allows counties to use different types of voting systems, voters already arrive at the polls with an unequal chance that their votes will be counted. I do not see how the fact that this results from counties\u2019 selection of different voting machines rather than a court order makes the outcome any more fair. Nor do I understand why the Florida Supreme Court\u2019s recount order, which helps to redress this inequity, must be entirely prohibited based on a deficiency that could easily be remedied.\nB\nThe remainder of petitioners\u2019 claims, which are the focus of The CHIEF Justice\u2019s concurrence, raise no significant federal questions. I cannot agree that The Chief Justice\u2019s unusual review of state law in this case, see ante, at 135-143 (Ginsburg, J., dissenting), is justified by reference either to Art. II, \u00a7 1, or to 3 U. S. C. \u00a7 5. Moreover, even were such review proper, the conclusion that the Florida Supreme Court\u2019s decision contravenes federal law is untenable.\nWhile conceding that, in most cases, \u201ccomity and respect for federalism compel us to defer to the decisions of state courts on issues of state law,\u201d the concurrence relies on some combination of Art. II, \u00a71, and 3 U. S. C. \u00a75 to justify its conclusion that this case is one of the few in which we may lay that fundamental principle aside. Ante, at 112 (opinion of Rehnquist, C. J.). The concurrence\u2019s primary foundation for this conclusion rests on an appeal to plain text: Art. II, \u00a7 l\u2019s grant of the power to appoint Presidential electors to the state \u201cLegislature.\u201d Ibid. But neither the text of Article II itself nor the only case the concurrence cites that interprets Article II, McPherson v. Blacker, 146 U. S. 1 (1892), leads to the conclusion that Article II grants unlimited power to the legislature, devoid of any state constitutional limitations, to select the manner of appointing electors. See id., at 41 (specifically referring to state constitutional provision in upholding state law regarding selection of electors). Nor, as Justice Stevens points out, have we interpreted the federal constitutional provision most analogous to Art. II, \u00a7 1\u2014 Art. I, \u00a7 4 \u2014 in the strained manner put forth in the concurrence. Ante, at 123, and n. 1 (dissenting opinion).\nThe concurrence\u2019s treatment of \u00a7 5 as \u201cinform[ing]\u201d its interpretation of Article II, \u00a7 1, cl. 2, ante, at 113 (opinion of Rehnquist, C. J.), is no more convincing. The Chief Justice contends that our opinion in Bush v. Palm Beach County Canvassing Bd., ante, p. 70 (per curiam) (Bush I), in which we stated that \u201ca legislative wish to take advantage of [\u00a7 5] would counsel against\u201d a construction of Florida law that Congress might deem to be a change in law, ante, at 78, now means that this Court \u201cmust ensure that postelection state-court actions do not frustrate the legislative desire to attain the \u2018safe harbor\u2019 provided by \u00a75.\u201d Ante, at 113. However, \u00a75 is part of the rules that govern Congress\u2019 recognition of slates of electors. Nowhere in Bush I did we establish that this Court had the authority to enforce \u00a75. Nor did we suggest that the permissive \u201ccounsel against\u201d could be transformed into the mandatory \u201cmust ensure.\u201d And nowhere did we intimate, as the concurrence does here, that a state-court decision that threatens the safe harbor provision of \u00a7 5 does so in violation of Article II. The concurrence\u2019s logic turns the presumption that legislatures would wish to take advantage of \u00a7 5\u2019s \u201csafe harbor\u201d provision into a mandate that trumps other statutory provisions and overrides the intent that the legislature did express.\nBut, in any event, the concurrence, having conducted its review, now reaches the wrong conclusion. It says that \u201cthe Florida Supreme Court\u2019s interpretation of the Florida election laws impermissibly distorted them beyond what a fair reading required, in violation of Article II.\u201d Ante, at 115 (opinion of Rehnquist, C. J.). But what precisely is the distortion? Apparently, it has three elements. First, the Florida court, in its earlier opinion, changed the election certification date from November 14 to November 26. Second, the Florida court ordered a manual recount of \u201cunder-counted\u201d ballots that could not have been fully completed by the December 12 \u201csafe harbor\u201d deadline. Third, the Florida court, in the opinion now under review, failed to give adequate deference to the determinations of canvassing boards and the Secretary.\nTo characterize the first element as a \u201cdistortion,\u201d however, requires the concurrence to second-guess the way in which the state court resolved a plain conflict in the language of different statutes. Compare Fla. Stat. Ann. \u00a7102.166 (Supp. 2001) (foreseeing manual recounts during the protest period) with \u00a7 102.111 (setting what is arguably too short a deadline for manual recounts to be conducted); compare \u00a7 102.112(1) (stating that the Secretary \u201cmay\u201d ignore late returns) with \u00a7 102.111(1) (stating that the Secretary \u201cshall\u201d ignore late returns). In any event, that issue no longer has any practical importance and cannot justify the reversal of the different Florida court decision before us now.\nTo characterize the second element as a \u201cdistortion\u201d requires the concurrence to overlook the fact that the inability of the Florida courts to conduct the recount on time is, in significant part, a problem of the Court\u2019s own making. The Florida Supreme Court thought that the recount could be completed on time, and, within hours, the Florida Circuit Court was moving in an orderly fashion to meet the deadline. This Court improvidently entered a stay. As a result, we will never know whether the recount could have been completed.\nNor can one characterize the third element as \u201cimpermis-sibl[e] distortion]\u201d once one understands that there are two sides to the opinion\u2019s argument that the Florida Supreme Court \u201cvirtually eliminated] the Secretary\u2019s discretion.\u201d Ante, at 115,118 (Rehnquist, C. J., concurring). The Florida statute in question was amended in 1999 to provide that the \u201cgrounds for contesting an election\u201d include the \u201crejection of a number of legal votes sufficient to . . . place in doubt the result of the election.\u201d Fla. Stat. Ann. \u00a7\u00a7102.168(3), (3)(c) (Supp. 2001). And the parties have argued about the proper meaning of the statute\u2019s term \u201clegal vote.\u201d The Secretary has claimed that a \u201clegal vote\u201d is a vote \u201cproperly executed in accordance with the instructions provided to all registered voters.\u201d Brief for Respondent Harris et al. 10. On that interpretation, punchcard ballots for which the machines cannot register a vote are not \u201clegal\u201d votes. Id., at 14. The Florida Supreme Court did not accept her definition. But it had a reason. Its reason was that a different provision of Florida election laws (a provision that addresses damaged or defective ballots) says that no vote shall be disregarded \u201cif there is a clear indication of the intent of the voter as determined by the canvassing board\u201d (adding that ballots should not be counted \u201cif it is impossible to determine the elector\u2019s choice\u201d). Fla. Stat. Ann. \u00a7 101.5614(5) (Supp. 2001). Given this statutory language, certain roughly analogous judicial precedent, e. g., Darby v. State ex rel. McCollough, 75 So. 411 (Fla. 1917) (per curiam), and somewhat similar determinations by courts throughout the Nation, see cases cited infra, at 152, the Florida Supreme Court concluded that the term \u201clegal vote\u201d means a vote recorded on a ballot that clearly reflects what the voter intended. Gore v. Harris, 772 So. 2d 1243, 1254 (2000). That conclusion differs from the conclusion of the Secretary. But nothing in Florida law requires the Florida Supreme Court to accept as determinative the Secretary\u2019s view on such a matter. Nor can one say that the court\u2019s ultimate determination is so unreasonable as to amount to a constitutionally \u201cimpermissible distortion]\u201d of Florida law.\nThe Florida Supreme Court, applying this definition, decided, on the basis of the record, that respondents had shown that the ballots undercounted by the voting machines contained enough \u201clegal votes\u201d to place \u201cthe result[s]\u201d of the election \u201cin doubt.\u201d Since only a few hundred votes separated the candidates, and since the \u201cundercounted\u201d ballots numbered tens of thousands, it is difficult to see how anyone could find this conclusion unreasonable \u2014 however strict the standard used to measure the voter\u2019s \u201cclear intent.\u201d Nor did this conclusion \u201cstrip\u201d canvassing boards of their discretion. The boards retain their traditional discretionary authority during the protest period. And during the contest period, as the court stated, \u201cthe Canvassing Board\u2019s actions [during the protest period] may constitute evidence that a ballot does or does not qualify as a legal vote.\u201d Id., at 1260. Whether a local county canvassing board\u2019s discretionary judgment during the protest period not to conduct a manual recount will be set aside during a contest period depends upon whether a candidate provides additional evidence that the rejected votes contain enough \u201clegal votes\u201d to place the outcome of the race in doubt. To limit the local canvassing board\u2019s discretion in this way is not to eliminate that discretion. At the least, one could reasonably so believe.\nThe statute goes on to provide the Florida circuit judge with authority to \u201cfashion such orders as he or she deems necessary to ensure that each allegation ... is investigated, examined, or checked, . . . and to provide any relief appropriate.\u201d Fla. Stat. Ann. \u00a7 102.168(8) (Supp. 2001) (emphasis added). The Florida Supreme Court did just that., One might reasonably disagree with the Florida Supreme Court\u2019s interpretation of these, or other, words in the statute. But I do not see how one could call its plain language interpretation of a 1999 statutory change so misguided as no longer to qualify as judicial interpretation or as a usurpation of the authority of the state legislature. Indeed, other state courts have interpreted roughly similar state statutes in similar ways. See, e. g., In re Election of U. S. Representative for Second Congressional Dist., 231 Conn. 602, 621, 653 A. 2d 79, 90-91 (1994) (\u201cWhatever the process used to vote and to count votes, differences in technology should not furnish a basis for disregarding the bedrock principle that the purpose of the voting process is to ascertain the intent of the voters\u201d); Brown v. Carr, 130 W. Va. 455, 460, 43 S. E. 2d 401, 404-405 (1947) (\u201c[Wjhether a ballot shall be counted . .. depends on the intent of the voter .... Courts decry any resort to technical rules in reaching a conclusion as to the intent of the voter\u201d).\nI repeat, where is the \u201cimpermissible\u201d distortion?\nII\nDespite the reminder that this case involves an election for the President of the United States,\u201d ante, at 112 (Rehnquist, C. J., concurring), no preeminent legal concern, or practical concern related to legal questions, required this Court to hear this case, let alone to issue a stay that stopped Florida\u2019s recount process in its tracks. With one exception, petitioners\u2019 claims do not ask us to vindicate a constitutional provision designed to protect a basic human right. See, e. g., Brown v. Board of Education, 347 U. S. 483 (1954). Petitioners invoke fundamental fairness, namely, the need for procedural fairness, including finality. But with the one \u201cequal protection\u201d exception, they rely upon law that focuses, not upon that basic need, but upon the constitutional allocation of power. Respondents invoke a competing fundamental consideration \u2014 the need to determine the voter\u2019s true intent. But they look to state law, not to federal constitutional law, to protect that interest. Neither side claims electoral fraud, dishonesty, or the like. And the more fundamental equal protection claim might have been left to the state court to resolve if and when it was discovered to have mattered. It could still be resolved through a remand conditioned upon issuance of a uniform standard; it does not require reversing the Florida Supreme Court.\nOf course, the selection of the President is of fundamental national importance. But that importance is political, not legal. And this Court should resist the temptation unnecessarily to resolve tangential legal disputes, where doing so threatens to determine the outcome of the election.\nThe Constitution and federal statutes themselves make clear that restraint is appropriate. They set forth a road-map of how to resolve disputes about electors, even after an election as close as this one. That roadmap foresees resolution of electoral disputes by state courts. See 3 U. S. C. \u00a7 5 (providing that, where a \u201cState shall have provided, by laws enacted prior to [election day], for its final determination of any controversy or contest concerning the appointment of . . . electors ... by judicial or other methods,\u201d the subsequently chosen electors enter a safe harbor free from congressional challenge). But it nowhere provides for involvement by the United States Supreme Court.\nTo the contrary, the Twelfth Amendment commits to Congress the authority and responsibility to count electoral votes. A federal statute, the Electoral Count Act, enacted after the close 1876 Hayes-Tilden Presidential election, specifies that, after States have tried to resolve disputes, (through \u201cjudicial\u201d or other means), Congress is the body primarily authorized to resolve remaining disputes. See Electoral Count Act of 1887, 24 Stat. 378, 3 U. S. C. \u00a7\u00a7 5, 6, and 15.\nThe legislative history of the Act makes clear its intent to commit the power to resolve such disputes to Congress, rather than the courts:\n\u201cThe two Houses are, by the Constitution, authorized to make the count of electoral votes. They can only count legal votes, and in doing so must determine, from the best evidence to be had, what are legal votes ....\n\u201cThe power to determine rests with the two houses, and there is no other constitutional tribunal.\u201d H. R. Rep. No. 1638, 49th Cong., 1st Sess., 2 (1886) (report submitted by Rep. Caldwell, Select Committee on the Election of President and Vice-President).\nThe Member of Congress who introduced the Act added:\n\u201cThe power to judge of the legality of the votes is a necessary consequent of the power to count. The existence of this power is of absolute necessity to the preservation of the Government. The interests of all the States in their relations to each other in the Federal Union demand that the ultimate tribunal to decide upon the election of President should be a constituent body, in which the States in their federal relationships and the people in their sovereign capacity should be represented.\u201d 18 Cong. Rec. 30 (1886) (remarks of Rep. Caldwell).\n\u201cUnder the Constitution who else could decide? Who is nearer to the State in determining a question of vital importance to the whole union of States than the constituent body upon whom the Constitution has devolved the duty to count the vote?\u201d Id., at 31.\nThe Act goes on to set out rules for the congressional determination of disputes about those votes. If, for example, a State submits a single slate of electors, Congress must count those votes unless both Houses agree that the votes \u201chave not been ... regularly given.\u201d 3 U. S. C. \u00a7 15. If, as occurred in 1876, a State submits two slates of electors, then Congress must determine whether a slate has entered the safe harbor of \u00a7 5, in which case its votes will have \u201cconclusive\u201d effect. Ibid. If, as also occurred in 1876, there is controversy about \u201cwhich of two or more of such State authorities ... is the lawful tribunal\u201d authorized to appoint electors, then each House shall determine separately which votes are \u201csupported by the decision of such State so authorized by its law.\u201d Ibid. If the two Houses of Congress agree, the votes they have approved will be counted. If they disagree, then \u201cthe votes of the electors whose appointment shall have been certified by the executive of the State, under the seal thereof, shall be counted.\u201d Ibid.\nGiven this detailed, comprehensive scheme for counting electoral votes, there is no reason to believe that federal law either foresees or requires resolution of such a political issue by this Court. Nor, for that matter, is there any reason to think that the Constitution\u2019s Framers would have reached a different conclusion. Madison, at least, believed that allowing the judiciary to choose the Presidential electors \u201cwas out of the question.\u201d Madison, July 25, 1787 (reprinted in 5 Elliot\u2019s Debates on the Federal Constitution 363 (2d ed. 1876)).\nThe decision by both the Constitution\u2019s Framers and the 1886 Congress to minimize this Court\u2019s role in resolving close federal Presidential elections is as wise as it is clear. However awkward or difficult it may be for Congress to resolve difficult electoral disputes, Congress, being a political body, expresses the people\u2019s will far more accurately than does an unelected Court. And the people\u2019s will is what elections are about.\nMoreover, Congress was fully aware of the danger that would arise should it ask judges, unarmed with appropriate legal standards, to resolve a hotly contested Presidential election contest. Just after the 1876 Presidential election, Florida, South Carolina, and Louisiana each sent two slates of electors to Washington. Without these States, Tilden, the Democrat, had 184 electoral votes, one short of the number required to win the Presidency. With those States, Hayes, his Republican opponent, would have had 185. In order to choose between the two slates of electors, Congress decided to appoint an electoral commission composed of five Senators, five Representatives, and five Supreme Court Justices. Initially the Commission was to be evenly divided between Republicans and Democrats, with Justice David Davis, an Independent, to possess the decisive vote. However, when at the last minute the Illinois Legislature elected Justice Davis to the United States Senate, the final position on the Commission was filled by Supreme Court Justice Joseph P. Bradley.\nThe Commission divided along partisan lines, and the responsibility to cast the deciding vote fell to Justice Bradley. He decided to accept the votes of the Republican electors, and thereby awarded the Presidency to Hayes.\nJustice Bradley immediately became the subject of vociferous attacks. Bradley was accused of accepting bribes, of being captured by railroad interests, and of an eleventh-hour change in position after a night in which his house \u201cwas surrounded by the carriages\u201d of Republican partisans and railroad officials. C. Woodward, Reunion and Reaction 159-160 (1966). Many years later, Professor Bickel concluded that Bradley was honest and impartial. He thought that \u201c\u2018the great question\u2019 for Bradley was, in fact, whether Congress was entitled to go behind election returns or had to accept them as certified by state authorities,\u201d an \u201cissue of principle.\u201d The Least Dangerous Branch 185 (1962). Nonetheless, Bickel points out, the legal question upon which Justice Bradley\u2019s decision turned was not very important in the contemporaneous political context. He says that \u201cin the circumstances the issue of principle was trivial, it was overwhelmed by all that hung in the balance, and it should not have been decisive.\u201d Ibid.\nFor present purposes, the relevance of this history lies in the fact that the participation in the work of the electoral commission by five Justices, including Justice Bradley, did not lend that process legitimacy. Nor did it assure the public that the process had worked fairly, guided by the law. Rather, it simply embroiled Members of the Court in partisan conflict, thereby undermining respect for the judicial process. And the Congress that later enacted the Electoral Count Act knew it.\nThis history may help to explain why I think it not only legally wrong, but also most unfortunate, for the Court simply to have terminated the Florida recount. Those who caution judicial restraint in resolving political disputes have described the quintessential case for that restraint as a case marked, among other things, by the \u201cstrangeness of the issue,\u201d its \u201cintractability to principled resolution,\u201d its \u201csheer momentousness,.. . which tends to unbalance judicial judgment,\u201d and \u201cthe inner vulnerability, the self-doubt of an institution which is electorally irresponsible and has no earth to draw strength from.\u201d Id., at 184. Those characteristics mark this case.\nAt the same time, as I have said, the Court is not acting to vindicate a fundamental constitutional principle, such as the need to protect a basic human liberty. No other strong reason to act is present. Congressional statutes tend to obviate the need. And, above all, in this highly politicized matter, the appearance of a split decision runs the risk of undermining the public\u2019s confidence in the Court itself. That confidence is a public treasure. It has been built slowly over many years, some of which were marked by a Civil War and the tragedy of segregation. It is a vitally necessary ingredient of any successful effort to protect basic liberty and, indeed, the rule of law itself. We run no risk of returning to the days when a President (responding to this Court\u2019s efforts to protect the Cherokee Indians) might have said, \u201cJohn Marshall has made his decision; now let him enforce it!\u201d D. Loth, Chief Justice John Marshall and The Growth of the American Republic 365 (1948). But we do risk a self-inflicted wound \u2014 a wound that may harm not just the Court, but the Nation.\nI fear that in order to bring this agonizingly long election process to a definitive conclusion, we have not adequately attended to that necessary \u201ccheck upon our own exercise of power,\u201d \u201cour own sense of self-restraint.\u201d United States v. Butler, 297 U. S. 1, 79 (1936) (Stone, J., dissenting). Justice Brand\u00e9is once said of the Court, \u201cThe most important thing we do is not doing.\u201d Bickel, supra, at 71. What it does today, the Court should have left undone. I would repair the damage as best we now can, by permitting the Florida recount to continue under uniform standards.\nI respectfully dissent.",
+        "type": "dissent",
+        "author": "Justice Breyer,"
+      }
+    ],
+    "attorneys": [
+      "Theodore B. Olson argued the cause for petitioners. With him on the brief were Douglas R. Cox, Thomas G. Hungar, Benjamin L. Ginsberg, Michael A. Carvin, Barry Richard, Miguel A. Estrada, George J. Terwilliger III, Timothy E. Flanigan, William K. Kelley, John F Manning, and Bradford R. Clark. Joseph P. Klock, Jr., argued the cause for Katherine Harris et al., respondents under this Court\u2019s Rule 12.6 in support of petitioners. With him on the brief were John W. Little III, Alvin F. Lindsay III, Ricardo M. Martinez-Cid, and Bill L. Bryant, Jr. Briefs in support of petitioners were filed by William Kemper Jennings for Glenda Carr et al.; by Robert A. Destro for Stephen Cruce et al.; and by George S. LeMieux and Frederick J. Springer for John E. Thrasher, all respondents under this Court\u2019s Rule 12.6.",
+      "David Boies argued the cause for respondents Gore et al. With him on the brief were Laurence H. Tribe, Andrew J. Pincus, Thomas C. Goldstein, Jonathan S. Massey, Kendall Coffey, and Peter J. Rubin."
+    ],
+    "corrections": "",
+    "head_matter": "BUSH et al. v. GORE et al.\nNo. 00-949.\nArgued December 11, 2000\nDecided December 12, 2000\nTheodore B. Olson argued the cause for petitioners. With him on the brief were Douglas R. Cox, Thomas G. Hungar, Benjamin L. Ginsberg, Michael A. Carvin, Barry Richard, Miguel A. Estrada, George J. Terwilliger III, Timothy E. Flanigan, William K. Kelley, John F Manning, and Bradford R. Clark. Joseph P. Klock, Jr., argued the cause for Katherine Harris et al., respondents under this Court\u2019s Rule 12.6 in support of petitioners. With him on the brief were John W. Little III, Alvin F. Lindsay III, Ricardo M. Martinez-Cid, and Bill L. Bryant, Jr. Briefs in support of petitioners were filed by William Kemper Jennings for Glenda Carr et al.; by Robert A. Destro for Stephen Cruce et al.; and by George S. LeMieux and Frederick J. Springer for John E. Thrasher, all respondents under this Court\u2019s Rule 12.6.\nDavid Boies argued the cause for respondents Gore et al. With him on the brief were Laurence H. Tribe, Andrew J. Pincus, Thomas C. Goldstein, Jonathan S. Massey, Kendall Coffey, and Peter J. Rubin.\nBriefs of amici curiae urging reversal were filed for the State of Alabama by Bill Pryor, Attorney General, and Charles B. Campbell, Scott L. Rouse, and A. Vernon Barnett TV, Assistant Attorneys General; for the Florida House of Representatives et al. by Charles Fried, Einer Elhauge, and Roger J. Magnuson; for William H. Haynes et al. by Jay Alan Sekulow, Thomas P. Monaghan, Stuart J. Roth, Colby M. May, James M. Henderson, Sr., David A. Cortman, Griffin B. Bell, Paul D. Clement, and Jeffrey S. Bucholtz.\nBriefs of amici curiae urging affirmance were filed for the Brennan Center for Justice at New York University School of Law by Burt Neu-borne; and for Robert A. Butterworth, Attorney General of Florida, by Mr. Butterworth, pro se, Paul F. Hancock, Deputy Attorney General, Jason Vail, Assistant Attorney General, and Kimberly J. Tucker.\nBriefs of amici curiae were filed for David Earl Honig; for Robert Harris et al. by Bruce J. Terris, Carolyn Smith Pravlik, Kathleen L. Millian, Sarah A. Adams, and Roger J. Bernstein; and for Michael F. Wasserman, pro se."
+  },
+  "file_name": "0098-01",
+  "first_page_order": 298,
+  "last_page_order": 358
+}

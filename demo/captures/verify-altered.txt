@@ -1,0 +1,38 @@
+$ bun run src/infrastructure/cli.ts "372 U.S. 335" "any person haled into court, who is too poor to hire a lawyer, can still be assured a fair trial even if counsel is not provided for him"
+NOTE: static.case.law/robots.txt has a Disallow rule for /us/372/cases/0335-01.json (aimed at crawlers); this run is user-initiated, one GET per cited opinion, no link following
+waiting 10.0s before the next request to www.law.cornell.edu (robots.txt Crawl-delay 10s)
+{
+  "citation": "372 U.S. 335",
+  "quote": "any person haled into court, who is too poor to hire a lawyer, can still be assured a fair trial even if counsel is not provided for him",
+  "verdict": "HOLD",
+  "reasons": [
+    "NOT_IN_OPINION"
+  ],
+  "edits": [],
+  "minSources": 2,
+  "sources": [
+    {
+      "id": "cap",
+      "textSha256": "4cb4ba6f5d8e7d8add1fe315b01087ec4fec4ffc1b34f973669e15b09be86af5",
+      "found": false,
+      "start": -1,
+      "end": -1,
+      "edits": [],
+      "distortion": false,
+      "reason": "NOT_FOUND"
+    },
+    {
+      "id": "lii",
+      "textSha256": "3766dc7e21bab6a8822709331f7b1ff98643869128c8202abfc6720d03f3d233",
+      "found": false,
+      "start": -1,
+      "end": -1,
+      "edits": [],
+      "distortion": false,
+      "reason": "NOT_FOUND"
+    }
+  ],
+  "checkedAt": "2026-10-29T21:56:49.120Z",
+  "receiptHash": "f341e464163f92cca37369948b376dce3351ec6a24272502516ef173fb083e93"
+}
+error: script "verify" exited with code 1

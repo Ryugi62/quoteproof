@@ -1,0 +1,5 @@
+# QuoteProof CRE 프로젝트 설정 — 시뮬레이션 전용(RPC는 쓰지 않는다)
+local-simulation:
+  rpcs:
+    - chain-name: ethereum-testnet-sepolia
+      url: https://ethereum-sepolia-rpc.publicnode.com

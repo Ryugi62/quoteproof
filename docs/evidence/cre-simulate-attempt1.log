@@ -1,0 +1,10 @@
+$ cre workflow simulate workflow --target local-simulation --non-interactive --http-payload ...
+2026년 10월 30일 금요일 04시 46분 15초 KST
+Initializing...
+
+! You are not logged in
+
+✗ Authentication required: not logged in and no CRE_API_KEY set
+  → Run 'cre login' interactively, or
+  → Set CRE_API_KEY environment variable for non-interactive use
+✗ authentication required: no credentials found: you are not logged in, run cre login and try again

@@ -1,0 +1,1013 @@
+{
+  "id": 6206897,
+  "name": "ANDERSON et al. v. LIBERTY LOBBY, INC., et al.",
+  "name_abbreviation": "Anderson v. Liberty Lobby, Inc.",
+  "decision_date": "1986-06-25",
+  "docket_number": "No. 84-1602",
+  "first_page": "242",
+  "last_page": "273",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "477 U.S. 242"
+    },
+    {
+      "type": "parallel",
+      "cite": "91 L. Ed. 2d 202"
+    },
+    {
+      "type": "parallel",
+      "cite": "106 S. Ct. 2505"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 1985-125"
+    },
+    {
+      "type": "vendor",
+      "cite": "1986 U.S. LEXIS 115"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "465 U. S. 783",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11337451
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "790-791"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/465/0783-01"
+      ]
+    },
+    {
+      "cite": "449 U. S. 898",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11780195,
+        11780423,
+        11780488,
+        11780744,
+        11780685,
+        11780366,
+        11780624,
+        11780306,
+        11780252
+      ],
+      "year": 1980,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/449/0898-01",
+        "/us/449/0898-05",
+        "/us/449/0898-06",
+        "/us/449/0898-09",
+        "/us/449/0898-08",
+        "/us/449/0898-04",
+        "/us/449/0898-07",
+        "/us/449/0898-03",
+        "/us/449/0898-02"
+      ]
+    },
+    {
+      "cite": "627 F. 2d 1287",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        3507043,
+        1287924
+      ],
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "1292"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/201/0301-01",
+        "/f2d/627/1287-01"
+      ]
+    },
+    {
+      "cite": "201 U. S. App. D. C. 301",
+      "category": "reporters:state",
+      "reporter": "U.S. App. D.C.",
+      "case_ids": [
+        3507043
+      ],
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "306"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/201/0301-01"
+      ]
+    },
+    {
+      "cite": "529 F. 2d 206",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10589757
+      ],
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "210"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/529/0206-01"
+      ]
+    },
+    {
+      "cite": "449 U. S. 839",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11735042,
+        11734754,
+        11734980,
+        11734408,
+        11734521,
+        11734835,
+        11734900,
+        11734454,
+        11734582,
+        11734681
+      ],
+      "year": 1980,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/449/0839-10",
+        "/us/449/0839-06",
+        "/us/449/0839-09",
+        "/us/449/0839-01",
+        "/us/449/0839-03",
+        "/us/449/0839-07",
+        "/us/449/0839-08",
+        "/us/449/0839-02",
+        "/us/449/0839-04",
+        "/us/449/0839-05"
+      ]
+    },
+    {
+      "cite": "619 F. 2d 932",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1376782
+      ],
+      "pin_cites": [
+        {
+          "page": "940"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/619/0932-01"
+      ]
+    },
+    {
+      "cite": "454 U. S. 964",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6439813,
+        6439334,
+        6439654,
+        6438826,
+        6439417,
+        6438738,
+        6439186,
+        6438997,
+        6439094,
+        6439737,
+        6438905,
+        6439549
+      ],
+      "year": 1981,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/454/0964-12",
+        "/us/454/0964-07",
+        "/us/454/0964-10",
+        "/us/454/0964-02",
+        "/us/454/0964-08",
+        "/us/454/0964-01",
+        "/us/454/0964-06",
+        "/us/454/0964-04",
+        "/us/454/0964-05",
+        "/us/454/0964-11",
+        "/us/454/0964-03",
+        "/us/454/0964-09"
+      ]
+    },
+    {
+      "cite": "637 F. 2d 375",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1353927
+      ],
+      "pin_cites": [
+        {
+          "page": "381"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/637/0375-01"
+      ]
+    },
+    {
+      "cite": "466 U. S. 485",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6202607
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "512"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/466/0485-01"
+      ]
+    },
+    {
+      "cite": "368 U. S. 464",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6173571
+      ],
+      "year": 1962,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/368/0464-01"
+      ]
+    },
+    {
+      "cite": "334 U. S. 249",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6157760
+      ],
+      "year": 1948,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/334/0249-01"
+      ]
+    },
+    {
+      "cite": "160 F. 2d 229",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1119363
+      ],
+      "year": 1947,
+      "pin_cites": [
+        {
+          "page": "232-233"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/160/0229-01"
+      ]
+    },
+    {
+      "cite": "140 F. 2d 592",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        3693260
+      ],
+      "year": 1944,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/140/0592-01"
+      ]
+    },
+    {
+      "cite": "464 F. 2d 240",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        708680
+      ],
+      "weight": 4,
+      "year": 1972,
+      "pin_cites": [
+        {
+          "page": "242"
+        },
+        {
+          "page": "243"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/464/0240-01"
+      ]
+    },
+    {
+      "cite": "443 U. S. 307",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6182418
+      ],
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "318-319"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/443/0307-01"
+      ]
+    },
+    {
+      "cite": "461 U. S. 731",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11299326
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "745, n. 11"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/461/0731-01"
+      ]
+    },
+    {
+      "cite": "321 U. S. 620",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        301900
+      ],
+      "year": 1944,
+      "pin_cites": [
+        {
+          "page": "624"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/321/0620-01"
+      ]
+    },
+    {
+      "cite": "288 U. S. 333",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        79701
+      ],
+      "year": 1933,
+      "pin_cites": [
+        {
+          "page": "343"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/288/0333-01"
+      ]
+    },
+    {
+      "cite": "164 U. S. 301",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3591604
+      ],
+      "year": 1896,
+      "pin_cites": [
+        {
+          "page": "307"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/164/0301-01"
+      ]
+    },
+    {
+      "cite": "22 Wall. 116",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3409938
+      ],
+      "year": 1875,
+      "pin_cites": [
+        {
+          "page": "120-121"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/89/0116-01"
+      ]
+    },
+    {
+      "cite": "14 Wall. 442",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3421638
+      ],
+      "year": 1872,
+      "pin_cites": [
+        {
+          "page": "448"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/81/0442-01"
+      ]
+    },
+    {
+      "cite": "336 U. S. 53",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3938748
+      ],
+      "year": 1949,
+      "pin_cites": [
+        {
+          "page": "62"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/336/0053-01"
+      ]
+    },
+    {
+      "cite": "320 U. S. 476",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6142765
+      ],
+      "year": 1943,
+      "pin_cites": [
+        {
+          "page": "479-480"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/320/0476-01"
+      ]
+    },
+    {
+      "cite": "387 U. S. 82",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11333702
+      ],
+      "year": 1967,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/387/0082-01"
+      ]
+    },
+    {
+      "cite": "398 U. S. 144",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6169865
+      ],
+      "weight": 3,
+      "year": 1970,
+      "pin_cites": [
+        {
+          "page": "158-159"
+        },
+        {
+          "page": "158-159"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/398/0144-01"
+      ]
+    },
+    {
+      "cite": "391 U. S. 253",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1767758
+      ],
+      "weight": 5,
+      "year": 1968,
+      "pin_cites": [
+        {
+          "page": "288-289"
+        },
+        {
+          "page": "290"
+        },
+        {
+          "page": "288-289"
+        },
+        {
+          "page": "290"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/391/0253-01"
+      ]
+    },
+    {
+      "cite": "471 U. S. 1134",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6399816,
+        6399721,
+        6400204,
+        6400013,
+        6400110,
+        6399605,
+        6400345,
+        6399935
+      ],
+      "year": 1985,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/471/1134-03",
+        "/us/471/1134-02",
+        "/us/471/1134-07",
+        "/us/471/1134-05",
+        "/us/471/1134-06",
+        "/us/471/1134-01",
+        "/us/471/1134-08",
+        "/us/471/1134-04"
+      ]
+    },
+    {
+      "cite": "746 F. 2d 1563",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        3805305,
+        649059
+      ],
+      "weight": 3,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "1570"
+        },
+        {
+          "page": "1577"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/241/0246-01",
+        "/f2d/746/1563-01"
+      ]
+    },
+    {
+      "cite": "241 U. S. App. D. C. 246",
+      "category": "reporters:state",
+      "reporter": "U.S. App. D.C.",
+      "case_ids": [
+        3805305
+      ],
+      "weight": 2,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "253"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/241/0246-01"
+      ]
+    },
+    {
+      "cite": "388 U. S. 130",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6167825
+      ],
+      "year": 1967,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/388/0130-01"
+      ]
+    },
+    {
+      "cite": "418 U. S. 323",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6173012
+      ],
+      "weight": 2,
+      "year": 1974,
+      "pin_cites": [
+        {
+          "page": "342"
+        },
+        {
+          "page": "351"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/418/0323-01"
+      ]
+    },
+    {
+      "cite": "376 U. S. 254",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        379234
+      ],
+      "weight": 2,
+      "year": 1964,
+      "pin_cites": [
+        {
+          "page": "279-280"
+        },
+        {
+          "page": "285-286"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/376/0254-01"
+      ]
+    },
+    {
+      "cite": "475 U. S. 574",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6205783
+      ],
+      "weight": 3,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "588",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "586"
+        },
+        {
+          "page": "599"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/475/0574-01"
+      ]
+    },
+    {
+      "cite": "465 U. S. 752",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11337242
+      ],
+      "year": 1984,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/465/0752-01"
+      ]
+    },
+    {
+      "cite": "465 U. S. 783",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11337451
+      ],
+      "year": 1984,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/465/0783-01"
+      ]
+    },
+    {
+      "cite": "387 U. S. 82",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11333702
+      ],
+      "weight": 2,
+      "year": 1967,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        },
+        {
+          "page": "84"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/387/0082-01"
+      ]
+    },
+    {
+      "cite": "398 U. S. 144",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6169865
+      ],
+      "weight": 4,
+      "year": 1970,
+      "pin_cites": [
+        {
+          "page": "157"
+        },
+        {
+          "page": "158"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/398/0144-01"
+      ]
+    },
+    {
+      "cite": "391 U. S. 253",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1767758
+      ],
+      "weight": 2,
+      "year": 1968,
+      "pin_cites": [
+        {
+          "page": "288-289"
+        },
+        {
+          "page": "289"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/391/0253-01"
+      ]
+    },
+    {
+      "cite": "682 F. 2d 1275",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        538938
+      ],
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "1277-1278",
+          "parenthetical": "Wallace, J."
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/f2d/682/1275-01"
+      ]
+    },
+    {
+      "cite": "441 U. S. 418",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1780484
+      ],
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "424-425",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/441/0418-01"
+      ]
+    },
+    {
+      "cite": "475 U. S. 66",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6197245
+      ],
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "70"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/475/0066-01"
+      ]
+    },
+    {
+      "cite": "322 U. S. 726",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6150633,
+        6150770,
+        6150684,
+        6150823
+      ],
+      "year": 1944,
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/322/0726-01",
+        "/us/322/0726-03",
+        "/us/322/0726-02",
+        "/us/322/0726-04"
+      ]
+    },
+    {
+      "cite": "470 U. S. 564",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11299693
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "574"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/470/0564-01"
+      ]
+    },
+    {
+      "cite": "465 U. S. 783",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11337451
+      ],
+      "weight": 2,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "790-791"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/465/0783-01"
+      ]
+    },
+    {
+      "cite": "140 F. 2d 592",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        3693260
+      ],
+      "year": 1944,
+      "pin_cites": [
+        {
+          "page": "594"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/f2d/140/0592-01"
+      ]
+    },
+    {
+      "cite": "464 F. 2d 240",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        708680
+      ],
+      "year": 1972,
+      "opinion_index": 2,
+      "case_paths": [
+        "/f2d/464/0240-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1774,
+    "char_count": 61511,
+    "ocr_confidence": 0.695,
+    "pagerank": {
+      "raw": 0.0006819568178323657,
+      "percentile": 0.9999990346927562
+    },
+    "sha256": "879bec95691407c5c7581be2cf5e51c67a5e94a07e91dabedbda70e00cd53cde",
+    "simhash": "1:a863cca02d1cf6c5",
+    "word_count": 10268
+  },
+  "last_updated": "2024-02-27T22:03:20.902174+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "White, J., delivered the opinion of the Court, in which Marshall, Blackmun, Powell, Stevens, and O\u2019Connor, JJ., joined. Brennan, J., filed a dissenting opinion, post, p. 257. Rehnquist, J., filed a dissenting opinion, in which Burger, C. J., joined, post, p. 268."
+    ],
+    "parties": [
+      "ANDERSON et al. v. LIBERTY LOBBY, INC., et al."
+    ],
+    "opinions": [
+      {
+        "text": "Justice White\ndelivered the opinion of the Court.\nIn New York Times Co. v. Sullivan, 376 U. S. 254, 279-280 (1964), we held that, in a libel suit brought by a public official, the First Amendment requires the plaintiff to show that in publishing the defamatory statement the defendant acted with actual malice \u2014 \u201cwith knowledge that it was false or with reckless disregard of whether it was false or not.\u201d We held further that such actual malice must be shown with \u201cconvincing clarity.\u201d Id., at 285-286. See also Gertz v. Robert Welch, Inc., 418 U. S. 323, 342 (1974). These New York Times requirements we have since extended to libel suits brought by public figures as well. See, e. g., Curtis Publishing Co. v. Butts, 388 U. S. 130 (1967).\nThis case presents the question whether the clear-and-convincing-evidence requirement must be considered by a court ruling on a motion for summary judgment under Rule 56 of the Federal Rules of Civil Procedure in a case to which New York Times applies. The United States Court of Appeals for the District of Columbia Circuit held that that requirement need not be considered at the summary judgment stage. 241 U. S. App. D. C. 246, 746 F. 2d 1563 (1984). We granted certiorari, 471 U. S. 1134 (1985), because that holding was in conflict with decisions of several other Courts of Appeals, which had held that the New York Times requirement of clear and convincing evidence must be considered on a motion for summary judgment. We now reverse.\nI-H\nRespondent Liberty Lobby, Inc., is a not-for-profit corporation and self-described \u201ccitizens\u2019 lobby.\u201d Respondent Willis Carto is its founder and treasurer. In October 1981, The Investigator magazine published two articles: \u201cThe Private World of Willis Carto\u201d and \u201cYockey: Profile of an American Hitler.\u201d These articles were introduced by a third, shorter article entitled \u201cAmerica\u2019s Neo-Nazi Underground: Did Mein Kampf Spawn Yockey\u2019s Imperium, a Book Revived by Carto\u2019s Liberty Lobby?\u201d These articles portrayed respondents as neo-Nazi, anti-Semitic, racist, and Fascist.\nRespondents filed this diversity libel action in the United States District Court for the District of Columbia, alleging that some 28 statements and 2 illustrations in the 3 articles were false and derogatory. Named as defendants in the action were petitioner Jack Anderson, the publisher of The Investigator, petitioner Bill Adkins, president and chief executive officer of the Investigator Publishing Co., and petitioner Investigator Publishing Co. itself.\nFollowing discovery, petitioners moved for summary judgment pursuant to Rule 56. In their motion, petitioners asserted that because respondents are public figures they were required to prove their case under the standards set forth in New York Times. Petitioners also asserted that summary judgment was proper because actual malice was absent as a matter of law. In support of this latter assertion, petitioners submitted the affidavit of Charles Bermant, an employee of petitioners and the author of the two longer articles. In this affidavit, Bermant stated that he had spent a substantial amount of time researching and writing the articles and that his facts were obtained from a wide variety of sources. He also stated that he had at all times believed and still believed that the facts contained in the articles were truthful and accurate. Attached to this affidavit was an appendix in which Bermant detailed the sources for each of the statements alleged by respondents to be libelous.\nRespondents opposed the motion for summary judgment, asserting that there were numerous inaccuracies in the articles and claiming that an issue of actual malice was presented by virtue of the fact that in preparing the articles Bermant had relied on several sources that respondents asserted were patently unreliable. Generally, respondents charged that petitioners had failed adequately to verify their information before publishing. Respondents also presented evidence that William McGaw, an editor of The Investigator, had told petitioner Adkins before publication that the articles were \u201cterrible\u201d and \u201cridiculous.\u201d\nIn ruling on the motion for summary judgment, the District Court first held that respondents were limited-purpose public figures and that New York Times therefore applied. The District Court then held that Bermant\u2019s thorough investigation and research and his reliance on numerous sources precluded a finding of actual malice. Thus, the District Court granted the motion and entered judgment in favor of petitioners.\nOn appeal, the Court of Appeals affirmed as to 21 and reversed as to 9 of the allegedly defamatory statements. Although it noted that respondents did not challenge the District Court\u2019s ruling that they were limited-purpose public figures and that they were thus required to prove their case under New York Times, the Court of Appeals nevertheless held that for the purposes of summary judgment the requirement that actual malice be proved by clear and convincing evidence, rather than by a preponderance of the evidence, was irrelevant: To defeat summary judgment respondents did not have to show that a jury could find actual malice with \u201cconvincing clarity.\u201d The court based this conclusion on a perception that to impose the greater evidentiary burden at summary judgment \u201cwould change the threshold summary judgment inquiry from a search for a minimum of facts supporting the plaintiff\u2019s case to an evaluation of the weight of those facts and (it would seem) of the weight of at least the defendant\u2019s uncontroverted facts as well.\u201d 241 U. S. App. D. C., at 253, 746 F. 2d, at 1570. The court then held, with respect to nine of the statements, that summary judgment had been improperly granted because \u201ca jury could reasonably conclude that the . .. allegations were defamatory, false, and made with actual malice.\u201d Id., at 260, 746 F. 2d, at 1577.\nII\nA\nOur inquiry is whether the Court of Appeals erred in holding that the heightened evidentiary requirements that apply to proof of actual malice in this New York Times case need not be considered for the purposes of a motion for summary judgment. Rule 56(c) of the Federal Rules of Civil Procedure provides that summary judgment \u201cshall be rendered forthwith if the pleadings, depositions, answers to interrogatories, and admissions on file, together with the affidavits, if any, show that there is no genuine issue as to any material fact and that the moving party is entitled to a judgment as a matter of law.\u201d By its very terms, this standard provides that the mere existence of some alleged factual dispute between the parties will not defeat an otherwise properly supported motion for summary judgment; the requirement is that there be no genuine issue of material fact.\nAs to materiality, the substantive law will identify which facts are material. Only disputes over facts that might affect the outcome of the suit under the governing law will properly preclude the entry of summary judgment. Factual disputes that are irrelevant or unnecessary will not be counted. See generally 10A C. Wright, A. Miller, & M. Kane, Federal Practice and Procedure \u00a72725, pp. 93-95 (1983). This materiality inquiry is independent of and separate from the question of the incorporation of the evidentiary standard into the summary judgment determination. That is, while the materiality determination rests on the substantive law, it is the substantive law\u2019s identification of which facts are critical and which facts are irrelevant that governs. Any proof or evidentiary requirements imposed by the substantive law are not germane to this inquiry, since materiality is only a criterion for categorizing factual disputes in their relation to the legal elements of the claim and not a criterion for evaluating the evidentiary underpinnings of those disputes.\nMore important for present purposes, summary judgment will not lie if the dispute about a material fact is \u201cgenuine,\u201d that is, if the evidence is such that a reasonable jury could return a verdict for the nonmoving party. In First National Bank of Arizona v. Cities Service Co., 391 U. S. 253 (1968), we affirmed a grant of summary judgment for an antitrust defendant where the issue was whether there was a genuine factual dispute as to the existence of a conspiracy. We noted Rule 56(e)\u2019s provision that a party opposing a properly supported motion for summary judgment \u201c \u2018may not rest upon the mere allegations or denials of his pleading, but. . . must set forth specific facts showing that there is a genuine issue for trial.\u2019\u201d We observed further that\n\u201c[i]t is true that the issue of material fact required by Rule 56(c) to be present to entitle a party to proceed to trial is not required to be resolved conclusively in favor of the party asserting its existence; rather, all that is required is that sufficient evidence supporting the claimed factual dispute be shown to require a jury or judge to resolve the parties\u2019 differing versions of the truth at trial.\u201d 391 U. S., at 288-289.\nWe went on to hold that, in the face of the defendant\u2019s properly supported motion for summary judgment, the plaintiff could not rest on his allegations of a conspiracy to get to a jury without \u201cany significant probative evidence tending to support the complaint.\u201d Id., at 290.\nAgain, in Adickes v. S. H. Kress & Co., 398 U. S. 144 (1970), the Court emphasized that the availability of summary judgment turned on whether a proper jury question was presented. There, one of the issues was whether there was a conspiracy between private persons and law enforcement officers. The District Court granted summary judgment for the defendants, stating that there was no evidence from which reasonably minded jurors might draw an inference of conspiracy. We reversed, pointing out that the moving parties\u2019 submissions had not foreclosed the possibility of the existence of certain facts from which \u201cit would be open to a jury ... to infer from the circumstances\u201d that there had been a meeting of the minds. Id., at 158-159.\nOur prior decisions may not have uniformly recited the same language in describing genuine factual issues under Rule 56, but it is clear enough from our recent cases that at the summary judgment stage the judge\u2019s function is not himself to weigh the evidence and determine the truth of the matter but to determine whether there is a genuine issue for trial. As Adickes, swpra, and Cities Service, supra, indicate, there is no issue for trial unless there is sufficient evidence favoring the nonmoving party for a jury to return a verdict for that party. Cities Service, supra, at 288-289. If the evidence is merely colorable, Dombrowski v. Eastland, 387 U. S. 82 (1967) (per curiam), or is not significantly probative, Cities Service, swpra, at 290, summary judgment maybe granted.\nThat this is the proper focus of the inquiry is strongly suggested by the Rule itself. Rule 56(e) provides that, when a properly supported motion for summary judgment is made, the adverse party \u201cmust set forth specific facts showing that there is a genuine issue for trial.\u201d And, as we noted above, Rule 56(c) provides that the trial judge shall then grant summary judgment if there is no genuine issue as to any material fact and if the moving party is entitled to judgment as a matter of law. There is no requirement that the trial judge make findings of fact. The inquiry performed is the threshold inquiry of determining whether there is the need for a trial \u2014 whether, in other words, there are any genuine factual issues that properly can be resolved only by a finder of fact because they may reasonably be resolved in favor of either party.\nPetitioners suggest, and we agree, that this standard mirrors the standard for a directed verdict under Federal Rule of Civil Procedure 50(a), which is that the trial judge must direct a verdict if, under the governing law, there can be but one reasonable conclusion as to the verdict. Brady v. Southern R. Co., 320 U. S. 476, 479-480 (1943). If reasonable minds could differ as to the import of the evidence, however, a verdict should not be directed. Wilkerson v. McCarthy, 336 U. S. 53, 62 (1949). As the Court long ago said in Improvement Co. v. Munson, 14 Wall. 442, 448 (1872), and has several times repeated:\n\u201cNor are judges any longer required to submit a question to a jury merely because some evidence has been introduced by the party having the burden of proof, unless the evidence be of such a character that it would warrant the jury in finding a verdict in favor of that party. Formerly it was held that if there was what is called a scintilla of evidence in support of a case the judge was bound to leave it to the jury, but recent decisions of high authority have established a more reasonable rule, that in every case, before the evidence is left to the jury, there is a preliminary question for the judge, not whether there is literally no evidence, but whether there is any upon which a jury could properly proceed to find a verdict for the party producing it, upon whom the onus of proof is imposed.\u201d (Footnotes omitted.)\nSee also Pleasants v. Fant, 22 Wall. 116, 120-121 (1875); Coughran v. Bigelow, 164 U. S. 301, 307 (1896); Pennsylvania R. Co. v. Chamberlain, 288 U. S. 333, 343 (1933).\nThe Court has said that summary judgment should be granted where the evidence is such that it \u201cwould require a directed verdict for the moving party.\u201d Sartor v. Arkansas Gas Corp., 321 U. S. 620, 624 (1944). And we have noted that the \u201cgenuine issue\u201d summary judgment standard is \u201cvery close\u201d to the \u201creasonable jury\u201d directed verdict standard: \u201cThe primary difference between the two motions is procedural; summary judgment motions are usually made before trial and decided on documentary evidence, while directed verdict motions are made at trial and decided on the evidence that has been admitted.\u201d Bill Johnson\u2019s Restaurants, Inc. v. NLRB, 461 U. S. 731, 745, n. 11 (1983). In essence, though, the inquiry under each is the same: whether the evidence presents a sufficient disagreement to require submission to a jury or whether it is so one-sided that one party must prevail as a matter of law.\nB\nProgressing to the specific issue in this case, we are convinced that the inquiry involved in a ruling on a motion for summary judgment or for a directed verdict necessarily implicates the substantive evidentiary standard of proof that would apply at the trial on the merits. If the defendant in a run-of-the-mill civil case moves for summary judgment or for a directed verdict based on the lack of proof of a material fact, the judge must ask himself not whether he thinks the evidence unmistakably favors one side or the other but whether a fair-minded jury could return a verdict for the plaintiff on the evidence presented. The mere existence of a scintilla of evidence in support of the plaintiff\u2019s position will be insufficient; there must be evidence on which the jury could reasonably find for the plaintiff. The judge\u2019s inquiry, therefore, unavoidably asks whether reasonable jurors could find by a preponderance of the evidence that the plaintiff is entitled to a verdict \u2014 \u201cwhether there is [evidence] upon which a jury can properly proceed to find a verdict for the party producing it, upon whom the onus of proof is imposed.\u201d Munson, supra, at 448.\nIn terms of the nature of the inquiry, this is no different from the consideration of a motion for acquittal in a criminal case, where the beyond-a-reasonable-doubt standard applies and where the trial judge asks whether a reasonable jury could find guilt beyond a reasonable doubt. See Jackson v. Virginia, 443 U. S. 307, 318-319 (1979). Similarly, where the First Amendment mandates a \u201cclear and convincing\u201d standard, the trial judge in disposing of a directed verdict motion should consider whether a reasonable factfinder could conclude, for example, that the plaintiff had shown actual malice with convincing clarity.\nThe case for the proposition that a higher burden of proof should have a corresponding effect on the judge when deciding whether to send the case to the jury was well made by the Court of Appeals for the Second Circuit in United States v. Taylor, 464 F. 2d 240 (1972), which overruled United States v. Feinberg, 140 F. 2d 592 (1944), a case holding that the standard of evidence necessary for a judge to send a case to the jury is the same in both civil and criminal cases even though the standard that the jury must apply in a criminal case is more demanding than in civil proceedings. Speaking through Judge Friendly, the Second Circuit said: \u201cIt would seem at first blush \u2014 and we think also at second \u2014 that more Tacts in evidence\u2019 are needed for the judge to allow [reasonable jurors to pass on a claim] when the proponent is required to establish [the claim] not merely by a preponderance of the evidence but. . . beyond a reasonable doubt.\u201d 464 F. 2d, at 242. The court could not find a \u201csatisfying explanation in the Feinberg opinion why the judge should not place this higher burden on the prosecution in criminal proceedings before sending the case to the jury.\u201d Ibid. The Taylor court also pointed out that almost all the Circuits had adopted something like Judge Prettyman\u2019s formulation in Curley v. United States, 160 F. 2d 229, 232-233 (1947):\n\u201cThe true rule, therefore, is that a trial judge, in passing upon a motion for directed verdict of acquittal, must determine whether upon the evidence, giving full play to the right of the jury to determine credibility, weigh the evidence, and draw justifiable inferences of fact, a reasonable mind might fairly conclude guilt beyond a reasonable doubt. If he concludes that upon the evidence there must be such a doubt in a reasonable mind, he must grant the motion; or, to state it another way, if there is no evidence upon which a reasonable mind might fairly conclude guilt beyond reasonable doubt, the motion must be granted. If he concludes that either of the two results, a reasonable doubt or no reasonable doubt, is fairly possible, he must let the jury decide the matter.\u201d\nThis view is equally applicable to a civil case to which the \u201cclear and convincing\u201d standard applies. Indeed, the Taylor court thought that it was implicit in this Court\u2019s adoption of the clear-and-convincing-evidence standard for certain kinds of cases that there was a \u201cconcomitant duty on the judge to consider the applicable burden when deciding whether to send a case to the jury.\u201d 464 F. 2d, at 243. Although the court thought that this higher standard would not produce different results in many cases, it could not say that it would never do so.\nJust as the \u201cconvincing clarity\u201d requirement is relevant in ruling on a motion for directed verdict, it is relevant in ruling on a motion for summary judgment. When determining if a genuine factual issue as to actual malice exists in a libel suit brought by a public figure, a trial judge must bear in mind the actual quantum and quality of proof necessary to support liability under New York Times. For example, there is no genuine issue if the evidence presented in the opposing affidavits is of insufficient caliber or quantity to allow a rational finder of fact to find actual malice by clear and convincing evidence.\nThus, in ruling on a motion for summary judgment, the judge must view the evidence presented through the prism of the substantive evidentiary burden. This conclusion is mandated by the nature of this determination. The question here is whether a jury could reasonably find either that the plaintiff proved his case by the quality and quantity of evidence required by the governing law or that he did not. Whether a jury could reasonably find for either party, however, cannot be defined except by the criteria governing what evidence would enable the jury to find for either the plaintiff or the defendant: It makes no sense to say that a jury could reasonably find for either party without some benchmark as to what standards govern its deliberations and within what boundaries its ultimate decision must fall, and these standards and boundaries are in fact provided by the applicable evidentiary standards.\nOur holding that the clear-and-convincing standard of proof should be taken into account in ruling on summary judgment motions does not denigrate the role of the jury. It by no means authorizes trial on affidavits. Credibility determinations, the weighing of the evidence, and the drawing of legitimate inferences from the facts are jury functions, not those of a judge, whether he is ruling on a motion for summary judgment or for a directed verdict. The evidence of the non-movant is to be believed, and all justifiable inferences are to be drawn in his favor. Adickes, 398 U. S., at 158-159. Neither do we suggest that the trial courts should act other than with caution in granting summary judgment or that the trial court may not deny summary judgment in a case where there is reason to believe that the better course would be to proceed to a full trial. Kennedy v. Silas Mason Co., 334 U. S. 249 (1948).\nIn sum, we conclude that the determination of whether a given factual dispute requires submission to a jury must be guided by the substantive evidentiary standards that apply to the case. This is true at both the directed verdict and summary judgment stages. Consequently, where the New York Times \u201cclear and convincing\u201d evidence requirement applies, the trial judge\u2019s summary judgment inquiry as to whether a genuine issue exists will be whether the evidence presented is such that a jury applying that evidentiary standard could reasonably find for either the plaintiff or the defendant. Thus, where the factual dispute concerns actual malice, clearly a material issue in a New York Times case, the appropriate summary judgment question will be whether the evidence in the record could support a reasonable jury finding either that the plaintiff has shown actual malice by clear and convincing evidence or that the plaintiff has not.\nI \u2014 I I \u2014 I h-H\nRespondents argue, however, that whatever may be true of the applicability of the \u201cclear and convincing\u201d standard at the summary judgment or directed verdict stage, the defendant should seldom if ever be granted summary judgment where his state of mind is at issue and the jury might disbelieve him or his witnesses as to this issue. They rely on Poller v. Columbia Broadcasting Co., 368 U. S. 464 (1962), for this proposition. We do not understand Poller, however, to hold that a plaintiff may defeat a defendant\u2019s properly supported motion for summary judgment in a conspiracy or libel case, for example, without offering any concrete evidence from which a reasonable juror could return a verdict in his favor and by merely asserting that the jury might, and legally could, disbelieve the defendant\u2019s denial of a conspiracy or of legal malice. The movant has the burden of showing that there is no genuine issue of fact, but the plaintiff is not thereby relieved of his own burden of producing in turn evidence that would support a jury verdict. Rule 56(e) itself provides that a party opposing a properly supported motion for summary judgment may not rest upon mere allegation or denials of his pleading, but must set forth specific facts showing that there is a genuine issue for trial. Based on that Rule, Cities Service, 391 U. S., at 290, held that the plaintiff could not defeat the properly supported summary judgment motion of a defendant charged with a conspiracy without offering \u201cany significant probative evidence tending to support the complaint.\u201d As we have recently said, \u201cdiscredited testimony is not [normally] considered a sufficient basis for drawing a contrary conclusion.\u201d Bose Corp. v. Consumers Union of United States, Inc., 466 U. S. 485, 512 (1984). Instead, the plaintiff must present affirmative evidence in order to defeat a properly supported motion for summary judgment. This is true even where the evidence is likely to be within the possession of the defendant, as long as the plaintiff has had a full opportunity to conduct discovery. We repeat, however, that the plaintiff, to survive the defendant\u2019s motion, need only present evidence from which a jury might return a verdict in his favor. If he does so, there is a genuine issue of fact that requires a trial.\nIV\nIn sum, a court ruling on a motion for summary judgment must be guided by the New York Times \u201cclear and convincing\u201d evidentiary standard in determining whether a genuine issue of actual malice exists \u2014 that is, whether the evidence presented is such that a reasonable jury might find that actual malice had been shown with convincing clarity. Because the Court of Appeals did not apply the correct standard in reviewing the District Court\u2019s grant of summary judgment, we vacate its decision and remand the case for further proceedings consistent with this opinion.\nIt is so ordered.\nSee, e. g., Rebozo v. Washington Post Co., 637 F. 2d 375, 381 (CA5), cert, denied, 454 U. S. 964 (1981); Yiamouyiannis v. Consumers Union of United States, Inc., 619 F. 2d 932, 940 (CA2), cert, denied, 449 U. S. 839 (1980); Carson v. Allied News Co., 529 F. 2d 206, 210 (CA7 1976).\nThe short, introductory article was written by petitioner Anderson and relied exclusively on the information obtained by Bermant.\nIn Gertz v. Robert Welch, Inc., 418 U. S. 323, 351 (1974), this Court summarized who will be considered to be a public figure to whom the New York Times standards will apply:\n\u201c[The public figure] designation may rest on either of two alternative bases. In some instances an individual may achieve such pervasive fame or notoriety that he becomes a public figure for all purposes and in all contexts. More commonly, an individual voluntarily injects himself or is drawn into a particular public controversy and thereby becomes a public figure for a limited range of issues. In either case such persons assume special prominence in the resolution of public questions.\u201d\nThe District Court found that respondents, as political lobbyists, are the second type of political figure described by the Gertz court \u2014 a limited-purpose public figure. See also Waldbaum v. Fairchild Publications, Inc., 201 U. S. App. D. C. 301, 306, 627 F. 2d 1287, 1292, cert, denied, 449 U. S. 898 (1980).\nOur analysis here does not address the question of the initial burden of production of evidence placed by Rule 56 on the party moving for summary judgment. See Celotex Corp. v. Catrett, post, p. 317. Respondents have not raised this issue here, and for the purposes of our discussion we assume that the moving party has met initially the requisite evidentiary burden.\nThis requirement in turn is qualified by Rule 56(f)\u2019s provision that summary judgment be refused where the nonmoving party has not had the opportunity to discover information that is essential to his opposition. In our analysis here, we assume that both parties have had ample opportunity for discovery.\nIn many cases, however, findings are extremely helpful to a reviewing court.\nOur statement in Hutchinson v. Proxmire, 443 U. S. Ill, 120, n. 9 (1979), that proof of actual malice \u201cdoes not readily lend itself to summary disposition\u201d was simply an acknowledgment of our general reluctance \u201cto grant special procedural protections to defendants in libel and defamation actions in addition to the constitutional protections embodied in the substantive laws.\u201d Colder v. Jones, 465 U. S. 783, 790-791 (1984).",
+        "type": "majority",
+        "author": "Justice White"
+      },
+      {
+        "text": "Justice Brennan,\ndissenting.\nThe Court today holds that \u201cwhether a given factual dispute requires submission to a jury must be guided by the substantive evidentiary standards that apply to the case,\u201d ante, at 255. In my view, the Court\u2019s analysis is deeply flawed, and rests on a shaky foundation of unconnected and unsupported observations, assertions, and conclusions. Moreover, I am unable to divine from the Court\u2019s opinion how these evi-dentiary standards are to be considered, or what a trial judge is actually supposed to do in ruling on a motion for summary judgment. Accordingly, I respectfully dissent.\nTo support its holding that in ruling on a motion for summary judgment a trial court must consider substantive evi-dentiary burdens, the Court appropriately begins with the language of Rule 56(c), which states that summary judgment shall be granted if it appears that there is \u201cno genuine issue as to any material fact and that the moving party is entitled to a judgment as a matter of law.\u201d The Court then purports to restate this Rule, and asserts that \u201csummary judgment will not lie if the dispute about a material fact is \u2018genuine,\u2019 that is, if the evidence is such that a reasonable jury could return a verdict for the nonmoving party.\u201d Ante, at 248. No direct authority is cited for the proposition that in order to determine whether a dispute is \u201cgenuine\u201d for Rule 56 purposes a judge must ask if a \u201creasonable\u201d jury could find for the nonmoving party. Instead, the Court quotes from First National Bank of Arizona v. Cities Service Co., 391 U. S. 253, 288-289 (1968), to the effect that a summary judgment motion will be defeated if \u201csufficient evidence supporting the claimed factual dispute be shown to require a jury or judge to resolve the parties\u2019 differing versions of the truth at trial,\u201d ante, at 249, and that a plaintiff may not, in defending against a motion for summary judgment, rest on mere allegations or denials of his pleadings. After citing Adickes v. S. H. Kress & Co., 398 U. S. 144 (1970), for the unstartling proposition that \u201cthe availability of summary judgment turn[s] on whether a properjury question [is] presented,\u201d ante, at 249, the Court then reasserts, again with no direct authority, that in determining whether a jury question is presented, the inquiry is whether there are factual issues \u201cthat properly can be resolved only by a finder of fact because they may reasonably be resolved in favor of either party.\u201d Ante, at 250. The Court maintains that this summary judgment inquiry \u201cmirrors\u201d that which applies in the context of a motion for directed verdict under Federal Rule of Civil Procedure 50(a): \u201cwhether the evidence presents a sufficient disagreement to require submission to a jury or whether it is so one-sided that one party must prevail as a matter of law.\u201d Ante, at 251-252.\nHaving thus decided that a \u201cgenuine\u201d dispute is one which is not \u201cone-sided,\u201d and one which could \u201creasonably\u201d be resolved by a \u201cfair-minded\u201d jury in favor of either party, ibid., the Court then concludes:\n\u201cWhether a jury could reasonably find for either party, however, cannot be defined except by the criteria governing what evidence would enable the jury to find for either the plaintiff or the defendant: It makes no sense to say that a jury could reasonably find for either party without some benchmark as to what standards govern its deliberations and within what boundaries its ultimate decision must fall, and these standards and boundaries are in fact provided by the applicable evidentiary standards.\u201d Ante, at 254-255.\nAs far as I can discern, this conclusion, which is at the heart of the case, has been reached without the benefit of any support in the case law. Although, as noted above, the Court cites Adickes and Cities Service, those cases simply do not stand for the proposition that in ruling on a summary judgment motion, the trial court is to inquire into the \u201cone-sidedness\u201d of the evidence presented by the parties. Cities Service involved the propriety of a grant of summary judgment in favor of a defendant alleged to have conspired to violate the antitrust laws. The issue in the case was whether, on the basis of the facts in the record, a jury could infer that the defendant had entered into a conspiracy to boycott. No direct evidence of the conspiracy was produced. In agreeing with the lower courts that the circumstantial evidence presented by the plaintiff was insufficient to take the case to the jury, we observed that there was \u201cone fact\u201d that petitioner had produced to support the existence of the illegal agreement, and that that single fact could not support petitioner\u2019s theory of liability. Critically, we observed that \u201c[t]he case at hand presents peculiar difficulties because the issue of fact crucial to petitioner\u2019s case is also an issue of law, namely the existence of a conspiracy.\u201d 391 U. S., at 289. In other words, Cities Service is at heart about whether certain facts can support inferences that are, as a matter of antitrust law, sufficient to support a particular theory of liability under the Sherman Act. Just this Term, in discussing summary judgment in the context of suits brought under the antitrust laws, we characterized both Cities Service and Monsanto Co. v. Spray-Rite Service Corp., 465 U. S. 752 (1984), as cases in which \u201cantitrust law limit[ed] the range of permissible inferences from ambiguous evidence. ...\u201d Matsushita Electric Industrial Co. v. Zenith Radio Corp., 475 U. S. 574, 588 (1986) (emphasis added). Cities Service thus provides no authority for the conclusion that Rule 56 requires a trial court to consider whether direct evidence produced by the parties is \u201cone-sided.\u201d To the contrary, in Matsushita, the most recent case to cite and discuss Cities Service, we stated that the requirement that a dispute be \u201cgenuine\u201d means simply that there must be more than \u201csome metaphysical doubt as to the material facts.\u201d 475 U. S., at 586.\nNor does Adickes, also relied on by the Court, suggest in any way that the appropriate summary judgment inquiry is whether the evidence overwhelmingly supports one party. Adickes, like Cities Service, presented the question of whether a grant of summary judgment in favor of a defendant on a conspiracy count was appropriate. The plaintiff, a white schoolteacher, maintained that employees of defendant Kress conspired with the police to deny her rights protected by the Fourteenth Amendment by refusing to serve her in one of its lunchrooms simply because she was white and accompanied by a number of black schoolchildren. She maintained, among other things, that Kress arranged with the police to have her arrested for vagrancy when she left the defendant\u2019s premises. In support of its motion for summary judgment, Kress submitted statements from a deposition of one of its employees asserting that he had not communicated or agreed with the police to deny plaintiff service or to have her arrested, and explaining that the store had taken the challenged action not because of the race of the plaintiff, but because it was fearful of the reaction of some of its customers if it served a racially mixed group. Kress also submitted affidavits from the Chief of Police and the arresting officers denying that the store manager had requested that petitioner be arrested, and noted that in the plaintiff\u2019s own deposition, she conceded that she had no knowledge of any communication between the police and any Kress employee and was relying on circumstantial evidence to support her allegations. In opposing defendant\u2019s motion for summary judgment, plaintiff stated that defendant in its moving papers failed to dispute an allegation in the complaint, a statement at her deposition, and an unsworn statement by a Kress employee all to the effect that there was a policeman in the store at the time of the refusal to serve, and that it was this policeman who subsequently made the arrest. Plaintiff argued that this sequence of events \u201ccreated a substantial enough possibility of a conspiracy to allow her to proceed to trial. ...\u201d 398 U. S., at 157.\nWe agreed, and therefore reversed the lower courts, reasoning that Kress \u201cdid not carry its burden because of its failure to foreclose the possibility that there was a policeman in the Kress store while petitioner was awaiting service, and that this policeman reached an understanding with some Kress employee that petitioner not be served.\u201d Ibid. Despite the fact that none of the materials relied on by plaintiff met the requirements of Rule 56(e), we stated nonetheless that Kress failed to meet its initial burden of showing that there was no genuine dispute of a material fact. Specifically, we held that because Kress failed to negate plaintiff\u2019s materials suggesting that a policeman was in fact in the store at the time of the refusal to serve, \u201cit would be open to a jury... to infer from the circumstances that the policeman and a Kress employee had a \u2018meeting of the minds\u2019 and thus reached an understanding that petitioner should be refused service.\u201d Id., at 158.\nIn Adickes we held that a jury might permissibly infer a conspiracy from the mere presence of a policeman in a restaurant. We never reached and did not consider whether the evidence was \u201cone-sided,\u201d and had we done so, we clearly would have had to affirm, rather than reverse, the lower courts, since in that case there was no admissible evidence submitted by petitioner, and a significant amount of evidence presented by the defendant tending to rebut the existence of a conspiracy. The question we did reach was simply whether, as a matter of conspiracy law, a jury would be entitled, again, as a matter of law, to infer from the presence of a policeman in a restaurant the making of an agreement between that policeman and an employee. Because we held that a jury was entitled so to infer, and because the defendant had not carried its initial burden of production of demonstrating that there was no evidence that there was not a policeman in the lunchroom, we concluded that summary judgment was inappropriate.\nAccordingly, it is surprising to find the case cited by the majority for the proposition that \u201cthere is no issue for trial unless there is sufficient evidence favoring the nonmoving party for a jury to return a verdict for that party.\u201d Ante, at 249. There was, of course, no admissible evidence in Adickes favoring the nonmoving plaintiff; there was only an unrebutted assertion that a Kress employee and a policeman were in the same room at the time of the alleged constitutional violation. Like Cities Service, Adickes suggests that on a defendant\u2019s motion for summary judgment, a trial court must consider whether, as a matter of the substantive law of the plaintiff\u2019s cause of action, a jury will be permitted to draw inferences supporting the plaintiff\u2019s legal theory. In Cities Service we found, in effect, that the plaintiff had failed to make out a prima facie case; in Adickes we held that the moving defendant had failed to rebut the plaintiff\u2019s prima facie case. In neither case is there any intimation that a trial court should inquire whether plaintiff\u2019s evidence is \u201csignificantly probative,\u201d as opposed to \u201cmerely colorable,\u201d or, again, \u201cone-sided.\u201d Nor is there in either case any suggestion that once a nonmoving plaintiff has made out a prima facie case based on evidence satisfying Rule 56(e) that there is any showing that a defendant can make to prevail on a motion for summary judgment. Yet this is what the Court appears to hold, relying, in part, on these two cases.\nAs explained above, and as explained also by Justice Rehnquist in his dissent, see post, at 271, I cannot agree that the authority cited by the Court supports its position. In my view, the Court\u2019s result is the product of an exercise akin to the child\u2019s game of \u201ctelephone,\u201d in which a message is repeated from one person to another and then another; after some time, the message bears little resemblance to what was originally spoken. In the present case, the Court purports to restate the summary judgment test, but with each repetition, the original understanding is increasingly distorted.\nBut my concern is not only that the Court\u2019s decision is unsupported; after all, unsupported views may nonetheless be supportable. I am more troubled by the fact that the Court\u2019s opinion sends conflicting signals to trial courts and reviewing courts which must deal with summary judgment motions on a day-to-day basis. This case is about a trial court\u2019s responsibility when considering a motion for summary judgment, but in my view, the Court, while instructing the trial judge to \u201cconsider\u201d heightened evidentiary standards, fails to explain what that means. In other words, how does a judge assess how one-sided evidence is, or what a \u201cfair-minded\u201d jury could \u201creasonably\u201d decide? The Court provides conflicting clues to these mysteries, which I fear can lead only to increased confusion in the district and appellate courts.\nThe Court\u2019s opinion is replete with boilerplate language to the effect that trial courts are not to weigh evidence when deciding summary judgment motions:\n\u201c[I]t is clear enough from our recent cases that at the summary judgment stage the judge\u2019s function is not himself to weigh the evidence and determine the truth of the matter . . . .\u201d Ante, at 249.\n\u201cOur holding . . . does not denigrate the role of the jury. . . . Credibility determinations, the weighing of the evidence, and the drawing of legitimate inferences from the facts are jury functions, not those of a judge, whether he is ruling on a motion for summary judgment or for a directed verdict. The evidence of the non-movant is to be believed, and all justifiable inferences are to be drawn in his favor.\u201d Ante, at 255.\nBut the Court\u2019s opinion is also full of language which could surely be understood as an invitation \u2014 if not an instruction\u2014 to trial courts to assess and weigh evidence much as a juror would:\n\u201cWhen determining if a genuine factual issue . . . exists . . . , a trial judge must bear in mind the actual quantum and quality of proof necessary to support liability ... . For example, there is no genuine issue if the evidence presented in the opposing affidavits is of insufficient caliber or quantity to allow a rational finder of fact to find actual malice by clear and convincing evidence.\u201d Ante, at 254 (emphasis added).\n\u201c[T]he inquiry. .. [is] whether the evidence presents a sufficient disagreement to require submission to a jury or whether it is so one-sided that one party must prevail as a matter of law.\u201d Ante, at 251-252 (emphasis added).\n\u201c[T]he judge must ask himself . . . whether a fair-minded jury could return a verdict for the plaintiff on the evidence presented. The mere existence of a scintilla of evidence in support of the plaintiff\u2019s position will be insufficient; there must be evidence on which the jury could reasonably find for the plaintiff.\u201d Ante, at 252.\nI simply cannot square the direction that the judge \u201cis not himself to weigh th\u00e9 evidence\u201d with the direction that the judge also bear in mind the \u201cquantum\u201d of proof required and consider whether the evidence is of sufficient \u201ccaliber or quantity\u201d to meet that \u201cquantum.\u201d I would have thought that a determination of the \u201ccaliber and quantity,\u201d i. e., the importance and value, of the evidence in light of the \u201cquantum,\u201d i. e., amount \u201crequired,\u201d could only be performed by weighing the evidence.\nIf in fact, this is what the Court would, under today\u2019s decision, require of district courts, then I am fearful that this new rule \u2014 for this surely would be a brand new procedure \u2014 will transform what is meant to provide an expedited \u201csummary\u201d procedure into a full-blown paper trial on the merits. It is hard for me to imagine that a responsible counsel, aware that the judge will be assessing the \u201cquantum\u201d of the evidence he is presenting, will risk either moving for or responding to a summary judgment motion without coming forth with all of the evidence he can muster in support of his client\u2019s case. Moreover, if the judge on motion for summary judgment really is to weigh the evidence, then in my view grave concerns are raised concerning the constitutional right of civil litigants to a jury trial.\nIt may well be, as Justice Rehnquist suggests, see post, at 270-271, that the Court\u2019s decision today will be of little practical effect. I, for one, cannot imagine a case in which a judge might plausibly hold that the evidence on motion for summary judgment was sufficient to enable a plaintiff bearing a mere preponderance burden to get to the jury \u2014 i. e., that a prima facie case had been made out \u2014 but insufficient for a plaintiff bearing a clear-and-convincing burden to withstand a defendant\u2019s summary judgment motion. Imagine a suit for breach of contract. If, for example, the defendant moves for summary judgment and produces one purported eyewitness who states that he was present at the time the parties discussed the possibility of an agreement, and unequivocally denies that the parties ever agreed to enter into a contract, while the plaintiff produces one purported eyewitness who asserts that the parties did in fact come to terms, presumably that case would go to the jury. But if the defendant produced not one, but 100 eyewitnesses, while the plaintiff stuck with his single witness, would that case, under the Court\u2019s holding, still go to the jury? After all, although the plaintiff\u2019s burden in this hypothetical contract action is to prove his case by a mere preponderance of the evidence, the judge, so the Court tells us, is to \u201cask himself. . . whether a fair-minded jury could return a verdict for the plaintiff on the evidence presented.\u201d Ante, at 252. Is there, in this hypothetical example, \u201ca sufficient disagreement to require submission to a jury,\u201d or is the evidence \u201cso one-sided that one party must prevail as a matter of law\u201d? Ante, at 251-252. Would the result change if the plaintiff\u2019s one witness were now shown to be a convicted perjurer? Would the result change if, instead of a garden-variety contract claim, the plaintiff sued on a fraud theory, thus requiring him to prove his case by clear and convincing evidence?\nIt seems to me that the Court\u2019s decision today un-persuasively answers the question presented, and in doing so raises a host of difficult and troubling questions for which there may well be no adequate solutions. What is particularly unfair is that the mess we make is not, at least in the first instance, our own to deal with; it is the district courts and courts of appeals that must struggle to clean up after us.\nIn my view, if a plaintiff presents evidence which either directly or by permissible inference (and these inferences are a product of the substantive law of the underlying claim) supports all of the elements he needs to prove in order to prevail on his legal claim, the plaintiff has made out a prima facie case and a defendant\u2019s motion for summary judgment must fail regardless of the burden of proof that the plaintiff must meet. In other words, whether evidence is \u201cclear and convincing,\u201d or proves a point by a mere preponderance, is for the factfinder to determine. As I read the case law, this is how it has been, and because of my concern that today\u2019s decision may erode the constitutionally enshrined role of the jury, and also undermine the usefulness of summary judgment procedure, this is how I believe it should remain.\nThe Court\u2019s holding today is not, of course, confined in its application to First Amendment cases. Although this case arises in the context of litigation involving libel and the press, the Court\u2019s holding is that \u201cin ruling on a motion for summary judgment, the judge must view the evidence presented through the prism of the substantive evidentiary burden.\u201d Ante, at 254. Accordingly, I simply do not understand why Justice Rehnquist, dissenting, feels it appropriate to cite Calder v. Jones, 465 U. S. 783 (1984), and to remind the Court that we have consistently refused to extend special procedural protections to defendants in libel and defamation suits. The Court today does nothing of the kind. It changes summary judgment procedure for all litigants, regardless of the substantive nature of the underlying litigation.\nMoreover, the Court\u2019s holding is not limited to those cases in which the evidentiary standard is \u201cheightened,\u201d i. e., those in which a plaintiff must prove his case by more than a mere preponderance of the evidence. Presumably, if a district court ruling on a motion for summary judgment in a libel case is to consider the \u201cquantum and quality\u201d of proof necessary to support liability under New York Times, ante, at 254, and then ask whether the evidence presented is of \u201csufficient caliber or quantity\u201d to support that quantum and quality, the court must ask the same questions in a garden-variety action where the plaintiff need prevail only by a mere preponderance of the evidence. In other words, today\u2019s decision by its terms applies to all summary judgment motions, irrespective of the burden of proof required and the subject matter of the suit.\nWriting in dissent in Matsushita, Justice White stated that he agreed with the summary judgment test employed by the Court, namely, that \u201c \u2018[w]here the record taken as a whole could not lead a rational trier of fact to find for the nonmoving party, there is no \u2018genuine issue for trial.\u2019\u201d 475 U. S., at 599. Whether the shift, announced today, from looking to a \u201creasonable\u201d rather than a \u201crational\u201d jury is intended to be of any significance, there are other aspects of the Matsushita dissent which I find difficult to square with the Court\u2019s holding in the present ease. The Matsushita dissenters argued:\n\u201c. . . [T]he Court summarizes Monsanto Co. v. Spray-Rite Service Corp., supra, as holding that \u2018courts should not permit factfinders to infer conspiracies when such inferences are implausible. . . .\u2019 Ante, at 593. Such language suggests that a judge hearing a defendant\u2019s motion for summary judgment in an antitrust ease should go beyond the traditional summary judgment inquiry and decide for himself whether the weight of the evidence favors the plaintiff. Cities Service and Monsanto do not stand for any such proposition. Each of those eases simply held that a particular piece of evidence standing alone was insufficiently probative to justify sending a case to the jury. These holdings in no way undermine the doctrine that all evidence must be construed in the light most favorable to the party opposing summary judgment.\n\u201cIf the Court intends to give every judge hearing a motion for summary judgment in an antitrust case the job of determining if the evidence makes the inference of conspiracy more probable than not, it is overturning settled law. If the Court does not intend such a pronouncement, it should refrain from using unnecessarily broad and confusing language.\u201d Id., at 600-601 (footnote omitted).\nIn my view, these words are as applicable and relevant to the Court\u2019s opinion today as they were to the opinion of the Court in Matsushita.\n1 am also baffled by the other eases cited by the majority to support its holding. For example, the Court asserts that \u201c[i]f . . . evidence is merely colorable, Dombrowski v. Eastland, 387 U. S. 82 (1967) (per curiam),... summary judgment may be granted.\u201d Ante, at 249-250. In Dombrowski, we reversed a judgment granting summary judgment to the counsel to the Internal Security Subcommittee of the Judiciary Committee of the United States Senate because there was \u201ccontroverted evidence in the record . . . which affords more than merely colorable substance\u201d to the petitioners\u2019 allegations. 387 U. S., at 84. Dombrowski simply cannot be read to mean that summary judgment may be granted if evidence is merely colorable; what the case actually says is that summary judgment will be denied if evidence is \u201ccontroverted,\u201d because when evidence is controverted, assertions become colorable for purposes of motions for summary judgment law.",
+        "type": "dissent",
+        "author": "Justice Brennan,"
+      },
+      {
+        "text": "Justice Rehnquist,\nwith whom The Chief Justice joins, dissenting.\nThe Court, apparently moved by concerns for intellectual tidiness, mistakenly decides that the \u201cclear and convincing evidence\u201d standard governing finders of fact in libel cases must be applied by trial courts in deciding a motion for summary judgment in such a case. The Court refers to this as a \u201csubstantive standard,\u201d but I think is is actually a procedural requirement engrafted onto Rule 56, contrary to our statement in Calder v. Jones, 465 U. S. 783 (1984), that\n\u201c[w]e have already declined in other contexts to grant special procedural protections to defendants in libel and defamation actions in addition to the constitutional protections embodied in the substantive laws.\u201d Id., at 790-791.\nThe Court, I believe, makes an even greater mistake in failing to apply its newly announced rule to the facts of this case. Instead of thus illustrating how the rule works, it contents itself with abstractions and paraphrases of abstractions, so that its opinion sounds much like a treatise about cooking by someone who has never cooked before and has no intention of starting now.\nThere is a large class of cases in which the higher standard imposed by the Court today would seem to have no effect at all. Suppose, for example, on motion for summary judgment in a hypothetical libel case, the plaintiff concedes that his only proof of malice is the testimony of witness A. Witness A testifies at his deposition that the reporter who wrote the story in question told him that she, the reporter, had done absolutely no checking on the story and had real doubts about whether or not it was correct as to the plaintiff. The defendant\u2019s examination of witness A brings out that he has a prior conviction for perjury.\nMay the Court grant the defendant\u2019s motion for summary judgment on the ground that the plaintiff has failed to produce sufficient proof of malice? Surely not, if the Court means what it says, when it states: \u201cCredibility determinations . . . are jury functions, not those of a judge, whether he is ruling on a motion for summary judgment or for a directed verdict. The evidence of the nonmovant is to be believed, and all justifiable inferences are to be drawn in his favor.\u201d Ante, at 255.\nThe case proceeds to trial, and at the close of the plaintiff\u2019s evidence the defendant moves for a directed verdict on the ground that the plaintiff has failed to produce sufficient evidence of malice. The only evidence of malice produced by the plaintiff is the same testimony of witness A, who is duly impeached by the defendant for the prior perjury conviction. In addition, the trial judge has now had an opportunity to observe the demeanor of witness A, and has noticed that he fidgets when answering critical questions, his eyes shift from the floor to the ceiling, and he manifests all other indicia traditionally attributed to perjurers.\nMay the trial court at this stage grant a directed verdict? Again, surely not; we are still dealing with \u201ccredibility determinations.\u201d\nThe defendant now puts on its testimony, and produces three witnesses who were present at the time when' witness A alleges that the reporter said she had not checked the story and had grave doubts about its accuracy as to plaintiff. Witness A concedes that these three people were present at the meeting, and that the statement of the reporter took place in the presence of all these witnesses. Each witness categorically denies that the reporter made the claimed statement to witness A.\nMay the trial court now grant a directed verdict at the close of all the evidence? Certainly the plaintiff\u2019s case is appreciably weakened by the testimony of three disinterested witnesses, and one would hope that a properly charged jury would quickly return a verdict for the defendant. But as long as credibility is exclusively for the jury, it seems the Court\u2019s analysis would still require this case to be decided by that body.\nThus, in the case that I have posed, it would seem to make no difference whether the standard of proof which the plaintiff had to meet in order to prevail was the preponderance of the evidence, clear and convincing evidence, or proof beyond a reasonable doubt. But if the application of the standards makes no difference in the case that I hypothesize, one may fairly ask in what sort of case does the difference in standards make a difference in outcome? Cases may be posed dealing with evidence that is essentially documentary, rather than testimonial; but the Court has held in a related context involving Federal Rule of Civil Procedure 52(a) that inferences from documentary evidence are as much the prerogative of the finder of fact as inferences as to the credibility of witnesses. Anderson v. Bessemer City, 470 U. S. 564, 574 (1985). The Court affords the lower courts no guidance whatsoever as to what, if any, difference the abstract standards that it propounds would make in a particular case.\nThere may be more merit than the Court is willing to admit to Judge Learned Hand\u2019s observation in United States v. Feinberg, 140 F. 2d 592, 594 (CA2), cert, denied, 322 U. S. 726 (1944), that \u201c[w]hile at times it may be practicable\u201d to \u201cdistinguish between the evidence which should satisfy reasonable men, and the evidence which should satisfy reasonable men beyond a reasonable doubt[,]... in the long run the line between them is too thin for day to day use. \u201d The Court apparently approves the overruling of the Feinberg case in the Court of Appeals by Judge Friendly\u2019s opinion in United States v. Taylor, 464 F. 2d 240 (1972). But even if the Court is entirely correct in its judgment on this point, Judge Hand\u2019s statement seems applicable to this case because the criminal case differs from the libel case in that the standard in the former is proof \u201cbeyond a reasonable doubt,\u201d which is presumably easier to distinguish from the normal \u201cpreponderance of the evidence\u201d standard than is the intermediate standard of \u201cclear and convincing evidence.\u201d\nMore important for purposes of analyzing the present case, there is no exact analog in the criminal process to the motion for summary judgment in a civil case. Perhaps the closest comparable device for screening out unmeritorious cases in the criminal area is the grand jury proceeding, though the comparison is obviously not on all fours. The standard for allowing a criminal case to proceed to trial is not whether the government has produced prima facie evidence of guilt beyond a reasonable doubt for every element of the offense, but only whether it has established probable cause. See United States v. Mechanik, 475 U. S. 66, 70 (1986). Thus, in a criminal case the standard used prior to trial is much more lenient than the \u201cclear beyond a reasonable doubt\u201d standard which must be employed by the finder of fact.\nThe three differentiated burdens of proof in civil and criminal cases, vague and impressionistic though they necessarily are, probably do make some difference when considered by the finder of fact, whether it be a jury or a judge in a bench trial. Yet it is not a logical or analytical message that the terms convey, but instead almost a state of mind; we have previously said:\n\u201cCandor suggests that, to a degree, efforts to analyze what lay jurors understand concerning the differences among these three tests . . . may well be largely an academic exercise. . . . Indeed, the ultimate truth as to how the standards of proof affect decisionmaking may well be unknowable, given that factfinding is a process shared by countless thousands of individuals throughout the country. We probably can assume no more than that the difference between a preponderance of the evidence and proof beyond a reasonable doubt probably is better understood than either of them in relation to the intermediate standard of clear and convincing evidence.\u201d Addington v. Texas, 441 U. S. 418, 424-425 (1979) (emphasis added).\nThe Court\u2019s decision to engraft the standard of proof applicable to a factfinder onto the law governing the procedural motion for a summary judgment (a motion that has always been regarded as raising a question of law rather than a question of fact, see, e. g., La Riviere v. EEOC, 682 F. 2d 1275, 1277-1278 (CA9 1982) (Wallace, J.)), will do great mischief with little corresponding benefit. The primary effect of the Court\u2019s opinion today will likely be to cause the decisions of trial judges on summary judgment motions in libel cases to be more erratic and inconsistent than before. This is largely because the Court has created a standard that is different from the standard traditionally applied in summary judgment motions without even hinting as to how its new standard will be applied to particular cases.",
+        "type": "dissent",
+        "author": "Justice Rehnquist,"
+      }
+    ],
+    "attorneys": [
+      "David J. Branson argued the cause for petitioners. With him on the briefs was David 0. Biekart.",
+      "Mark Lane argued the cause for respondents. With him on the brief were Linda Huber and Fleming Lee"
+    ],
+    "corrections": "",
+    "head_matter": "ANDERSON et al. v. LIBERTY LOBBY, INC., et al.\nNo. 84-1602.\nArgued December 3, 1985\nDecided June 25, 1986\nWhite, J., delivered the opinion of the Court, in which Marshall, Blackmun, Powell, Stevens, and O\u2019Connor, JJ., joined. Brennan, J., filed a dissenting opinion, post, p. 257. Rehnquist, J., filed a dissenting opinion, in which Burger, C. J., joined, post, p. 268.\nDavid J. Branson argued the cause for petitioners. With him on the briefs was David 0. Biekart.\nMark Lane argued the cause for respondents. With him on the brief were Linda Huber and Fleming Lee\nBriefs of amici curiae urging reversal were filed for the American Newspaper Publishers Association et al. by Robert D. Sack, Robert S. Warren, W. Terry Maguire, Richard M. Schmidt, Jr., R. Bruce Rich, Lawrence Gunnels, Harvey L. Lipton, Peter C. Gould, and Jane E. Kirtley; and for the Reader\u2019s Digest Association, Inc., by Walter R. Allan and Karen J. Wegner.\nBriefs of amici curiae urging affirmance were filed for the American Legal Foundation by Daniel J. Popeo; and for the Synanon Church et al. by Jonathan W. Lubell, Philip C. Bourdette, David R. Benjamin, and Andrew J. Weill."
+  },
+  "file_name": "0242-01",
+  "first_page_order": 266,
+  "last_page_order": 297
+}

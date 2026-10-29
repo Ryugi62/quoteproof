@@ -1,0 +1,38 @@
+$ bun run src/infrastructure/cli.ts "496 U.S. 384" "as a bar to the courthouse door"
+NOTE: static.case.law/robots.txt has a Disallow rule for /us/496/cases/0384-01.json (aimed at crawlers); this run is user-initiated, one GET per cited opinion, no link following
+waiting 10.0s before the next request to www.law.cornell.edu (robots.txt Crawl-delay 10s)
+{
+  "citation": "496 U.S. 384",
+  "quote": "as a bar to the courthouse door",
+  "verdict": "HOLD",
+  "reasons": [
+    "NOT_IN_OPINION"
+  ],
+  "edits": [],
+  "minSources": 2,
+  "sources": [
+    {
+      "id": "cap",
+      "textSha256": "ce2d38a88a3f890d106d56752e9310d09c828efafb6afd5da96836400b152834",
+      "found": false,
+      "start": -1,
+      "end": -1,
+      "edits": [],
+      "distortion": false,
+      "reason": "NOT_FOUND"
+    },
+    {
+      "id": "lii",
+      "textSha256": "8603193275ce53bc621a83b70e1905dddff8cc6787ba1b549da5359f2dcf2e98",
+      "found": false,
+      "start": -1,
+      "end": -1,
+      "edits": [],
+      "distortion": false,
+      "reason": "NOT_FOUND"
+    }
+  ],
+  "checkedAt": "2026-10-29T21:58:32.590Z",
+  "receiptHash": "e44880f735a72ac8c11b20038ae6ef8e8882825c0c838c43b7425d2c78075458"
+}
+error: script "verify" exited with code 1

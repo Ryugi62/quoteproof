@@ -1,0 +1,26 @@
+clean clone of branch public-clean (commit d45b939), 2026-10-30 06:28:27 KST
+$ git ls-files | grep -ci "\.html$"
+0
+$ bun install
+
+6 packages installed [106.00ms]
+$ bun test
+ 56 pass
+ 0 fail
+ 134 expect() calls
+Ran 56 tests across 11 files. [227.00ms]
+$ bun run verify-brief fixtures/brief-example-allen.txt
+5  | NOT_CHECKED | -            | UNSUPPORTED_REPORTER             | a party must show prejudice before the court may dismiss th…
+Summary: 5 quotes found · 2 PASS · 2 HOLD · 1 not checked (no supported citation) · brief text stayed local
+read requests sent: 4 (source URLs built from citations only)
+error: script "verify-brief" exited with code 1
+$ cd cre/workflow && bun install && bun test
+39 packages installed [375.00ms]
+ 13 pass
+ 0 fail
+ 32 expect() calls
+Ran 13 tests across 4 files. [207.00ms]
+$ bash tools/check_readme.sh
+README check OK (test counts verified, evidence paths exist, hash and USER LOG line match the latest simulate log, video 168.4s)
+# verify-brief exit code 1 is expected here (the example brief has 2 HOLD rows).
+# The tested tree equals the final public-clean tree except for this log file.

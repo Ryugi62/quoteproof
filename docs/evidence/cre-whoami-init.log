@@ -1,0 +1,44 @@
+Initializing...
+
+! You are not logged in
+
+✗ Authentication required: not logged in and no CRE_API_KEY set
+  → Run 'cre login' interactively, or
+  → Set CRE_API_KEY environment variable for non-interactive use
+✗ authentication required: no credentials found: you are not logged in, run cre login and try again
+exit=1
+Initialize a new CRE project or add a workflow to an existing one.
+
+This sets up the project structure, configuration, and starter files so you can
+build, test, and deploy workflows quickly.
+
+Templates are fetched dynamically from GitHub repositories.
+
+Usage:
+  cre init [flags]
+
+Flags:
+      --deployment-registry string   Registry ID to deploy workflows to (e.g.
+                                     my-private-registry or onchain:ethereum-testnet-sepolia)
+  -h, --help                         help for init
+  -p, --project-name string          Name for the new project
+      --refresh                      Bypass template cache and fetch fresh data
+      --rpc-url stringArray          RPC URL for a network (format: chain-name=url, repeatable)
+  -t, --template string              Name of the template to use (e.g., kv-store-go)
+  -w, --workflow-name string         Name for the new workflow
+
+Global Flags:
+      --allow-insecure-rpc     Allow non-localhost HTTP RPC URLs (insecure)
+      --allow-unknown-chains   Skip chain-name validation against the chain-selectors registry
+                               (for experimental chains)
+  -e, --env string             Path to .env file which contains sensitive info
+      --non-interactive        Fail instead of prompting; requires all inputs via flags
+  -R, --project-root string    Path to the project root
+  -E, --public-env string      Path to .env.public file which contains shared, non-sensitive
+                               build config
+  -T, --target string          Use target settings from YAML config
+  -v, --verbose                Run command in VERBOSE mode
+
+Need more help?
+  Visit https://docs.chain.link/cre
+
