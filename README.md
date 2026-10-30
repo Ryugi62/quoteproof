@@ -12,6 +12,18 @@
 - **CRE (read this first)**: the default commands never call CRE. CRE is an opt-in, simulator-only step (`--cre-simulate`, dry run; `--cre-broadcast` for a Sepolia transaction through the *mock* forwarder). The simulator runs the workflow once per simulated node on this machine; "Four local nodes" in the demo are our own Bun processes (`localConsensus.ts`, quorum 3 of 4), a separate check that is **not** the CRE network. `cre workflow simulate` succeeded for both payloads (logs in `docs/evidence/`). The chain write was measured on Sepolia testnet through the simulator's `--broadcast` into our own receiver, which since v4 accepts only the documented **mock** forwarder; nothing is deployed on the CRE network or on mainnet and the production forwarder is untested. The CRE path is opt-in (`--cre-payload`/`--cre-simulate`); it sends the single quote and its citation to the CRE tooling, and we did not use a confidential workflow, so on a real DON those quotes would be visible to the nodes. The faucet survey (`docs/evidence/faucet-survey-2026-10-30.log`) records why the other faucets could not be used (login or mainnet balance).
 
 
+QuoteProof re-reads the opinion from **two public sources** (Harvard CAP + Cornell LII) for every quote, holds the quote unless both agree, and writes one **receipt per quoted sentence** (source URLs, node count, per-source text hash and position, receipt hash). Several tools already check quotes. We do not claim to be the first, and we claim no accuracy advantage.
+
+## Prior work (free / open source and research, read 2026-10-31; paid products in the table further down)
+| Name (link) | What it does (from its own README / abstract) | What QuoteProof does differently |
+|---|---|---|
+| Hallucination Shield ([github.com/sboghossian/hallucination-shield](https://github.com/sboghossian/hallucination-shield)) | Free MIT web app: checks citations against CourtListener, GovInfo and Justia (Justia as fallback), fuzzy-matches quoted passages, adds an LLM check of whether the case supports the sentence, outputs a PDF report with a SHA-256 input hash | Reads every quote from two independent sources at the same time (CAP + LII) and holds unless both agree; one receipt per quote with each source's URL and text hash, not one report per brief |
+| citation-verifier ([github.com/rlfordon/citation-verifier](https://github.com/rlfordon/citation-verifier)) | Python tool on CourtListener: citation lookup, then `check-quotes`, a deterministic fuzzy string comparison of each quote with the downloaded opinion (LLM only for claim extraction and support judgement) | Two independent sources instead of one; a quote must be found in both with the same allowed edits; receipt per quote |
+| KrokAI Law ([github.com/igorsaevets/krokai-law](https://github.com/igorsaevets/krokai-law)) | Checks quotations against law text you downloaded to your own disk, flags quotes cut one clause early, regression harness that mutates already-verified quotes | Re-reads two live public sources per quote instead of a local library; receipt per quote |
+| *Who Checks the Citations? Benchmarking Legal Hallucination Detection* ([arXiv 2606.21155](https://arxiv.org/abs/2606.21155)) | Research paper: taxonomy of citation hallucinations and 1,300 brief excerpts with injected errors; benchmarks five models (GPT-5 84.4% recall in an agentic setting) | A runnable CLI, not a benchmark; our own test sets are small (see Limits) and not comparable with theirs |
+
+What QuoteProof adds to this list is narrow: **two independent public sources re-read together for each quote, and a quote-level receipt that names both source URLs and node count**. In what we read we did not find a tool that does both, but our search was limited, so this is a description of our design, not a claim of priority. We have not run these tools, so we make no accuracy comparison.
+
 ## How it works in five lines (full text: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md))
 1. A quote plus its `NNN U.S. NNN` citation becomes two read-only GETs (Harvard CAP, Cornell LII); only the citation and the quote are used to build them, the brief stays local.
 2. `matchQuote` runs on each source text (segments, ellipsis, brackets, negation check); PASS needs every source to find it with the same edits and no dropped negation, anything else is HOLD with a reason code.
@@ -20,7 +32,8 @@
 5. The default CLI never calls CRE. Only with `--cre-payload` + `--cre-simulate` does one quote go to the CRE simulator, where the workflow runs once per simulated node on this machine; only `{verdict, reasons, receiptHash, sourceSummary}` goes to consensus and into the EVM report.
 
 **One-minute explanation.** A lawyer (or a pro se filer, as in the *Allen* case below) puts a sentence in quotation marks. QuoteProof re-reads that opinion from **two independent public sources** (Harvard CAP + Cornell LII), does not trust the filer, and checks that the quoted words are **actually there**.
-What is new is not the question (paid tools already check quotes, see the table below) but the setup: **free public sources, two independent re-reads, a reproducible receipt hash, and published false-alarm and miss rates**.
+
+**Paid products** (official pages, read 2026-10-30):
 
 | Tool (official page, read 2026-10-30) | What the page says about quotes | Method / error rates stated on the page | Access |
 |---|---|---|---|
@@ -29,10 +42,10 @@ What is new is not the question (paid tools already check quotes, see the table 
 | **Clearbrief** (`clearbrief.com`) | "flags potential hallucinations, citation errors, inaccurate quotes" before filing | not stated | "$300 per user per month" (solo plan) |
 | QuoteProof (this repo) | words in the quote must be in the opinion; allowed edits pass, changed/added words and meaning-flipping omissions are held | published here: 13.2% false alarm (strict), 0/84 miss on our own altered set, 0/8 on court-identified fake quotes | free, MIT, reproduce with `bun run eval` |
 
-We could not read how the three commercial checks work or what their error rates are, so we claim no accuracy comparison. What QuoteProof offers instead is checkable: public sources anyone can open, a receipt hash anyone can recompute, and numbers (with their limits below) in this repo.
+We could not read how the three commercial checks work or what their error rates are, so we claim no accuracy comparison. What this repo offers is checkable: public sources anyone can open, a receipt hash anyone can recompute, and numbers (with their limits below).
 Legitimate editing passes (ellipsis `…`, `[t]he`, `[the Court]`, line breaks, curly quotes). A changed word, an added word, a negation removed by an ellipsis, or a content word laundered through brackets is **held (HOLD)**.
 The command-line check and the CRE workflow run the same function (`verifyFromTexts`, imported by `cre/workflow/main.ts`, not a copy). **The default commands (`verify`, `verify-brief`) do not call CRE** and need no account or login. CRE is opt-in: `bun run verify-brief <brief> --cre-payload <dir> --cre-simulate <row #>` writes the checked quote of that row as the CRE workflow's HTTP payload and runs `cre workflow simulate` on it (a **dry run**, `txHash=none`), then compares the CRE consensus hash with the local receipt hash; adding `--cre-broadcast` passes the simulator's `--broadcast` and sends a **real Sepolia testnet transaction through the mock forwarder** (flow and logs below). It is not a deployment on the CRE network.
-Every result carries a **receipt** (opinion, text position, allowed edits, per-source match, time) and a **receipt hash**. Same input, same hash. When the CRE step is used, the workflow (run once per simulated node, locally) reaches consensus on the verdict and the hash, builds an **EVM `writeReport`** with them for a Sepolia receiver contract, and returns them; the brief stays local. `cre workflow simulate` has two modes here. Without `--broadcast` (CLI: without `--cre-broadcast`) the write is a dry run: `TX_STATUS_SUCCESS` with `txHash=none (dry run: no transaction sent)`. With `--broadcast` (CLI: `--cre-broadcast`; funded with a testnet key made locally, 0.05 SepETH from a no-login PoW faucet) the report is a real Sepolia transaction.
+Every result carries a **receipt** (opinion, text position, allowed edits, per-source match with its source URL, node count, time) and a **receipt hash**. Same input, same hash. When the CRE step is used, the workflow (run once per simulated node, locally) reaches consensus on the verdict and the hash, builds an **EVM `writeReport`** with them for a Sepolia receiver contract, and returns them; the brief stays local. `cre workflow simulate` has two modes here. Without `--broadcast` (CLI: without `--cre-broadcast`) the write is a dry run: `TX_STATUS_SUCCESS` with `txHash=none (dry run: no transaction sent)`. With `--broadcast` (CLI: `--cre-broadcast`; funded with a testnet key made locally, 0.05 SepETH from a no-login PoW faucet) the report is a real Sepolia transaction.
 
 
 ```
@@ -103,11 +116,11 @@ Genuine = quotes that really are in the opinion (false alarm = genuine but held)
 ## Run it
 ```
 bun install                         # needs bun: npm i -g bun
-bun test                            # 80 tests (tests/ only): matching, receipts, source adapters, consensus, brief extraction incl. Id./supra, robots.txt delays, CRE payloads, README numbers, layer rule (no reverse imports)
+bun test                            # 84 tests (tests/ only): matching, receipts, source adapters, consensus, brief extraction incl. Id./supra, robots.txt delays, CRE payloads, README numbers, layer rule (no reverse imports)
 bun run verify-brief fixtures/brief-example-allen.txt   # whole-brief check (exit 1 = at least one HOLD; waits 10 s between requests to law.cornell.edu)
 bun run verify-brief fixtures/brief-example-id-supra.txt --cre-payload /tmp/qp-cre --cre-simulate 3   # dry run (txHash=none), no --cre-broadcast; needs the cre CLI; exit 2 if the CRE step fails
 bun run verify-brief fixtures/brief-example-id-supra.txt --cre-payload /tmp/qp-cre --cre-simulate 3 --cre-broadcast   # real Sepolia transaction via the simulator --broadcast (needs a funded testnet key in CRE_ETH_PRIVATE_KEY; this is the command in the logged run)
-# a clean-clone run of this exact tree (80 + 18 tests, both example briefs, check_readme): docs/evidence/clean-clone-v4.1-2026-10-30.log
+# a clean-clone run of this exact tree (84 + 19 tests, both example briefs, check_readme): docs/evidence/clean-clone-v5-2026-10-31.log
 bash tools/check_readme.sh          # compares README claims with the code and logs: test counts, evidence paths, latest hash and USER LOG line, video length
 bun run eval                        # both test sets + 8 public cases -> false-alarm / miss tables (fixtures/eval-results.md)
 bun run verify "372 U.S. 335" "any person haled into court, ... counsel is provided for him"   # live check CLI (this one is HELD: DISTORTION, the ellipsis hides "cannot ... unless")
@@ -115,7 +128,7 @@ bun run src/infrastructure/localConsensus.ts "372 U.S. 335" "<quote>" 4   # 4 lo
 bun run src/infrastructure/checkLive.ts      # are the pinned fixtures still byte-identical to the live sources? (strict robots mode, so CAP is skipped and counted as skipped; the v3 log fixtures-vs-live.log covers both sources)
 cd cre/workflow && bun run verifyChain.ts <txHash> <receiverAddress> [--direct-call-check]   # re-read a Sepolia report: event, tx.to == forwarder(), non-forwarder call reverts (needs only the public RPC)
 cd cre/workflow && bun run compileReceiver.ts   # solc-js 0.8.28: QuoteProofReceiver.sol -> receiver/QuoteProofReceiver.json (a test checks the committed file matches the source)
-bun run test:cre                    # (= cd cre/workflow && bun install && bun test) 18 tests: the CRE workflow code, the on-chain report encoding in the CRE SDK test runtime, and the receiver bytecode in an EVM (forwarder pin)
+bun run test:cre                    # (= cd cre/workflow && bun install && bun test) 19 tests: the CRE workflow code, the on-chain report encoding in the CRE SDK test runtime, and the receiver bytecode in an EVM (forwarder pin)
 bash demo/capture.sh && python3 demo/render.py   # rebuild the demo video from real runs (needs ffmpeg, Pillow)
 ```
 
@@ -139,6 +152,7 @@ One check: citation -> two read-only GETs (CAP, LII) -> `matchQuote` per source 
 - The public-case list is from Damien Charlotin's AI Hallucination Cases database (CC BY 4.0, https://www.damiencharlotin.com/hallucinations/).
 
 ## Changelog
+- **v5 (2026-10-31):** receipts now carry each source's URL (`sources[].url`) and `nodeCount` (outside the hash, so every earlier receipt hash is unchanged; SPEC §17); `cre/workflow/receiver.test.ts` privacy assertion replaced (the old one could not fail) by `privacyCheck.ts`; README gains the Prior work table and drops the claim that the setup is new.
 - **v4.1 (2026-10-30, documentation only, no code change):** README order (Limits first, five-line architecture summary, Changelog last); every command line that carries a Sepolia transaction hash now shows the flag actually used (`--cre-broadcast` / `--broadcast`, copied from the logs) and dry-run lines say `txHash=none`; the Vision and demo subtitles no longer read as if CRE were the default path or as if several CRE nodes ran it.
 - **v4:** receiver pins the forwarder (documented Ethereum Sepolia mock forwarder) and was redeployed; `robots.txt` handling (LII `Crawl-delay` 10 s per host, CAP `Disallow` disclosed, `QUOTEPROOF_ROBOTS=strict`); `Id.`/`supra` resolution in `verify-brief` (`ID_*`, `UNRESOLVED_SUPRA` reasons); `--cre-payload` / `--cre-simulate` / `--cre-broadcast` bridge from the brief check to the CRE simulator; demo video rebuilt.
 - **v3:** `verify-brief` (whole-brief check), Sepolia receiver (no forwarder pin) deployed and the first `--broadcast` transactions measured, English USER LOG from the CRE CLI, `tools/check_readme.sh`, clean-clone log.

@@ -14,13 +14,13 @@ export const fetchBoth = (nodeRuntime: NodeRuntime<Config>, req: Req): Observati
   const c = parseUsCite(req.citation);
   if (!c) return { verdict: "HOLD", reasons: "INSUFFICIENT_SOURCES", receiptHash: "", sourceSummary: "unsupported-citation" };
   const http = new HTTPClient();
-  const inputs: { id: string; text: string }[] = [];
+  const inputs: { id: string; text: string; url: string }[] = [];
   for (const [id, url, parse] of [["cap", capUrl(c.vol, c.page), capText], ["lii", liiUrl(c.vol, c.page), liiText]] as const) {
     try {
       const resp = http.sendRequest(nodeRuntime, { url, method: "GET" }).result();
       if (!ok(resp)) continue;
       const text = parse(new TextDecoder().decode(resp.body));
-      if (text) inputs.push({ id, text });
+      if (text) inputs.push({ id, text, url });
     } catch { /* 못 읽은 출처는 목록에서 빠진다 → INSUFFICIENT_SOURCES */ }
   }
   // 시각은 노드마다 다르므로 영수증 해시에서 제외돼 있다(checkedAt 고정값 사용)

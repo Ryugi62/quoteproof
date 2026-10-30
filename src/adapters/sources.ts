@@ -15,6 +15,7 @@ export const liiUrl = (vol: number, page: number) => `https://www.law.cornell.ed
 export function capSource(fetcher: Fetcher): OpinionSource {
   return {
     id: "cap",
+    urlFor(citation) { const c = parseUsCite(citation); return c ? capUrl(c.vol, c.page) : null; },
     async readOpinion(citation) {
       const c = parseUsCite(citation); if (!c) return null;
       const body = await fetcher(capUrl(c.vol, c.page)); if (!body) return null;
@@ -33,6 +34,7 @@ export function capText(json: string): string | null {
 export function liiSource(fetcher: Fetcher): OpinionSource {
   return {
     id: "lii",
+    urlFor(citation) { const c = parseUsCite(citation); return c ? liiUrl(c.vol, c.page) : null; },
     async readOpinion(citation) {
       const c = parseUsCite(citation); if (!c) return null;
       const body = await fetcher(liiUrl(c.vol, c.page)); if (!body) return null;

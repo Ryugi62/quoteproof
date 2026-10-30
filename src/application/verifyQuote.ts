@@ -6,7 +6,7 @@ import type { Receipt, SourceMatch } from "../domain/types";
 import type { Clock, OpinionSource } from "./ports";
 
 export interface VerifyOptions { minSources?: number; clock?: Clock; punctuationTolerance?: boolean }
-export interface SourceText { id: string; text: string }
+export interface SourceText { id: string; text: string; url?: string }
 
 /** 순수 동기 핵심: 이미 읽은 출처 본문들로 영수증을 낸다. CRE 워크플로(WASM)도 이 함수를 그대로 쓴다. */
 export function verifyFromTexts(citation: string, quote: string, inputs: SourceText[], opt: VerifyOptions = {}): Receipt {
@@ -17,7 +17,7 @@ export function verifyFromTexts(citation: string, quote: string, inputs: SourceT
     const text = normalizeText(s.text);
     texts.push(text);
     const m = matchQuoteNormalized(quote, text);
-    return { id: s.id, textSha256: sha256Hex(text), found: m.found, start: m.start, end: m.end, edits: m.edits, distortion: m.distortion, reason: m.reason };
+    return { id: s.id, textSha256: sha256Hex(text), found: m.found, start: m.start, end: m.end, edits: m.edits, distortion: m.distortion, reason: m.reason, ...(s.url ? { url: s.url } : {}) };
   });
   // 선택 정책: 한 출처에서 글자 그대로 찾았고 다른 출처에서는 쉼표·하이픈만 달라 못 찾은 경우, 낱말은 같다고 보고 variance로 기록한다.
   if (opt.punctuationTolerance && results.some((r) => r.found)) {
@@ -36,7 +36,7 @@ export async function verifyQuote(citation: string, quote: string, sources: Opin
   for (const s of sources) {
     let raw: string | null = null;
     try { raw = await s.readOpinion(citation); } catch { raw = null; }
-    if (raw != null) inputs.push({ id: s.id, text: raw });
+    if (raw != null) inputs.push({ id: s.id, text: raw, url: s.urlFor?.(citation) ?? undefined });
   }
   return verifyFromTexts(citation, quote, inputs, opt);
 }

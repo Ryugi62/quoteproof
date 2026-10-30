@@ -1,6 +1,6 @@
-# QuoteProof SPEC v4
+# QuoteProof SPEC v5
 
-작성: 2026-10-30 (코드보다 먼저). v4 변경(2026-10-30, 모의 p2 공통 지적 반영): §13(전달자 고정), §14(robots 준수), §15(`Id.`/`supra`), §16(verify-brief → CRE)를 추가했다. v3 변경(2026-10-30, 모의 p1 공통 지적 반영): §10(준비서면 일괄 검사 `verify-brief`), §11(영문 로그), §12(체인 쓰기 실측·한계)를 추가하고, §6 마지막 비목표를 §12로 대체했다. v2 변경(2026-10-30, 레드팀 8문 반영): §1·§6 체인 기록 문구, §8(체인 쓰기), §9(범위·근거 한계)를 추가했다. 대회: BLI Legal Tech Hackathon 2 (마감 2026-11-01 10:01 KST).
+작성: 2026-10-30 (코드보다 먼저). v5 변경(2026-10-31, 독립 레드팀 ⑥ 반영): §17(영수증에 출처 URL·노드 수 필드)을 추가했다. v4 변경(2026-10-30, 모의 p2 공통 지적 반영): §13(전달자 고정), §14(robots 준수), §15(`Id.`/`supra`), §16(verify-brief → CRE)를 추가했다. v3 변경(2026-10-30, 모의 p1 공통 지적 반영): §10(준비서면 일괄 검사 `verify-brief`), §11(영문 로그), §12(체인 쓰기 실측·한계)를 추가하고, §6 마지막 비목표를 §12로 대체했다. v2 변경(2026-10-30, 레드팀 8문 반영): §1·§6 체인 기록 문구, §8(체인 쓰기), §9(범위·근거 한계)를 추가했다. 대회: BLI Legal Tech Hackathon 2 (마감 2026-11-01 10:01 KST).
 
 ## 1. 목적
 제출 전 서면 속 **인용 문장(Quote)이 판결 본문에 실제로 있는가**를 제출자를 믿지 않고 다시 확인한다.
@@ -129,3 +129,12 @@
 - G: 5건 서면 / W: `--cre-payload d` / T: PASS·HOLD 4건 → payload 4개, NOT_CHECKED 1건은 index에만 사유와 함께. G: 페이로드 / T: 서면에 없는 낱말·다른 문장이 없다.
 - G: `--cre-simulate N`에서 `cre`가 없거나 실패 / T: 오류 줄과 종료 코드 2(판정은 이미 출력됨).
 - 숫자 조건 S9: `cre workflow simulate` 실행 로그 1건 이상이 verify-brief가 만든 페이로드에서 나왔고, CRE 합의 해시 = 로컬 영수증 해시.
+
+## 17. v5 영수증 출처 URL·노드 수
+- 용어: **SourceUrl** = 그 출처에서 본문을 읽은 읽기 요청 URL(`SourceMatch.url`). **NodeCount** = 이 영수증이 대조한 독립 출처 읽기(노드)의 수(`Receipt.nodeCount`, = `sources.length`).
+- 영수증을 읽는 사람이 출처를 직접 열어 볼 수 있게 한다. 두 필드는 **영수증 해시에 넣지 않는다**(`checkedAt`처럼 해시 밖) — 그래야 기존 해시(README의 `b5fc1c1a…` 등)가 그대로 재현된다. 출처 본문이 바뀐 것은 `textSha256`이 이미 해시에 담는다.
+- 프라이버시(§6 유지): URL은 Citation에서 만든 공개 출처 주소뿐이다. Quote 문장·서면 내용은 URL에 들어가지 않는다.
+- G: 410 U.S. 113을 CAP·LII에서 읽음 / T: `sources[0].url`은 `https://static.case.law/us/410/cases/0113-01.json`, `sources[1].url`은 `https://www.law.cornell.edu/supremecourt/text/410/113`, `nodeCount`는 2.
+- G: 출처 URL·노드 수만 다른 두 영수증 / T: `receiptHash`가 같다.
+- G: 한 출처를 못 읽음 / T: `nodeCount`는 1(읽은 출처만 센다), 판정은 `INSUFFICIENT_SOURCES`.
+- G: 서면 문장이 영수증에 들어감 / T: URL 어디에도 Quote 낱말이 없다.

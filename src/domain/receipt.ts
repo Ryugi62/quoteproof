@@ -34,5 +34,5 @@ export function buildReceipt(i: ReceiptInput): Receipt {
     citation: i.citation, quote: normalizeText(i.quote), verdict, reasons, edits, minSources: i.minSources,
     sources: sources.map((s) => ({ id: s.id, textSha256: s.textSha256, found: s.found, start: s.start, end: s.end, edits: s.edits, distortion: s.distortion, reason: s.reason, variance: s.variance })),
   };
-  return { ...body, sources, checkedAt: i.checkedAt, receiptHash: sha256Hex(canonicalJson(body)) };
+  return { ...body, sources, nodeCount: sources.length, checkedAt: i.checkedAt, receiptHash: sha256Hex(canonicalJson(body)) };
 }

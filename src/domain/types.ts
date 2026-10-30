@@ -15,6 +15,7 @@ export interface SourceMatch {
   edits: string[];      // 허용 편집 종류(정렬·중복 제거)
   distortion: boolean;  // 문맥 왜곡 의심
   reason: string;       // OK | NOT_FOUND | DISTORTION | BRACKET_REPLACES_CONTENT_WORD
+  url?: string;         // SPEC §17: 이 출처를 읽은 공개 주소(해시 밖)
   variance?: "PUNCTUATION"; // 이 출처에서는 쉼표·하이픈 등만 달라 찾은 경우(옵션 punctuationTolerance, 위치는 느슨화한 본문 기준)
 }
 
@@ -26,6 +27,7 @@ export interface Receipt {
   edits: string[];
   minSources: number;
   sources: SourceMatch[];
+  nodeCount: number;    // SPEC §17: 대조한 독립 출처 읽기(노드) 수 = sources.length (해시 밖)
   checkedAt: string;    // 해시에서 제외
   receiptHash: string;
 }

@@ -4,5 +4,7 @@ import type { SourceId } from "../domain/types";
 export interface OpinionSource {
   readonly id: SourceId;
   readOpinion(citation: string): Promise<string | null>;
+  /** SPEC §17: 이 출처가 citation 에 대해 읽는 공개 주소(영수증에 싣는다). 모르면 null. */
+  urlFor?(citation: string): string | null;
 }
 export type Clock = () => string;

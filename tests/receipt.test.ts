@@ -61,3 +61,36 @@ describe("punctuationTolerance", () => {
     expect(r.verdict).toBe("HOLD");
   });
 });
+
+describe("SPEC §17 — 출처 URL·노드 수", () => {
+  const withUrl = (id: string, url: string) => ({ ...src(id, true), url });
+  const base = { citation: "410 U.S. 113", quote: "the Court held", minSources: 2, checkedAt: "t" };
+  test("영수증에 출처별 url과 nodeCount(읽은 출처 수)가 있다", () => {
+    const r = buildReceipt({ ...base, sources: [withUrl("cap", "https://static.case.law/us/410/cases/0113-01.json"), withUrl("lii", "https://www.law.cornell.edu/supremecourt/text/410/113")] });
+    expect(r.nodeCount).toBe(2);
+    expect(r.sources.map((s) => s.url)).toEqual(["https://static.case.law/us/410/cases/0113-01.json", "https://www.law.cornell.edu/supremecourt/text/410/113"]);
+  });
+  test("url·nodeCount는 해시 밖: url이 달라도 같은 해시", () => {
+    const a = buildReceipt({ ...base, sources: [withUrl("cap", "https://a.example/1"), withUrl("lii", "https://b.example/1")] });
+    const b = buildReceipt({ ...base, sources: [src("cap", true), src("lii", true)] });
+    expect(a.receiptHash).toBe(b.receiptHash);
+  });
+  test("출처 1곳만 읽으면 nodeCount 1 + INSUFFICIENT_SOURCES", () => {
+    const r = buildReceipt({ ...base, sources: [withUrl("cap", "https://a.example/1")] });
+    expect(r.nodeCount).toBe(1); expect(r.reasons).toContain("INSUFFICIENT_SOURCES");
+  });
+});
+
+describe("SPEC §17 — verifyQuote가 어댑터 URL을 영수증에 싣는다", () => {
+  test("고정 fixtures 410 U.S. 113: 두 출처 URL과 nodeCount 2, URL에 Quote 낱말 없음", async () => {
+    const { verifyQuote } = await import("../src/application/verifyQuote");
+    const { capSource, liiSource } = await import("../src/adapters/sources");
+    const { fixtureFetcher } = await import("../src/infrastructure/fixtureFetcher");
+    const q = "present constitutional challenges to state criminal abortion legislation";
+    const r = await verifyQuote("410 U.S. 113", q, [capSource(fixtureFetcher), liiSource(fixtureFetcher)], { clock: () => "a" });
+    expect(r.nodeCount).toBe(2);
+    expect(r.sources.map((s) => s.url)).toEqual(["https://static.case.law/us/410/cases/0113-01.json", "https://www.law.cornell.edu/supremecourt/text/410/113"]);
+    for (const s of r.sources) expect(s.url!.toLowerCase()).not.toContain("abortion");
+    expect(r.receiptHash).toBe((await verifyQuote("410 U.S. 113", q, [capSource(fixtureFetcher), liiSource(fixtureFetcher)], { clock: () => "b" })).receiptHash);
+  });
+});
