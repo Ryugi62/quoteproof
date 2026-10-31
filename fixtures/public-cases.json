@@ -1,157 +1,175 @@
 {
- "source": "AI Hallucination Cases Database, Damien Charlotin, https://www.damiencharlotin.com/hallucinations/ (CC BY 4.0). CSV https://www.damiencharlotin.com/hallucinations/hallucinations/download.csv 를 2026-10-30에 받아 fixtures/public-list/ 에 고정(2,242행, 미국 1,513행). 아래는 그 CSV의 'False Quotes' 항목 중 인용문 원문이 그대로 적혀 있고 연방대법원 판결에 귀속된 8건. 정답 라벨 = 법원이 「해당 판결에 그 문구가 없다」고 판단했다는 기록(우리가 정한 것이 아님).",
- "cases": [
-  {
-   "id": "P1",
-   "dbCase": "Reilly v. Conn. Interlocal Risk Mgmt. Agency",
-   "court": "D. Conn.",
-   "date": "2025-06-20",
-   "citation": "372 U.S. 335",
-   "attributedTo": "Gideon v. Wainwright",
-   "quote": "[c]onstitutional rights would be of little value if they could be indirectly denied"
+  "source": "AI Hallucination Cases Database, Damien Charlotin, https://www.damiencharlotin.com/hallucinations/ (CC BY 4.0). CSV https://www.damiencharlotin.com/hallucinations/hallucinations/download.csv 를 2026-10-30에 받아 fixtures/public-list/ 에 고정(2,242행, 미국 1,513행). 아래는 그 CSV의 'False Quotes' 항목 중 인용문 원문이 그대로 적혀 있고 연방대법원 판결에 귀속된 8건(+ 2026-10-31 추가 P9·P10: 같은 CSV의 Vita Law Offices 행에서 Carden v. Arkoma 귀속 가짜 인용 2문장). 정답 라벨 = 법원이 「해당 판결에 그 문구가 없다」고 판단했다는 기록(우리가 정한 것이 아님).",
+  "cases": [
+    {
+      "id": "P1",
+      "dbCase": "Reilly v. Conn. Interlocal Risk Mgmt. Agency",
+      "court": "D. Conn.",
+      "date": "2025-06-20",
+      "citation": "372 U.S. 335",
+      "attributedTo": "Gideon v. Wainwright",
+      "quote": "[c]onstitutional rights would be of little value if they could be indirectly denied"
+    },
+    {
+      "id": "P2",
+      "dbCase": "Curtin v. Watts, et al.",
+      "court": "M.D.N.C.",
+      "date": "2026-05-20",
+      "citation": "549 U.S. 422",
+      "attributedTo": "Sinochem",
+      "quote": "must dismiss, it cannot transfer"
+    },
+    {
+      "id": "P3",
+      "dbCase": "Curtin v. Watts, et al.",
+      "court": "M.D.N.C.",
+      "date": "2026-05-20",
+      "citation": "486 U.S. 800",
+      "attributedTo": "Christianson v. Colt",
+      "quote": "should not revisit a jurisdictional ruling made by a coordinate court unless it is clearly erroneous"
+    },
+    {
+      "id": "P4",
+      "dbCase": "Seeto v. Kendall",
+      "court": "D. Nev.",
+      "date": "2026-05-05",
+      "citation": "421 U.S. 35",
+      "attributedTo": "Withrow v. Larkin",
+      "quote": "would offer a possible temptation to the average man as a judge to forget the burden of proof"
+    },
+    {
+      "id": "P5",
+      "dbCase": "Boyle, et al. v. Steven Kramer",
+      "court": "E.D. Mich.",
+      "date": "2026-05-28",
+      "citation": "416 U.S. 232",
+      "attributedTo": "Scheuer v. Rhodes",
+      "quote": "circumstances of the occasion"
+    },
+    {
+      "id": "P6",
+      "dbCase": "Edward C. Allen v. Western Governors University, et al.",
+      "court": "D. Nev.",
+      "date": "2026-03-31",
+      "citation": "496 U.S. 384",
+      "attributedTo": "Cooter & Gell v. Hartmarx",
+      "quote": "a reasonable attorney in like circumstances could believe his actions to be factually and legally justified"
+    },
+    {
+      "id": "P7",
+      "dbCase": "Edward C. Allen v. Western Governors University, et al.",
+      "court": "D. Nev.",
+      "date": "2026-03-31",
+      "citation": "496 U.S. 384",
+      "attributedTo": "Cooter & Gell v. Hartmarx",
+      "quote": "as a bar to the courthouse door"
+    },
+    {
+      "id": "P8",
+      "dbCase": "Gerou v. George, Whitten, and United States",
+      "court": "E.D. Wis.",
+      "date": "2025-12-18",
+      "citation": "100 U.S. 239",
+      "attributedTo": "Oates v. National Bank",
+      "quote": "may only deal in negotiable instruments and lawful money"
+    },
+    {
+      "attributedTo": "Carden v. Arkoma Associates",
+      "citation": "494 U.S. 185",
+      "court": "S.D. Fla.",
+      "date": "2025-07-23",
+      "dbCase": "Vita Law Offices v. Lockridge Grindal Nauen P.L.L.P.",
+      "id": "P9",
+      "quote": "the relevant inquiry is not whether state law recognizes a particular individual as a partner, but rather whether that individual is a member of the unincorporated association for purposes of federal jurisdiction"
+    },
+    {
+      "attributedTo": "Carden v. Arkoma Associates",
+      "citation": "494 U.S. 185",
+      "court": "S.D. Fla.",
+      "date": "2025-07-23",
+      "dbCase": "Vita Law Offices v. Lockridge Grindal Nauen P.L.L.P.",
+      "id": "P10",
+      "quote": "litigation-driven reassessments of an entity's internal structure"
+    }
+  ],
+  "control": {
+    "id": "P1b",
+    "note": "법원은 P1 문구와 비슷한 진술이 Smith v. Allwright에 있다고 적었다 — 같은 문구를 그 판결에 귀속시키면 어떻게 나오는지 참고용(헤드라인 제외)",
+    "citation": "321 U.S. 649",
+    "quote": "[c]onstitutional rights would be of little value if they could be indirectly denied"
   },
-  {
-   "id": "P2",
-   "dbCase": "Curtin v. Watts, et al.",
-   "court": "M.D.N.C.",
-   "date": "2026-05-20",
-   "citation": "549 U.S. 422",
-   "attributedTo": "Sinochem",
-   "quote": "must dismiss, it cannot transfer"
-  },
-  {
-   "id": "P3",
-   "dbCase": "Curtin v. Watts, et al.",
-   "court": "M.D.N.C.",
-   "date": "2026-05-20",
-   "citation": "486 U.S. 800",
-   "attributedTo": "Christianson v. Colt",
-   "quote": "should not revisit a jurisdictional ruling made by a coordinate court unless it is clearly erroneous"
-  },
-  {
-   "id": "P4",
-   "dbCase": "Seeto v. Kendall",
-   "court": "D. Nev.",
-   "date": "2026-05-05",
-   "citation": "421 U.S. 35",
-   "attributedTo": "Withrow v. Larkin",
-   "quote": "would offer a possible temptation to the average man as a judge to forget the burden of proof"
-  },
-  {
-   "id": "P5",
-   "dbCase": "Boyle, et al. v. Steven Kramer",
-   "court": "E.D. Mich.",
-   "date": "2026-05-28",
-   "citation": "416 U.S. 232",
-   "attributedTo": "Scheuer v. Rhodes",
-   "quote": "circumstances of the occasion"
-  },
-  {
-   "id": "P6",
-   "dbCase": "Edward C. Allen v. Western Governors University, et al.",
-   "court": "D. Nev.",
-   "date": "2026-03-31",
-   "citation": "496 U.S. 384",
-   "attributedTo": "Cooter & Gell v. Hartmarx",
-   "quote": "a reasonable attorney in like circumstances could believe his actions to be factually and legally justified"
-  },
-  {
-   "id": "P7",
-   "dbCase": "Edward C. Allen v. Western Governors University, et al.",
-   "court": "D. Nev.",
-   "date": "2026-03-31",
-   "citation": "496 U.S. 384",
-   "attributedTo": "Cooter & Gell v. Hartmarx",
-   "quote": "as a bar to the courthouse door"
-  },
-  {
-   "id": "P8",
-   "dbCase": "Gerou v. George, Whitten, and United States",
-   "court": "E.D. Wis.",
-   "date": "2025-12-18",
-   "citation": "100 U.S. 239",
-   "attributedTo": "Oates v. National Bank",
-   "quote": "may only deal in negotiable instruments and lawful money"
-  }
- ],
- "control": {
-  "id": "P1b",
-  "note": "법원은 P1 문구와 비슷한 진술이 Smith v. Allwright에 있다고 적었다 — 같은 문구를 그 판결에 귀속시키면 어떻게 나오는지 참고용(헤드라인 제외)",
-  "citation": "321 U.S. 649",
-  "quote": "[c]onstitutional rights would be of little value if they could be indirectly denied"
- },
- "deferred": [
-  {
-   "id": "D1",
-   "dbCase": "James Jordan v. USA, Clinicas Del Camino Real, Inc., et al.",
-   "court": "C.D. Cal.",
-   "date": "2026-04-06",
-   "attributedTo": "City of Chicago v. International College of Surgeons",
-   "citation": "522 U.S. 156",
-   "holdReason": "NO_QUOTE_TEXT",
-   "note": "DB가 「인용문이 그 판결에 없다」는 법원 판단만 적고 인용문 원문은 적지 않았다 → 시험할 문장이 없어 보류(통과로 세지 않음)"
-  },
-  {
-   "id": "D2",
-   "dbCase": "David Martin v. ODS Community Dental Insurance et al.",
-   "court": "D. Or.",
-   "date": "2026-02-18",
-   "attributedTo": "Zschernig v. Miller",
-   "citation": "389 U.S. 429",
-   "holdReason": "NO_QUOTE_TEXT",
-   "note": "DB가 「인용문이 그 판결에 없다」는 법원 판단만 적고 인용문 원문은 적지 않았다 → 시험할 문장이 없어 보류(통과로 세지 않음)"
-  },
-  {
-   "id": "D3",
-   "dbCase": "Kamps v. British Crown Corporation, et al.",
-   "court": "W.D. Mich.",
-   "date": "2026-01-07",
-   "attributedTo": "Penhallow v. Doane's Administrators",
-   "citation": "3 U.S. 54",
-   "holdReason": "NO_QUOTE_TEXT",
-   "note": "DB는 「abstractions」「the tangible」라는 낱말만 적고 문장 전체는 적지 않았다 → 보류"
-  },
-  {
-   "id": "D4",
-   "dbCase": "Black Oak Capital BOCA, LLC v. Paul Evans, LLC, et al.",
-   "court": "D. Utah",
-   "date": "2025-12-04",
-   "attributedTo": "Agency Holding Corp. v. Malley-Duff & Associates",
-   "citation": "483 U.S. 143",
-   "holdReason": "NO_QUOTE_TEXT",
-   "note": "DB가 「인용문이 그 판결에 없다」는 법원 판단만 적고 인용문 원문은 적지 않았다 → 시험할 문장이 없어 보류(통과로 세지 않음)"
-  },
-  {
-   "id": "D5",
-   "dbCase": "Mitchell Taylor Button & Dusty Button v. Juliet Doherty et al.",
-   "court": "S.D.N.Y.",
-   "date": "2025-10-18",
-   "attributedTo": "Foman v. Davis",
-   "citation": "371 U.S. 178",
-   "holdReason": "NO_QUOTE_TEXT",
-   "note": "DB가 「인용문이 그 판결에 없다」는 법원 판단만 적고 인용문 원문은 적지 않았다 → 시험할 문장이 없어 보류(통과로 세지 않음)"
-  },
-  {
-   "id": "D6",
-   "dbCase": "Mitchell Taylor Button & Dusty Button v. Sigrid McCawley",
-   "court": "S.D. Fla.",
-   "date": "2026-02-04",
-   "attributedTo": "Parekh (하급심 판결)",
-   "citation": "(DB에 인용 표기 없음)",
-   "holdReason": "OUT_OF_SCOPE_LOWER_COURT",
-   "note": "문장은 있으나 하급심 판결이라 U.S. Reports 어댑터가 읽지 못한다 → 보류(지원 밖)",
-   "quote": "Dismissal based on a legal defense does not equate to frivolity."
-  },
-  {
-   "id": "D7",
-   "dbCase": "Mitchell Taylor Button et al. v. John Jimison (1)",
-   "court": "W.D. Wash.",
-   "date": "2025-10-17",
-   "attributedTo": "미특정 제9순회 의견",
-   "citation": "(법원이 판결을 찾지 못함)",
-   "holdReason": "OUT_OF_SCOPE_LOWER_COURT",
-   "note": "법원이 판결 자체를 찾지 못했다 → 지원 밖, 보류",
-   "quote": "to weed out meritless suits at an early stage"
-  }
- ]
+  "deferred": [
+    {
+      "id": "D1",
+      "dbCase": "James Jordan v. USA, Clinicas Del Camino Real, Inc., et al.",
+      "court": "C.D. Cal.",
+      "date": "2026-04-06",
+      "attributedTo": "City of Chicago v. International College of Surgeons",
+      "citation": "522 U.S. 156",
+      "holdReason": "NO_QUOTE_TEXT",
+      "note": "DB가 「인용문이 그 판결에 없다」는 법원 판단만 적고 인용문 원문은 적지 않았다 → 시험할 문장이 없어 보류(통과로 세지 않음)"
+    },
+    {
+      "id": "D2",
+      "dbCase": "David Martin v. ODS Community Dental Insurance et al.",
+      "court": "D. Or.",
+      "date": "2026-02-18",
+      "attributedTo": "Zschernig v. Miller",
+      "citation": "389 U.S. 429",
+      "holdReason": "NO_QUOTE_TEXT",
+      "note": "DB가 「인용문이 그 판결에 없다」는 법원 판단만 적고 인용문 원문은 적지 않았다 → 시험할 문장이 없어 보류(통과로 세지 않음)"
+    },
+    {
+      "id": "D3",
+      "dbCase": "Kamps v. British Crown Corporation, et al.",
+      "court": "W.D. Mich.",
+      "date": "2026-01-07",
+      "attributedTo": "Penhallow v. Doane's Administrators",
+      "citation": "3 U.S. 54",
+      "holdReason": "NO_QUOTE_TEXT",
+      "note": "DB는 「abstractions」「the tangible」라는 낱말만 적고 문장 전체는 적지 않았다 → 보류"
+    },
+    {
+      "id": "D4",
+      "dbCase": "Black Oak Capital BOCA, LLC v. Paul Evans, LLC, et al.",
+      "court": "D. Utah",
+      "date": "2025-12-04",
+      "attributedTo": "Agency Holding Corp. v. Malley-Duff & Associates",
+      "citation": "483 U.S. 143",
+      "holdReason": "NO_QUOTE_TEXT",
+      "note": "DB가 「인용문이 그 판결에 없다」는 법원 판단만 적고 인용문 원문은 적지 않았다 → 시험할 문장이 없어 보류(통과로 세지 않음)"
+    },
+    {
+      "id": "D5",
+      "dbCase": "Mitchell Taylor Button & Dusty Button v. Juliet Doherty et al.",
+      "court": "S.D.N.Y.",
+      "date": "2025-10-18",
+      "attributedTo": "Foman v. Davis",
+      "citation": "371 U.S. 178",
+      "holdReason": "NO_QUOTE_TEXT",
+      "note": "DB가 「인용문이 그 판결에 없다」는 법원 판단만 적고 인용문 원문은 적지 않았다 → 시험할 문장이 없어 보류(통과로 세지 않음)"
+    },
+    {
+      "id": "D6",
+      "dbCase": "Mitchell Taylor Button & Dusty Button v. Sigrid McCawley",
+      "court": "S.D. Fla.",
+      "date": "2026-02-04",
+      "attributedTo": "Parekh (하급심 판결)",
+      "citation": "(DB에 인용 표기 없음)",
+      "holdReason": "OUT_OF_SCOPE_LOWER_COURT",
+      "note": "문장은 있으나 하급심 판결이라 U.S. Reports 어댑터가 읽지 못한다 → 보류(지원 밖)",
+      "quote": "Dismissal based on a legal defense does not equate to frivolity."
+    },
+    {
+      "id": "D7",
+      "dbCase": "Mitchell Taylor Button et al. v. John Jimison (1)",
+      "court": "W.D. Wash.",
+      "date": "2025-10-17",
+      "attributedTo": "미특정 제9순회 의견",
+      "citation": "(법원이 판결을 찾지 못함)",
+      "holdReason": "OUT_OF_SCOPE_LOWER_COURT",
+      "note": "법원이 판결 자체를 찾지 못했다 → 지원 밖, 보류",
+      "quote": "to weed out meritless suits at an early stage"
+    }
+  ]
 }

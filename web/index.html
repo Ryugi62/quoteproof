@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>QuoteProof — is the quoted sentence really in the opinion?</title>
+<style>
+:root{--bg:#fff;--fg:#191f28;--mut:#6b7684;--ok:#0a7d3b;--bad:#c62828;--line:#e5e8eb}
+@media(prefers-color-scheme:dark){:root{--bg:#17171c;--fg:#f2f4f6;--mut:#9aa3af;--ok:#4ade80;--bad:#f87171;--line:#2c2f36}}
+body{margin:0 auto;max-width:760px;padding:16px;background:var(--bg);color:var(--fg);font:16px/1.55 system-ui,sans-serif}
+h1{font-size:1.5rem;margin:4px 0}.first{font-weight:600;margin:0 0 8px}.mut{color:var(--mut);font-size:.9rem}
+select,textarea{width:100%;box-sizing:border-box;font:inherit;padding:12px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--fg)}
+textarea{min-height:110px}button{font:inherit;padding:12px 16px;min-height:44px;border-radius:8px;border:0;background:#1b64da;color:#fff;cursor:pointer;margin:8px 8px 0 0}
+button.ex{background:transparent;color:var(--fg);border:1px solid var(--line)}
+.pass{color:var(--ok);font-weight:700;font-size:1.3rem}.hold{color:var(--bad);font-weight:700;font-size:1.1rem}.note{color:var(--mut);font-size:.9rem}
+table{border-collapse:collapse;width:100%;font-size:.85rem;display:block;overflow-x:auto}td,th{border:1px solid var(--line);padding:8px;text-align:left}code{word-break:break-all;font-size:.8rem}
+</style></head><body>
+<p class="first">bundled opinion texts — full live check: CLI (<code>bun run verify "&lt;cite&gt;" "&lt;quote&gt;"</code>)</p>
+<h1>QuoteProof: is the quoted sentence really in the opinion?</h1>
+<p class="mut">Pick a US Supreme Court opinion, paste a sentence someone quoted from it, press Check. Nothing is installed and nothing is sent anywhere: the check runs in your browser on the opinion texts bundled with this page (21 opinions, two public sources each: Harvard CAP and Cornell LII). It runs the same <code>verifyFromTexts</code> code as the command line. The match rule is string match only: no legal reasoning, no judgement of whether the quote supports an argument.</p>
+<label for="cite">Cited opinion</label>
+<select id="cite"></select>
+<label for="quote" style="display:block;margin-top:12px">Quoted sentence</label>
+<textarea id="quote" placeholder="e.g. as a bar to the courthouse door"></textarea>
+<div><button id="check">Check</button></div>
+<p class="mut">Try an example:</p>
+<div>
+<button class="ex" data-cite="496 U.S. 384" data-quote="as a bar to the courthouse door">Allen court's rejected quote (Cooter &amp; Gell)</button>
+<button class="ex" data-cite="496 U.S. 384" data-quote="Rule 38 gives appellate courts ample authority to award expenses">A real sentence</button>
+<button class="ex" data-cite="372 U.S. 335" data-quote="any person haled into court, who is too poor to hire a lawyer, can be assured a fair trial unless counsel is provided for him">Meaning flipped (Gideon)</button>
+</div>
+<div id="result" aria-live="polite"></div>
+<p class="mut">Code (MIT), SPEC, evidence logs: <a href="https://github.com/Ryugi62/quoteproof">github.com/Ryugi62/quoteproof</a>. Demo video: <a href="https://youtu.be/5VwI6uW76IM">youtu.be/5VwI6uW76IM</a>. Opinion texts are US court opinions (government works); public-domain text, no Cornell markup.</p>
+<script src="app.js"></script>
+</body></html>

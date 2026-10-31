@@ -1,11 +1,17 @@
+**Try it now, no install, no login: https://ryugi62.github.io/quoteproof/** (paste a quotation, get PASS or HOLD and the receipt hash in your browser; bundled opinion texts — full live check: CLI)
+
 # QuoteProof — is the quoted sentence really in the court opinion?
 
-> **Scope in one line:** US Supreme Court opinions only (U.S. Reports), command line only (`bun run verify "<cite>" "<quote>"` for one quote, `bun run verify-brief <brief.txt>` for a whole brief, with `Id.`/`supra` followed; an opt-in flag hands one checked quote to the CRE simulator; no web form). If the network fails the CLI says `OFFLINE` on its first line and reads the 24 pinned opinions in `fixtures/` instead of the live sources.
+> **Scope in one line:** US Supreme Court opinions only (U.S. Reports), command line only (`bun run verify "<cite>" "<quote>"` for one quote, `bun run verify-brief <brief.txt>` for a whole brief, with `Id.`/`supra` followed; an opt-in flag hands one checked quote to the CRE simulator; the browser demo above checks against bundled opinion texts, not live). If the network fails the CLI says `OFFLINE` on its first line and reads the 24 pinned opinions in `fixtures/` instead of the live sources. In the legal-evidence scene (a filed quotation and its receipt), CRE's job is the consensus-and-seal step: independent nodes each read both sources, agree on `{verdict, receiptHash}`, and the workflow writes that pair as a timestamped on-chain report; that step is opt-in and simulator-only, and the default commands do not call CRE.
+
+**False-alarm rate (our headline metric): of the 68 genuine test quotes (sentences that really are in the opinion, both test sets pooled), the share that QuoteProof wrongly holds under its default strict two-source rule = 9/68 = 13.2%; baseline: the 10% target we set in SPEC S2, which the strict default misses.**
+
+Solo project, no legal professional on the team: QuoteProof decides **string match only** (are these words in the opinion) and makes no legal judgement.
 
 ## Limits (stated first on purpose)
-- **Scope is US Supreme Court opinions (U.S. Reports) only.** Both sources give the opinion text for 20 of the 24 pinned opinions (Brown, Iqbal, Twombly, Sinochem have no LII text, so they are held as `INSUFFICIENT_SOURCES`). No adapters for lower courts, state courts or F.3d. CourtListener needs an API token (anonymous 401) and its web pages sit behind a WAF (403/202), so it is not used.
+- **Scope is US Supreme Court opinions (U.S. Reports) only.** Both sources give the opinion text for 21 of the 25 pinned opinions (Brown, Iqbal, Twombly, Sinochem have no LII text, so they are held as `INSUFFICIENT_SOURCES`). No adapters for lower courts, state courts or F.3d. CourtListener needs an API token (anonymous 401) and its web pages sit behind a WAF (403/202), so it is not used.
 - **The two sources differ in the text itself**: spelling (removeable/removable), hyphens, commas, footnotes, appendix text. The strict two-source rule therefore holds some genuine quotes (`SOURCE_DISAGREE`): that is the false-alarm rate above. The `punctuationTolerance` option (comma/hyphen/semicolon-only differences) is a **post-hoc policy added after the dev-set failures were seen**; the holdout set is the only out-of-sample check of it, and it is small. The default stays strict.
-- **Test-set size**: per set 34 genuine (+3 borderline) and 42 altered, two sets, plus 8 public cases. Wilson 95% intervals are wide (upper bounds around 20% for the false-alarm rate). Altered quotes were written by the author and mostly follow the same types the matcher has rules for, so the 0% miss rate is optimistic. Only the 8 public cases carry labels set by someone else (courts that found the quote missing).
+- **Test-set size**: per set 34 genuine (+3 borderline) and 42 altered, two sets, plus 10 public cases. Wilson 95% intervals are wide (upper bounds around 20% for the false-alarm rate). Altered quotes were written by the author and mostly follow the same types the matcher has rules for, so the 0% miss rate is optimistic. Only the 10 public cases carry labels set by someone else (courts that found the quote missing).
 - **Brief check**: full `NNN U.S. NNN` citations, `NNN U.S. at NNN` short cites that resolve to exactly one full cite, and `Id.`/`supra` that tie to one U.S. Reports case are checked; the page number after `at` is not used (the whole opinion is searched). `Id.` is tied to the nearest previous citation by text order, which is a heuristic (string cites joined by `;` are refused as ambiguous). Parallel-only cites, footnoted quotes and quotes shorter than 3 words are not checked. Quotes cited to other reporters or to an unresolvable `Id.`/`supra` are listed as `NOT_CHECKED` with the reason, not passed. Tests: `tests/brief.test.ts` (8 `Id.`/`supra` cases).
 - **robots.txt (read 2026-10-30, copies in `docs/evidence/`)**: Cornell LII asks `Crawl-delay: 10` and does not disallow `/supremecourt/text/`; the CLIs wait that long between requests to the same host (the logs print the waits, e.g. `waiting 10.0s ... (robots.txt Crawl-delay 10s)`), also when four local consensus nodes ask at once. **Harvard CAP's `static.case.law/robots.txt` says `User-agent: *` / `Disallow: /`** (file dated 2024-03-04, the same month as the announcement that the data is released without restriction). We noticed this only in v4, after the 24 pinned CAP files had been downloaded in v3. The CLI still reads one CAP file per cited opinion because a person asked for that check (one GET, no link following, cached) and prints a NOTE; we read robots.txt as a rule for crawlers, and the site owner may read it differently. `QUOTEPROOF_ROBOTS=strict` skips CAP (then the verdict is `HOLD / INSUFFICIENT_SOURCES`). The bulk scripts (`fetchFixtures`, `checkLive`) run in strict mode and therefore no longer touch CAP. CRE workflow nodes cannot sleep and make no robots check: one request per source per run, so the spacing between runs is up to the caller.
 - Unverified: meaning-preserving negation omissions (3 borderline cases, human judgement) are all held as suspected distortion. Sentence boundaries are fragile around abbreviations (U. S., Mr.). English US opinions only. Whether the quote supports the legal argument is out of scope.
@@ -24,6 +30,32 @@ QuoteProof re-reads the opinion from **two public sources** (Harvard CAP + Corne
 
 What QuoteProof adds to this list is narrow: **two independent public sources re-read together for each quote, and a quote-level receipt that names both source URLs and node count**. In what we read we did not find a tool that does both, but our search was limited, so this is a description of our design, not a claim of priority. We have not run these tools, so we make no accuracy comparison.
 
+## Compared with citation checkers (official pages / registry entries read 2026-10-31; raw notes `docs/evidence/competitors-2026-10-31.md`)
+| Tool (source read) | Unit it checks | Agreement between independent reads | Shared receipt |
+|---|---|---|---|
+| CourtListener Citation Lookup (`courtlistener.com/help/api/rest/citation-lookup/`) | the **citation** ("look up either an individual citation or ... every citation in a block of text", "a guardrail to help prevent hallucinated citations"); the page says nothing about checking quoted words | one database (CourtListener); no cross-check | JSON list of citation, status and cluster; no hash |
+| Citation Safe Verifier (MCP Registry entry `com.citationsafe/verifier`: "existence, quote match, proposition support") | citation, **and a quote match** (per its registry description) | not stated; its site `citationsafe.com` did not answer from here, so the method is **cannot be confirmed** | not stated; Glama lists a `get_verification` tool for past results, format unconfirmed |
+| LegalCite (`github.com/Kevinx702/legalcite` README, `legalcite-one.vercel.app`) | the **case citation** ("Verifies citation existence/metadata only"), verdicts real / not-found / mismatch | one source (CourtListener) | a printed verification report per brief |
+| **QuoteProof** | **each quoted sentence** in the opinion text | **two independent public sources (CAP + LII) must both contain it, and nodes agree on verdict + hash** (opt-in CRE step) | **one receipt per quote with both source URLs and a recomputable hash** |
+
+Three differences, as plain statements: (1) unit: QuoteProof's default object is the quoted sentence, not the citation (Citation Safe Verifier says it also matches quotes; we could not read how); (2) agreement: two sources are required to agree before PASS, the tools above name one source or state nothing; (3) receipt: a hash anyone can recompute from public sources. We did not run these tools and claim no accuracy difference.
+
+## Tested on real fake quotes from outside (court-labelled, Charlotin DB)
+| Test input | Count | Held (correct) | Held for the court's reason (`NOT_IN_OPINION`) | Held for another reason (noise) | Wrongly passed |
+|---|---|---|---|---|---|
+| Quotes a court found NOT in the Supreme Court opinion they were attributed to (P1-P10 in `fixtures/public-cases.json`; P9-P10 added 2026-10-31 from the *Vita Law Offices* row) | **10** | 10 | 9 | 1 (P2, *Sinochem*: no LII text, `INSUFFICIENT_SOURCES`) | **0** |
+
+17 cases are listed in the database export; 7 cannot be tested (no quote text in the database, or lower court). Full table: `fixtures/eval-results.md`. The ten come from eight court decisions, so they are not independent draws.
+
+## Problem scale (primary sources opened 2026-10-31, `docs/problem-scale.md`)
+| Number | Source |
+|---|---|
+| 2,241 decisions in the Charlotin database (page text; 2,242 CSV rows), 1,513 in the USA | `damiencharlotin.com/hallucinations/` and its CSV |
+| 503 US rows with a false-quotation item; 27 of them name a Supreme Court cite | same CSV, counted by `src/infrastructure/problemScaleCli.ts` |
+| USD 5,000 penalty, 22 June 2023 | court record, *Mata v. Avianca*, S.D.N.Y., Document 54 |
+
+Impact formula: `N × s × a × c × q × u` (503 × 5.4% × adoption `a` × detection `c` × 12.8% penalised × USD 2,232 median). Low case (a = 0): **0 USD**; assumed base (a = 10%): about 769 USD per database period. In money the avoided penalties in our scope are small; symbols and sources in the doc.
+
 ## How it works in five lines (full text: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md))
 1. A quote plus its `NNN U.S. NNN` citation becomes two read-only GETs (Harvard CAP, Cornell LII); only the citation and the quote are used to build them, the brief stays local.
 2. `matchQuote` runs on each source text (segments, ellipsis, brackets, negation check); PASS needs every source to find it with the same edits and no dropped negation, anything else is HOLD with a reason code.
@@ -40,7 +72,7 @@ What QuoteProof adds to this list is narrow: **two independent public sources re
 | Westlaw Edge **Quick Check** (Thomson Reuters, `legal.thomsonreuters.com/en/products/westlaw-edge/quick-check`) | report includes "an analysis of quotations"; helps "quickly verify your citations and quotations" | not stated | part of paid Westlaw Edge (free trial offered) |
 | **Lexis+ Brief Analysis** (LexisNexis, `lexisnexis.com/pdf/lexisplus/experience-brief-analysis.pdf`) | "Quote Check ... detects errors in cited quotes" | not stated | paid Lexis+ |
 | **Clearbrief** (`clearbrief.com`) | "flags potential hallucinations, citation errors, inaccurate quotes" before filing | not stated | "$300 per user per month" (solo plan) |
-| QuoteProof (this repo) | words in the quote must be in the opinion; allowed edits pass, changed/added words and meaning-flipping omissions are held | published here: 13.2% false alarm (strict), 0/84 miss on our own altered set, 0/8 on court-identified fake quotes | free, MIT, reproduce with `bun run eval` |
+| QuoteProof (this repo) | words in the quote must be in the opinion; allowed edits pass, changed/added words and meaning-flipping omissions are held | published here: 13.2% false alarm (strict), 0/84 miss on our own altered set, 0/10 on court-identified fake quotes | free, MIT, reproduce with `bun run eval` |
 
 We could not read how the three commercial checks work or what their error rates are, so we claim no accuracy comparison. What this repo offers is checkable: public sources anyone can open, a receipt hash anyone can recompute, and numbers (with their limits below).
 Legitimate editing passes (ellipsis `…`, `[t]he`, `[the Court]`, line breaks, curly quotes). A changed word, an added word, a negation removed by an ellipsis, or a content word laundered through brackets is **held (HOLD)**.
@@ -94,11 +126,11 @@ Genuine = quotes that really are in the opinion (false alarm = genuine but held)
 | Holdout · 2 sources, punctuation tolerance (post-hoc policy) | 3/34 = 8.8% | 0/42 = 0.0% |
 | **Both sets pooled · strict (default)** | **9/68 = 13.2%** [7.1–23.3] | **0/84 = 0.0%** [0.0–4.4] |
 | Both sets pooled · punctuation tolerance | 6/68 = 8.8% [4.1–17.9] | 0/84 = 0.0% [0.0–4.4] |
-| Public cases (court-identified fake quotes, Charlotin DB): 8 tested | n/a | 0/8 passed [0.0–32.4] |
+| Public cases (court-identified fake quotes, Charlotin DB): 10 tested | n/a | 0/10 passed [0.0–27.8] |
 | Public cases: 7 listed but not testable (5 Supreme Court cites whose quote text the DB does not give, 2 lower-court quotes with no adapter) | n/a | not counted either way |
 
 
-- The CAP-only row of 0% false alarm is circular: genuine quotes were cut from CAP text, so CAP agrees with them by construction. It is not evidence. Only the court-labelled public cases (8 tested, 15 listed) come from outside our hands.
+- The CAP-only row of 0% false alarm is circular: genuine quotes were cut from CAP text, so CAP agrees with them by construction. It is not evidence. Only the court-labelled public cases (10 tested, 17 listed) come from outside our hands.
 - Target in SPEC was false alarm ≤ 10%: **the strict default misses it (13.2%)**; only the post-hoc tolerance policy meets it (8.8%, upper bound 17.9%).
 - Re-running at another clock time gives identical receipt hashes for all 79 cases × 2 policies × 2 sets.
 - Most false alarms are the two sources disagreeing (OCR typo, appendix text, punctuation), not the matching rules. Two-source agreement flags text differences that a single source would pass; one you can check yourself: `grep -c definance fixtures/raw/lii-text/mapp-1961.txt fixtures/raw/cap/mapp-1961.json` finds the typo `definance` in the LII text (1) and not in CAP (0).
@@ -117,13 +149,14 @@ Genuine = quotes that really are in the opinion (false alarm = genuine but held)
 ## Run it
 ```
 bun install                         # needs bun: npm i -g bun
-bun test                            # 84 tests (tests/ only): matching, receipts, source adapters, consensus, brief extraction incl. Id./supra, robots.txt delays, CRE payloads, README numbers, layer rule (no reverse imports)
+bun test                            # 91 tests (tests/ only): matching, web-demo rule parity, problem-scale/impact formula,, receipts, source adapters, consensus, brief extraction incl. Id./supra, robots.txt delays, CRE payloads, README numbers, layer rule (no reverse imports)
 bun run verify-brief fixtures/brief-example-allen.txt   # whole-brief check (exit 1 = at least one HOLD; waits 10 s between requests to law.cornell.edu)
 bun run verify-brief fixtures/brief-example-id-supra.txt --cre-payload /tmp/qp-cre --cre-simulate 3   # dry run (txHash=none), no --cre-broadcast; needs the cre CLI; exit 2 if the CRE step fails
 bun run verify-brief fixtures/brief-example-id-supra.txt --cre-payload /tmp/qp-cre --cre-simulate 3 --cre-broadcast   # real Sepolia transaction via the simulator --broadcast (needs a funded testnet key in CRE_ETH_PRIVATE_KEY; this is the command in the logged run)
-# a clean-clone run of this exact tree (84 + 19 tests, both example briefs, check_readme): docs/evidence/clean-clone-v5-2026-10-31.log
+# a clean-clone run of the v5 tree (84 + 19 tests then; v5.2 adds 7 tests): docs/evidence/clean-clone-v5-2026-10-31.log
 bash tools/check_readme.sh          # compares README claims with the code and logs: test counts, evidence paths, latest hash and USER LOG line, video length
-bun run eval                        # both test sets + 8 public cases -> false-alarm / miss tables (fixtures/eval-results.md)
+bun run web:build                   # rebuild web/ (opinions.json + app.js) for the browser demo; tests/web.test.ts checks it gives the CLI's receipt hash
+bun run eval                        # both test sets + 10 public cases -> false-alarm / miss tables (fixtures/eval-results.md)
 bun run verify "372 U.S. 335" "any person haled into court, ... counsel is provided for him"   # live check CLI (this one is HELD: DISTORTION, the ellipsis hides "cannot ... unless")
 bun run src/infrastructure/localConsensus.ts "372 U.S. 335" "<quote>" 4   # 4 local Bun processes (not CRE nodes) read both sources live and agree (3-of-4 quorum)
 bun run src/infrastructure/checkLive.ts      # are the pinned fixtures still byte-identical to the live sources? (strict robots mode, so CAP is skipped and counted as skipped; the v3 log fixtures-vs-live.log covers both sources)
@@ -153,6 +186,7 @@ One check: citation -> two read-only GETs (CAP, LII) -> `matchQuote` per source 
 - The public-case list is from Damien Charlotin's AI Hallucination Cases database (CC BY 4.0, https://www.damiencharlotin.com/hallucinations/).
 
 ## Changelog
+- **v5.2 (2026-10-31):** browser demo `web/` (same `verifyFromTexts` as the CLI, rule-parity test `tests/web.test.ts`); public cases 8 -> 10 tested (Carden v. Arkoma added to the pinned fixtures); problem-scale and impact doc with formula and tests (`docs/problem-scale.md`, `tests/impact.test.ts`); comparison with three citation checkers; false-alarm definition sentence.
 - **v5 (2026-10-31):** receipts now carry each source's URL (`sources[].url`) and `nodeCount` (outside the hash, so every earlier receipt hash is unchanged; SPEC §17); `cre/workflow/receiver.test.ts` privacy assertion replaced (the old one could not fail) by `privacyCheck.ts`; README gains the Prior work table and drops the claim that the setup is new.
 - **v4.1 (2026-10-30, documentation only, no code change):** README order (Limits first, five-line architecture summary, Changelog last); every command line that carries a Sepolia transaction hash now shows the flag actually used (`--cre-broadcast` / `--broadcast`, copied from the logs) and dry-run lines say `txHash=none`; the Vision and demo subtitles no longer read as if CRE were the default path or as if several CRE nodes ran it.
 - **v4:** receiver pins the forwarder (documented Ethereum Sepolia mock forwarder) and was redeployed; `robots.txt` handling (LII `Crawl-delay` 10 s per host, CAP `Disallow` disclosed, `QUOTEPROOF_ROBOTS=strict`); `Id.`/`supra` resolution in `verify-brief` (`ID_*`, `UNRESOLVED_SUPRA` reasons); `--cre-payload` / `--cre-simulate` / `--cre-broadcast` bridge from the brief check to the CRE simulator; demo video rebuilt.

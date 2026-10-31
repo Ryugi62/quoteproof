@@ -9,7 +9,8 @@
     "eval": "bun run src/infrastructure/evalRun.ts",
     "verify": "bun run src/infrastructure/cli.ts",
     "test:cre": "cd cre/workflow && bun install && bun test",
-    "verify-brief": "bun run src/infrastructure/verifyBriefCli.ts"
+    "verify-brief": "bun run src/infrastructure/verifyBriefCli.ts",
+    "web:build": "bun run src/infrastructure/buildWeb.ts"
   },
   "devDependencies": {
     "@types/bun": "^1.4.4",

@@ -67,7 +67,7 @@
 결정성: 시각을 바꿔 2회 실행 → 영수증 해시 전 건 동일 (79건 × 2정책)
 
 
-## 공개 사례 — AI 조작 인용 목록(Charlotin DB)의 연방대법원 귀속 가짜 인용문 8건 (법원이 「그 판결에 없다」고 판단)
+## 공개 사례 — AI 조작 인용 목록(Charlotin DB)의 연방대법원 귀속 가짜 인용문 10건 (법원이 「그 판결에 없다」고 판단)
 | # | 사건(법원·날짜) | 귀속 판결 | 인용문 | 판정 | 사유 | CAP | LII |
 |---|---|---|---|---|---|---|---|
 | P1 | Reilly v. Conn. Interlocal Risk Mgmt. Agency (D. Conn. 2025-06-20) | Gideon v. Wainwright 372 U.S. 335 | [c]onstitutional rights would be of little value if they cou… | HOLD | NOT_IN_OPINION | HOLD | HOLD |
@@ -78,9 +78,11 @@
 | P6 | Edward C. Allen v. Western Governors University, et al. (D. Nev. 2026-03-31) | Cooter & Gell v. Hartmarx 496 U.S. 384 | a reasonable attorney in like circumstances could believe hi… | HOLD | NOT_IN_OPINION | HOLD | HOLD |
 | P7 | Edward C. Allen v. Western Governors University, et al. (D. Nev. 2026-03-31) | Cooter & Gell v. Hartmarx 496 U.S. 384 | as a bar to the courthouse door | HOLD | NOT_IN_OPINION | HOLD | HOLD |
 | P8 | Gerou v. George, Whitten, and United States (E.D. Wis. 2025-12-18) | Oates v. National Bank 100 U.S. 239 | may only deal in negotiable instruments and lawful money | HOLD | NOT_IN_OPINION | HOLD | HOLD |
+| P9 | Vita Law Offices v. Lockridge Grindal Nauen P.L.L.P. (S.D. Fla. 2025-07-23) | Carden v. Arkoma Associates 494 U.S. 185 | the relevant inquiry is not whether state law recognizes a p… | HOLD | NOT_IN_OPINION | HOLD | HOLD |
+| P10 | Vita Law Offices v. Lockridge Grindal Nauen P.L.L.P. (S.D. Fla. 2025-07-23) | Carden v. Arkoma Associates 494 U.S. 185 | litigation-driven reassessments of an entity's internal stru… | HOLD | NOT_IN_OPINION | HOLD | HOLD |
 | P1b | (참고) Smith v. Allwright에 귀속 ( ) | Smith v. Allwright 321 U.S. 649 | [c]onstitutional rights would be of little value if they cou… | HOLD | NOT_IN_OPINION | HOLD | HOLD |
 
-공개 사례 누락(통과해 버린 건): 0/8
+공개 사례 누락(통과해 버린 건): 0/10
 
 ### 목록에는 있으나 시험하지 못한 공개 사례 7건 (통과·보류 어느 쪽으로도 세지 않음)
 | # | 사건(법원·날짜) | 귀속 판결 | 보류 사유 | 설명 |
@@ -93,4 +95,4 @@
 | D6 | Mitchell Taylor Button & Dusty Button v. Sigrid McCawley (S.D. Fla. 2026-02-04) | Parekh (하급심 판결) (DB에 인용 표기 없음) | 지원 밖(하급심) | 문장은 있으나 하급심 판결이라 U.S. Reports 어댑터가 읽지 못한다 → 보류(지원 밖) |
 | D7 | Mitchell Taylor Button et al. v. John Jimison (1) (W.D. Wash. 2025-10-17) | 미특정 제9순회 의견 (법원이 판결을 찾지 못함) | 지원 밖(하급심) | 법원이 판결 자체를 찾지 못했다 → 지원 밖, 보류 |
 
-공개 사례 합계: 시험 8 + 시험 불가 7 = 15건
+공개 사례 합계: 시험 10 + 시험 불가 7 = 17건

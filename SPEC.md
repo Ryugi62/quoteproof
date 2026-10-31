@@ -138,3 +138,25 @@
 - G: 출처 URL·노드 수만 다른 두 영수증 / T: `receiptHash`가 같다.
 - G: 한 출처를 못 읽음 / T: `nodeCount`는 1(읽은 출처만 센다), 판정은 `INSUFFICIENT_SOURCES`.
 - G: 서면 문장이 영수증에 들어감 / T: URL 어디에도 Quote 낱말이 없다.
+
+## 18. 웹 데모 (2026-10-31, 심사자가 설치 없이 확인)
+- 목적: 심사자가 브라우저에서 자기 인용문을 넣어 「인용 문장이 판결문 원문에 있나」 규칙이 작동하는 것을 확인한다. 성공 조건: 비로그인 HTTP 200, 입력칸 `#cite`·`#quote`·`#check`, 결과 `#result`에 PASS/HOLD·영수증 해시.
+- 판정 규칙은 CLI와 같은 `verifyFromTexts`(공유 코드, 사본 없음). `application/webCheck.checkBundled` 가 묶음 본문으로 호출하고, `tests/web.test.ts` 가 같은 입력에서 CLI(고정 fixtures)와 웹의 영수증 해시가 같음을 시험한다.
+- 비목표: 실시간 원문 조회(첫 줄에 「bundled opinion texts — full live check: CLI」), 법리 해석(문자열 일치만 판정), 로그인, 서버.
+- Given 묶음에 없는 인용 / When 확인 / Then PASS가 아니라 NOT_CHECKED(CLI 안내).
+
+## 19. 문제 규모·파급 (2026-10-31)
+- 파급 = N × s × a × c × q × u (기호표·출처·하한 0: `docs/problem-scale.md`). 숫자는 `src/infrastructure/problemScaleCli.ts` 가 고정 CSV 에서 센다. a=0 이면 0 USD 를 숨기지 않는다.
+
+## UI 수용기준 (web/ 데모 — notes/원칙-디자인 체크리스트 10 구체화)
+1. 모바일 퍼스트: 390px 가로 스크롤 0, viewport 메타, 확대 차단 없음.
+2. 한 화면 한 질문: 입력 2개(판결 선택·인용문), 주 행동 1개(Check).
+3. 타이포: 본문 16px·줄간격 1.55, 제목 1.5rem 굵게, 보조 ≥.85rem, 굵기 ≥400.
+4. 여백: 간격 4/8 배수, 화면 좌우 16px.
+5. 터치 목표: 버튼 높이 ≥44px.
+6. 결과 먼저: 결과 첫 줄 = 큰 판정(PASS/HOLD), 이유는 그 아래.
+7. 근거: 영수증 해시·출처 표는 결과 아래, 첫 화면 위쪽엔 표 없음.
+8. 문구: 첫 줄에 「bundled opinion texts — full live check: CLI」를 밝히고, 오류는 원인+해결 1줄.
+9. 색·대비: 글자 ≥4.5:1(주 버튼 #1b64da 위 흰 글자), 다크 대응, 포커스 표시 유지.
+10. 의존: 외부 폰트·CDN 0, 판결문은 opinions.json 동봉.
+Given 사용자가 판결과 인용문을 넣고 Check를 누르면 / When 인용문이 두 출처 원문 모두에 있으면 / Then PASS와 CLI와 같은 영수증 해시(tests/web.test.ts가 대조).

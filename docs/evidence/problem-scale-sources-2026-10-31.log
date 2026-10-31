@@ -1,0 +1,9 @@
+# problem-scale sources, fetched 2026-10-31 (curl, UA Mozilla/5.0 research)
+https://www.damiencharlotin.com/hallucinations/ 200 192999 bytes; page text: '2241 cases identified so far'
+https://www.damiencharlotin.com/hallucinations/hallucinations/download.csv 200 2148597 bytes sha256 821b59d635073098703520213de1faf15ed8700c7e99918604558b3baf28f47d rows 2242
+https://storage.courtlistener.com/recap/gov.uscourts.nysd.575368/gov.uscourts.nysd.575368.54.0.pdf 200 2341033 bytes sha256 c6fd707305765357003654c5ed87426e3605e1ee6bdd3d7cb9ff1a7d932a7dff
+govinfo USCOURTS-nysd-1_22-cv-01461 details 500, pdf returned HTML; law.justia.com ... /54/ 403
+--- excerpt (Document 54, Filed 06/22/23, page 1 of 43; sanctions section):
+Court concludes that a penalty of $5,000 paid into the Registry of the Court is sufficient but not
+--- problemScaleCli on live csv:
+{"total":2242,"us":1513,"usFalseQuote":503,"usFalseQuoteSupreme":27,"usPenalised":193,"penaltyMedianUsd":2232}

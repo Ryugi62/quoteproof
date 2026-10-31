@@ -27,6 +27,7 @@ export const EXTRA_CASES: CaseRef[] = [
   { slug: "scheuer-1974", cite: "416 U.S. 232", name: "Scheuer v. Rhodes", vol: 416, page: 232, lii: true },
   { slug: "cooter-gell-1990", cite: "496 U.S. 384", name: "Cooter & Gell v. Hartmarx", vol: 496, page: 384, lii: true },
   { slug: "oates-1879", cite: "100 U.S. 239", name: "Oates v. National Bank", vol: 100, page: 239, lii: true },
+  { slug: "carden-1990", cite: "494 U.S. 185", name: "Carden v. Arkoma Associates", vol: 494, page: 185, lii: true },
   { slug: "smith-allwright-1944", cite: "321 U.S. 649", name: "Smith v. Allwright", vol: 321, page: 649, lii: true },
 ];
 export const ALL_CASES = [...CASES, ...EXTRA_CASES];
